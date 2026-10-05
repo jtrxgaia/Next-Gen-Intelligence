@@ -41,6 +41,8 @@ Derived from official telemetry logs (`QI31_LATENCY_RESULTS.json` across 6,000+ 
 | **Maximum Observed (p99)** | **0.0769 ms** (76.9 µs) | 3.9 ms | ~4,300,000 tokens/sec |
 | **Warm Average End-to-End** | **~0.0150 ms** | **~2.8 ms** | **~22,000,000 tokens/sec** |
 
+![Inference Speed & Latency: Frontier LLMs vs EchoQI Native Core](../media/speed_comparison_chart.jpg)
+
 *Note: In pure in-memory execution, QI processes complete turns in microseconds, meaning 1 Billion tokens of cognitive state are resolved in minutes rather than weeks.*
 
 ---
