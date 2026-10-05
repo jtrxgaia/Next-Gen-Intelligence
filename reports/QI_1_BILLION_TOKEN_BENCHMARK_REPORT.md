@@ -15,6 +15,8 @@ Autoregressive Large Language Models (LLMs) generate text token-by-token using m
 
 When converting 1 Billion equivalent tokens into message turns, **EchoQI processes the entire workload locally for less than five cents of electricity, while frontier LLM APIs cost thousands of dollars.**
 
+![Cost Per 1 Billion Tokens: Frontier LLMs vs EchoQI](../media/cost_per_billion_chart.jpg)
+
 ---
 
 ## 1. Token-to-Turn Conversion Methodology
