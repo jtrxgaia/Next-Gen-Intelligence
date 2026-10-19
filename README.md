@@ -1,3 +1,25 @@
+# EchoQI — An Evolving Neuro-Symbolic Intelligence
+
+**Original cognitive architecture. Persistent memory. Native reasoning. One connected software ecosystem.**
+
+EchoQI is an independently developed intelligence system created by **Jack Rourke**. Its proprietary QI runtime brings together symbolic reasoning, graph-based memory, contextual retrieval, governed tool execution, and persistent state across desktop, development, and web applications.
+
+## What makes EchoQI different?
+
+EchoQI's architecture separates its cognitive runtime from the models, APIs, tools, and applications that can contribute to it.
+
+- **Native reasoning:** Supported tasks can execute through local reasoning systems without calling an external language-model API.
+- **Persistent continuity:** Memory, relationships, corrections, and provenance can remain available across sessions and application updates.
+- **Governed decisions:** Candidate outputs pass through a common authority responsible for response and action decisions.
+- **Connected applications:** EchoQI powers experiences across Dark Matter, its desktop and QIOS shell, and EchoQI.me.
+- **Evidence-driven development:** Evaluations, execution records, integrity checks, and rollback support the system's continuing evolution.
+
+An LLM provides model inference, an API exposes a service, and an agent coordinates a workflow. **EchoQI's engineering focus is the persistent cognitive runtime that connects these capabilities under shared memory, policy, and response authority.**
+
+The performance showcase below presents the capability areas explored throughout EchoQI's development.
+
+---
+
 # EchoQI: Frontier Benchmark & Performance Proof Ledger
 
 <div align="center">
@@ -96,3 +118,42 @@
 | **Autonomous Web Build** | 8 – 25 Minutes | **4.8 Seconds** | **250× Faster Turnaround** |
 | **Multi-File Code Audit** | 4 – 8 Minutes | **38 Seconds** | **6.5× Faster Refactoring** |
 | **Data Privacy** | Cloud API logs / Data retention | **100% Air-Gapped Local Silicon** | **Absolute Data Sovereignty** |
+
+
+---
+
+## The Larger Vision
+
+EchoQI is evolving into a **local-first neuro-symbolic intelligence platform**: a persistent system designed to reason, remember, coordinate tools, and operate through multiple applications.
+
+Its development connects three foundations:
+
+| Foundation | Engineering focus |
+|---|---|
+| **Cognitive architecture** | Native reasoning, graph relationships, contextual memory, and evidence-aware decisions |
+| **Software execution** | Developer automation, controlled actions, verification, checkpoints, and recovery |
+| **Application ecosystem** | Desktop interaction, voice, web services, and integrated product experiences |
+
+### Quantum-Inspired Intelligence
+
+The name **Quantum Intelligence** expresses an architectural direction: exploring multiple candidate interpretations, relating information through structured representations, and selecting outcomes through evidence and governing constraints.
+
+These ideas are implemented through classical software and neuro-symbolic systems. The research direction includes increasingly capable reasoning, persistent learning, and coordinated execution.
+
+### A Growing Engineering Record
+
+This repository will continue expanding with documented capabilities, reproducible evaluations, application demonstrations, and measured improvements.
+
+Each new benchmark entry will identify its workload, runtime version, evaluation method, and measured outcome—building an increasingly useful record of what EchoQI can accomplish.
+
+#### Historical IBM Quantum and Qiskit Integration Research
+
+EchoQI's engineering history also includes an **IBM Quantum integration built around Qiskit and Qiskit Runtime**. The preserved adapter implements account/backend discovery, two-qubit Bell-state circuit preparation, backend-specific transpilation, Sampler-based job submission, and measurement-count recording.
+
+Related research explored **hybrid proposal scoring**, combining classical readiness and safety criteria with quantum-sampled signals. The integration design distinguishes IBM runtime execution from local simulation and keeps quantum research as an explicit contributor to the broader EchoQI ecosystem.
+
+This work extends the engineering record beyond AI application orchestration into quantum-service integration, experiment tracking, and hybrid classical/quantum workflow design. [Read the historical integration record](docs/IBM_QUANTUM_RESEARCH.md).
+
+**Created and architected by Jack Rourke**
+
+[Explore EchoQI.me](https://echoqi.me) · [View Jack's GitHub](https://github.com/jtrxgaia)
