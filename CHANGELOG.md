@@ -1,0 +1,11 @@
+# Changelog
+
+## October 25, 2026 — engineering portfolio
+
+- Replaced the repository front page with the owner-selected portfolio presentation.
+- Added project case studies, strengths, learning/training evidence, and attributed Codex / GPT 6.1 Sol creation reports.
+- Added the explicitly hypothetical capability profile and disclosed scoring rubric.
+- Preserved every file from starting commit `c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146` under `benchmarks/original-repository/`, byte-for-byte.
+- Displayed the complete original showcase on the Benchmarks page, linked below the Engineering Capability Profile.
+- Kept historical measurements accessible alongside methods and dated corrections.
+- Included reviewed application/game images and public-safe evidence summaries; proprietary implementation and private state remain excluded.

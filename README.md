@@ -1,159 +1,172 @@
-# EchoQI — An Evolving Neuro-Symbolic Intelligence
+# Jack Rourke
+### AI Systems Architect · Neural Network Creator · Software Inventor
+**Creator of EchoQI — original AI engineering, custom model training, and an interconnected software ecosystem.**
 
-**Original cognitive architecture. Persistent memory. Native reasoning. One connected software ecosystem.**
+Jack Rourke is an independent software engineer building his own proprietary AI architecture and the applications that bring it to life. His work spans custom neural-learning components, models trained from random initialization, native reasoning, persistent memory, desktop development tools, public web products, and real-time games.
 
-EchoQI is an independently developed intelligence system created by **Jack Rourke**. Its proprietary QI runtime brings together symbolic reasoning, graph-based memory, contextual retrieval, governed tool execution, and persistent state across desktop, development, and web applications.
+The engineering record shows ownership across the full journey: define the behavior, design the system, build and train its components, connect them to an application, investigate failures, and preserve a path to recovery. EchoQI is the central invention; Dark Matter, QI Works, EchoQI.me, SYNAP, and supporting systems demonstrate how broadly Jack applies that work.
 
-## What makes EchoQI different?
+*Engineering profile written by Codex after inspecting selected local source, training records, artifacts, tests, and project history. Proprietary methods remain private.*
 
-EchoQI's architecture separates its cognitive runtime from the models, APIs, tools, and applications that can contribute to it.
+[Email Jack](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
-- **Native reasoning:** Supported tasks can execute through local reasoning systems without calling an external language-model API.
-- **Persistent continuity:** Memory, relationships, corrections, and provenance can remain available across sessions and application updates.
-- **Governed decisions:** Candidate outputs pass through a common authority responsible for response and action decisions.
-- **Connected applications:** EchoQI powers experiences across Dark Matter, its desktop and QIOS shell, and EchoQI.me.
-- **Evidence-driven development:** Evaluations, execution records, integrity checks, and rollback support the system's continuing evolution.
+[Codex self-report](reviews/self-reports/profile.md)
 
-An LLM provides model inference, an API exposes a service, and an agent coordinates a workflow. **EchoQI's engineering focus is the persistent cognitive runtime that connects these capabilities under shared memory, policy, and response authority.**
+**Explore:** [Strengths & business value](#strengths-and-business-value) · [AI creation & training](#ai-creation-and-training) · [Featured projects](#featured-projects) · [Engineering challenges](#engineering-challenges-and-growth) · [Full ecosystem](engineering/ecosystem.md) · [AI reviews](reviews/README.md)
 
-The performance showcase below presents the capability areas explored throughout EchoQI's development.
+## Strengths and business value
 
----
-
-# EchoQI: Frontier Benchmark & Performance Proof Ledger
-
-<div align="center">
-  <h3>The Sovereign, Provider-Free Cognitive Engine Running Microsecond Bus-Speed Intelligence</h3>
-  <p><em>An empirical visual showcase comparing EchoQI's native architecture against frontier AI models, specialized silicon, and cloud autonomous agents.</em></p>
-</div>
-
----
-
-## Benchmark 1: Cost Collapse (Cost Per 1 Billion Tokens)
-
-<div align="center">
-  <img src="media/cost_per_billion_chart.jpg" alt="Cost Per 1 Billion Tokens: Frontier LLMs vs EchoQI" width="100%" />
-</div>
-
-### What This Benchmark Tested:
-- **Scope:** Evaluated the total financial delivery cost to generate or resolve **1,000,000,000 equivalent tokens** across leading cloud APIs versus EchoQI's provider-free core.
-- **Conversion Metric:** Normalized into 3,007,519 full message turns (~250 words / 332.5 tokens per turn).
-- **Finding:** While frontier cloud models cost between **\$210 to \$6,600** per billion tokens, EchoQI resolves the workload locally on host silicon for **\$0.02 in electrical energy**, achieving a **99.99% marginal cost reduction** with zero API toll.
-
----
-
-## Benchmark 2: Inference Speed & Response Latency
-
-<div align="center">
-  <img src="media/speed_comparison_chart.jpg" alt="Inference Speed & Latency: Frontier LLMs vs EchoQI Native Core" width="100%" />
-</div>
-
-### What This Benchmark Tested:
-- **Scope:** Benchmarked Time-To-First-Token (TTFT) and throughput across traditional LLMs (GPT-4o, Claude 3.5), specialized AI wafer silicon (Groq, Cerebras), and EchoQI's internal reflex kernel.
-- **Measured Metric:** Turnaround latency across 6,000 production turns logged via `QI31_LATENCY_RESULTS.json`.
-- **Finding:** Traditional LLMs spend 150ms to 800ms waiting on cloud servers. EchoQI resolves cognitive turns at **0.0084 milliseconds (8.4 microseconds)** reflex speed—operating at in-memory CPU bus speeds exceeding **35,000,000 equivalent tokens/sec**.
-
----
-
-## Benchmark 3: ARC-AGI Abstract Reasoning & Zero-Shot Logic
-
-<div align="center">
-  <img src="media/arc_reasoning_benchmark_chart.jpg" alt="ARC-AGI Abstract Reasoning: Frontier Models vs EchoQI Native Kernel" width="100%" />
-</div>
-
-### What This Benchmark Tested:
-- **Scope:** Evaluated abstract non-linguistic visual grid transformation on the ARC-AGI benchmark (the gold standard for testing genuine novel reasoning without memorized web data).
-- **Competitors Tested:** GPT-4o, Claude 3.5 Sonnet, and OpenAI o1-preview.
-- **Finding:** While frontier LLMs score 5% to 21% with high token-generation latencies (up to 12.5 seconds per problem), EchoQI’s deterministic neuro-symbolic kernel achieved **38.0% accuracy** on the validated evaluation subset in just **13.39 milliseconds per task** (over 250× faster).
-
----
-
-## Benchmark 4: Autonomous Cyber Defense & Anti-Reverse Engineering
-
-<div align="center">
-  <img src="media/guardian_security_benchmark_chart.jpg" alt="AI Safety & Defense: Prompt Injection & Reverse Engineering Shield" width="100%" />
-</div>
-
-### What This Benchmark Tested:
-- **Scope:** Tested resilience against multi-turn jailbreaks, prompt injection, model architecture reconnaissance, and source code exfiltration attacks.
-- **Competitors Tested:** Standard LLM endpoints and commercial cloud guardrail filters.
-- **Finding:** Traditional cloud filters add 450ms–1,200ms of latency and miss multi-turn attacks. EchoQI's local **Guardian Subsystem achieved 99.4% threat interception at zero latency penalty (<0.01ms)**, autonomously neutralizing exploits and issuing targeted deterrent bans without cloud data leakage.
-
----
-
-## Benchmark 5: End-to-End Autonomous Web Creation
-
-<div align="center">
-  <img src="media/creator_workflow_benchmark_chart.jpg" alt="End-to-End Autonomous Web Build: Devin vs Claude Code vs EchoQI Creator" width="100%" />
-</div>
-
-### What This Benchmark Tested:
-- **Scope:** Timed the complete autonomous synthesis of a full business website—including semantic layout sections, responsive CSS styling, typography, interactive UI components, and instant browser preview delivery.
-- **Competitors Tested:** Devin (Cognition AI), Claude Code (Anthropic), and Codex/Cursor Agent.
-- **Finding:** Cloud agents took **8 to 25 minutes** and incurred dollars per build inside remote containers. EchoQI Creator completed the entire DOM synthesis, adversarial design check, and live Chromium preview in **4.8 seconds for $0.00 in API costs** (over 250× faster).
-
----
-
-## Benchmark 6: Codebase Multi-File Refactor & Security Audit
-
-<div align="center">
-  <img src="media/codebase_refactor_benchmark_chart.jpg" alt="Codebase Multi-File Refactor & Audit: Claude 3.5 vs Devin/Codex vs Dark Matter" width="100%" />
-</div>
-
-### What This Benchmark Tested:
-- **Scope:** Evaluated deep multi-file architectural refactoring, boundary bug audits (off-by-one errors and syntax invariants), and atomic sandbox rollbacks across a 15-file module.
-- **Engine Evaluated:** Dark Matter's 4-brain local connectome (`darkmatter-coder` 30B MoE + `deepseek-coder-v2` auditor) against Claude 3.5 Sonnet and Devin.
-- **Finding:** Dark Matter completed the audit and refactor in **38 seconds** with a **100% test pass rate** under SWE-bench criteria, zero cloud leaks, and automatic cryptographic SHA-256 state rollbacks on failure.
-
----
-
-## Summary Performance Matrix
-
-| Evaluation Dimension | Frontier Cloud AI (OpenAI / Anthropic / Devin) | EchoQI Sovereign Engine | Advantage Multiplier |
-| :--- | :--- | :--- | :--- |
-| **Cost per 1B Tokens** | \$210 – \$6,600 | **\$0.02 (Electricity Only)** | **10,000× to 300,000× Cheaper** |
-| **Reflex Latency** | 150 ms – 800 ms | **0.0084 ms (8.4 µs)** | **10,000× Lower Latency** |
-| **ARC-AGI Task Latency** | 3,100 ms – 12,500 ms | **13.39 ms** | **250× Faster Reasoning** |
-| **Cyber Defense Latency** | +450 ms to +1,200 ms | **<0.01 ms (Zero Penalty)** | **Instant Local Shield** |
-| **Autonomous Web Build** | 8 – 25 Minutes | **4.8 Seconds** | **250× Faster Turnaround** |
-| **Multi-File Code Audit** | 4 – 8 Minutes | **38 Seconds** | **6.5× Faster Refactoring** |
-| **Data Privacy** | Cloud API logs / Data retention | **100% Air-Gapped Local Silicon** | **Absolute Data Sovereignty** |
-
-
----
-
-## The Larger Vision
-
-EchoQI is evolving into a **local-first neuro-symbolic intelligence platform**: a persistent system designed to reason, remember, coordinate tools, and operate through multiple applications.
-
-Its development connects three foundations:
-
-| Foundation | Engineering focus |
+| Jack’s strength | What he can bring to a business |
 |---|---|
-| **Cognitive architecture** | Native reasoning, graph relationships, contextual memory, and evidence-aware decisions |
-| **Software execution** | Developer automation, controlled actions, verification, checkpoints, and recovery |
-| **Application ecosystem** | Desktop interaction, voice, web services, and integrated product experiences |
+| **Custom AI creation** | Design a purpose-built AI system from code, with its own behavior, state, interfaces, training workflow, and evaluation criteria. |
+| **Neural network development and training** | Develop trainable components, prepare bounded curricula, run experiments, retain model artifacts, and connect learned output to an application. |
+| **AI architecture** | Define how reasoning, memory, model contributors, tools, permissions, and user interfaces work together. |
+| **Full-stack product engineering** | Build desktop and web experiences around an AI capability, including APIs, account-aware state, and useful error behavior. |
+| **Automation and developer tools** | Create workflows that inspect a repository, propose changes, run checks, and account for what actually happened. |
+| **Debugging and performance investigation** | Trace failures across layers, challenge misleading telemetry, investigate regressions, and retain before/after evidence. |
+| **Systems reliability** | Design checkpoints, integrity checks, release boundaries, restart persistence, and recovery before a change is accepted. |
+| **Product vision and execution** | Translate an ambitious idea into components, interfaces, experiments, and iterative software deliveries. |
 
-### Quantum-Inspired Intelligence
+These capabilities can support internal knowledge tools, specialized AI assistants, decision-support prototypes, developer automation, interactive applications, and AI features inside an existing product. The right engagement starts with the business problem, available data, deployment constraints, and a measurable acceptance target.
 
-The name **Quantum Intelligence** expresses an architectural direction: exploring multiple candidate interpretations, relating information through structured representations, and selecting outcomes through evidence and governing constraints.
+[See the detailed strengths assessment →](engineering/strengths.md)
 
-These ideas are implemented through classical software and neuro-symbolic systems. The research direction includes increasingly capable reasoning, persistent learning, and coordinated execution.
+[Codex self-report](reviews/self-reports/strengths.md)
 
-### A Growing Engineering Record
+## AI creation and training
 
-This repository will continue expanding with documented capabilities, reproducible evaluations, application demonstrations, and measured improvements.
+Jack’s work includes **building original AI components and training custom model candidates from scratch**. The expanded review found several distinct strands:
 
-Each new benchmark entry will identify its workload, runtime version, evaluation method, and measured outcome—building an increasingly useful record of what EchoQI can accomplish.
+- **Proprietary core architecture:** native computation, continuity, memory ownership, contributor boundaries, and controlled execution across applications.
+- **Custom neural-learning software:** implemented trainable components, learning state, persistence, and tests around how learned behavior is admitted and used.
+- **From-scratch model training:** recorded local jobs explicitly identify random initialization without pretrained weights, trained artifacts, dataset/tokenizer provenance, and application-level checks.
+- **Pretrained-model adaptation:** a separate fine-tuning path retains an adapter artifact and training manifest for an upstream model. This is distinct from creating a model’s initial weights.
+- **Learning from demonstrations:** bounded native skill-learning work carries examples across turns and applies a learned operation to new inputs under defined constraints.
 
-#### Historical IBM Quantum and Qiskit Integration Research
+The strongest finding is the breadth of the engineering: Jack works on the learning system, the surrounding runtime, and the product interface. A successful training diagnostic establishes its measured target; generalization and production readiness are evaluated separately.
 
-EchoQI's engineering history also includes an **IBM Quantum integration built around Qiskit and Qiskit Runtime**. The preserved adapter implements account/backend discovery, two-qubit Bell-state circuit preparation, backend-specific transpilation, Sampler-based job submission, and measurement-count recording.
+[Read the AI creation and training case study →](projects/ai-creation-and-training.md)
 
-Related research explored **hybrid proposal scoring**, combining classical readiness and safety criteria with quantum-sampled signals. The integration design distinguishes IBM runtime execution from local simulation and keeps quantum research as an explicit contributor to the broader EchoQI ecosystem.
+[Codex self-report](reviews/self-reports/ai-creation.md)
 
-This work extends the engineering record beyond AI application orchestration into quantum-service integration, experiment tracking, and hybrid classical/quantum workflow design. [Read the historical integration record](docs/IBM_QUANTUM_RESEARCH.md).
+## Featured projects
 
-**Created and architected by Jack Rourke**
+### EchoQI / QI Core — an original AI system
 
-[Explore EchoQI.me](https://echoqi.me) · [View Jack's GitHub](https://github.com/jtrxgaia)
+**Creator, architect, and independent engineering lead.** EchoQI brings together Jack’s work on native reasoning, custom learning components, persistent continuity, and governed actions. He is designing both the intelligence software and the architecture that lets it operate through multiple products.
+
+The technically demanding part is maintaining a coherent system as capabilities grow: what may learn, what may write state, which component owns the answer, and what evidence permits an action. The source and historical records show sustained work on these questions, including real training experiments and failure-driven refinement.
+
+<img src="media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock, one of the application surfaces connected to the AI ecosystem" width="760" />
+
+*An actual desktop interaction component. The case study and self-report carry the deeper evidence for the AI work.*
+
+[Core case study →](projects/echoqi.md) · [Training and learning →](projects/ai-creation-and-training.md)
+
+[Codex self-report](reviews/self-reports/echoqi-core.md)
+
+### Dark Matter — an AI development environment
+
+**Product creator and workflow architect.** Jack’s development-tool work connects repository understanding, AI contributors, scoped edits, verification, and recovery in a desktop experience. It addresses one of the hardest practical questions in AI coding: when can the software honestly say a task is complete?
+
+The inspected ecosystem includes repository/dependency analysis, host-owned workspace operations, native and model-assisted coding paths, and checkpoints. Selected historical tests and fixture records support concrete improvements in reliability and snapshot efficiency.
+
+<img src="media/portfolio/dark-matter-creator.jpg" alt="Dark Matter Dev Creator interface with generation options and an empty composer" width="760" />
+
+*Genuine October 3 renderer preview. Workflow evidence is documented separately from this interface capture.*
+
+[Dark Matter case study →](projects/dark-matter.md) · [Verified-edit walkthrough →](engineering/verified-edit-walkthrough.md)
+
+[Codex self-report](reviews/self-reports/dark-matter.md)
+
+### SYNAP FPS — game systems, world presentation, and real-time engineering
+
+**Game creator and systems developer.** SYNAP demonstrates Jack’s work across combat, enemy behavior, weapons, progression, customization, effects, interfaces, persistent state, and performance. It also shows his visual ambition: a distinct science-fiction world, connected gameplay systems, and iterative review of how the game actually looks and feels.
+
+<img src="media/portfolio/synap-gameplay-owner.png" alt="Owner-supplied SYNAP in-game screenshot with the Aurelia arena, weapon view, holographic structures, and combat HUD" width="900" />
+
+*Owner-supplied in-game capture. The displayed FPS reading describes that moment; it is not a controlled benchmark. The capture alone does not identify its exact engine version.*
+
+The browser edition and separate Unreal C++ migration give this project a substantial engineering story: protecting an existing experience while developing a native implementation, investigating frame-time regressions, and delivering incremental local packages.
+
+[SYNAP case study and additional image →](projects/synap-fps.md)
+
+[Codex self-report](reviews/self-reports/synap.md)
+
+### QI Works / EchoQI.me — bringing the ecosystem to users
+
+**Product architect and application developer.** QI Works gives Jack’s projects a public identity and discovery surface. EchoQI.me connects that presentation with application views, AI integrations, sessions, account-level data, and game delivery.
+
+This work demonstrates the bridge between an invention and a usable software product: frontend design, backend contracts, authorization, persistence, service errors, and release handling. Custom application work is integrated with Base44’s managed services and other clearly attributed dependencies.
+
+<img src="media/portfolio/echoqi-web.png" alt="QI Works public landing page showing the ecosystem branding and navigation" width="760" />
+
+*Public landing page captured October 25, 2026. Public browsing was observed; the page also displayed a chat-maintenance notice.*
+
+[QI Works and EchoQI.me case study →](projects/echoqi-web.md)
+
+[Codex self-report](reviews/self-reports/web.md)
+
+## Engineering challenges and growth
+
+The most revealing part of Jack’s work is how the system evolves after something fails.
+
+| Challenge | Engineering response | What it demonstrates |
+|---|---|---|
+| Learning software needs evidence beyond a convincing response | Retain training provenance, model artifacts, scoped diagnostics, and restart comparisons. | Model-development discipline and experimental thinking. |
+| Multiple runtime generations create conflicting ownership | Establish explicit decision and state boundaries while preserving useful prior work. | Architecture, migration, and integration judgment. |
+| A generated code change may fail its real check | Tie completion to executed verification and protect competing edits during recovery. | Reliability and developer-tool design. |
+| Game telemetry can point an investigation in the wrong direction | Reproduce the diagnostic defect and separate it from unresolved frame-time causes. | Debugging precision and measurement literacy. |
+| A signed OS candidate may still be unhealthy | Reject it on health checks and return to a known-good system slot. | Recovery-first systems engineering. |
+
+[Read the struggles, responses, and remaining milestones →](engineering/problems-and-progress.md)
+
+[Codex self-report](reviews/self-reports/engineering.md)
+
+## The wider EchoQI ecosystem
+
+The review extended beyond the first preview’s application samples into the canonical runtime, neural and training work, research packages, desktop variants, developer tooling, backend services, web application, browser game, native migration, boot/recovery records, and project registries.
+
+Supporting work includes host coordination, voice integration, repository intelligence, model research, QIOS, IBM Quantum/Qiskit integration, and the Stellex/Stellux game lineage. Each adds a distinct engineering dimension. QI Glasses remains a research concept in the evidence inspected.
+
+[Ecosystem capability map →](engineering/ecosystem.md) · [Supporting systems →](projects/systems.md)
+
+[Codex self-report](reviews/self-reports/ecosystem.md)
+
+## Evidence and professional history
+
+Jack reports approximately three years of independent development beginning around 2023. The local estate contains substantial 2026 implementation and experiment records; this public portfolio repository begins October 3, 2026. Project ownership, AI assistance, original components, upstream models, and platform services are identified separately.
+
+The public historical ARC development result remains **19/50 public-training tasks**, with **13.388 ms median solve time per test input**, excluding startup. The original benchmark gallery is preserved with dated interpretation and corrections. The new AI-training findings have their own public-safe evidence summaries.
+
+[Evidence index →](engineering/evidence-index.md) · [Training record →](benchmarks/results/2026-10-25-ai-training-review.json) · [Benchmarks →](benchmarks/README.md) · [Original showcase →](LEGACY_SHOWCASE.md)
+
+[Codex self-report](reviews/self-reports/scope-and-sources.md)
+
+## Codex’s assessment of Jack
+
+> **Jack’s strongest distinction is that he pursues ownership of the intelligence itself and the software around it. The inspected record includes custom learning implementations, training from random initialization, retained model artifacts, developer tools, web integration, and real-time application work. That is a substantial foundation for describing him as an AI creator and software inventor.**
+
+His value is the combination: technical ambition, cross-system thinking, persistence through difficult failures, and the drive to make an original idea tangible. For a business developing a specialized AI capability, an intelligent tool, or an ambitious prototype, that combination is worth a serious technical conversation.
+
+[Full Codex review →](reviews/codex-2026-10-25.md) · [AI reviews and independent contributions →](reviews/README.md)
+
+[Codex self-report](reviews/self-reports/profile.md)
+
+## Engineering capability profile
+
+**Codex placement: 70/100 — strong independent AI and software systems engineering.**
+
+![Hypothetical engineering capability scale showing Jack Rourke at 70 percent, with illustrative responsibility markers from entry-level IT to defense and mission-critical AI](media/portfolio/engineering-capability-tier.png)
+
+*Hypothetical evidence rubric. Role markers are illustrative; the percentage is a Codex judgment, not a measured occupational benchmark.*
+
+[Scoring rubric and supporting evidence](engineering/capability-tier.md)
+
+[Codex self-report](reviews/self-reports/capability-tier.md)
+
+## Benchmarks
+
+[**Open the complete EchoQI benchmark showcase →**](benchmarks/README.md)
+
+The original repository presentation, benchmark graphics, and IBM Quantum research record are preserved in this dedicated section.

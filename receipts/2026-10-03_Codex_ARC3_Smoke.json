@@ -1,0 +1,57 @@
+{
+  "schema": "next-gen-intelligence.codex.arc3-smoke.v1",
+  "auditor": "Codex",
+  "date": "2026-10-03",
+  "source_receipt_sha256": "8bce3393f428d64f4751b31b7146f38e27cf8e312bf125489e7801667a621e2a",
+  "exit_code": 0,
+  "source_stable": true,
+  "elapsed_ms": 1895.1039,
+  "arc_agi_version": "0.9.9",
+  "arc_engine_version": "0.9.3",
+  "environment_count": 0,
+  "games_executed": 0,
+  "official_gameplay_score": null,
+  "guard_self_tests_passed": 4,
+  "scoring_fixtures": [
+    {
+      "name": "human_efficiency",
+      "expected": 100,
+      "actual": 100
+    },
+    {
+      "name": "twice_human_actions",
+      "expected": 25,
+      "actual": 25
+    },
+    {
+      "name": "fast_single_level_game_cap",
+      "expected": 100,
+      "actual": 100
+    },
+    {
+      "name": "partial_completion_cap",
+      "expected": 66.66666666666667,
+      "actual": 66.66666666666666
+    },
+    {
+      "name": "level_weighting",
+      "expected": 50,
+      "actual": 50
+    },
+    {
+      "name": "zero_action_completion",
+      "expected": 0,
+      "actual": 0
+    },
+    {
+      "name": "best_run_not_mean",
+      "expected": 100,
+      "actual": 100
+    }
+  ],
+  "zero_sdk_io_attempts": false,
+  "known_probe_still_denied": true,
+  "isolation": "CONTROLLED_ENV_AND_PYTHON_AUDIT_HOOK_NOT_OS_SANDBOX",
+  "scope": "SDK smoke and authored scoring checks only; not EchoQI gameplay",
+  "note": "SDK import attempted one IPv6 loopback bind probe; denied. Stack traces and internal paths excluded."
+}

@@ -1,0 +1,25 @@
+{
+  "review_date": "2026-10-25",
+  "type": "Arithmetic model, not a measured generation campaign",
+  "assumptions": {
+    "words_per_turn": 250,
+    "equivalent_tokens_per_word": 1.33,
+    "seconds_per_turn": 0.0028,
+    "electricity_usd_per_kwh": 0.16
+  },
+  "derived": {
+    "turns": 3007518.796992481,
+    "hours": 2.3391812865497075,
+    "kwh_at_45w": 0.10526315789473684,
+    "usd_at_45w": 0.016842105263157894,
+    "usd_at_100w": 0.03742690058479532
+  },
+  "exclusions": [
+    "hardware",
+    "development",
+    "hosting",
+    "maintenance",
+    "output quality equivalence",
+    "actual measured energy"
+  ]
+}

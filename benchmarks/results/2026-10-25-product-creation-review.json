@@ -1,0 +1,80 @@
+{
+  "reviewer": "Codex",
+  "model": "GPT 6.1 Sol",
+  "date": "2026-10-25",
+  "method": "Selected source, interface, asset-production, and retained-record inspection. No live paid generation or private-product execution.",
+  "sources": [
+    {
+      "id": "web-image-service",
+      "sha256": "66852fe77b30030da11c5cce1b1ef4ac44987f0006c0a6c06c722926a5a45f5b",
+      "bytes": 3058
+    },
+    {
+      "id": "web-video-service",
+      "sha256": "bacf92c8ac35e0c79cb5bd6dca661eca666c358e3e4f50699dddaf2eff18a8b0",
+      "bytes": 28200
+    },
+    {
+      "id": "web-media-result-contract",
+      "sha256": "a7d23aae614df1592c6b680633fa596275e35566dfe05e33ac1c73e85552e2d7",
+      "bytes": 1262
+    },
+    {
+      "id": "web-media-job-interface",
+      "sha256": "814cb46979b1608abca77b82da247726c62aa254472202e69020b290edf623cb",
+      "bytes": 1171
+    },
+    {
+      "id": "web-creator-interface",
+      "sha256": "e5bc1167ff8309fc6093eba87e07e2a9a922570f1dadc187a3e8d8a2b4e0a244",
+      "bytes": 2378
+    },
+    {
+      "id": "web-model-presentation",
+      "sha256": "57dc7d36e7873299dad5a86309991a6d6716d640b2ab1d49be6b3a98902ecc53",
+      "bytes": 2340
+    },
+    {
+      "id": "synap-asset-production-record",
+      "sha256": "fa3d17f9c1d8ccc148bcee7db747a9365ed1bc79e16b5a6f2d229be8959ea759",
+      "bytes": 2613
+    },
+    {
+      "id": "synap-asset-fit-record",
+      "sha256": "cd953b8ce6b075766e783893984404984103fd429ab79940971f09b0d6552abe",
+      "bytes": 15933
+    },
+    {
+      "id": "synap-character-source",
+      "sha256": "2b8534489deb16e45e7c9e5f6ef6afbf0795e0f627a3397ba7c965b2f8b1ac83",
+      "bytes": 21982
+    },
+    {
+      "id": "synap-world-source",
+      "sha256": "2512f1ac68c6c0ebdd28960485d30277ea19410c5b5365a70f187137004f1a74",
+      "bytes": 11066
+    },
+    {
+      "id": "synap-enemy-source",
+      "sha256": "d18ec28fa962e8cc5c71d85ef08c3a4cc8759d2257da5686c512fec6b4d013ef",
+      "bytes": 96649
+    }
+  ],
+  "web_findings": [
+    "Image-generation service path and Creator presentation inspected",
+    "Video-generation service path, job statuses, and result handling inspected",
+    "GPT/Gemini/Claude contributor presentation inspected",
+    "Account-aware authorization and usage handling present in sampled media paths"
+  ],
+  "game_findings": [
+    "Custom weapon/attachment production and review records inspected",
+    "Character/armor asset review materials inspected",
+    "Character, enemy, and world implementation source inspected",
+    "Original game ownership includes owner-reported authorship and AI-assisted code/asset workflows"
+  ],
+  "owner_reported_history": {
+    "web_platform_development": "Approximately two years, stated by Jack in this conversation; not independently dated in full.",
+    "individual_authorship": "Jack reports original project creation and development. Review does not establish unaided manual authorship of every line or asset."
+  },
+  "privacy": "No proprietary source, training recipe, model payload, private state, or internal path included."
+}
