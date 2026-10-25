@@ -1,0 +1,104 @@
+{
+  "review_date": "2026-10-25",
+  "method": "read-only selected-artifact inspection; not a whole-product execution or certification",
+  "public_source_included": false,
+  "hash_meaning": "Content identity for owner-side comparison, not independent attestation.",
+  "sources": [
+    {
+      "id": "echoqi-authority-decision",
+      "sha256": "502c535ed7b8f46f3e4b3c3e7e1c8155db293b586beaa5a1dabadb8660ac0ff3"
+    },
+    {
+      "id": "echoqi-authority-map",
+      "sha256": "396e9f144ddbcb1aa7ac392965ee2930a5025bc44367c1e8445f08ca7af18990"
+    },
+    {
+      "id": "echoqi-current-limitations",
+      "sha256": "0941129e3a1a3e99a037f5e3541492187f81fbc5b67c0a6af34a824b00da6af2"
+    },
+    {
+      "id": "echoqi-memory-architecture",
+      "sha256": "cb762c4e7ed94807c3a24fdbc67dec98b3f4f248f4c45f4b2cf1bcc8bbcc0ff2"
+    },
+    {
+      "id": "federation-contract-tests",
+      "sha256": "ef264d3caa023637f29a9e86402eb2abc0dd1ea3fea44f89bd637b46114767ab"
+    },
+    {
+      "id": "federation-demo-acceptance",
+      "sha256": "b6f5beeb970b33a0157255f3962cc63f47ab974be421679c858286aa01a89ac1"
+    },
+    {
+      "id": "dark-matter-coder-configuration",
+      "sha256": "0486cb787f18c22bcd98fdeca477aed2d13a3e9bace5e573819e613b605b7bf3"
+    },
+    {
+      "id": "dark-matter-workflow",
+      "sha256": "196f294eee1b2d8813902b5f1d6defa7d0d70151533937c119ae6523d0deda4c"
+    },
+    {
+      "id": "dark-matter-workflow-tests",
+      "sha256": "727e38310f7801047da6fefe1e73cb7ff583d536d41b27c2454e78a54bbaa64c"
+    },
+    {
+      "id": "prior-candidate-review",
+      "sha256": "417ba4d3e00091047c4022c14fdbef3ac06574b16112077c258e9c27da7484a4"
+    },
+    {
+      "id": "prior-dark-matter-review",
+      "sha256": "c875b7a5f87aaf5f9af406cade1091eef99daccea563570029909731991cffa4"
+    },
+    {
+      "id": "prior-recheck-log",
+      "sha256": "bcb14f84ca13816a11b9cb2bd382ebf2cc067045f041a749d8d85662a6844997"
+    },
+    {
+      "id": "web-manifest",
+      "sha256": "f3eb7074e3d05593285d8d97f6ef0e2a17e62f6e8e4f974fb292b70c349b9579"
+    },
+    {
+      "id": "web-sdk-client",
+      "sha256": "b4610f5222ee1ae589d3b135161d5b2d0382076f07ffb846c500dc96e8e958c9"
+    },
+    {
+      "id": "web-v4-response-entry",
+      "sha256": "76258d9f6fcf02866a148586f480e50de475ba1b2bc3d3a5ce0ad1de90fbb921"
+    },
+    {
+      "id": "web-v4-runtime-handler",
+      "sha256": "5d3efc08a00d347ca239d7de877c9272083bae083b699e68e9ecffe10c043ffd"
+    },
+    {
+      "id": "web-persona-test-log",
+      "sha256": "3dfb21d8309c181ff42fef450cb0a4dbe0abc3ac1f2f8003706cee016925371c"
+    },
+    {
+      "id": "synap-browser-manifest",
+      "sha256": "76d2c2307d9c25d9e7a94f9b43edc5932fb5792876fb27cb53dd0a7e12614264"
+    },
+    {
+      "id": "synap-browser-investigation",
+      "sha256": "d6e2c0a32eb767715b8da7be6f4816f616b3fc17bd1cdf4d9f431001886f13b2"
+    },
+    {
+      "id": "synap-native-v129-delivery",
+      "sha256": "32c1a021d81d07a9918be4d08593cdacc134835573bc62841e17adbc1db4ce47"
+    },
+    {
+      "id": "synap-native-v129-notes",
+      "sha256": "4fe45cdf13b3d9dd0b8d8fd2f47b00fb4fe53d0010ae1670d836ec5b4f8ea367"
+    },
+    {
+      "id": "qios-implementation-status",
+      "sha256": "28d890ae0bebd69c0081a7a59f0ca95e6226ff3c34c0041922087faefe0da00f"
+    },
+    {
+      "id": "qios-install-review",
+      "sha256": "49a90c85b1350295c109499b06b7c97634c4114f8c661cc685c8dc5f720d3706"
+    },
+    {
+      "id": "qios-broken-candidate-recovery",
+      "sha256": "4c0f00988d2ed250b9c8f197e5dc9820d6b308fed161b9e7f3aa1ae85d8556c4"
+    }
+  ]
+}

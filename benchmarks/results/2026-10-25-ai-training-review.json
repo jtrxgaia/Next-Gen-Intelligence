@@ -1,0 +1,65 @@
+{
+  "review_date": "2026-10-25",
+  "reviewer": "Codex",
+  "type": "Sanitized artifact-based review; no training or inference rerun.",
+  "source_ids": [
+    "recent-training-app-record",
+    "recent-training-matched-summary",
+    "from-scratch-candidate-training-source",
+    "canonical-learning-implementation",
+    "model-foundry-implementation",
+    "pretrained-adaptation-training-manifest",
+    "pretrained-adapter-artifact"
+  ],
+  "custom_from_scratch_training": {
+    "record_date": "2026-10-25",
+    "initialization": "Random from scratch; no pretrained weights, as explicitly recorded in the run manifest.",
+    "training_job_recorded": true,
+    "training_exposed_examples": 34,
+    "defined_training_fit_target_met": true,
+    "scores": {
+      "interpret": {
+        "total": 17,
+        "passed": 17
+      },
+      "realize": {
+        "total": 17,
+        "passed": 17
+      }
+    },
+    "score_scope": "All examples exposed during training; fitting diagnostic, not independent generalization.",
+    "artifact_identities_recorded": true,
+    "tokenizer_and_dataset_provenance_recorded": true,
+    "restart": {
+      "rows_compared": 8,
+      "same_weights": true,
+      "consistent_except_elapsed_time": true,
+      "optimizer_started": false
+    },
+    "ordinary_chat_activation": false,
+    "verification_limit": "The recent run was reviewed through retained manifest/results and provenance; its recorded transient worker path was unavailable."
+  },
+  "custom_learning_software": {
+    "source_inspected": true,
+    "parameter_initialization_and_update_implementation_inspected": true,
+    "persistence_and_learning_tests_inspected": true,
+    "native_demonstration_learning_records_inspected": true,
+    "scope": "Component and bounded workflow evidence; no universal learning claim."
+  },
+  "pretrained_model_adaptation": {
+    "record_date": "2026-09-05",
+    "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "training_manifest_present": true,
+    "training_source_inspected": true,
+    "saved_adapter_artifact_present": true,
+    "scope": "Adaptation of an upstream model, separate from from-scratch foundation weights; no independent held-out quality claim adopted."
+  },
+  "privacy": {
+    "proprietary_source_included": false,
+    "model_payloads_included": false,
+    "training_data_included": false,
+    "training_recipe_included": false,
+    "host_paths_included": false
+  },
+  "assessment": "Evidence supports custom AI/learning development, recorded from-scratch model training, and a separate upstream-model adaptation path. Business readiness requires task-specific qualification."
+}

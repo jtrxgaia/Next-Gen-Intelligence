@@ -1,0 +1,397 @@
+{
+  "date": "2026-10-25",
+  "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
+  "purpose": "Owner-approved portfolio with complete original showcase preserved under Benchmarks",
+  "files": [
+    {
+      "path": "2026-10-03_EchoQI_Benchmark_Audit_v1.md",
+      "bytes": 2091,
+      "sha256": "f0571135d3c60a19201ca4492534fcd790f3cb96056462d5ac30b74abc50e675"
+    },
+    {
+      "path": "benchmarks/METHODS.md",
+      "bytes": 6503,
+      "sha256": "98f2f3478d0d22b4baf08dfe5326e11ede9f10e1a2f5b91915c85d9f84eae3ca"
+    },
+    {
+      "path": "benchmarks/original-repository/docs/IBM_QUANTUM_RESEARCH.md",
+      "bytes": 2155,
+      "sha256": "de92cac62b7169b708aa895e9047a0fbc5234784c7adc2bab4ed5c21df171b6a"
+    },
+    {
+      "path": "benchmarks/original-repository/media/arc_reasoning_benchmark_chart.jpg",
+      "bytes": 726090,
+      "sha256": "6d7bbec83376e2583eaad30828e610fbcbccfb26e93a354f7344e892164d008e"
+    },
+    {
+      "path": "benchmarks/original-repository/media/codebase_refactor_benchmark_chart.jpg",
+      "bytes": 708634,
+      "sha256": "dcc418e7c7d6f05e5c123f8738eea2c8e7c65c342ed8f0f54c16273621a99f8c"
+    },
+    {
+      "path": "benchmarks/original-repository/media/cost_per_billion_chart.jpg",
+      "bytes": 540004,
+      "sha256": "a9ad6966fc54deabfc191932138f009bda8ca8ccef9a1a7103e773ff6e700ee0"
+    },
+    {
+      "path": "benchmarks/original-repository/media/creator_workflow_benchmark_chart.jpg",
+      "bytes": 708920,
+      "sha256": "28279a8701f7431affb783cd498874d7b9823442388aa24ea0458e119d6cc95e"
+    },
+    {
+      "path": "benchmarks/original-repository/media/guardian_security_benchmark_chart.jpg",
+      "bytes": 678358,
+      "sha256": "6af71bec4491c885e613212683a3cb797b382c33ecd4feece24dda78f18d4693"
+    },
+    {
+      "path": "benchmarks/original-repository/media/speed_comparison_chart.jpg",
+      "bytes": 606802,
+      "sha256": "4f367fd248ced7ccf920af46eecc22655a65fc040d21a33ef15afd0a86e930a8"
+    },
+    {
+      "path": "benchmarks/original-repository/README.md",
+      "bytes": 10430,
+      "sha256": "0e283371c1d5391d4ed4f1e41af6ec641c9b9c91719f54948328a0ed6d6098da"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "bytes": 11267,
+      "sha256": "22f091aacc1aeb4e787d5681262b4b50cb3cf7124c6dd5826a21c6e2f8f17bf9"
+    },
+    {
+      "path": "benchmarks/results/2026-08-18-qios-rollback.json",
+      "bytes": 900,
+      "sha256": "0c98aa5826581347acab174fc523e145122e9805900280c1be5d14c247eeeec7"
+    },
+    {
+      "path": "benchmarks/results/2026-10-18-selected-checks.json",
+      "bytes": 1391,
+      "sha256": "003e1f724ab4a60161beca4ed05857019c8fd56fbcceb58dab37819871e2f22f"
+    },
+    {
+      "path": "benchmarks/results/2026-10-24-synap-native-summary.json",
+      "bytes": 1485,
+      "sha256": "21317340985d292da801e8443b92975ad7875d6a260678530fb630d898fcbe5a"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-ai-training-review.json",
+      "bytes": 2677,
+      "sha256": "4f1c1cf3dd7ec88b78f150b7de489fad2246d383302ec84848cd3077236ebf85"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-capability-rubric.json",
+      "bytes": 2752,
+      "sha256": "7676bee14747f7670d9d28775c19364db0d1f7644f5002a675e5ef346b455163"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-economic-model.json",
+      "bytes": 642,
+      "sha256": "4ddb2ed577dba75f8db7e8e687bc39b1b6e2affe12c1ce0ac2aeeb11d2792380"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-expanded-inspection.json",
+      "bytes": 6721,
+      "sha256": "ab5bd5cdbc87a6bc68b8503b21c75e972c6cf7e7e4ae29dc210de47e132c176e"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-preservation.json",
+      "bytes": 1315,
+      "sha256": "7ce6c8ef413820b646ec7358cb0be3d930af37100739eb09bef0dae806bf000f"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-product-creation-review.json",
+      "bytes": 3111,
+      "sha256": "16a52b5021b4995949e25ced53f967553c61f753e038088fc305444d9abc3d48"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-source-inspection.json",
+      "bytes": 3626,
+      "sha256": "7e98a571551e9bad1e37b5495092bfe9de5937957ec7df9dd2ef981b26074e32"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 847,
+      "sha256": "bdb26622e43a86770316b5d5d62e6e6d2f301350ebb531b1406c6e6be9f5371c"
+    },
+    {
+      "path": "docs/IBM_QUANTUM_RESEARCH.md",
+      "bytes": 2155,
+      "sha256": "de92cac62b7169b708aa895e9047a0fbc5234784c7adc2bab4ed5c21df171b6a"
+    },
+    {
+      "path": "engineering/capability-tier.md",
+      "bytes": 3020,
+      "sha256": "50a8690cc7e28d426c8ab07e11e66c6c695f2aec1e6e35d63ff3eefff3e1306f"
+    },
+    {
+      "path": "engineering/ecosystem.md",
+      "bytes": 5068,
+      "sha256": "8c3d0e3b39cce978a8ccc88148db368f5f65d7a26c4181fe5709fb1082af495e"
+    },
+    {
+      "path": "engineering/evidence-index.md",
+      "bytes": 7168,
+      "sha256": "84f2fe20f37f1d72eed305307386ed2654f43634a24e2c58a1423ad79a7b9370"
+    },
+    {
+      "path": "engineering/problems-and-progress.md",
+      "bytes": 4412,
+      "sha256": "ef8f372510ccf33268239ab2e6629560ed0437c1151fe1546db198e25f76cbd1"
+    },
+    {
+      "path": "engineering/publication-note.md",
+      "bytes": 1105,
+      "sha256": "c5fd106589c1de91d8a1e31eb1aa6554f8242d4d069e20e2e16d64b820fe0ee8"
+    },
+    {
+      "path": "engineering/strengths.md",
+      "bytes": 4365,
+      "sha256": "e648dfdfe068b644675c92cbf7ce93fdd876743fcae2045f7476cc5ffd2da7c0"
+    },
+    {
+      "path": "engineering/verified-edit-walkthrough.md",
+      "bytes": 4399,
+      "sha256": "a8c79fcdd885ec5ce798bc211bf0babe33ecd2b6a8ca6e7b84a48da65c9c372c"
+    },
+    {
+      "path": "engineering/workflow.md",
+      "bytes": 2758,
+      "sha256": "efe36ac4a22cfd9a62cf51dd64ab0c75a6137e9f5fa58cc00420e3722a3faa66"
+    },
+    {
+      "path": "EVIDENCE_POLICY.md",
+      "bytes": 1834,
+      "sha256": "348863e81c9d191867e2737e8f84ab820f2365293ec05cbf73b26b1fac63ad91"
+    },
+    {
+      "path": "HISTORY.md",
+      "bytes": 494,
+      "sha256": "a7f23ebb8d75e7f36c38f0739b6e704f18ccc7b1a81401958fbfb59829b8508d"
+    },
+    {
+      "path": "LEGACY_SHOWCASE.md",
+      "bytes": 10911,
+      "sha256": "312775cecb909c9e7262ddffb4de8d58f3ca72c548bac6e593df2996033b39f2"
+    },
+    {
+      "path": "media/arc_reasoning_benchmark_chart.jpg",
+      "bytes": 726090,
+      "sha256": "6d7bbec83376e2583eaad30828e610fbcbccfb26e93a354f7344e892164d008e"
+    },
+    {
+      "path": "media/codebase_refactor_benchmark_chart.jpg",
+      "bytes": 708634,
+      "sha256": "dcc418e7c7d6f05e5c123f8738eea2c8e7c65c342ed8f0f54c16273621a99f8c"
+    },
+    {
+      "path": "media/cost_per_billion_chart.jpg",
+      "bytes": 540004,
+      "sha256": "a9ad6966fc54deabfc191932138f009bda8ca8ccef9a1a7103e773ff6e700ee0"
+    },
+    {
+      "path": "media/creator_workflow_benchmark_chart.jpg",
+      "bytes": 708920,
+      "sha256": "28279a8701f7431affb783cd498874d7b9823442388aa24ea0458e119d6cc95e"
+    },
+    {
+      "path": "media/guardian_security_benchmark_chart.jpg",
+      "bytes": 678358,
+      "sha256": "6af71bec4491c885e613212683a3cb797b382c33ecd4feece24dda78f18d4693"
+    },
+    {
+      "path": "media/portfolio/dark-matter-creator.jpg",
+      "bytes": 39739,
+      "sha256": "1f1c960553230d4a37fb07997892c54a946c164e3bd8d7a91222e2bc9122e208"
+    },
+    {
+      "path": "media/portfolio/echo-desktop-dock.png",
+      "bytes": 82766,
+      "sha256": "ff93fb718c8d4b6384b8716c81b6d2e00db725ca71a3e22a1eb39e2796370dd9"
+    },
+    {
+      "path": "media/portfolio/echoqi-web.png",
+      "bytes": 56263,
+      "sha256": "28e6552d2f1a707396c3c2d38ac6513941b527daca5ea960835a0e4a9818bb9c"
+    },
+    {
+      "path": "media/portfolio/engineering-capability-tier.png",
+      "bytes": 84194,
+      "sha256": "ed33a1073faa9be6e46fc548d723b5919bd5d12e703f00bff03df3acb17ba61c"
+    },
+    {
+      "path": "media/portfolio/README.md",
+      "bytes": 2033,
+      "sha256": "8d61f4ff2e4fefed306644b452bfe594bf5945b407dcebfdf4b0d79f3344c054"
+    },
+    {
+      "path": "media/portfolio/synap-browser.png",
+      "bytes": 189357,
+      "sha256": "6b7a26d4d1ce21f1001e4f4801d6e956f672dca4fdf5914c4e4d4ce8c6cba02d"
+    },
+    {
+      "path": "media/portfolio/synap-gameplay-owner.png",
+      "bytes": 4781529,
+      "sha256": "7492e2cffd877ec970dce43acdd0d57ea836cb04e93e490ac077703fbc9782d5"
+    },
+    {
+      "path": "media/portfolio/synap-menu-owner.png",
+      "bytes": 9290164,
+      "sha256": "29dd7aea554a154183bb2d0d246320a8937da27903a923559bee3b3952dc498f"
+    },
+    {
+      "path": "media/speed_comparison_chart.jpg",
+      "bytes": 606802,
+      "sha256": "4f367fd248ced7ccf920af46eecc22655a65fc040d21a33ef15afd0a86e930a8"
+    },
+    {
+      "path": "projects/ai-creation-and-training.md",
+      "bytes": 3489,
+      "sha256": "e1223b0be8a161224c84d072a1060f779123946ed618d5b6d2994d74befe20a9"
+    },
+    {
+      "path": "projects/dark-matter.md",
+      "bytes": 3072,
+      "sha256": "18a8fdf44c9ac2353857499b48875252d6ab9fe7cdade3194f44aa360bebc88e"
+    },
+    {
+      "path": "projects/echoqi-web.md",
+      "bytes": 2813,
+      "sha256": "96ac44b0e7c3124c6faf3eb2efd273ea8d6887a708d01feef1c1d9f019c4ed3d"
+    },
+    {
+      "path": "projects/echoqi.md",
+      "bytes": 3685,
+      "sha256": "4edd3706d6c8467233800b6aea516512b93321b4a435cbbc512c63a4f522e5e4"
+    },
+    {
+      "path": "projects/synap-fps.md",
+      "bytes": 3621,
+      "sha256": "b78af705a3c701e3f9837da84f65255b5b78e0ad2e30b291bc54f1c7fe2d0f40"
+    },
+    {
+      "path": "projects/systems.md",
+      "bytes": 2544,
+      "sha256": "8377f4094e608e544c1c4dc66910787e2e45d663a9fb54062bb537050ff85244"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14414,
+      "sha256": "f61596e24cc2292a69cca2aa81672d7dfa1da791b25baabfa506a7343939f466"
+    },
+    {
+      "path": "receipts/2026-10-03_Antigravity_Reported.json",
+      "bytes": 893,
+      "sha256": "fb4cd1fa49b8c8229d5914021b5a9239cb5870dc13a166ed74bc08a4611c0eea"
+    },
+    {
+      "path": "receipts/2026-10-03_Codex_ARC2.json",
+      "bytes": 16478,
+      "sha256": "ff7f27544036f8d6f0505ee240dfaa7a5daff732bb8989d198a5e2dff932729f"
+    },
+    {
+      "path": "receipts/2026-10-03_Codex_ARC3_Smoke.json",
+      "bytes": 1484,
+      "sha256": "7089350cab4c23464985b6e57f5769112eb2f4f859fc39079823966426b832e9"
+    },
+    {
+      "path": "receipts/INDEX.json",
+      "bytes": 1880,
+      "sha256": "a17c0e1e199e759895c75d65c3e16b5d2f3d74e85f41bec0c951a019c7378ce4"
+    },
+    {
+      "path": "reports/2026-10-03_Codex_Independent_Benchmark_v1.md",
+      "bytes": 3132,
+      "sha256": "e7b3ed145eb321b8717a78b2e4721ec622cfb19ca2a463beac30131ab50b1569"
+    },
+    {
+      "path": "reports/QI_1_BILLION_TOKEN_BENCHMARK_REPORT.md",
+      "bytes": 5548,
+      "sha256": "3af5b85a1945a65affc4c2055f90cd5cd3b48b46cc49f8659507ab8ef6842034"
+    },
+    {
+      "path": "reports/QI_AUTONOMOUS_CREATOR_BENCHMARK_REPORT.md",
+      "bytes": 2806,
+      "sha256": "204023d1933bcf2d9cb214278b9cf9813a227c4a8e80273025047c46e415c24e"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 1551,
+      "sha256": "81f2fdaa81aa709e3fca6c746caef19bfd60b1ff292bf177e65b476d75c924b3"
+    },
+    {
+      "path": "reviews/codex-2026-10-25.md",
+      "bytes": 2651,
+      "sha256": "706741e9fb315c09cc3b523b327ddaa20f9d0a35378a3be8a5861baade98eaf7"
+    },
+    {
+      "path": "reviews/README.md",
+      "bytes": 1147,
+      "sha256": "0f93b60c73e89720c186149d2fef1c45144c00c44685bef2eb40b4b44c0e8bc2"
+    },
+    {
+      "path": "reviews/self-reports/ai-creation.md",
+      "bytes": 2225,
+      "sha256": "1cfaea9afcc36aa9daaa5902e57b93c51083fa46f3768593f115e84dc3897b42"
+    },
+    {
+      "path": "reviews/self-reports/capability-tier.md",
+      "bytes": 905,
+      "sha256": "f3945a8032a1fa666a60d7b7009f567e6e5c62872b4e2113e0d4c14c8d1f1b2a"
+    },
+    {
+      "path": "reviews/self-reports/dark-matter.md",
+      "bytes": 2169,
+      "sha256": "5e2c008254468120ea0b4e57ab1a98691f149da9d511a03c230a23e3de7b9c08"
+    },
+    {
+      "path": "reviews/self-reports/echoqi-core.md",
+      "bytes": 2344,
+      "sha256": "86a80513ea8a9d010274637b3e339f43fc488a4f86947110696b6ee8556db014"
+    },
+    {
+      "path": "reviews/self-reports/ecosystem.md",
+      "bytes": 1957,
+      "sha256": "1e35ccbf3f28ce966c86b4dd762b07755de208d97fce12d84f941981c01d273c"
+    },
+    {
+      "path": "reviews/self-reports/engineering.md",
+      "bytes": 1965,
+      "sha256": "c9a82823b9f4af29f0450187d77e425e4f16e5587bfb60a5429346e9d7049179"
+    },
+    {
+      "path": "reviews/self-reports/github.md",
+      "bytes": 2036,
+      "sha256": "d58583902ff577b46d001cb67e7d9b8eedbb0d4031cf1cbb95e582a1e19f543a"
+    },
+    {
+      "path": "reviews/self-reports/profile.md",
+      "bytes": 2146,
+      "sha256": "719f19838804fb38c6a5350d84f2b4efe7baa0768ffe7198eb7018147fd00d9b"
+    },
+    {
+      "path": "reviews/self-reports/README.md",
+      "bytes": 1106,
+      "sha256": "13f4041103882de3e22d0c9236276c10bc4541de0edd4df95ddb693539611968"
+    },
+    {
+      "path": "reviews/self-reports/scope-and-sources.md",
+      "bytes": 1322,
+      "sha256": "5e0a3216a4cc56bc2528be246029d86413dba6e855593d29ca621cd795640c2a"
+    },
+    {
+      "path": "reviews/self-reports/strengths.md",
+      "bytes": 2193,
+      "sha256": "226fc651d5e9b4abd6c8360786952132c9b430c3faef8e26b01f890a39f21408"
+    },
+    {
+      "path": "reviews/self-reports/synap.md",
+      "bytes": 2646,
+      "sha256": "ca5dc2f55d523b00f39f0dc94b14fd6da822d3a8a4bd752b56ccc98fe5eb4a25"
+    },
+    {
+      "path": "reviews/self-reports/web.md",
+      "bytes": 2850,
+      "sha256": "49b410d6c6d89d7a46dffdef6a81cc6c406c18f683f390718e2da1b52c538342"
+    }
+  ]
+}

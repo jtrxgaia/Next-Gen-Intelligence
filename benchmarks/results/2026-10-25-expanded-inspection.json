@@ -1,0 +1,171 @@
+{
+  "review_date": "2026-10-25",
+  "reviewer": "Codex",
+  "scope": "Ecosystem discovery with selected source and artifact inspection; no private-product execution or retraining.",
+  "source_payloads_included": false,
+  "private_paths_included": false,
+  "source_identities": [
+    {
+      "id": "canonical-project-registry",
+      "sha256": "414fee255c8c3afda74c0fb63e397bad4c92e6bd8face3caa283e5146f1f1a1a",
+      "bytes": 22979,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "canonical-learning-implementation",
+      "sha256": "ed8b30ca1a0557a2207c98c3c4e7fcbca057ff902c4f38ef61001489445b4889",
+      "bytes": 112181,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "canonical-learning-persistence-tests",
+      "sha256": "b8730a7288a8a185f2166778f5e35cd1aea9df74059735281728f7d5c1a8e56b",
+      "bytes": 10526,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "canonical-language-learning-tests",
+      "sha256": "11aede8f1d13897063e75be89c60f5ed229075a1561df0aea559ed0519b57fa2",
+      "bytes": 9833,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "canonical-learned-composition-tests",
+      "sha256": "b1bca733d00d8a3f473036dd30ab8fc742775c69c849eaf385bed94200d8f6d1",
+      "bytes": 5359,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "native-skill-learning-tests",
+      "sha256": "cd659e3e21e6baef44980205e3a0df515f61ed5d41a5f9f2530ccde793940977",
+      "bytes": 6619,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "model-foundry-implementation",
+      "sha256": "b824eabfe785d5c6faee0788f68eb24d8208a013ff7436d6fea2c4190a779a0f",
+      "bytes": 18353,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "research-lifecycle-document",
+      "sha256": "7c89164e74bfb20c72bb7801cb5b0828bfcc9f821459369da3739f54faeecf59",
+      "bytes": 3763,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "from-scratch-candidate-training-source",
+      "sha256": "81f8f3a5934881a6d745175b65d65e78cab755d6d3290f6a57011eb4b7f7968c",
+      "bytes": 13192,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "recent-training-app-record",
+      "sha256": "71dbb18aa23c30635b47faeaad8bff171ba2c4d626426289ccbfd04d870f0b96",
+      "bytes": 3385228,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "recent-training-matched-summary",
+      "sha256": "52cde97f94d7b810a197c7c3fa2b95d60efa401ebe7239edfa2e082157e10478",
+      "bytes": 8368,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "native-role-learning-record",
+      "sha256": "e7d440b3eb8e5ce243ff72092554857076665daaf5111ff4f32a0221cfb50490",
+      "bytes": 3974,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "native-skill-learning-record",
+      "sha256": "f5de736d979b4bcf743d5657d6e9f4c2b7c4d8647fb94dbd23699b7013f1c6be",
+      "bytes": 2856,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "native-language-teaching-record",
+      "sha256": "6de1eee5eeb0f33f61045af49fd28a0decbae5510bc8a1dc143b2f7933cfd30a",
+      "bytes": 2436,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "pretrained-adaptation-training-source",
+      "sha256": "f2fc6d8631ba330d4e056d27973faf04b44962647ee122e90f98121c50c759fc",
+      "bytes": 6763,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "pretrained-adaptation-training-manifest",
+      "sha256": "0acef481a6f68777f6b41979a6dfb8fb02c8ed112d8ed18bb63ed9cc0bc39677",
+      "bytes": 519,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "pretrained-adapter-artifact",
+      "sha256": "155df89590af8d003381f6ad975558a492f45124d114272e79c9b99180382a58",
+      "bytes": 8676008,
+      "evidence_type": "retained model artifact metadata/hash"
+    },
+    {
+      "id": "repository-intelligence-source",
+      "sha256": "f9274ea8cdad06e49661cc1a8dddde4f7694a018ed200590270403242e9a878e",
+      "bytes": 8684,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "repository-intelligence-tests",
+      "sha256": "08228eed6ab86e7be86f6998596119482cff9743bb05a3ccc758f04256ab9de8",
+      "bytes": 1946,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "backend-service-manifest",
+      "sha256": "6c8fc242eec0ba21d73d55dc08584177868393973aa5923e53126c74edf24b1a",
+      "bytes": 656,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "desktop-research-manifest",
+      "sha256": "6a35f61ce9592d62b213cac004c95944409809bd07b3cca9bd78e9e3574a9c02",
+      "bytes": 1837,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "ecosystem-registry",
+      "sha256": "27fcf8e136c927f537fa76ed886ca195e4f12dcff09d4add31bdbca1d76d45d3",
+      "bytes": 2693,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "research-transfer-record",
+      "sha256": "34086b45f67059243522a677761339448c12a8ae5ba4c81d778eaf2f12872f42",
+      "bytes": 7468,
+      "evidence_type": "selected source or retained record inspected"
+    },
+    {
+      "id": "learning-library-record",
+      "sha256": "8ffc951b152ce04ecdbed07f985f7560cf76327887d3e719f30f2579f66b02f3",
+      "bytes": 1933,
+      "evidence_type": "selected source or retained record inspected"
+    }
+  ],
+  "coverage": [
+    "canonical runtime and registry",
+    "divergent desktop runtime",
+    "custom learning and training",
+    "research packages",
+    "developer tooling and variants",
+    "backend/web application",
+    "browser game/native migration",
+    "boot/recovery evidence",
+    "project registries"
+  ],
+  "limits": [
+    "Not every file, backup, dependency, memory record, or running process",
+    "Source presence does not prove deployment",
+    "Historical reports were inspected, not rerun",
+    "Recent transient worker path unavailable; recent run provenance assessed from recorded evidence",
+    "Same Codex task drafted and reviewed portfolio"
+  ]
+}

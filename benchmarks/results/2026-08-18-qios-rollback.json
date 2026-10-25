@@ -1,0 +1,27 @@
+{
+  "schema": "qios.ab.rollback-regression.v1",
+  "observedAt": "2026-08-18T17:29:00.986Z",
+  "candidate": "0.1.1-dev.39-broken",
+  "candidateSlot": "B",
+  "candidateSignature": true,
+  "candidateHash": true,
+  "faultInjection": "BROKEN_SHELL",
+  "healthPassed": false,
+  "failedChecks": [
+    "graphics",
+    "audio",
+    "annaCaptureDevice",
+    "echoShell",
+    "desktopInteraction"
+  ],
+  "rollback": {
+    "automatic": true,
+    "restoredSlot": "A",
+    "restoredVersion": "0.1.1-dev.38",
+    "pendingSlotCleared": true,
+    "rollbackTargetAdvertisedAfterFailure": false,
+    "dataStateSynchronized": true
+  },
+  "followUp": "Healthy DEV .40 was then installed into inactive B, passed 22/22, and promoted to restore a verified B rollback reserve.",
+  "publication_note": "Historical VM record, reviewed 2026-10-25; not rerun. No physical-device acceptance implied."
+}

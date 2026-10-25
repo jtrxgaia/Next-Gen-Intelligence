@@ -1,0 +1,53 @@
+{
+  "record_date": "2026-10-24",
+  "reviewed_on": "2026-10-25",
+  "version": "native-v129-qi-workload",
+  "method": "Sanitized extract of delivery and performance records; not rerun for this preview.",
+  "packaging_succeeded": true,
+  "packaged_play_test": true,
+  "public_release": false,
+  "status": "incremental_qi_workload_repair_performance_pending",
+  "full_migration": false,
+  "full_visual_acceptance": false,
+  "normal_input_qa": false,
+  "performance_accepted": false,
+  "full_suite_rerun": false,
+  "historical_full_suite_failures_reported_in_notes": 21,
+  "hardware": "AMD Radeon 780M",
+  "reported_output_resolution": [
+    2560,
+    1440
+  ],
+  "quality_preset": 3,
+  "runs": {
+    "Echo": {
+      "samples": 928,
+      "meanFrameMs": 22.6392,
+      "meanFps": 44.17,
+      "p95FrameMs": 26.39,
+      "p99FrameMs": 31.3127,
+      "peakLiving": 44,
+      "shots": 232,
+      "kills": 21,
+      "inputLatencyMeasured": false
+    },
+    "Hyper": {
+      "samples": 944,
+      "meanFrameMs": 22.2335,
+      "meanFps": 44.98,
+      "p95FrameMs": 27.0502,
+      "p99FrameMs": 30.3691,
+      "peakLiving": 44,
+      "shots": 233,
+      "kills": 18,
+      "inputLatencyMeasured": false
+    }
+  },
+  "limitations": [
+    "Single sequential runs; not repeatability evidence",
+    "Different shot/kill outcomes",
+    "Not endgame stress",
+    "No input-to-photon measurement",
+    "No complete browser/native parity claim"
+  ]
+}

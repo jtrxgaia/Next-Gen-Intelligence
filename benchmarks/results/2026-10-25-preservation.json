@@ -1,0 +1,17 @@
+{
+  "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
+  "starting_file_sha256": {
+    "README.md": "d6e69f24729e5f8fae8337c513ab055855b02ea44a0df0709f2495cbafef0cae",
+    "docs/IBM_QUANTUM_RESEARCH.md": "5d68d0ec3df3f9d53aeb3cd71c106fbac2b83dd403f256f0b980d8a54ffa9ada",
+    "media/arc_reasoning_benchmark_chart.jpg": "6d7bbec83376e2583eaad30828e610fbcbccfb26e93a354f7344e892164d008e",
+    "media/codebase_refactor_benchmark_chart.jpg": "dcc418e7c7d6f05e5c123f8738eea2c8e7c65c342ed8f0f54c16273621a99f8c",
+    "media/cost_per_billion_chart.jpg": "a9ad6966fc54deabfc191932138f009bda8ca8ccef9a1a7103e773ff6e700ee0",
+    "media/creator_workflow_benchmark_chart.jpg": "28279a8701f7431affb783cd498874d7b9823442388aa24ea0458e119d6cc95e",
+    "media/guardian_security_benchmark_chart.jpg": "6af71bec4491c885e613212683a3cb797b382c33ecd4feece24dda78f18d4693",
+    "media/speed_comparison_chart.jpg": "4f367fd248ced7ccf920af46eecc22655a65fc040d21a33ef15afd0a86e930a8"
+  },
+  "readme_preserved_as": "LEGACY_SHOWCASE.md (dated notice followed by original bytes)",
+  "other_starting_files": "All copied unchanged",
+  "history": "Git history preserved; all original files also retained in a byte-identical publication snapshot.",
+  "original_repository_snapshot": "benchmarks/original-repository/"
+}

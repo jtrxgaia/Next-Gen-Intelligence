@@ -1,0 +1,49 @@
+{
+  "record_date": "2026-10-18",
+  "reviewed_on": "2026-10-25",
+  "freshly_rerun_for_preview": false,
+  "source_ids": [
+    "prior-candidate-review",
+    "prior-dark-matter-review",
+    "prior-recheck-log"
+  ],
+  "method": "Sanitized extract of prior AI-assisted review summary and selected local test log; original source is private.",
+  "dark_matter": {
+    "counted": 30,
+    "passed": 29,
+    "skipped": 1,
+    "failed": 0,
+    "suites": [
+      "required checks",
+      "snapshot performance and consistency",
+      "verification scope",
+      "checkpoint boundaries"
+    ],
+    "skip_reason": "Junction creation unavailable on that host"
+  },
+  "web": {
+    "counted": 20,
+    "passed": 20,
+    "skipped": 0,
+    "failed": 0,
+    "suites": {
+      "public_adapter": 7,
+      "match_core": 5,
+      "simulated_purchase_and_save": 8
+    }
+  },
+  "snapshot_historical_fixtures": {
+    "scenarios": 8,
+    "largest_before_reads": 1000,
+    "largest_after_reads": 500,
+    "baseline_hashes_identical": true,
+    "interpretation": "50% fewer reads for nonempty captures; not universal wall-time improvement"
+  },
+  "limitations": [
+    "Task-owned candidate copies, not production acceptance",
+    "Simulated purchases, no live payments",
+    "No hosted load campaign",
+    "Selected suites only",
+    "Not an official SWE-bench score"
+  ]
+}
