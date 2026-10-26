@@ -4,6 +4,7 @@ Reviewed October 25, 2026. These are real captures, not generated mockups.
 | File | Origin and scope | Limitations |
 |---|---|---|
 | `echo-desktop-dock.png` | Existing desktop-shell capture, interaction dock component. | Original capture date not established here. No runtime intelligence or performance established. |
+| `dark-matter-current.png` | Live Dark Matter desktop window captured October 25, 2026, after submitting “Who is Echo?” and receiving a response. | Unedited window capture, reviewed for private information. The generated self-description is not independent evidence of its claims or a performance benchmark. |
 | `dark-matter-creator.jpg` | Decoded original image bytes from the October 3 public product-capture JSON at historical commit `99c7a25`. | Renderer preview only. The old JSON labeled the MIME as PNG; the actual byte signature is JPEG, so this copy uses `.jpg`. No completed task is shown. |
 | `synap-browser.png` | Existing browser gameplay capture, specials review. | Original capture date not independently established here. UI FPS overlay is not a controlled benchmark. |
 | `echoqi-web.png` | Public EchoQI.me landing page captured October 25, 2026. | Public presentation only; no signed-in chat tested. |

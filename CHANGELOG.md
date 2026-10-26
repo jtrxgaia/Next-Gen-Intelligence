@@ -1,5 +1,11 @@
 # Changelog
 
+## October 25, 2026 — current Dark Matter screenshot
+
+- Replaced the older featured image with a capture of the running Dark Matter desktop platform after asking “Who is Echo?”
+- Updated the README, case study, and media catalog; preserved the October 3 capture.
+- Reviewed the screenshot for private information and labeled the generated response as interface content rather than benchmark evidence.
+
 ## October 25, 2026 — HiveMind definition
 
 - Corrected HiveMind to mean concurrent collaboration by compatible LLMs, coordinated by the neuro-symbolic QI Core on the same problem or software/system build.

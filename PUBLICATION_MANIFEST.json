@@ -105,8 +105,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2842,
-      "sha256": "b5c9cf8993e5f7ca46daadbaeded852e3fc678c649bd4a4ac62fad06078432aa"
+      "bytes": 3256,
+      "sha256": "4c666aa7fcc5fdd16cd7bea56caa89ab019e42389b3e5a0904eff5ba73bb4619"
     },
     {
       "path": "docs/IBM_QUANTUM_RESEARCH.md",
@@ -199,6 +199,11 @@
       "sha256": "1f1c960553230d4a37fb07997892c54a946c164e3bd8d7a91222e2bc9122e208"
     },
     {
+      "path": "media/portfolio/dark-matter-current.png",
+      "bytes": 89675,
+      "sha256": "32b01d0d33f133182dd76d0198fdae4e3a94f496da60b9ff63eab5cc13135b72"
+    },
+    {
       "path": "media/portfolio/echo-desktop-dock.png",
       "bytes": 82766,
       "sha256": "ff93fb718c8d4b6384b8716c81b6d2e00db725ca71a3e22a1eb39e2796370dd9"
@@ -210,8 +215,8 @@
     },
     {
       "path": "media/portfolio/README.md",
-      "bytes": 1741,
-      "sha256": "2c138cf09a1ca5f89c76eb82d6fae6a7bc3a6061dd764333e8b395ce88b9daae"
+      "bytes": 2057,
+      "sha256": "11c82f8fd5c43428bbcaaa637f9057d975326558cad0509354968367e4f5c9bd"
     },
     {
       "path": "media/portfolio/synap-browser.png",
@@ -240,8 +245,8 @@
     },
     {
       "path": "projects/dark-matter.md",
-      "bytes": 2755,
-      "sha256": "966b7a8a75dee0f32e2d8a5ea3ec1c6a2a8219c522b5dea8e927974e4eced6e3"
+      "bytes": 2956,
+      "sha256": "4fab9d420168f6145b81f484a21e6a0f407f98c8d8598dfc139ae56a734a0613"
     },
     {
       "path": "projects/echoqi-web.md",
@@ -265,8 +270,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14353,
-      "sha256": "3ee0557b8527fffdd87aa71d516d48d9fe32b99135c897b852f9968477e79c0d"
+      "bytes": 14549,
+      "sha256": "b6bcb8ca63bbf31183f36df78549461dba4a62fa568c21d73181612abbe70354"
     },
     {
       "path": "receipts/2026-10-03_Antigravity_Reported.json",

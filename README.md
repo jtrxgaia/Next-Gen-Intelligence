@@ -98,9 +98,9 @@ Its central concern is whether a change actually worked. Proposed edits are kept
 
 **Recorded results:** 29 selected checks passed and one was skipped. In the largest snapshot test, file reads fell from 1,000 to 500 while the saved file hashes stayed the same. These results apply to the recorded tests, rather than every use of the application.
 
-<img src="media/portfolio/dark-matter-creator.jpg" alt="Dark Matter Creator interface" width="760" />
+<img src="media/portfolio/dark-matter-current.png" alt="Current Dark Matter desktop platform showing the question Who is Echo and Echo’s response" width="760" />
 
-*Creator interface preview, October 3, 2026.*
+*Dark Matter desktop platform, October 25, 2026, after asking “Who is Echo?” The reply is shown as generated; it is not a benchmark or independent verification of its claims.*
 
 [Dark Matter case study](projects/dark-matter.md) · [How changes are checked](engineering/verified-edit-walkthrough.md)
 
