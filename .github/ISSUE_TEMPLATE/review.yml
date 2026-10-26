@@ -1,0 +1,62 @@
+name: Leave a review
+description: Share your experience of work Jack Rourke did for you.
+title: "Review: "
+labels: ["review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to review Jack's work. Your review will be public on GitHub under your account.
+  - type: input
+    id: name
+    attributes:
+      label: Your name and role
+      description: For example, "Sam Lee, owner of Lee Studio". You can leave this blank to use only your GitHub name.
+    validations:
+      required: false
+  - type: dropdown
+    id: project
+    attributes:
+      label: What did Jack work on for you?
+      options:
+        - AI system or integration
+        - Website or web application
+        - Desktop or developer tool
+        - Game development
+        - Consulting or architecture
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Overall rating
+      options:
+        - ★★★★★ (5/5)
+        - ★★★★☆ (4/5)
+        - ★★★☆☆ (3/5)
+        - ★★☆☆☆ (2/5)
+        - ★☆☆☆☆ (1/5)
+    validations:
+      required: true
+  - type: textarea
+    id: review
+    attributes:
+      label: Your review
+      description: What was the project, how did it go, and what was the result?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to the result (optional)
+      description: A website, app, or product page, if it is public.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirmation
+      options:
+        - label: I worked with Jack directly, and this review reflects my own experience.
+          required: true

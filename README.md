@@ -9,7 +9,7 @@ His main project is **EchoQI / QI Core**: custom learning and reasoning software
 
 [Contact](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
-**Explore:** [Skills](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Problem solving](#engineering-investigations) · [Code](#code-samples) · [History](#development-history) · [Reviews](#technical-reviews) · [Repository directory](#repository-directory)
+**Explore:** [Skills](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Problem solving](#engineering-investigations) · [Code](#code-samples) · [History](#development-history) · [Reviews](#technical-reviews) · [Repository directory](#repository-directory) · [Client reviews](#client-reviews)
 
 ### At a glance
 
@@ -194,3 +194,11 @@ Start with the current result table. Historical charts are archived separately w
 | Publication policy | [Evidence policy](benchmarks/portfolio/EVIDENCE_POLICY.md) |
 | Previous front page | [Legacy showcase](benchmarks/portfolio/LEGACY_SHOWCASE.md) |
 | File integrity record | [Publication manifest](benchmarks/portfolio/PUBLICATION_MANIFEST.json) |
+
+## Client reviews
+
+Worked with Jack? Your review helps others understand what working with him is like.
+
+**[Leave a review](https://github.com/jtrxgaia/Next-Gen-Intelligence/issues/new?template=review.yml)** · **[Read all reviews](https://github.com/jtrxgaia/Next-Gen-Intelligence/issues?q=label%3Areview)**
+
+Reviews are posted publicly from the reviewer's own GitHub account, so each one shows who wrote it and when. A free GitHub account is needed to leave one.
