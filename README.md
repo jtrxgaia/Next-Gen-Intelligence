@@ -1,13 +1,23 @@
 # Jack Rourke
 ### AI Systems Architect · Software Engineer
 
-Jack Rourke is an independent software engineer and the creator of EchoQI. His work brings together custom AI, model training, desktop tools, web applications, and games.
+Jack Rourke is an independent AI systems architect and the creator of EchoQI. He designs how AI components, memory, tools, and applications fit together, then directs and verifies their construction across desktop software, web applications, developer tools, and games.
 
 At the center is QI Core, the proprietary system behind EchoQI. Around it are projects that explore how AI can be used in everyday software: Dark Matter for development, QI Works and EchoQI.me for web-based tools, and SYNAP FPS for real-time gameplay.
 
 [Contact](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
-**Explore:** [Skills](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Problem solving](#engineering-investigations) · [History](#development-history) · [Reviews](#technical-reviews) · [Repository directory](#repository-directory)
+**Explore:** [Skills](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Problem solving](#engineering-investigations) · [Code](#code-samples) · [History](#development-history) · [Reviews](#technical-reviews) · [Repository directory](#repository-directory)
+
+### At a glance
+
+| | |
+|---|---|
+| **Role** | Architect and product owner: system design, AI direction, verification, and delivery |
+| **Flagship** | EchoQI / QI Core: a proprietary neuro-symbolic AI system with persistent memory and multi-model coordination |
+| **Shipped surfaces** | Dark Matter (desktop AI coding platform), QI Works / EchoQI.me (web), SYNAP FPS (browser and Unreal Engine) |
+| **Public code** | [Three tested samples](code/README.md) covering evidence integrity, verified AI edits, and fair benchmark scoring |
+| **Evidence standard** | Every benchmark is published with its method, its limits, and any later correction |
 
 ## Engineering specializations
 
@@ -142,6 +152,16 @@ Some of the most useful project records concern things that went wrong:
 
 [Investigations, fixes, and open work](benchmarks/portfolio/engineering/problems-and-progress.md)
 
+## Code samples
+
+QI Core stays private. To show how Jack approaches engineering, this repository includes three small programs written for publication. Each has automated tests that run on every change:
+
+- **[Evidence verifier](code/evidence-verifier/verify.mjs):** confirms every published file still matches its recorded fingerprint.
+- **[Verified edit](code/verified-edit/verified-edit.mjs):** accepts an AI-generated change only after a real check passes, and rolls back failures without overwriting someone else’s work.
+- **[ARC scoring harness](code/arc-harness/harness.mjs):** hides the answers from the solver, requires exact matches, and compares against a do-nothing baseline.
+
+[About the code samples](code/README.md)
+
 ## Related systems
 
 Other projects explore voice interfaces, communication between hosts, codebase analysis, model research, QIOS, quantum-service integration, and the Stellex/Stellux games. QI Glasses remains a research concept; the reviewed material does not establish a physical prototype.
@@ -179,6 +199,7 @@ The earlier front page, benchmark charts, and IBM Quantum research record are pr
 
 | Material | Location |
 |---|---|
+| Code samples and tests | [code](code/README.md) |
 | Benchmarks and historical showcase | [benchmarks](benchmarks/README.md) |
 | Technical documentation | [docs](benchmarks/portfolio/docs/) |
 | Engineering records | [engineering](benchmarks/portfolio/engineering/) |

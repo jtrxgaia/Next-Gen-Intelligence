@@ -1,12 +1,32 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
   "purpose": "Engineering profile with a minimal root and supporting material under benchmarks/portfolio",
   "files": [
     {
+      "path": ".github/workflows/checks.yml",
+      "bytes": 308,
+      "sha256": "9d1e1d021be0899a01d4a927432d9a7edaf980599826102e604d7acab1278616"
+    },
+    {
+      "path": "README.md",
+      "bytes": 16354,
+      "sha256": "bfb69c7c60347a7fb3ec2fd34e9809d99fd2fdaa2cf8f3d97c420f780c8bde99"
+    },
+    {
       "path": "benchmarks/METHODS.md",
       "bytes": 6594,
       "sha256": "d33b105da969331e5b24aab1d42317351be457266742b8e33e87f8e3e726227b"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "bytes": 12658,
+      "sha256": "47be76ed340c8babcdd146fdafdb211fb3f67b7e166d069e452a582415d5b44d"
+    },
+    {
+      "path": "benchmarks/original-repository/README.md",
+      "bytes": 10430,
+      "sha256": "0e283371c1d5391d4ed4f1e41af6ec641c9b9c91719f54948328a0ed6d6098da"
     },
     {
       "path": "benchmarks/original-repository/docs/IBM_QUANTUM_RESEARCH.md",
@@ -44,11 +64,6 @@
       "sha256": "4f367fd248ced7ccf920af46eecc22655a65fc040d21a33ef15afd0a86e930a8"
     },
     {
-      "path": "benchmarks/original-repository/README.md",
-      "bytes": 10430,
-      "sha256": "0e283371c1d5391d4ed4f1e41af6ec641c9b9c91719f54948328a0ed6d6098da"
-    },
-    {
       "path": "benchmarks/portfolio/2026-10-03_EchoQI_Benchmark_Audit_v1.md",
       "bytes": 2091,
       "sha256": "f0571135d3c60a19201ca4492534fcd790f3cb96056462d5ac30b74abc50e675"
@@ -57,6 +72,21 @@
       "path": "benchmarks/portfolio/CHANGELOG.md",
       "bytes": 3909,
       "sha256": "2bb0020d2594d396ea5efbd3599da3e0b7b1ebf5fbb27bb4ddb841d9ca0e98bd"
+    },
+    {
+      "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
+      "bytes": 1866,
+      "sha256": "2e5a0864874a84e5a5b08e2a852479b6b181d6c5a2f793bf22163de5de4a9506"
+    },
+    {
+      "path": "benchmarks/portfolio/HISTORY.md",
+      "bytes": 494,
+      "sha256": "a7f23ebb8d75e7f36c38f0739b6e704f18ccc7b1a81401958fbfb59829b8508d"
+    },
+    {
+      "path": "benchmarks/portfolio/LEGACY_SHOWCASE.md",
+      "bytes": 10903,
+      "sha256": "146dd083ea000d3a0f99476fad2661b8880dac1b1d6cc1c09e7099db7cdb9cc8"
     },
     {
       "path": "benchmarks/portfolio/docs/IBM_QUANTUM_RESEARCH.md",
@@ -104,21 +134,6 @@
       "sha256": "86e547845ede4e05cb78552264f04991d19dc17ab033f2c74797102599a565b7"
     },
     {
-      "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
-      "bytes": 1866,
-      "sha256": "2e5a0864874a84e5a5b08e2a852479b6b181d6c5a2f793bf22163de5de4a9506"
-    },
-    {
-      "path": "benchmarks/portfolio/HISTORY.md",
-      "bytes": 494,
-      "sha256": "a7f23ebb8d75e7f36c38f0739b6e704f18ccc7b1a81401958fbfb59829b8508d"
-    },
-    {
-      "path": "benchmarks/portfolio/LEGACY_SHOWCASE.md",
-      "bytes": 10903,
-      "sha256": "146dd083ea000d3a0f99476fad2661b8880dac1b1d6cc1c09e7099db7cdb9cc8"
-    },
-    {
       "path": "benchmarks/portfolio/media/arc_reasoning_benchmark_chart.jpg",
       "bytes": 726090,
       "sha256": "6d7bbec83376e2583eaad30828e610fbcbccfb26e93a354f7344e892164d008e"
@@ -144,6 +159,11 @@
       "sha256": "6af71bec4491c885e613212683a3cb797b382c33ecd4feece24dda78f18d4693"
     },
     {
+      "path": "benchmarks/portfolio/media/portfolio/README.md",
+      "bytes": 2057,
+      "sha256": "5209378cf46d5b1d4c4f807bcf3c943968a6f533f0ee0200d0877234857763e9"
+    },
+    {
       "path": "benchmarks/portfolio/media/portfolio/dark-matter-creator.jpg",
       "bytes": 39739,
       "sha256": "1f1c960553230d4a37fb07997892c54a946c164e3bd8d7a91222e2bc9122e208"
@@ -162,11 +182,6 @@
       "path": "benchmarks/portfolio/media/portfolio/echoqi-web.png",
       "bytes": 56263,
       "sha256": "28e6552d2f1a707396c3c2d38ac6513941b527daca5ea960835a0e4a9818bb9c"
-    },
-    {
-      "path": "benchmarks/portfolio/media/portfolio/README.md",
-      "bytes": 2057,
-      "sha256": "5209378cf46d5b1d4c4f807bcf3c943968a6f533f0ee0200d0877234857763e9"
     },
     {
       "path": "benchmarks/portfolio/media/portfolio/synap-browser.png",
@@ -259,14 +274,19 @@
       "sha256": "9dca7febc5515a9bd9ac39cb8d1270646635600768f7d8fab530043c7e36309b"
     },
     {
+      "path": "benchmarks/portfolio/reviews/README.md",
+      "bytes": 1257,
+      "sha256": "ce9a6533b77905262eac9b4cab1a3ee79de5a0e5e0e91fc77e499fae2fd7c2c9"
+    },
+    {
       "path": "benchmarks/portfolio/reviews/codex-2026-10-25.md",
       "bytes": 2229,
       "sha256": "b588326e325a29d5ac7130addbbf2a4ef2fbff15646a75d22fe0db88d3fccf86"
     },
     {
-      "path": "benchmarks/portfolio/reviews/README.md",
-      "bytes": 1257,
-      "sha256": "ce9a6533b77905262eac9b4cab1a3ee79de5a0e5e0e91fc77e499fae2fd7c2c9"
+      "path": "benchmarks/portfolio/reviews/self-reports/README.md",
+      "bytes": 1100,
+      "sha256": "f12da31263ef7b611d77d2c2f316b716e9967f98a7199e4b7462fcd746a841c9"
     },
     {
       "path": "benchmarks/portfolio/reviews/self-reports/ai-creation.md",
@@ -309,11 +329,6 @@
       "sha256": "460bd74a6c5a45985fb46d28bcbb83ba034fc36af696a9641199ac6d82788149"
     },
     {
-      "path": "benchmarks/portfolio/reviews/self-reports/README.md",
-      "bytes": 1100,
-      "sha256": "f12da31263ef7b611d77d2c2f316b716e9967f98a7199e4b7462fcd746a841c9"
-    },
-    {
       "path": "benchmarks/portfolio/reviews/self-reports/scope-and-sources.md",
       "bytes": 1323,
       "sha256": "94715489b1b7247a4d758fa4c3588d28c56f41c99d68632f2683e4b7c0eba064"
@@ -332,11 +347,6 @@
       "path": "benchmarks/portfolio/reviews/self-reports/web.md",
       "bytes": 2835,
       "sha256": "ac9090d85f3a300b53f1c3e93c89623aebb96797b7ff72ad69195c6048ad2283"
-    },
-    {
-      "path": "benchmarks/README.md",
-      "bytes": 11390,
-      "sha256": "53e68cec26017641c62b4ab0500413400c312676b2c38f671a29228e9211a5cb"
     },
     {
       "path": "benchmarks/results/2026-08-18-qios-rollback.json",
@@ -384,9 +394,44 @@
       "sha256": "7e98a571551e9bad1e37b5495092bfe9de5937957ec7df9dd2ef981b26074e32"
     },
     {
-      "path": "README.md",
-      "bytes": 14781,
-      "sha256": "71b06061035b411e32780bcd6b802f1394d6598ec1e7344dca5465f1471e027e"
+      "path": "code/README.md",
+      "bytes": 2049,
+      "sha256": "1ff33096018fa903fc4957f3d4eb0ee53a7ec2a132c9ba881266ec50e0cea78d"
+    },
+    {
+      "path": "code/arc-harness/harness.mjs",
+      "bytes": 2053,
+      "sha256": "46155d2a4f4fcd6240552e3454ad46d8a747bc4b44267b0211a4051b02333cf1"
+    },
+    {
+      "path": "code/arc-harness/harness.test.mjs",
+      "bytes": 1634,
+      "sha256": "4187ebfd675c0fa385f15fe7203fec4d3a8b6090f5ed49756f2d341c6511b557"
+    },
+    {
+      "path": "code/evidence-verifier/verify.mjs",
+      "bytes": 2286,
+      "sha256": "eb0adbb5fb7e52ceeaacaf69521cd29cca3e86ccf6a70ffb156c5a2f7dbd8839"
+    },
+    {
+      "path": "code/evidence-verifier/verify.test.mjs",
+      "bytes": 1307,
+      "sha256": "506ee23e36801a248143b7a4a70fad6e66925c903af5d92b471dec41287be793"
+    },
+    {
+      "path": "code/package.json",
+      "bytes": 347,
+      "sha256": "41302d29d7f618607a3347ce486f6093b3cd86b3245a9f94676567201e75447f"
+    },
+    {
+      "path": "code/verified-edit/verified-edit.mjs",
+      "bytes": 2101,
+      "sha256": "876f9b54f2ef94258e90ba7989477082481292d7c04695749c24a0671fee7437"
+    },
+    {
+      "path": "code/verified-edit/verified-edit.test.mjs",
+      "bytes": 2539,
+      "sha256": "24e70174cebd68fa56591a8be9368c596486a7edd3b03634491fa7b03765f575"
     }
   ]
 }
