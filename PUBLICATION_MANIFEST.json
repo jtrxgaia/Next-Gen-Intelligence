@@ -105,8 +105,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 3256,
-      "sha256": "4c666aa7fcc5fdd16cd7bea56caa89ab019e42389b3e5a0904eff5ba73bb4619"
+      "bytes": 3576,
+      "sha256": "aff6bf0771cd4e6b527498941f71b408f866ab0244b72f5a81d20ff7445ae3d9"
     },
     {
       "path": "docs/IBM_QUANTUM_RESEARCH.md",
@@ -245,8 +245,8 @@
     },
     {
       "path": "projects/dark-matter.md",
-      "bytes": 2956,
-      "sha256": "9865b5a0a6ce52c575f08bc8b96d5c62db5f7646e1c1f240dfad62c43ede4fe2"
+      "bytes": 2142,
+      "sha256": "3b23dc5c9f16590544d9c9a7ae1fa2464747880399aca07d75a49c6fa54b2684"
     },
     {
       "path": "projects/echoqi-web.md",
@@ -270,8 +270,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 14549,
-      "sha256": "098c5fd70d0316aa3470548eda909aba8b1a44df4843851e3c2316e32059d3eb"
+      "bytes": 14025,
+      "sha256": "ede65ba9baf2d1e010bacc000b8ab742f1933377c1e8b5a2b402296666e98645"
     },
     {
       "path": "receipts/2026-10-03_Antigravity_Reported.json",

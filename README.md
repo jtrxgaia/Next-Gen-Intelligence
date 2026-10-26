@@ -90,13 +90,9 @@ The public record explains these responsibilities and results. The core’s impl
 
 ### Dark Matter
 
-Dark Matter is a desktop development tool that brings codebase analysis, AI coding assistance, file changes, testing, and recovery into one workflow.
-
-Its central concern is whether a change actually worked. Proposed edits are kept separate from completed operations, and required checks must run before a task can be marked complete. Recovery checks whether a file has changed again before restoring an earlier version.
+Dark Matter is an AI-assisted coding and creation platform for developing software and building projects, similar in purpose to Antigravity, Codex, and Claude Code.
 
 **Built with:** Electron, React, Vite, Node.js, and local model adapters.
-
-**Recorded results:** 29 selected checks passed and one was skipped. In the largest snapshot test, file reads fell from 1,000 to 500 while the saved file hashes stayed the same. These results apply to the recorded tests, rather than every use of the application.
 
 <img src="media/portfolio/dark-matter-current.jpg" alt="Current Dark Matter desktop platform showing the question Who is Echo and Echo’s response" width="760" />
 
