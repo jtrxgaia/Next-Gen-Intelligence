@@ -23,7 +23,7 @@ HiveMind describes the QI Core coordinating multiple compatible LLMs at the same
 
 The shared task may involve solving a problem, building software, or developing a system. The neuro-symbolic core coordinates the work and brings contributions into the same workflow. Concurrent work on the same objective is central to the concept.
 
-The scale of parallel work depends on available compute, provider access, and the task. The term “super AI” expresses the creator’s vision for this combined capability when sufficient compute is available. It is not a standardized performance level or a measured result in the published evidence.
+The scale of parallel work depends on available compute, provider access, and the task. Measurements remain attached to specific workloads and configurations so reviewers can assess the contribution of coordination.
 
 **Definition source:** creator clarification, October 25, 2026. This section records the intended architecture. The clarification did not include a new concurrent execution test or a comparison against individual models; the earlier source and training review retains its original scope.
 

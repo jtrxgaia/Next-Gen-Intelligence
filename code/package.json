@@ -6,6 +6,8 @@
   "engines": { "node": ">=20" },
   "scripts": {
     "test": "node --test",
+    "demo": "node demo/run.mjs",
+    "evaluate": "node arc-harness/evaluate.mjs",
     "verify": "node evidence-verifier/verify.mjs .. benchmarks/portfolio/PUBLICATION_MANIFEST.json"
   }
 }

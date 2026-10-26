@@ -1,31 +1,74 @@
-# Code samples
+# Reproducible engineering workflow
 
-[Return to Jack Rourke’s portfolio](../README.md)
+[Portfolio](../README.md) · [Architecture and tradeoffs](ARCHITECTURE.md) · [Private core evidence](../benchmarks/portfolio/engineering/core-evidence.md)
 
-Three small, working programs that show how Jack designs the trust layer around AI systems: what counts as proof, when a change may be accepted, and how a score is kept honest. Each has automated tests and runs on any computer with Node.js 20 or newer. No packages are installed.
+Run a complete reference workflow for checking generated edits, preserving working files, verifying artifact integrity, and evaluating a solver against a baseline. It uses real child processes and executed assertions. Node.js 20 or newer is the only runtime dependency; there is no package installation, provider account, model download, or credential setup.
 
-**What is not here:** QI Core, its learning components, training recipes, prompts, data, and model files. These samples were written for publication. They do not copy or reveal the private implementation.
-
-| Sample | What it shows | Tests |
-|---|---|---|
-| [Evidence verifier](evidence-verifier/verify.mjs) | Checks every published file against its recorded SHA-256 fingerprint. CI runs it against this repository on every change. | 2 |
-| [Verified edit](verified-edit/verified-edit.mjs) | A clean-room version of the [public verified-edit contract](../benchmarks/portfolio/engineering/verified-edit-walkthrough.md): a generated change is accepted only after a real check passes. Failed work is rolled back without overwriting anyone else’s edit. | 5 |
-| [ARC scoring harness](arc-harness/harness.mjs) | The scoring rules from [METHODS](../benchmarks/METHODS.md) as code: answers are hidden from the solver, grids must match exactly, and every test input must pass. Includes the do-nothing baseline any solver must beat. | 5 |
+These public implementations were prepared with Codex assistance. They are independent references, with transparent synthetic fixtures, and contain no proprietary QI Core source or methods. The core's own evidence is linked separately.
 
 ## Run it
 
-```bash
-cd code
+Preserve committed line endings when cloning so byte-level integrity checks reproduce on Windows and Linux:
+
+```sh
+git -c core.autocrlf=false clone https://github.com/jtrxgaia/Next-Gen-Intelligence.git
+cd Next-Gen-Intelligence/code
+npm run demo
 npm test
 npm run verify
 ```
 
-## Why these three
+Already cloned: run the three npm commands from `code`. The integrity command verifies exact file bytes, including line endings.
 
-Building a model is only part of building an AI system. The surrounding software decides what to trust. These samples cover the three places where that decision most often goes wrong:
+## What the demonstration executes
 
-1. **Published claims.** Is this the same file that was reviewed?
-2. **Generated changes.** Did the check actually run and pass, and does the change still belong to this task?
-3. **Benchmark scores.** Could the solver have seen the answers, and is partial credit being counted as success?
+| Step | Observable result |
+|---|---|
+| Submit an intentionally unsuitable fixture candidate | The check declines it and the original file remains unchanged. |
+| Submit a correct median implementation | Four real child-process checks pass before the file is promoted. The checks include odd/even inputs and input preservation. |
+| Cancel a subsequent edit | The accepted file retains its verified bytes. |
+| Build and check an artifact manifest | The accepted file matches its SHA-256 and byte count. |
+| Score public grid fixtures | The identity baseline solves **1/3**; the transparent reference adapter solves **3/3**, using a fresh process per input. |
 
-A passing test shows that each sample follows its stated rule. It does not certify the private systems they describe.
+`npm run demo` prints a deterministic JSON receipt and cleans up its temporary workspace. A [recorded successful run](../benchmarks/results/2026-10-26-public-workflow.json) is available for comparison. The fixture adapter selects between two ordinary public grid rules. These outcomes demonstrate the engineering workflow, rather than a QI Core capability or a general-intelligence benchmark.
+
+The automated suite also exercises exceptions, cancellation, concurrent participating editors, external edits observed during checks, altered candidate bytes, malformed/sparse grids, input mutation, process startup, time limits, output limits, and the evaluator CLI.
+
+## Components to inspect
+
+| Component | Executable responsibility |
+|---|---|
+| [Verified edit](verified-edit/verified-edit.mjs) | Stage candidate text, run its check, verify ownership, promote accepted bytes, and issue a bounded receipt. |
+| [Evidence verifier](evidence-verifier/verify.mjs) | Validate listed artifact paths and metadata, then compare hashes and sizes from the same read. |
+| [Exact scorer](arc-harness/harness.mjs) | Validate dense grids, withhold answers from requests, isolate visible data per attempt, and require every test input to match. |
+| [Subprocess boundary](arc-harness/process-solver.mjs) | Start a fresh adapter process with time/output bounds and a JSON protocol. |
+| [Evaluator CLI](arc-harness/evaluate.mjs) | Connect evaluator-owned tasks to a private adapter and emit a provenance receipt. |
+| [Complete demonstration](demo/run.mjs) | Exercise all components with executed assertions and public fixtures. |
+
+## Evaluate a private adapter
+
+Keep the adapter, core, weights, and evaluator task file outside this repository. From `code`, run:
+
+```sh
+npm run evaluate -- --tasks /path/to/private-tasks.json --adapter /path/to/private-adapter.mjs --timeout 5000
+```
+
+Use your platform's paths. Both flags accept ordinary local file paths.
+
+The adapter is a trusted Node script implementing a generic public evaluation protocol. It reads one JSON request from stdin containing `train` demonstration pairs and the current `input` grid. It returns one JSON grid on stdout. Test answers are omitted from that request. The private adapter translates this public contract into its own implementation's interfaces; no internal core interface needs to be published.
+
+The task file is an object mapping task IDs to standard `train` and `test` arrays of input/output grid pairs. Supported grids are rectangular, 1–30 rows and columns, with integer colors 0–9. The evaluator starts a fresh process per test input, allows one attempt, and scores a task only when every test input matches exactly. The default combined stdout/stderr output limit is 64 KiB.
+
+The receipt includes task-file and adapter-file SHA-256 identities, runtime, attempt policy, time bound, exact scores, and process-inclusive median wall time. It omits raw answers, predictions, and local paths. Use opaque task IDs when the names are confidential. An adapter-file hash identifies that file; separately pin the core build, dependencies, configuration, and state for a full evaluation.
+
+The process retains the invoking user's access rights. Evaluators manage withheld-file permissions, network access, and descendant-worker cleanup. This boundary is process isolation, not an OS security sandbox. In-process solvers are trusted callbacks. See the [architecture contract](ARCHITECTURE.md) and [confidential verification procedure](../benchmarks/portfolio/engineering/confidential-verification.md).
+
+## Editing guarantees and integration contract
+
+The editor checks a staged single-file candidate before promotion. Rejected checks, checker exceptions, and cancellation before promotion preserve the original target. Participating editors share an exclusive lock; observed edits from outside the workflow prevent promotion. The checker receives the staged path, must wait for its command to finish, and returns a command identity and numeric exit status.
+
+An outside program that ignores the lock can still race the final comparison and rename. Checks requiring a fixed basename or whole-workspace state need an isolated-workspace adapter. Process crashes and I/O errors require host-level recovery and lock inspection. These operating assumptions are part of the public contract, rather than an unconditional promise about unrelated writers or arbitrary executables.
+
+## Continuous verification
+
+GitHub Actions runs tests, the complete demonstration, and publication integrity verification on **Linux and Windows with Node 20 and 22**. No proprietary core, paid service, or private credentials are involved. Results apply to this public reference implementation; the private core's dated observations retain their own scope.

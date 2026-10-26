@@ -1,17 +1,17 @@
 {
   "date": "2026-10-26",
   "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
-  "purpose": "Engineering portfolio with confidential core implementation evidence and dated component observations",
+  "purpose": "Engineering portfolio with runnable public references and confidential proprietary-core evidence",
   "files": [
     {
       "path": ".github/workflows/checks.yml",
-      "bytes": 308,
-      "sha256": "9d1e1d021be0899a01d4a927432d9a7edaf980599826102e604d7acab1278616"
+      "bytes": 639,
+      "sha256": "1eb03587db474f6ea143862c8238fc44f5ccc60d182c9bf761cfcc75e4e82d13"
     },
     {
       "path": "README.md",
-      "bytes": 18344,
-      "sha256": "31eae6aaded0e150bb1c0243822fbebc9f6258117246b549e4230375a0fbc5ba"
+      "bytes": 18814,
+      "sha256": "677ee255a9ba9d2e240c88120e64551e3df5b4ba81e2de8595a3be6207ca4637"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -70,13 +70,13 @@
     },
     {
       "path": "benchmarks/portfolio/CHANGELOG.md",
-      "bytes": 4687,
-      "sha256": "cd70f870d2ca577197abab7b4d16d3a0fbfe82a047fc979948d14253e88f63d5"
+      "bytes": 5445,
+      "sha256": "c6145d53526bf9dd1a8c5e880d803e93e5d518e1b0494831fb3c701b34baa706"
     },
     {
       "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
-      "bytes": 1866,
-      "sha256": "2e5a0864874a84e5a5b08e2a852479b6b181d6c5a2f793bf22163de5de4a9506"
+      "bytes": 2215,
+      "sha256": "a8c874c74fc0a79b739cbebe15827c6faa3ca2e04096370d8d544e9e4b3ec553"
     },
     {
       "path": "benchmarks/portfolio/HISTORY.md",
@@ -100,8 +100,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/confidential-verification.md",
-      "bytes": 3644,
-      "sha256": "c8c2008d003f1a4c9d6a402f486fa9e60c91c83b990f21b7d7d582e827fb9ce2"
+      "bytes": 4413,
+      "sha256": "0d93fb6d41dc2430c6a22788dd145e7edd1e47b47197617e7957743ad2ca66aa"
     },
     {
       "path": "benchmarks/portfolio/engineering/core-evidence.md",
@@ -125,8 +125,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/publication-note.md",
-      "bytes": 1315,
-      "sha256": "c64d4b63f42fa1d3d44cce19e64a39a9797293dc7399e7dbae9e19daa35562c6"
+      "bytes": 1550,
+      "sha256": "c4479c149cc43912950df4529ac75c69adc787aab3b9d47a0b0f7488ef3979a1"
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
@@ -135,8 +135,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/verified-edit-walkthrough.md",
-      "bytes": 4100,
-      "sha256": "fde617b346edf14aad785d99e118e4666f663b1d6e2541b09fef8cf6537819bd"
+      "bytes": 4234,
+      "sha256": "eca7958f56f09026fed516e79787d12a2931ab6d8e1e07c58e6cdd09116025b5"
     },
     {
       "path": "benchmarks/portfolio/engineering/workflow.md",
@@ -230,8 +230,8 @@
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi.md",
-      "bytes": 5210,
-      "sha256": "ac15e407e6de1fdab4a6612920baf98d381d2c8930688d5955f5091a4e86e04e"
+      "bytes": 5123,
+      "sha256": "4fe32be57eb3e765d2159f2ee723f08ae1a834063dfb11bdeb050f4fcad09b4b"
     },
     {
       "path": "benchmarks/portfolio/projects/synap-fps.md",
@@ -409,44 +409,84 @@
       "sha256": "7f084ea76628fd4d7c5b68e6ccee569b8372125bad431f27c7ef8b637bec1c53"
     },
     {
+      "path": "benchmarks/results/2026-10-26-public-workflow.json",
+      "bytes": 556,
+      "sha256": "6a26da2ca2a6176f2c3ba4dc7de75968f4828b65bbe50c622b832bfa24d414cb"
+    },
+    {
+      "path": "code/ARCHITECTURE.md",
+      "bytes": 4979,
+      "sha256": "711272dd9d65a817eefb53dce68e7151cc720db9b1c1e784c30ced1a9c6ab701"
+    },
+    {
       "path": "code/README.md",
-      "bytes": 2049,
-      "sha256": "1ff33096018fa903fc4957f3d4eb0ee53a7ec2a132c9ba881266ec50e0cea78d"
+      "bytes": 6682,
+      "sha256": "492770781e2b88d44cccf21ad797636186b42f78648b161ae9d2cb4bee16025f"
+    },
+    {
+      "path": "code/arc-harness/evaluate.mjs",
+      "bytes": 1847,
+      "sha256": "edaf213f986468b9eab1b421c95f8eb9c69b1302266985a53e486b60dc49d792"
+    },
+    {
+      "path": "code/arc-harness/evaluate.test.mjs",
+      "bytes": 1453,
+      "sha256": "9c6c6609424d6c99b6855ab72bb6d6fcb506e511ea4cea0d6bcee2a9f4b3e125"
     },
     {
       "path": "code/arc-harness/harness.mjs",
-      "bytes": 2053,
-      "sha256": "46155d2a4f4fcd6240552e3454ad46d8a747bc4b44267b0211a4051b02333cf1"
+      "bytes": 3335,
+      "sha256": "0fe8e7a8a6cad3b0f1dfd96acc383887ac564c003c0e38217ef10843d4c3651a"
     },
     {
       "path": "code/arc-harness/harness.test.mjs",
-      "bytes": 1634,
-      "sha256": "4187ebfd675c0fa385f15fe7203fec4d3a8b6090f5ed49756f2d341c6511b557"
+      "bytes": 3544,
+      "sha256": "28c5f951c3bbbd06951e6d114e9af095ba7ab224edf75100949ce518b3c2a84b"
+    },
+    {
+      "path": "code/arc-harness/process-solver.mjs",
+      "bytes": 2570,
+      "sha256": "293b691d950765b1012db8b0af709f8ee3a40a2252fdf930161e9bcdd4134c6c"
+    },
+    {
+      "path": "code/arc-harness/process-solver.test.mjs",
+      "bytes": 2591,
+      "sha256": "bd5f1ae7dd0efd714db0b2b6563139dabdb60a2155344a0fd5f4f93409a7f9af"
+    },
+    {
+      "path": "code/demo/run.mjs",
+      "bytes": 4985,
+      "sha256": "d0a8c9566c6bd24f998a081fd981ec27032cf8cd99d30fececa6806a5d0e16ce"
+    },
+    {
+      "path": "code/demo/run.test.mjs",
+      "bytes": 613,
+      "sha256": "01a08eaf8bb4948e8edb0b657bd04905787d64f09bc3a0515c9de0b3e9daf8c9"
     },
     {
       "path": "code/evidence-verifier/verify.mjs",
-      "bytes": 2286,
-      "sha256": "eb0adbb5fb7e52ceeaacaf69521cd29cca3e86ccf6a70ffb156c5a2f7dbd8839"
+      "bytes": 3864,
+      "sha256": "2eb8e598d80734786d4b4477291f1cbf4e1b892d386751ce5d03e71f724d3b14"
     },
     {
       "path": "code/evidence-verifier/verify.test.mjs",
-      "bytes": 1307,
-      "sha256": "506ee23e36801a248143b7a4a70fad6e66925c903af5d92b471dec41287be793"
+      "bytes": 2476,
+      "sha256": "5c5d2f5dcfffafee20fd40379fd35c2afd12caa2a2dbb9120a9fdd83f6301e3b"
     },
     {
       "path": "code/package.json",
-      "bytes": 347,
-      "sha256": "41302d29d7f618607a3347ce486f6093b3cd86b3245a9f94676567201e75447f"
+      "bytes": 429,
+      "sha256": "c3aa839b572cf7385018e8549710eea5d38ed92bf6e2f0b13fe4f022e6bce896"
     },
     {
       "path": "code/verified-edit/verified-edit.mjs",
-      "bytes": 2101,
-      "sha256": "876f9b54f2ef94258e90ba7989477082481292d7c04695749c24a0671fee7437"
+      "bytes": 3700,
+      "sha256": "3e3e53637d0498f94f92e712aaff455fcdbe0a0ea8e8ca2b43c749988df27d72"
     },
     {
       "path": "code/verified-edit/verified-edit.test.mjs",
-      "bytes": 2539,
-      "sha256": "24e70174cebd68fa56591a8be9368c596486a7edd3b03634491fa7b03765f575"
+      "bytes": 5503,
+      "sha256": "87580f0647262dcaa83e596bacbd0769c72eb99bd13f0c51d17f7b8aa3efe27a"
     }
   ]
 }

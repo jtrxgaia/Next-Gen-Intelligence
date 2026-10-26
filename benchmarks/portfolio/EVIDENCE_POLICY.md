@@ -1,6 +1,8 @@
 # Evidence and confidentiality policy
 
-Allowed publication material: reviewed Markdown reports, JSON evidence receipts, and reviewed product screenshots or historical benchmark graphics. Images must be checked for private information and described with their evidence scope. No executable code, scripts, binaries, source maps, models, algorithms, proprietary logic, raw prompts, private memory, credentials, host paths, internal implementation links or dataset answers may enter this repository.
+Allowed publication material: reviewed documentation, JSON evidence receipts, product screenshots, historical benchmark graphics, and the independent public reference implementations and synthetic fixtures under code/. These public references may be extended to make the engineering workflow reproducible. They are prepared with AI assistance and contain no QI Core implementation or derived proprietary methods.
+
+Core source, proprietary algorithms and representations, training recipes, weights, private prompts, private memory, credentials, host paths, internal implementation links, and private dataset answers remain excluded. Product images are reviewed for private information and labeled with their evidence scope. The original historical policy is preserved in the original repository snapshot.
 
 Every upload must be staged by exact allowlisted filename and inspected before commit. Never use a recursive copy of the engine estate. File extension alone does not make content safe: review Markdown and JSON for embedded code and internal methods. Future additions require the same review. This is a publication policy, not an installed server-side enforcement mechanism.
 

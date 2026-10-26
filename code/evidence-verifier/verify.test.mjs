@@ -1,13 +1,14 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { mkdtemp, readFile, writeFile, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildManifest, verifyManifest } from './verify.mjs';
 
-test('detects unchanged, changed, and missing files', async () => {
+test('detects unchanged, changed, and missing files', async t => {
   const root = await mkdtemp(join(tmpdir(), 'evidence-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
   await writeFile(join(root, 'a.md'), 'alpha');
   await writeFile(join(root, 'b.md'), 'beta');
   const manifest = await buildManifest(root, ['a.md', 'b.md']);
@@ -16,6 +17,26 @@ test('detects unchanged, changed, and missing files', async () => {
 
   const status = Object.fromEntries((await verifyManifest(root, manifest)).map(r => [r.path, r.status]));
   assert.deepEqual(status, { 'a.md': 'ok', 'b.md': 'changed', 'gone.md': 'missing' });
+});
+
+test('manifest paths cannot escape the publication root', async t => {
+  const root = await mkdtemp(join(tmpdir(), 'evidence-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  for (const path of ['../outside', '/outside', 'a/../../outside', 'a\\outside']) {
+    await assert.rejects(buildManifest(root, [path]), TypeError);
+    await assert.rejects(verifyManifest(root, { files: [{ path, bytes: 0, sha256: '0'.repeat(64) }] }), TypeError);
+  }
+});
+
+test('invalid metadata and duplicate entries are rejected', async t => {
+  const root = await mkdtemp(join(tmpdir(), 'evidence-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await writeFile(join(root, 'a.md'), 'alpha');
+  const m = await buildManifest(root, ['a.md']);
+  await assert.rejects(verifyManifest(root, { files: [m.files[0], m.files[0]] }), TypeError);
+  await assert.rejects(verifyManifest(root, { files: [{ ...m.files[0], bytes: -1 }] }), TypeError);
+  await assert.rejects(buildManifest(root, ['a.md', 'a.md']), TypeError);
+  await assert.rejects(buildManifest(root, ['a.md', './a.md']), TypeError);
 });
 
 test('this repository matches its own publication manifest', async () => {

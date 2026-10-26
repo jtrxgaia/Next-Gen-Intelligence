@@ -7,7 +7,7 @@
 
 A developer selects a workspace, file, requested change, permissions, and verification command. The system may produce a completion receipt only for work that still belongs to that task and workspace and has passed its required check.
 
-The October 25 read-only source review inspected the workflow and its tests. The description below summarizes observable boundaries rather than publishing the private algorithm or a runnable replacement. No cleared public implementation sample was identified, so no unrelated demonstration or private source is included.
+The October 25 read-only source review inspected the private workflow and its tests. This walkthrough summarizes that product record. A separate [public reference implementation](../../../code/README.md) now demonstrates staged candidate verification and participating-editor coordination, with its own [architecture contract](../../../code/ARCHITECTURE.md). It was prepared with Codex assistance and is independent of the private product implementation.
 
 ## Normal path
 
