@@ -1,5 +1,12 @@
 # Changelog
 
+## October 26, 2026 — plain-language reading path
+
+- Shortened the main guides and case studies; preserved front-page sections and images.
+- Replaced the duplicate benchmark gallery with a current-result table and archive links.
+- Added `npm run proof` for all five public checks; CI uses the same command.
+- Kept raw evidence, historical reports, private-core boundaries, and measured claims unchanged.
+
 ## October 26, 2026 — reproducible public engineering workflow
 
 - Connected the public editor, real subprocess checks, integrity verification, and baseline scoring in a one-command demonstration.

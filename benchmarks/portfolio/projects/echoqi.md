@@ -1,58 +1,29 @@
 # EchoQI / QI Core
-**Proprietary AI architecture, custom learning systems, and persistent application intelligence.**
 
-[Portfolio](../../../README.md) · [Evidence index](../engineering/evidence-index.md)
+[Portfolio](../../../README.md) · [Source and test evidence](../engineering/core-evidence.md)
 
-## Project and ownership
+EchoQI is Jack Rourke’s proprietary AI system, built with AI coding assistance. It connects custom learning and reasoning components, saved memory, tools, and desktop/web interfaces. Frameworks and external models are identified as dependencies.
 
-EchoQI is a proprietary AI system created by Jack Rourke. It connects original AI components with persistent state, controlled execution, and desktop/web interfaces. Development covers requirements, system design, AI-assisted implementation, integration, and testing.
+## Architecture
 
-The result is an interconnected AI software platform whose core and application layers develop together. Established frameworks and optional upstream models remain attributed dependencies.
-
-## Architecture and tradeoff
-
-As the system grows, each part needs a clear job. Reasoning, conversation, memory, external models, and actions must work together without conflicting over decisions or stored information.
-
-The architecture defines those jobs and connects reasoning and learned behavior to the applications. Older versions are kept for reference while supported operations move toward clearly assigned components. Experimental code does not automatically gain control of the system.
-
-Public documentation describes these responsibilities and results; the proprietary procedures behind the core remain confidential.
+The design assigns each component a job: learn supported behavior, apply rules, retain state, contribute model output, or authorize a result. Clear ownership prevents competing components from changing the same information or claiming the final decision. Internal methods remain private.
 
 ## HiveMind
 
-HiveMind describes the QI Core coordinating multiple compatible LLMs at the same time on a shared task. The creator identifies Gemini, GPT, Claude, Kimi, and other compatible models as contributors to this design.
+HiveMind is the design for coordinating compatible models—including Gemini, GPT, Claude, and Kimi—concurrently on a shared task. Its scale depends on compute, provider access, and the task.
 
-The shared task may involve solving a problem, building software, or developing a system. The neuro-symbolic core coordinates the work and brings contributions into the same workflow. Concurrent work on the same objective is central to the concept.
+This records the creator’s October 25 definition. It does not establish a fresh concurrent-model run or a measured improvement over an individual model.
 
-The scale of parallel work depends on available compute, provider access, and the task. Measurements remain attached to specific workloads and configurations so reviewers can assess the contribution of coordination.
+## Learning and training
 
-**Definition source:** creator clarification, October 25, 2026. This section records the intended architecture. The clarification did not include a new concurrent execution test or a comparison against individual models; the earlier source and training review retains its original scope.
+The records distinguish custom learning software, a model trained from random starting weights, and adaptation of an upstream model. Training fit, saved-state continuity, and unseen-task performance are different checks. [Training case study](ai-creation-and-training.md).
 
-## Neural learning and model development
+## Results and status
 
-The reviewed projects contain custom trainable software, native learning from demonstrations, model-training source, and records of saved trained models. An October 25 experiment explicitly records model initialization from scratch without pretrained weights, followed by application-level fitting and restart checks.
+The recorded status is **maintenance**. Selected private components passed **47/47 tests** and **200/200 synthetic new-value cases**, including **200/200 after state restoration**. The fresh recheck’s untrained control passed **0/200**; its disabled control resolved **0/200**. This covers one supported task family.
 
-A separate upstream-model adaptation path retains a training manifest and model adapter. These represent distinct capabilities: creating custom AI components, training their parameters, and integrating adapted models where appropriate.
+The separate model experiment passed **34/34 training-exposed examples** with eight consistent restart outputs. A historical ARC run passed **19/50 public-training tasks**. Neither is an independent hidden-test score.
 
-[AI creation and training case study](ai-creation-and-training.md).
+[Component recheck](../../results/2026-10-26-private-component-recheck.json) · [Training receipt](../../results/2026-10-25-ai-training-review.json) · [ARC methods](../../METHODS.md#arc-agi-2-development-measurement) · [Confidential verification](../engineering/confidential-verification.md)
 
-## Persistence and integration
-
-EchoQI’s application engineering includes state ownership, continuity between interactions, corrections, guarded changes, and restart behavior. Interfaces and service contracts connect these functions to user-facing software.
-
-This work addresses the practical requirements of stateful AI: retain useful context, preserve controlled changes, identify what actually executed, and support recovery when an operation fails.
-
-## Evidence and current scope
-
-**Current status: maintenance, October 26, 2026.** Dated component evidence remains available while the core is maintained.
-
-A fresh review inspected custom learning and symbolic-processing source, state ownership, finalization, and application integration. Three selected private suites executed from an isolated copy passed **47/47 tests**. A new synthetic probe passed **200/200 exact new-value cases** after three demonstrations, and **200/200 after state restoration**, with learning activation controls verified. These results concern a supported component family.
-
-[Architecture and implementation evidence](../engineering/core-evidence.md) · [Fresh receipt](../../results/2026-10-26-private-core-evidence.json) · [Confidential verification](../engineering/confidential-verification.md).
-
-The public historical ARC record reports **19/50 public-training tasks passed**, with exact-grid scoring and a fresh solver per input. This is a development-subset result. [Report](../reports/2026-10-03_Codex_Independent_Benchmark_v1.md).
-
-The training record documents a check using **34 training examples** and an **eight-output restart comparison** using the same weights. Independent generalization and testing of the complete production workflow remain separate evaluation stages. [Training evidence](../../results/2026-10-25-ai-training-review.json).
-
-**Engineering capabilities:** proprietary AI architecture, custom learning software, model training, persistent state, component integration, evaluation, and recoverability.
-
-[Attributed Codex technical review](../reviews/self-reports/echoqi-core.md)
+These are AI-authored inspection and execution records. Public reference programs are separate implementations and do not expose or certify the full core.

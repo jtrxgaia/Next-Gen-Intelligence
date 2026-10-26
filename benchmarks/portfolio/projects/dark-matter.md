@@ -1,32 +1,23 @@
 # Dark Matter
-**An AI-assisted coding and creation platform.**
 
-[Portfolio](../../../README.md) · [Evidence index](../engineering/evidence-index.md)
+[Portfolio](../../../README.md) · [Evidence index](../engineering/evidence-index.md#dark-matter)
 
-## Product and ownership
+An AI-assisted desktop platform for coding and building projects, created by Jack Rourke. The reviewed stack includes Electron, React, Vite, Node.js, local workspace services, and Ollama adapters.
 
-Dark Matter is an AI-assisted coding and creation platform for developing software and building projects, similar in purpose to Antigravity, Codex, and Claude Code. Created by Jack Rourke, it brings coding, project development, and creative workflows into a desktop platform.
+## Engineering work
 
-## System design
+The interface organizes tasks. Local services read/write files, execute checks, and record results. The inspected workflow and tests cover permissions, cancellation, competing changes, and results that are no longer current. Configured Qwen/DeepSeek model roles do not establish that those services were healthy during review.
 
-The interface organizes the task, while local services read and write files, run checks, and record the result. Direct editing and AI-generated changes use separate paths.
+[Private-workflow walkthrough](../engineering/verified-edit-walkthrough.md) · [Runnable public reference](../../../code/README.md)
 
-The source and tests cover permissions, changed files, cancellation, and results that are no longer current. Before restoring a file, recovery checks whether another edit has been made since the saved version.
-
-[Implementation walkthrough](../engineering/verified-edit-walkthrough.md).
-
-## Technology and interface
-
-The inspected stack includes Electron, React, Vite, Node.js, local workspace services, and Ollama adapters. Configured coding tiers include Qwen-based generation and a DeepSeek-based reviewer; configured model identity is separate from current service health.
+## Interface
 
 ![Dark Matter desktop platform after asking Who is Echo](../media/portfolio/dark-matter-current.jpg)
 
-*Captured from the running desktop platform on October 25, 2026, after asking “Who is Echo?” The generated reply is reproduced as displayed. This capture shows the interface and returned response; it does not independently verify the capabilities described in the reply.*
+*October 25, 2026 capture of the running desktop interface. Its displayed reply does not independently verify its own claims.*
 
-## Status and capabilities
+## Evidence and status
 
-**Status:** active development. Selected source, tests, and historical results were reviewed. The complete installed application and its current services still need separate testing. Older refactor claims are explained in the benchmark corrections.
+Active development. Selected source, tests, and historical results were reviewed; full installed-application acceptance remains separate. The public safety benchmark measures the independent reference editor, not Dark Matter.
 
-**Engineering capabilities:** developer experience, repository analysis, async workflows, concurrency, model integration, execution verification, and recovery.
-
-[Attributed Codex technical review](../reviews/self-reports/dark-matter.md)
+[Historical checks](../../results/2026-10-18-selected-checks.json) · [Public benchmark](../engineering/public-safety-benchmark.md) · [Attributed review](../reviews/self-reports/dark-matter.md)

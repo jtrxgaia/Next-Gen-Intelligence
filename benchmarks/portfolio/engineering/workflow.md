@@ -1,27 +1,12 @@
 # Development workflow
 
-[Portfolio](../../../README.md) · [Skills](strengths.md)
+[Portfolio](../../../README.md) · [Runnable public example](../../../code/README.md)
 
-## Define the problem
+1. **Define success.** State the required behavior, constraints, and check that will decide whether it works.
+2. **Design the boundaries.** Assign ownership of stored information, model contributions, tool access, and final decisions.
+3. **Build with AI assistance.** Keep changes reviewable and attribute generated work and dependencies.
+4. **Run the checks.** Record actual execution, failures, and the version and workload tested.
+5. **Preserve working state.** Use staging, checkpoints, or rollback where appropriate; protect competing edits.
+6. **Keep the evidence.** Save bounded results and explain what was not tested.
 
-Development starts with what the software should do and what a successful result would look like. Design decisions cover the interface, stored information, AI components, permissions, performance, and recovery.
-
-## Build with AI assistance
-
-Tools used for coding and analysis include Codex, Claude Code, Antigravity, and Gemini. Product direction, review, and priorities remain developer responsibilities. Code and assets may include AI-generated work and third-party dependencies.
-
-Changes are kept small enough to review, with previews or checkpoints before publication and deployment.
-
-## Check what happened
-
-Training experiments keep records of their data, saved models, results, and restart tests. Developer tools and game projects use executed checks, reproduced failures, visual review, and regression records. Results are tied to the version and workload tested.
-
-## Keep a way back
-
-Saved versions, checkpoints, and rollback protect existing work during experiments, generated edits, updates, and game migration. Before restoring a file, recovery logic checks whether another change needs to be preserved.
-
-## Leave a usable record
-
-Setup notes, component interfaces, milestones, and test results help the work continue. Documentation distinguishes completed implementation from passing tests and from a release that has met all its requirements.
-
-[Evidence index](evidence-index.md) · [Codex technical review](../reviews/self-reports/strengths.md)
+The public example demonstrates this pattern for one-file editing and scoring. Private products have their own [dated evidence and limits](reviewer-guide.md).

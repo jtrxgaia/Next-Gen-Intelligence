@@ -20,11 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
-      - run: npm test
-      - run: npm run demo
-      - run: npm run verify
-      - run: node benchmarks/edit-safety.mjs --output ci-safety-result.json
-      - run: npm run evaluate:example
+      - run: npm run proof -- --benchmark-output ci-safety-result.json
       - uses: actions/upload-artifact@v4
         with:
           name: safety-${{ matrix.os }}-node-${{ matrix.node }}
