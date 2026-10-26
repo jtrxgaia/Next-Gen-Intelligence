@@ -9,7 +9,7 @@ This supports a practical capability in creating purpose-built AI systems: devel
 
 ## Recorded training evidence
 
-The October 25 experiment records random initialization without pretrained weights, dataset/tokenizer provenance, a completed training job, and application-level checks. Its defined fitting target covered 34 training-exposed examples across two task types and was recorded as met. An eight-output restart comparison used the same weights and retained output consistency apart from elapsed time.
+The October 25 experiment started without pretrained weights. Its records identify the dataset, tokenizer, completed training job, and application checks. It met the stated target on 34 training examples across two task types. Eight outputs were also compared after a restart using the same weights; results were consistent apart from elapsed time.
 
 Those results establish the measured training-fit and persistence targets. Independent generalization is a separate question, assessed through its own evaluation rather than inferred from fitting results.
 

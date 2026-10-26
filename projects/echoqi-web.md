@@ -5,15 +5,15 @@
 
 ## Product and ownership
 
-QI Works provides discovery and product presentation for the EchoQI ecosystem. EchoQI.me includes application views, AI adapters, account-scoped state, game surfaces, and delivery checks.
+QI Works introduces the EchoQI projects. EchoQI.me connects the application pages, AI integrations, user data, and games.
 
 Development covers frontend interfaces, backend contracts, session behavior, service integration, and release handling. Base44 provides managed application services.
 
 ## Application architecture
 
-Public browsing and authenticated operations have separate access boundaries. The inspected response entry requires user identity for chat and passes authorized requests to a shared handler through server-held bridge configuration.
+Public pages and signed-in features have different access rules. The reviewed chat entry checks user identity before passing an authorized request to the shared backend handler. Connection settings are kept on the server.
 
-Application contracts cover request validation, route/status diagnostics, sessions, usage, quotas, and entitlements. The integration separates these application responsibilities from privileged desktop state.
+The application checks requests and tracks sessions, usage, limits, and access to features. These services are kept separate from privileged information on the desktop.
 
 ## Implementation and evidence
 
@@ -33,8 +33,8 @@ Public browsing was observed during review. The page displayed a chat-maintenanc
 
 ## Delivery scope and capabilities
 
-Historical build output records a completed Vite production build. Deployed revision identity, current access rules, signed-in workflows, and rollback remain deployment-specific acceptance items.
+A historical record shows a completed Vite production build. The deployed version, access rules, signed-in features, and rollback process need to be checked for each release.
 
-**Engineering capabilities:** frontend/backend integration, API contracts, account-aware state, authorization boundaries, deployment workflows, and user-facing error handling.
+**Engineering capabilities:** frontend/backend integration, API contracts, account-specific data, authorization boundaries, deployment workflows, and user-facing error handling.
 
 [Attributed Codex technical review](../reviews/self-reports/web.md)

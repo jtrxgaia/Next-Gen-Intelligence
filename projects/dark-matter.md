@@ -11,9 +11,9 @@ The engineering objective is precise: completed work must correspond to the inte
 
 ## System design
 
-The interface coordinates the task while host-owned services control workspace reads, writes, checks, and completion evidence. Native editing and model-assisted contributions have distinct execution paths.
+The interface organizes the task, while local services read and write files, run checks, and record the result. Direct editing and AI-generated changes use separate paths.
 
-The inspected source and tests address scope, permissions, workspace revision, content identity, cancellation, and stale completion. Recovery preserves competing edits by checking whether the workflow still owns the content it would restore.
+The source and tests cover permissions, changed files, cancellation, and results that are no longer current. Before restoring a file, recovery checks whether another edit has been made since the saved version.
 
 [Implementation walkthrough](../engineering/verified-edit-walkthrough.md).
 
@@ -35,7 +35,7 @@ The inspected stack includes Electron, React, Vite, Node.js, local workspace ser
 
 ## Status and capabilities
 
-**Status:** active development with selected source/test inspection and historical candidate checks. Full installed-app journeys and current service readiness require separate acceptance. The benchmark corrections retain the scope of older refactor claims.
+**Status:** active development. Selected source, tests, and historical results were reviewed. The complete installed application and its current services still need separate testing. Older refactor claims are explained in the benchmark corrections.
 
 **Engineering capabilities:** developer experience, repository analysis, async workflows, concurrency, model integration, execution verification, and recovery.
 

@@ -13,7 +13,7 @@ The browser edition remains a distinct product while a separate Unreal project d
 
 The reviewed local manifest identifies **0.10.222-dev.1**, using TypeScript, Babylon.js 9.28.0, Rapier 0.21.0, Vite, and Node-based checks.
 
-The source/test inventory covers combat, recoil, input, enemy tactics, progression, persistence, render batching, effects, and browser boundaries. Simulation, presentation, input, progression, and release artifacts retain separate responsibilities.
+The source and test inventory covers combat, recoil, input, enemy tactics, progression, persistence, render batching, effects, and browser boundaries. Simulation, presentation, input, progression, and release artifacts retain separate responsibilities.
 
 ## Visual presentation
 
@@ -45,6 +45,6 @@ Full migration, normal-input QA, visual acceptance, and performance acceptance r
 
 The project integrates real-time gameplay, rendering, persistent progression, interfaces, asset workflows, performance diagnostics, packaging, and migration between engines.
 
-Current development priorities include regression closure, repeated matched workloads, normal-input QA, visual acceptance, and versioned migration reconciliation while preserving the browser edition.
+Current development priorities include fixing regressions, repeated matched workloads, normal-input QA, visual acceptance, and versioned migration reconciliation while preserving the browser edition.
 
 [Attributed Codex technical review](../reviews/self-reports/synap.md)

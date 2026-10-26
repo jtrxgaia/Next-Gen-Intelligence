@@ -3,13 +3,13 @@
 
 ## Creating the intelligence system
 
-Jack created EchoQI as a proprietary AI engineering project and directs its continuing architecture and development. His work encompasses native processing, custom learning components, persistent continuity, and the application interfaces through which the system is used.
+Jack created EchoQI as a proprietary AI engineering project and directs its continuing architecture and development. His work encompasses native processing, custom learning components, continuity between interactions, and the application interfaces through which the system is used.
 
 The scope reaches beyond a single trained artifact. Jack is developing the software that connects intelligence, context, state, and controlled actions across desktop, developer, and web products. The inspected registry and implementation surfaces identify responsibilities for cognition, conversation, memory, providers, execution, and supporting services.
 
 ## Original components and trained behavior
 
-The reviewed estate includes custom trainable source, neural-learning and persistence tests, learning from demonstrations, and actual model-training records. A completed experiment explicitly records initialization without pretrained weights, trained-artifact provenance, application-level fitting checks, and output consistency after restart.
+The reviewed projects include custom trainable source, neural-learning and persistence tests, learning from demonstrations, and actual model-training records. A completed experiment explicitly records initialization without pretrained weights, records identifying the trained model, checks of training fit inside the application, and output consistency after restart.
 
 A separate adaptation path retains an upstream model’s identity and a saved adapter. These records support a substantive account of Jack building AI components from code, training model parameters, and integrating learned behavior into his own architecture.
 

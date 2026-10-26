@@ -10,7 +10,7 @@
 | Proprietary runtime | A canonical registry, cognition/conversation services, shared contracts, and multiple implementation generations. | AI system architecture and integration. |
 | Native reasoning | Implemented task-processing components with authored tests and bounded evaluation records. | Building purpose-specific intelligence in code. |
 | Custom neural learning | Learning and persistence implementations, model-related tests, and retained experimental records. | Developing learning software and controlling learned state. |
-| From-scratch model training | Completed job records explicitly identifying random initialization, trained-artifact provenance, app evaluation, and restart checks. | Designing and operating custom training experiments. |
+| From-scratch model training | Completed training records with random initialization, saved model identities, application checks, and restart tests. | Designing and operating custom training experiments. |
 | Upstream-model adaptation | Training script, manifest, and saved adapter artifact. | Fine-tuning/integrating an existing model with clear provenance. |
 | Native skill learning | Demonstration-learning source/tests and recorded cross-turn applications. | Teaching and applying bounded computational skills. |
 | Research foundry | Implemented trainable-model research and candidate/evaluation boundaries. | Experimental design, model lifecycle, and promotion discipline. |

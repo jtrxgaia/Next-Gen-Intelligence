@@ -9,7 +9,7 @@ The inspected records support experience creating trainable software, training m
 
 ## Engineering the surrounding product
 
-His desktop and web projects add interface development, backend integration, account-aware state, media workflows, controlled automation, and service errors. The game work adds real-time simulation, asset integration, rendering, progression, and performance investigation.
+His desktop and web projects add interface development, backend integration, account-specific data, media workflows, controlled automation, and service errors. The game work adds real-time simulation, asset integration, rendering, progression, and performance investigation.
 
 This means his contribution can extend from an AI component into the complete experience around it: how it is called, how results are presented, how state is retained, and what happens when an operation fails.
 

@@ -105,8 +105,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1947,
-      "sha256": "aed19236ca662a2d7b19284c48ce77f4b7f3c202da9f24a926f11716dfce680a"
+      "bytes": 2333,
+      "sha256": "dc8a4fda9b11741d3f5d36960400600d82edef3afc43855a076609660f174f1d"
     },
     {
       "path": "docs/IBM_QUANTUM_RESEARCH.md",
@@ -120,8 +120,8 @@
     },
     {
       "path": "engineering/ecosystem.md",
-      "bytes": 4791,
-      "sha256": "4eb94e8c420ca3e6506bf771788b0fafef69d2bbe4a7f4d90623a3a01cfdb7ea"
+      "bytes": 4776,
+      "sha256": "26a3d66a4830540ae71ace2ce3bcf81e6c04e23812e0e4383f89764980287637"
     },
     {
       "path": "engineering/evidence-index.md",
@@ -130,8 +130,8 @@
     },
     {
       "path": "engineering/problems-and-progress.md",
-      "bytes": 4019,
-      "sha256": "11eca569bec421682f621a254f716a362194bf3d9ab1e02bd5438c45b47a9a96"
+      "bytes": 4018,
+      "sha256": "fbd61b82aea122ee04bd6714003567c04a56d1010fa1c4fb9a44c4c5639e8f32"
     },
     {
       "path": "engineering/publication-note.md",
@@ -140,8 +140,8 @@
     },
     {
       "path": "engineering/strengths.md",
-      "bytes": 2947,
-      "sha256": "78820b8033ecdf7aebea933862fe2f0fd6f45c39b7d0d204036fb0ae02649e77"
+      "bytes": 2626,
+      "sha256": "36f3d8a28af978b78576592c93962a8b41b9db17f846b8f1858ce85e2d47d710"
     },
     {
       "path": "engineering/verified-edit-walkthrough.md",
@@ -150,8 +150,8 @@
     },
     {
       "path": "engineering/workflow.md",
-      "bytes": 1914,
-      "sha256": "a3247d5e4ca4b06c4d6f3c16deda0c195c2ffddee8431cfc2833cdb29a1356d8"
+      "bytes": 1587,
+      "sha256": "3aae9a6253ffcc4a4a4dcbebb9ee2ab64f5792877023bd8adffae9f4cab9f742"
     },
     {
       "path": "EVIDENCE_POLICY.md",
@@ -235,38 +235,38 @@
     },
     {
       "path": "projects/ai-creation-and-training.md",
-      "bytes": 3180,
-      "sha256": "fa9aff64cf4bffa37c836fe9d093ed01735001f905cadb6f4b4ee7f34f9cbf6f"
+      "bytes": 3160,
+      "sha256": "7c8e793e0e93c2a4d0edd6c9af186058389189223f79dff81f63825d3e5f6301"
     },
     {
       "path": "projects/dark-matter.md",
-      "bytes": 2829,
-      "sha256": "29cf2ac67435975602026d29986b3311c0bdf0841c0b7af513ff567606d78936"
+      "bytes": 2755,
+      "sha256": "966b7a8a75dee0f32e2d8a5ea3ec1c6a2a8219c522b5dea8e927974e4eced6e3"
     },
     {
       "path": "projects/echoqi-web.md",
-      "bytes": 2495,
-      "sha256": "f3d61d50f908faf8be4551ce87da2ab2eeb897781136e22b22e4ca80eb3bf41d"
+      "bytes": 2360,
+      "sha256": "9a28ad99ce9d2b1734801369718fc2f9459119225f3740add3b5102a36aae69c"
     },
     {
       "path": "projects/echoqi.md",
-      "bytes": 3377,
-      "sha256": "55a9860efa09adafa5ef4efef8268df84e6f3cb7d24925db04a45b4da74f0c23"
+      "bytes": 3327,
+      "sha256": "d0c2978730d7a54c6404d7d86b4aa391c981bbf21f838edeaf7aba522663c156"
     },
     {
       "path": "projects/synap-fps.md",
-      "bytes": 3288,
-      "sha256": "f547c0c869b4b133336d274bf2463b9b51a93719e5d89dcd16346f47c2f88773"
+      "bytes": 3292,
+      "sha256": "af0e9f7b3dfc684bf227a843bbc79f2f7ff948c9f6ba023ef1bd7ca4d7065458"
     },
     {
       "path": "projects/systems.md",
-      "bytes": 2318,
-      "sha256": "4a23a465567e4373b6e537cd742e2f36c58bc481c00ee2a8c3df4608e22ee3ef"
+      "bytes": 2319,
+      "sha256": "c6cdecee6cdb073656a0351ba66aca4a350727dd385e45aeb2bfcd069fc68d9d"
     },
     {
       "path": "README.md",
-      "bytes": 15604,
-      "sha256": "4a9d9eb8df3363fe9ee3de48c90ac69522f04bccd0a44605fd847884a05c9568"
+      "bytes": 13812,
+      "sha256": "64fdb6c8384d2ae054c84a4b0edb94eb4b5ce1ce4e5833308766839b38ca6abb"
     },
     {
       "path": "receipts/2026-10-03_Antigravity_Reported.json",
@@ -310,8 +310,8 @@
     },
     {
       "path": "reviews/codex-2026-10-25.md",
-      "bytes": 2651,
-      "sha256": "706741e9fb315c09cc3b523b327ddaa20f9d0a35378a3be8a5861baade98eaf7"
+      "bytes": 2223,
+      "sha256": "b03f75a4bd7db345335388090849256befaecd7bee6708e19ee85287a591ceb9"
     },
     {
       "path": "reviews/README.md",
@@ -320,13 +320,13 @@
     },
     {
       "path": "reviews/self-reports/ai-creation.md",
-      "bytes": 2225,
-      "sha256": "1cfaea9afcc36aa9daaa5902e57b93c51083fa46f3768593f115e84dc3897b42"
+      "bytes": 2179,
+      "sha256": "05ecf232ab058b92a96bd9a3ca1d133dd927ad5089ced943a9195010dbcb7d16"
     },
     {
       "path": "reviews/self-reports/capabilities.md",
-      "bytes": 1085,
-      "sha256": "b7197400518a6e5fff196a9b022f40a426e712dae2108d22b12ac277e1691990"
+      "bytes": 1099,
+      "sha256": "a9034a07b0f9e2ee7cce827deb7d14ed0b69d3b55f1745e35faa064e727b4da5"
     },
     {
       "path": "reviews/self-reports/dark-matter.md",
@@ -335,8 +335,8 @@
     },
     {
       "path": "reviews/self-reports/echoqi-core.md",
-      "bytes": 2344,
-      "sha256": "86a80513ea8a9d010274637b3e339f43fc488a4f86947110696b6ee8556db014"
+      "bytes": 2378,
+      "sha256": "84bb0e3c1d5f7f8f732173990916427baabca7a31d3dce60e7c152c79a25ce4b"
     },
     {
       "path": "reviews/self-reports/ecosystem.md",
@@ -345,18 +345,18 @@
     },
     {
       "path": "reviews/self-reports/engineering.md",
-      "bytes": 1965,
-      "sha256": "c9a82823b9f4af29f0450187d77e425e4f16e5587bfb60a5429346e9d7049179"
+      "bytes": 1975,
+      "sha256": "6f9201caedd6c5edea9f6ac68ef37b94955d9102d827dc091c0739cd4981977e"
     },
     {
       "path": "reviews/self-reports/github.md",
-      "bytes": 2036,
-      "sha256": "d58583902ff577b46d001cb67e7d9b8eedbb0d4031cf1cbb95e582a1e19f543a"
+      "bytes": 2039,
+      "sha256": "b5eaffee9eae283d08cb6c0e1aa616d7c86013ff6e3bd6c5ebebbe281947783c"
     },
     {
       "path": "reviews/self-reports/profile.md",
-      "bytes": 2146,
-      "sha256": "719f19838804fb38c6a5350d84f2b4efe7baa0768ffe7198eb7018147fd00d9b"
+      "bytes": 2145,
+      "sha256": "b0be1b48b8719c06f6d97a7f8c7fd1ff0b5a926b9f3f1b72c739bdb596010dac"
     },
     {
       "path": "reviews/self-reports/README.md",
@@ -365,13 +365,13 @@
     },
     {
       "path": "reviews/self-reports/scope-and-sources.md",
-      "bytes": 1322,
-      "sha256": "5e0a3216a4cc56bc2528be246029d86413dba6e855593d29ca621cd795640c2a"
+      "bytes": 1325,
+      "sha256": "248b576c3afa9d59884a18195e69b8179808e22e6ad644b39fd4973676562227"
     },
     {
       "path": "reviews/self-reports/strengths.md",
-      "bytes": 2193,
-      "sha256": "226fc651d5e9b4abd6c8360786952132c9b430c3faef8e26b01f890a39f21408"
+      "bytes": 2195,
+      "sha256": "13e4d46e2dda8a62e8178c7ba79adcf17cb4994d0cf9686a4f35327ec31ef4b7"
     },
     {
       "path": "reviews/self-reports/synap.md",
@@ -380,8 +380,8 @@
     },
     {
       "path": "reviews/self-reports/web.md",
-      "bytes": 2850,
-      "sha256": "49b410d6c6d89d7a46dffdef6a81cc6c406c18f683f390718e2da1b52c538342"
+      "bytes": 2845,
+      "sha256": "5ce67db48cce2b50a82c99a8fb33f6f0b9d1c283f241348c0a6edc18b8f4941d"
     }
   ]
 }

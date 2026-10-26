@@ -5,19 +5,19 @@
 
 Jack Rourke’s work connects original AI development with the software products built around it. EchoQI supplies the central proprietary architecture; Dark Matter, QI Works, EchoQI.me, and SYNAP demonstrate how he applies that work across developer tools, web services, and interactive applications.
 
-His responsibilities span product direction, system architecture, coding and asset-development workflows, integration, training experiments, debugging, and validation. The inspected estate contains implementations and records across these areas.
+His responsibilities span product direction, system architecture, coding and asset-development workflows, integration, training experiments, debugging, and validation. The reviewed projects include code and records covering these responsibilities.
 
 ## Technical breadth
 
-The AI work includes custom trainable software, model initialization from scratch, retained trained-artifact evidence, native learning, and persistence. The application work includes desktop interfaces, backend contracts, accounts, media-generation workflows, real-time game systems, and release/recovery mechanisms.
+The AI work includes custom trainable software, model initialization from scratch, records of saved trained models, native learning, and persistence. The application work includes desktop interfaces, backend contracts, accounts, media-generation workflows, real-time game systems, and release/recovery mechanisms.
 
-That breadth requires attention to how components behave together: a trained model must fit into the runtime; a service must expose useful behavior; state must persist correctly; and a failure must be observable and recoverable.
+That breadth requires attention to how components behave together: a trained model must fit into the runtime; a service must expose useful behavior; state must persist correctly; and a failure must be visible and recoverable.
 
 ## Professional contribution
 
 My review supports the profile of an AI systems architect, neural-network creator, and software inventor with substantial independent project ownership. Jack’s distinguishing contribution is the combination of original component development, system integration, and sustained product refinement.
 
-Project ownership includes his reported role and the implementation record. AI-assisted contributions and upstream dependencies remain attributed through the shared review scope.
+Project ownership includes his reported role and the implementation record. AI-assisted contributions and third-party dependencies remain attributed through the shared review scope.
 
 **Evidence:** [Inspection record](../../benchmarks/results/2026-10-25-expanded-inspection.json) · [Training evidence](../../benchmarks/results/2026-10-25-ai-training-review.json) · [Product review](../../benchmarks/results/2026-10-25-product-creation-review.json)
 

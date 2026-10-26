@@ -17,7 +17,7 @@
 
 **The response:** evaluate actual candidates with executed checks, bind results to the workspace/task, and inspect readback before completion. Source tests cover failed checks, changes during verification, invalidated sessions, and cancellation.
 
-**What the evidence establishes:** selected historical candidate suites and actual source/test paths support the bounded workflow. They do not prove all generated edits succeed. The meaningful improvement is a stronger definition of completion and a safer response to failure.
+**What the evidence establishes:** selected historical candidate suites and actual source and tests support the bounded workflow. They do not prove all generated edits succeed. The meaningful improvement is a stronger definition of completion and a safer response to failure.
 
 ## SYNAP diagnostic units
 
