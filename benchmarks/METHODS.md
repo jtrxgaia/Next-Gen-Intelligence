@@ -65,3 +65,9 @@ These are arithmetic estimates using the report’s assumptions, not a metered b
 Passing portfolio link, arithmetic, and integrity checks validates this documentation’s consistency. It does not certify the private software or rerun the historical campaigns.
 
 [Codex self-report](portfolio/reviews/self-reports/scope-and-sources.md)
+
+## October 26 reproducible public safety comparison
+
+The public verified-edit reference passed **90/90 policy trials**; the minimal write/check baseline passed **30/90**, across nine conditions repeated ten times. [Full methods and per-condition table](portfolio/engineering/public-safety-benchmark.md) · [raw result](results/2026-10-26-public-edit-safety.json). This is a new public reference benchmark, not a rerun of Dark Matter or a model-quality score. Timings include different early-return behavior and must not be used as a speedup headline.
+
+A separate [fresh private component recheck](results/2026-10-26-private-component-recheck.json) reran the retained source snapshot and probe: 47/47 selected tests; 200/200 learned and restored new-value cases; 0/200 untrained exact cases and 0/200 disabled resolutions. Source identities matched the existing public record. The scope remains one supported synthetic family, not independent blind generalization. Private code, probe, data and raw logs remain private.

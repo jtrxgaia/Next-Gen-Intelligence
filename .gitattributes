@@ -1,0 +1,3 @@
+# The publication manifest identifies exact bytes, including historical line
+# endings. Disable checkout conversion on Windows and Linux alike.
+* -text

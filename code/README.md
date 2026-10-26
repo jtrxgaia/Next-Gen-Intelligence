@@ -72,3 +72,9 @@ An outside program that ignores the lock can still race the final comparison and
 ## Continuous verification
 
 GitHub Actions runs tests, the complete demonstration, and publication integrity verification on **Linux and Windows with Node 20 and 22**. No proprietary core, paid service, or private credentials are involved. Results apply to this public reference implementation; the private core's dated observations retain their own scope.
+
+## Additional evidence and reviewer tools
+
+[Claim-by-claim architecture evidence](../benchmarks/portfolio/engineering/reviewer-guide.md) connects existing private observations to public records. The [failure-policy comparison](../benchmarks/portfolio/engineering/public-safety-benchmark.md) exercises the current staged editor against a minimal baseline. Run `npm run benchmark` to reproduce it. A separate [input-only JSON evaluation kit](evaluation-runner/README.md) supports structured outputs beyond ARC grids; run `npm run evaluate:example` for its non-AI protocol smoke example. Neither kit publishes a proprietary core adapter.
+
+The publication manifest covers every tracked file except itself. `.gitattributes` preserves committed bytes across operating systems, including historical line endings. CI uploads a fresh safety result for each supported configuration.

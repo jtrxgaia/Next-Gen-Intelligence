@@ -171,7 +171,9 @@ The working components include:
 - **[Verified edit](code/verified-edit/verified-edit.mjs):** checks a staged candidate before promotion, preserves the original when a check does not accept it, and serializes participating editors.
 - **[ARC scoring harness](code/arc-harness/harness.mjs):** withholds answers from solver requests, validates grid structure, requires exact matches, and supports bounded [subprocess adapters](code/arc-harness/process-solver.mjs).
 
-[Run the demonstration](code/README.md) · [Public architecture and tradeoffs](code/ARCHITECTURE.md) · [Evaluate a private adapter](code/README.md#evaluate-a-private-adapter)
+[Run the demonstration](code/README.md) · [Public architecture and tradeoffs](code/ARCHITECTURE.md) · [Evaluate a private adapter](code/README.md#evaluate-a-private-adapter) · [Architecture evidence guide](benchmarks/portfolio/engineering/reviewer-guide.md)
+
+The public verification reference passes **90/90 failure-policy trials**, compared with **30/90** for a minimal write/check baseline across the same nine conditions. This measures the public reference’s preservation and completion rules, not private-product performance or AI quality. [Reproduce the comparison](benchmarks/portfolio/engineering/public-safety-benchmark.md). A separate [JSON evaluation kit](code/evaluation-runner/README.md) supports confidential structured-output reviews without publishing core source or methods.
 
 ## Related systems
 
@@ -197,7 +199,9 @@ The linked AI-authored reviews discuss the source, test results, and project rec
 
 The projects span AI development, desktop and web software, developer tools, and games. The supporting records explain what has been built, what has been tested, and what still needs work.
 
-[Capabilities and supporting evidence](benchmarks/portfolio/engineering/capabilities.md)
+[Capabilities and supporting evidence](benchmarks/portfolio/engineering/capabilities.md) · [Claim-by-claim evidence guide](benchmarks/portfolio/engineering/reviewer-guide.md)
+
+A fresh recheck of the retained private component snapshot passed **47/47 selected tests**, **200/200 learned cases**, and **200/200 restored cases**. The untrained control passed **0/200**; the disabled control resolved **0/200**. All nine snapshot files matched their previously published source identities and remained unchanged during execution. These are bounded, AI-reviewed component results. [Aggregate recheck receipt](benchmarks/results/2026-10-26-private-component-recheck.json).
 
 ## Benchmarks
 

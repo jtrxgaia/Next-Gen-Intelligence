@@ -75,3 +75,14 @@
 - Displayed the complete original showcase on the Benchmarks page, linked below the Engineering Capability Profile.
 - Kept historical measurements accessible alongside methods and dated corrections.
 - Included reviewed application/game images and public-safe evidence summaries; proprietary implementation and private state remain excluded.
+
+## October 26, 2026 — reproducible architecture evidence extension
+
+- Preserved the front-page heading order, project sections and images; added proof links within existing sections.
+- Added a claim-by-claim reviewer guide and a confidential black-box evaluation kit.
+- Reran the retained private snapshot: 47/47 selected tests, 200/200 learned/restored cases, with untrained/disabled controls. Published aggregates and hashes only.
+- Hardened the public edit reference for check exceptions, invalid results, deletion, cancellation and cooperating-process locking; documented concurrency and crash limits.
+- Added a reproducible nine-condition safety comparison and raw trial results: verified 90/90, minimal baseline 30/90.
+- Hardened ARC scoring against malformed/sparse grids, solver-factory errors and mutation contamination.
+- Added Windows/Linux CI with Node 20/22, result artifacts and exact-byte checkout attributes.
+- New public implementations and measurements are attributed to this AI-assisted extension; no private methods, core source, training recipe or model artifact is released.
