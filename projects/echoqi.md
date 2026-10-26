@@ -11,15 +11,15 @@ The result is an interconnected AI software platform whose core and application 
 
 ## Architecture and tradeoff
 
-The central architectural problem is maintaining coherent ownership as the system expands: cognition, conversation, memory, model contributions, and actions must operate through defined boundaries.
+As the system grows, each part needs a clear job. Reasoning, conversation, memory, external models, and actions must work together without conflicting over decisions or stored information.
 
-The architecture defines component responsibilities and integrates native and learned behavior across several application surfaces. Historical generations are preserved while supported routes are consolidated around declared owners. This enables continued development without making every experimental component an implicit authority.
+The architecture defines those jobs and connects reasoning and learned behavior to the applications. Older versions are kept for reference while supported operations move toward clearly assigned components. Experimental code does not automatically gain control of the system.
 
 Public documentation describes these responsibilities and results; the proprietary procedures behind the core remain confidential.
 
 ## Neural learning and model development
 
-The reviewed estate contains custom trainable software, native learning from demonstrations, model-training source, and retained trained-artifact records. An October 25 experiment explicitly records model initialization from scratch without pretrained weights, followed by application-level fitting and restart checks.
+The reviewed projects contain custom trainable software, native learning from demonstrations, model-training source, and records of saved trained models. An October 25 experiment explicitly records model initialization from scratch without pretrained weights, followed by application-level fitting and restart checks.
 
 A separate upstream-model adaptation path retains a training manifest and model adapter. These represent distinct capabilities: creating custom AI components, training their parameters, and integrating adapted models where appropriate.
 
@@ -27,7 +27,7 @@ A separate upstream-model adaptation path retains a training manifest and model 
 
 ## Persistence and integration
 
-EchoQI’s application engineering includes state ownership, persistent continuity, corrections, guarded changes, and restart behavior. Interfaces and service contracts connect these functions to user-facing software.
+EchoQI’s application engineering includes state ownership, continuity between interactions, corrections, guarded changes, and restart behavior. Interfaces and service contracts connect these functions to user-facing software.
 
 This work addresses the practical requirements of stateful AI: retain useful context, preserve controlled changes, identify what actually executed, and support recovery when an operation fails.
 
@@ -35,7 +35,7 @@ This work addresses the practical requirements of stateful AI: retain useful con
 
 The public historical ARC record reports **19/50 public-training tasks passed**, with exact-grid scoring and a fresh solver per input. This is a development-subset result. [Report](../reports/2026-10-03_Codex_Independent_Benchmark_v1.md).
 
-The training record documents a **34-example training-fit diagnostic** and an **eight-output restart comparison** using the same weights. Independent generalization and end-to-end production acceptance remain separate evaluation stages. [Training evidence](../benchmarks/results/2026-10-25-ai-training-review.json).
+The training record documents a check using **34 training examples** and an **eight-output restart comparison** using the same weights. Independent generalization and testing of the complete production workflow remain separate evaluation stages. [Training evidence](../benchmarks/results/2026-10-25-ai-training-review.json).
 
 **Engineering capabilities:** proprietary AI architecture, custom learning software, model training, persistent state, component integration, evaluation, and recoverability.
 

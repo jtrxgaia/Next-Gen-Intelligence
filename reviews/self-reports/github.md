@@ -9,7 +9,7 @@ The reviewed repository contains its original EchoQI presentation and benchmark 
 
 ## Connecting claims to evidence
 
-The repository identifies original project ownership, upstream dependencies, execution modes, and measurement scope. Historical benchmark receipts remain available with dated interpretation. Training, application checks, game deliveries, and recovery records are presented as different forms of evidence.
+The repository identifies original project ownership, third-party dependencies, execution modes, and measurement scope. Historical benchmark receipts remain available with dated interpretation. Training, application checks, game deliveries, and recovery records are presented as different forms of evidence.
 
 That organization makes the work inspectable without publishing the proprietary core. Readers can follow a project description to a Codex report, a public-safe source-identity record, or a preserved public receipt.
 

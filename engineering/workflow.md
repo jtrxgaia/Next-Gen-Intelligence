@@ -1,28 +1,27 @@
 # Development workflow
-**Architecture, AI-assisted implementation, validation, and recovery.**
 
-[Portfolio](../README.md) · [Engineering specializations](strengths.md)
+[Portfolio](../README.md) · [Skills](strengths.md)
 
-## Requirements and architecture
+## Define the problem
 
-Development begins with intended behavior, user interaction, component responsibilities, and acceptance criteria. Architectural decisions cover state, interfaces, model contributors, execution, performance, and recovery.
+Development starts with what the software should do and what a successful result would look like. Design decisions cover the interface, stored information, AI components, permissions, performance, and recovery.
 
-## AI-assisted implementation
+## Build with AI assistance
 
-Tools used for implementation and analysis include Codex, Claude Code, Antigravity, and Gemini. Architectural direction, outcome review, and prioritization remain developer responsibilities. Individual code and asset contributions may be AI-generated or based on upstream dependencies.
+Tools used for coding and analysis include Codex, Claude Code, Antigravity, and Gemini. Product direction, review, and priorities remain developer responsibilities. Code and assets may include AI-generated work and third-party dependencies.
 
-Recorded workflows use bounded changes, observable output, and explicit review points. Separate previews and checkpoints support review before publication or deployment.
+Changes are kept small enough to review, with previews or checkpoints before publication and deployment.
 
-## Experiments and validation
+## Check what happened
 
-Learning experiments retain manifests, artifact identities, source/data provenance, fitting checks, and restart comparisons. Developer-tool and game records include executed checks, diagnostic investigations, visual inspection, and regression results. Each result retains its workload and version scope.
+Training experiments keep records of their data, saved models, results, and restart tests. Developer tools and game projects use executed checks, reproduced failures, visual review, and regression records. Results are tied to the version and workload tested.
 
-## Continuity and recovery
+## Keep a way back
 
-Checkpoints, guarded state, versioned artifacts, and rollback records support model experiments, generated edits, application updates, and game migration. Recovery logic accounts for content ownership and preservation of existing work.
+Saved versions, checkpoints, and rollback protect existing work during experiments, generated edits, updates, and game migration. Before restoring a file, recovery logic checks whether another change needs to be preserved.
 
-## Technical handoff
+## Leave a usable record
 
-Component contracts, milestones, setup records, and retained evidence support continued development. Project documentation distinguishes implementation, selected passing checks, incomplete validation, and release-specific acceptance.
+Setup notes, component interfaces, milestones, and test results help the work continue. Documentation distinguishes completed implementation from passing tests and from a release that has met all its requirements.
 
-[Evidence index](evidence-index.md) · [Attributed Codex technical review](../reviews/self-reports/strengths.md)
+[Evidence index](evidence-index.md) · [Codex technical review](../reviews/self-reports/strengths.md)

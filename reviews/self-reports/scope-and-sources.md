@@ -5,7 +5,7 @@ These reports summarize my inspection of selected local source, tests, retained 
 
 Historical tests, training jobs, and private applications were not rerun. Results retain their original workload and date. Source hashes identify reviewed content; private implementation is not publicly reproducible from the summaries.
 
-Proprietary code, training data, model payloads, recipes, private state, credentials, and internal paths remain excluded. Project ownership and the approximate development period include owner-reported information. AI assistance and upstream dependencies are attributed separately.
+Proprietary code, training data, model payloads, recipes, private state, credentials, and internal paths remain excluded. Project ownership and the approximate development period include owner-reported information. AI assistance and third-party dependencies are attributed separately.
 
 [Evidence index](../../engineering/evidence-index.md) · [Inspection manifest](../../benchmarks/results/2026-10-25-expanded-inspection.json) · [Portfolio](../../README.md)
 

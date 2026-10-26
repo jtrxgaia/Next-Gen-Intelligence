@@ -1,40 +1,36 @@
 # Jack Rourke
 ### AI Systems Architect · Software Engineer
 
-Jack Rourke is an independent software engineer and the creator of EchoQI, a proprietary AI system. Areas of work include custom neural-learning components, model training, persistent memory, developer tools, web applications, and real-time games.
+Jack Rourke is an independent software engineer and the creator of EchoQI. His work brings together custom AI, model training, desktop tools, web applications, and games.
 
-The EchoQI ecosystem includes the QI Core runtime, Dark Matter development tools, QI Works, EchoQI.me, and SYNAP FPS. Development responsibilities span architecture, AI-assisted implementation, training experiments, application integration, testing, and release workflows.
+At the center is QI Core, the proprietary system behind EchoQI. Around it are projects that explore how AI can be used in everyday software: Dark Matter for development, QI Works and EchoQI.me for web-based tools, and SYNAP FPS for real-time gameplay.
 
 [Contact](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
-**Contents:** [Engineering specializations](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Engineering investigations](#engineering-investigations) · [Development history](#development-history) · [Technical reviews](#technical-reviews) · [Repository directory](#repository-directory)
+**Explore:** [Skills](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Problem solving](#engineering-investigations) · [History](#development-history) · [Reviews](#technical-reviews) · [Repository directory](#repository-directory)
 
 ## Engineering specializations
 
-| Area | Work represented in the ecosystem |
+| Area | Examples of the work |
 |---|---|
-| Custom AI architecture | Reasoning components, persistent state, model contributors, tool interfaces, and controlled execution. |
-| Neural-network development | Custom trainable components, model initialization, training workflows, retained artifacts, and evaluation. |
-| Desktop and web applications | Electron and React interfaces, backend services, account-aware state, and AI integrations. |
-| Developer tools | Repository analysis, scoped edits, executed verification, checkpoints, and recovery. |
-| Real-time software | Gameplay, weapons, enemy behavior, progression, rendering, persistence, and engine migration. |
-| Reliability and diagnostics | Failure isolation, telemetry correction, regression investigation, integrity checks, and rollback. |
+| AI architecture | Connecting reasoning, memory, models, and tools within one system. |
+| Neural networks and training | Writing trainable components, running experiments, saving trained models, and checking their behavior. |
+| Desktop and web development | Building interfaces, backend services, user accounts, and AI integrations. |
+| Developer tools | Understanding codebases, applying changes, running checks, and recovering from failed edits. |
+| Game development | Weapons, characters, enemies, maps, progression, rendering, and saved games. |
+| Debugging and reliability | Reproducing failures, correcting misleading measurements, and restoring working versions. |
 
-Applications include specialized assistants, internal knowledge tools, developer automation, and interactive software. Deployment requirements and acceptance criteria vary by application.
+These skills apply to specialized AI assistants, internal business tools, development automation, and interactive software.
 
-[Engineering specializations and applications](engineering/strengths.md) · [Development workflow](engineering/workflow.md)
+[Skills and practical applications](engineering/strengths.md) · [Development workflow](engineering/workflow.md)
 
 ## AI development
 
-EchoQI development includes original AI components and custom model-training experiments:
+The AI work includes both building original components and training them. Some experiments start with randomly initialized weights; others adapt an existing model. These are separate approaches, and the records identify which one was used.
 
-- **Core architecture:** native computation, persistent continuity, state ownership, contributor interfaces, and controlled execution.
-- **Neural-learning software:** trainable components, saved learning state, and tests governing the use of learned behavior.
-- **From-scratch training:** recorded jobs initialized without pretrained weights, with dataset/tokenizer provenance and retained artifacts.
-- **Model adaptation:** a separate fine-tuning path using an upstream model, a training manifest, and a saved adapter.
-- **Learning from demonstrations:** bounded skill-learning work using examples across turns.
+Other work explores learning from examples, saving what has been learned, and connecting the result to an application. The surrounding software handles memory, access to tools, and decisions about which component may change the system.
 
-The October 25 training record documents a 34-example training-fit diagnostic and an eight-output restart comparison using the same weights. These establish the reported fitting and persistence results; independent generalization remains a separate evaluation stage.
+An October 25 experiment met its training target on 34 examples and produced consistent results across eight checked outputs after a restart. Those examples were used during training, so the result shows that the model learned the training material. Testing on unseen examples is a separate step.
 
 [AI development case study](projects/ai-creation-and-training.md) · [Training record](benchmarks/results/2026-10-25-ai-training-review.json)
 
@@ -42,140 +38,142 @@ The October 25 training record documents a 34-example training-fit diagnostic an
 
 ### EchoQI / QI Core
 
-EchoQI is a proprietary neuro-symbolic AI system designed by Jack Rourke. Its development combines custom learning software, native reasoning, persistent memory, and coordination across desktop, web, and developer-tool applications. The developer describes the broader design as a **neuro-symbolic, quantum-inspired hybrid “hive mind”**: a connected system in which specialized components contribute to a shared runtime and persistent system identity.
+EchoQI is a proprietary AI system designed by Jack Rourke. It combines custom learning software, reasoning, persistent memory, and tools that connect it to desktop and web applications.
 
-The project forms part of a development history beginning around 2023, according to developer-provided records. The public evidence includes later implementation, training, integration, and recovery records; it does not independently date every earlier stage.
+The broader design is described as a **neuro-symbolic, quantum-inspired hybrid “hive mind.”** In practical terms, it is a system of specialized parts that share information and work through a common core. The design has developed over several years, with a history dating to around 2023 according to the developer’s records.
 
-#### Neuro-symbolic architecture
+#### How the parts work together
 
-The architecture combines trainable components with explicit reasoning and application rules. Neural-learning work covers parameterized behavior and retained learning state. Symbolic and native processing cover supported task operations, relationships, constraints, and controlled decisions. These components have separate responsibilities within the larger system.
+“Neuro-symbolic” describes the combination of learned behavior and explicit reasoning. Trainable components learn from examples. Other parts handle supported operations, relationships, rules, and constraints. The architecture defines where each belongs and how its output can be used.
 
-This arrangement supports the integration of learned behavior with explicit state and execution boundaries. Upstream models can contribute through defined interfaces alongside original components; their involvement is recorded separately from the proprietary core.
+External models can also contribute through defined interfaces. Their role is documented separately from the original core and its custom learning components.
 
-#### Persistent memory and continuity
+#### Memory that carries across interactions
 
-Memory and continuity work covers retained context, relationship-based information, corrections, state ownership, and restart behavior. The system is designed to preserve relevant state across interactions while controlling which components may modify it.
+Memory work focuses on keeping useful context, relationships, and corrections between interactions. It also addresses a less visible problem: deciding which part of the software can change that information and how to recover if a change goes wrong.
 
-Persistence is treated as an engineering responsibility with saved state, integrity checks, and recovery records. The available training evidence also includes an eight-output restart comparison using the same weights, establishing consistency for that specific experiment.
+Saved state, integrity checks, and restart tests help check that information survives as intended. Each test establishes a specific behavior; it does not prove that every kind of memory works in every situation.
 
-#### Hybrid coordination and the “hive mind” concept
+#### The “hive mind” concept
 
-The “hive mind” description refers to the coordination of specialized processing components, model contributors, memory services, tools, and application interfaces. Cognition, conversation, persistent state, and execution have defined owners rather than operating as unrelated chat sessions.
+The term describes coordination between reasoning components, models, memory, tools, and application interfaces. Each has a role, while the core sets boundaries around shared state and actions.
 
-Desktop interfaces, Dark Matter, and web integrations provide different application surfaces around the wider ecosystem. Host-coordination work adds capability authorization, request identity, and execution records. Integration and physical deployment retain separate acceptance requirements; a shared design does not establish that every service or host is currently qualified for operation.
+Desktop tools, Dark Matter, and web integrations provide different ways to interact with the wider system. Related work covers permissions and communication between hosts. Some integrations still need further testing before they can be treated as ready for regular use.
 
-#### Custom learning and training
+#### Building and training the learning components
 
-Development includes custom trainable implementations, learning from demonstrations, training from random initialization without pretrained weights, and a separate upstream-model adaptation path. Recorded artifacts include training manifests, dataset/tokenizer provenance, saved model identities, fitting diagnostics, and restart comparisons.
+The development record includes custom trainable code, learning from demonstrations, training without pretrained weights, and adaptation of an existing model. Training records identify the data and tokenizer used, saved model files, results, and restart checks.
 
-The October 25 experiment met its defined fitting target on 34 training-exposed examples across two task types. This documents a bounded training experiment, with independent generalization and product readiness assessed separately. Neural training, demonstration learning, and retrieval remain distinct functions within the architecture.
+Learning, retrieving stored information, and following a demonstrated operation are treated as different functions. The [training record](benchmarks/results/2026-10-25-ai-training-review.json) explains what the completed experiments tested and what remains untested.
 
-#### Quantum-inspired design and quantum-service research
+#### Quantum research
 
-The project’s quantum-inspired design language is distinct from its IBM Quantum/Qiskit integration research. The documented cognitive runtime uses classical graph and reasoning software. Separate research materials describe interfaces for experimental contributions from external quantum services, with simulation and classical fallback paths identified separately.
+The quantum-inspired design and the IBM Quantum/Qiskit research are separate parts of the project. The documented reasoning system runs on classical software. The quantum research explores connections to external quantum services, with simulation and classical alternatives recorded separately.
 
-The preserved records establish integration work and research intent. They do not establish quantum advantage or demonstrate that the cognitive runtime operates on quantum hardware. [Quantum integration record](docs/IBM_QUANTUM_RESEARCH.md).
+This is integration and research work. The available records do not demonstrate quantum advantage or establish that EchoQI’s reasoning runs on quantum hardware. [Quantum integration record](docs/IBM_QUANTUM_RESEARCH.md).
 
-#### Core engineering and application integration
+#### Turning the core into usable software
 
-Development responsibility covers the core’s architecture and custom components together with the software needed to expose them through applications: service contracts, user interfaces, authorized actions, diagnostics, checkpoints, and recovery. This connects model and reasoning experiments to persistent software products.
+The work extends to the interfaces, services, permissions, diagnostics, and recovery tools needed to use the core in an application. That includes deciding how requests reach the system, how results return to the user, and what happens when an operation fails.
 
-Public documentation describes component responsibilities and measured outcomes. Proprietary representations, internal procedures, training recipes, model payloads, and private state are excluded.
+The public record explains these responsibilities and results. The core’s implementation, training recipes, private data, and model files remain private.
 
 <img src="media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock" width="760" />
 
-*Desktop interaction component associated with the ecosystem.*
+*An Echo desktop interface component.*
 
-[Core case study](projects/echoqi.md) · [Training evidence](benchmarks/results/2026-10-25-ai-training-review.json) · [Implementation inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Attributed core review](reviews/self-reports/echoqi-core.md)
+[Core case study](projects/echoqi.md) · [Source inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Codex core review](reviews/self-reports/echoqi-core.md)
 
 ### Dark Matter
 
-Dark Matter is a desktop development environment connecting repository analysis, AI coding contributors, workspace operations, verification, and recovery.
+Dark Matter is a desktop development tool that brings codebase analysis, AI coding assistance, file changes, testing, and recovery into one workflow.
 
-**Technologies:** Electron, React, Vite, Node.js, and local model adapters.  
-**Recorded results:** 29 selected checks passed and one was skipped. The largest snapshot fixture reduced file reads from 1,000 to 500 while preserving baseline hashes. These are historical, workload-specific results.
+Its central concern is whether a change actually worked. Proposed edits are kept separate from completed operations, and required checks must run before a task can be marked complete. Recovery checks whether a file has changed again before restoring an earlier version.
 
-The workflow distinguishes proposed changes from executed operations and ties completion to required checks. Checkpoints and content-ownership checks support recovery without overwriting competing edits.
+**Built with:** Electron, React, Vite, Node.js, and local model adapters.
+
+**Recorded results:** 29 selected checks passed and one was skipped. In the largest snapshot test, file reads fell from 1,000 to 500 while the saved file hashes stayed the same. These results apply to the recorded tests, rather than every use of the application.
 
 <img src="media/portfolio/dark-matter-creator.jpg" alt="Dark Matter Creator interface" width="760" />
 
-*Creator renderer preview, October 3, 2026; workflow results are documented separately.*
+*Creator interface preview, October 3, 2026.*
 
-[Dark Matter case study](projects/dark-matter.md) · [Verification workflow](engineering/verified-edit-walkthrough.md)
+[Dark Matter case study](projects/dark-matter.md) · [How changes are checked](engineering/verified-edit-walkthrough.md)
 
 ### SYNAP FPS
 
-SYNAP FPS is a science-fiction game project covering weapons, modular equipment, characters, enemy behavior, progression, maps, rendering, interfaces, and saved state. Development includes a browser edition and a separate native implementation.
+SYNAP is a science-fiction first-person shooter with custom weapons, modular equipment, characters, enemy behavior, maps, progression, and saved state. Development covers both the game’s systems and how they look and feel in play.
 
-**Technologies:** TypeScript, Babylon.js, and Rapier; Unreal Engine and C++ for the native project.  
-**Delivery status:** browser edition and packaged native development builds. Native parity, regression closure, and performance acceptance remain in progress.
+The browser edition uses **TypeScript, Babylon.js, and Rapier**. A separate native version uses **Unreal Engine and C++**. Native development builds have been packaged, while feature parity, regression fixes, and performance testing remain in progress.
 
 <img src="media/portfolio/synap-gameplay-owner.png" alt="SYNAP gameplay showing the Aurelia arena, weapon view, holographic structures, and combat HUD" width="900" />
 
-*Supplied gameplay capture. The FPS overlay is a momentary reading, not a controlled performance benchmark; the image does not establish an exact engine revision.*
+*Gameplay capture supplied for the portfolio. The FPS overlay shows that moment, not a controlled benchmark; the image does not identify an exact engine version.*
 
-Development records cover telemetry investigation, rendering workload, asset integration, packaging, and migration between engines. AI-assisted implementation and established engine dependencies are documented in the case study.
+The development history includes work on rendering, asset integration, packaging, and misleading performance telemetry. The case study also explains the use of AI assistance and established engines.
 
-[SYNAP case study and additional image](projects/synap-fps.md)
+[SYNAP case study and more images](projects/synap-fps.md)
 
 ### QI Works / EchoQI.me
 
-QI Works provides product presentation and discovery for the EchoQI ecosystem. EchoQI.me includes application views, AI integrations, sessions, account-level data, and game delivery.
+QI Works introduces the projects in the EchoQI ecosystem. EchoQI.me brings the broader web application together, including AI conversations, image and video workflows, user sessions, account data, and game access.
 
-**Technologies:** React, JavaScript/TypeScript, Vite, Tailwind, TanStack Query, and Base44.  
-**Recorded results:** 20 selected passing checks covering public adapters, match-core behavior, and simulated purchase/save workflows. Current authenticated-service readiness requires separate validation.
+The platform connects the proprietary core with external AI and media services. Custom application code handles the interfaces and integrations, while Base44 provides managed services.
 
-Application engineering covers frontend/backend contracts, authorization boundaries, persistence, service errors, and release handling. Base44 supplies managed application services alongside custom application work.
+**Built with:** React, JavaScript/TypeScript, Vite, Tailwind, TanStack Query, and Base44.
+
+**Recorded results:** 20 selected checks passed across public adapters, game-match logic, and simulated purchase/save workflows. These tests did not establish that every current signed-in feature or live transaction works.
 
 <img src="media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
 
-*Public landing page captured October 25, 2026. A chat-maintenance notice was visible at the time.*
+*Public landing page, October 25, 2026. Chat was marked as under maintenance when this image was captured.*
 
 [QI Works and EchoQI.me case study](projects/echoqi-web.md)
 
 ## Engineering investigations
 
-| Area | Recorded work |
-|---|---|
-| Learning behavior | Training provenance, saved artifacts, scoped fitting diagnostics, and restart comparisons. |
-| Runtime integration | Decision and state boundaries across multiple implementation generations. |
-| Generated changes | Required verification, content identity checks, and recovery that protects competing edits. |
-| Game telemetry | Reproduction of a diagnostic-units defect, separated from unresolved frame-time causes. |
-| OS updates | Health-check rejection of a signed candidate and restoration of a known-good system slot. |
+Some of the most useful project records concern things that went wrong:
 
-[Investigation records and open milestones](engineering/problems-and-progress.md)
+- **AI learning:** keeping training results separate from performance on unseen examples.
+- **Runtime integration:** resolving which component controls a decision or changes shared state.
+- **Generated code:** requiring executed checks and protecting edits made outside the current task.
+- **Game performance:** reproducing a diagnostic that displayed a mesh count as milliseconds, then separating that reporting error from unresolved frame-time problems.
+- **OS updates:** rejecting an unhealthy signed update and restoring a known-good version.
+
+[Investigations, fixes, and open work](engineering/problems-and-progress.md)
 
 ## Related systems
 
-Supporting projects cover host coordination, voice integration, repository intelligence, model research, QIOS, IBM Quantum/Qiskit integration, and the Stellex/Stellux game lineage. QI Glasses is documented as a research concept; the reviewed evidence does not establish a physical prototype.
+Other projects explore voice interfaces, communication between hosts, codebase analysis, model research, QIOS, quantum-service integration, and the Stellex/Stellux games. QI Glasses remains a research concept; the reviewed material does not establish a physical prototype.
 
 [Ecosystem map](engineering/ecosystem.md) · [Supporting systems](projects/systems.md)
 
 ## Development history
 
-Independent development began around 2023 according to the developer-provided history. The linked record includes 2026 implementation, training, and delivery artifacts. This public repository’s history begins October 3, 2026 and does not independently establish the earlier development period.
+The developer’s history places the start of independent work around 2023. The linked evidence includes implementation, training, and delivery records from 2026. This repository’s public history begins October 3, 2026, so it cannot verify the full earlier timeline on its own.
 
-The historical ARC development record reports **19/50 public-training tasks passed**, with a **13.388 ms median solve time per test input**, excluding startup. This is a public-training development result, not a hidden-evaluation score. Historical comparison graphics are retained with methods and corrections.
+One historical ARC development run passed **19 of 50 public-training tasks**, with a **13.388 ms median solve time per test input**, excluding startup. This was a development result on public training tasks, not a hidden-test score. Older comparison charts are preserved alongside corrections and explanations of their limits.
 
-[Evidence index](engineering/evidence-index.md) · [Historical results and methods](benchmarks/METHODS.md)
+[Evidence index](engineering/evidence-index.md) · [Results and methods](benchmarks/METHODS.md)
 
 ## Technical reviews
 
-Separately attributed AI-authored reports discuss source inspection, historical tests, and delivery records. These reports are commentary on the cited evidence rather than independent certification.
+The linked AI-authored reviews discuss the source, test results, and project records examined. Each names its author and scope. They are assessments of the evidence, not independent certifications.
 
-[Codex technical review — GPT 6.1 Sol](reviews/codex-2026-10-25.md) · [Project reports and review scope](reviews/README.md)
+[Codex review — GPT 6.1 Sol](reviews/codex-2026-10-25.md) · [Project reviews](reviews/README.md)
 
 ## Engineering capability profile
 
-The project record covers AI architecture and training, desktop/web integration, developer tools, and real-time software. Supporting records distinguish implemented components, selected validation results, and incomplete acceptance work.
+The projects span AI development, desktop and web software, developer tools, and games. The supporting records explain what has been built, what has been tested, and what still needs work.
 
 [Capabilities and supporting evidence](engineering/capabilities.md)
 
 ## Benchmarks
 
-The previous repository presentation, benchmark graphics, and IBM Quantum research record are preserved in the historical archive. Methods and dated corrections identify the scope of supported results.
+The earlier front page, benchmark charts, and IBM Quantum research record are preserved here. Read the methods and corrections alongside the historical comparisons.
 
 [Benchmark showcase](benchmarks/README.md) · [Methods and corrections](benchmarks/METHODS.md) · [Original repository snapshot](benchmarks/original-repository/README.md)
+
 
 ## Repository directory
 

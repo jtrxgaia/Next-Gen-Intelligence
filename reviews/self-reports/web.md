@@ -19,7 +19,7 @@ The implementation goes beyond the visible landing page. I inspected account-awa
 
 The proprietary core and external providers remain distinct contributors to the product. Base44 and upstream AI/media services supply managed infrastructure and generation capabilities; Jack’s work is the platform architecture and custom integration that turns them into a coherent user experience.
 
-The reviewed source supports these implemented feature paths. This review did not execute paid generations or current signed-in provider conversations; the public page displayed a chat-maintenance notice at capture time. Those operational observations are separate from the platform-development work documented here.
+The reviewed source supports these implemented features. This review did not execute paid generations or current signed-in provider conversations; the public page displayed a chat-maintenance notice at capture time. Those operational observations are separate from the platform-development work documented here.
 
 **Evidence:** [Platform implementation review](../../benchmarks/results/2026-10-25-product-creation-review.json) · [Selected checks](../../benchmarks/results/2026-10-18-selected-checks.json) · [Public page](../../media/portfolio/echoqi-web.png)
 

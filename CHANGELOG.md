@@ -1,5 +1,12 @@
 # Changelog
 
+## October 25, 2026 — plain-language editing
+
+- Rewrote the profile in shorter, more direct language while keeping its neutral point of view.
+- Kept the detailed QI Core explanation, images, sources, and measurement limits.
+- Simplified skills, workflow, case-study wording, and attributed review text.
+- Left the historical benchmark archive and evidence receipts unchanged.
+
 ## October 25, 2026 — reference-style profile
 
 - Recast the main profile and supporting project/engineering pages in neutral, descriptive prose.

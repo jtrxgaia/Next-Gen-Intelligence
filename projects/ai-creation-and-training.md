@@ -11,7 +11,7 @@ The development lifecycle covers requirements, architecture, implementation, tra
 
 ## Training a custom model from scratch
 
-A completed October 25 experiment records **random initialization without pretrained weights**, an owned training job, saved-artifact identities, dataset/tokenizer provenance, application-level checks, and a restart comparison.
+An October 25 experiment started with **randomly initialized weights rather than a pretrained model**. Its records identify the training job, saved files, dataset, tokenizer, application checks, and restart results.
 
 The defined fitting target covered **34 training-exposed examples** across two task types. The record reports that the target was met for both groups. An **eight-output restart comparison** retained the same weights and consistent outputs apart from elapsed time, without restarting optimization.
 
@@ -33,7 +33,7 @@ Custom initialization and upstream-model adaptation are separate development pat
 
 The records preserve experiment identities, training provenance, trained-artifact references, fitting results, and restart checks. Failed baselines and incomplete acceptance remain part of the engineering record.
 
-**Status:** implemented learning/training software and completed bounded experiments. Broader generalization and product qualification require task-specific evaluation.
+**Status:** learning and training software and completed limited experiments. Broader generalization and product qualification require task-specific evaluation.
 
 **Engineering capabilities:** custom AI development, neural-model experimentation, training pipelines, artifact handling, evaluation, and application integration. Proprietary source, data, and training recipes remain private.
 

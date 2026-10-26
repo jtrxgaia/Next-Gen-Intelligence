@@ -1,42 +1,41 @@
-# Engineering specializations and applications
-**Custom AI architecture, neural-network development, and integrated software systems.**
+# Skills and practical applications
 
 [Portfolio](../README.md) · [AI development](../projects/ai-creation-and-training.md)
 
 ## Custom AI development
 
-EchoQI development covers requirements, architecture, custom components, training, evaluation, and application integration. The system combines native processing, learning software, persistent state, and controlled execution.
+The EchoQI work starts with the behavior an application needs, then connects custom components, training, testing, and a usable interface. The core combines reasoning, learning software, saved state, and controls around actions.
 
-Potential applications include specialized assistants, internal knowledge tools, and task-specific AI features. Application-specific data permissions, deployment constraints, and acceptance criteria determine delivery requirements.
+This experience can apply to specialized assistants, internal knowledge tools, and AI features within a larger product. The data available, privacy requirements, and intended use determine what needs to be built and tested.
 
-## Neural-network development and training
+## Neural networks and training
 
-The documented work includes custom trainable implementations, model initialization without pretrained weights, saved training artifacts, and application-level checks. A separate adaptation path uses an upstream model with an identified base and saved adapter.
+The records include custom trainable code, experiments starting without pretrained weights, saved model files, and checks inside an application. A separate path adapts an existing model and records the base model and saved adapter.
 
-Training records connect examples, artifacts, evaluation targets, and runtime behavior. Fitting diagnostics, restart consistency, and independent generalization are separate evidence categories.
+The evidence keeps three questions separate: did the model learn the training examples, did it retain its behavior after a restart, and can it handle unseen examples?
 
 ## Systems architecture
 
-Architecture work covers interfaces between AI components, state, services, and user-facing products. Recorded responsibilities include decision ownership, persistence, privileged operations, integration failures, and recovery.
+Architecture work defines how components communicate, where information is stored, and which part of the system may make a decision or take an action. It also covers failures between services and how to recover from them.
 
-## Application engineering
+## Desktop and web applications
 
-The ecosystem includes React interfaces, Electron applications, Node.js services, TypeScript server functions, account-aware data, and public web products. Application work covers service integration, sessions, diagnostics, and release workflows.
+The projects use React, Electron, Node.js, and TypeScript alongside managed web services. Work includes interfaces, user sessions, account data, service integrations, error handling, and releases.
 
-## Developer tools and automation
+## Developer tools
 
-Dark Matter and related repository-intelligence systems combine codebase analysis, controlled file operations, verification, and recovery. Their workflows account for workspace state, executed changes, and preservation of competing edits.
+Dark Matter combines codebase analysis, file changes, checks, and recovery. The workflow tracks what actually changed and protects work made outside the current task. This is useful for internal engineering tools and AI-assisted development.
 
 ## Debugging and reliability
 
-Investigation records cover learning behavior, generated-code failures, telemetry, rendering workload, persistence, startup, and update recovery. Methods include failure reproduction, scoped measurements, regression checks, and rollback.
+Project investigations cover learning behavior, failed generated code, misleading diagnostics, rendering, startup, and updates. The records show reproduced failures, targeted tests, saved working versions, and rollback.
 
-## Interactive software
+## Games and interactive software
 
-SYNAP integrates gameplay, enemy behavior, progression, rendering, effects, interfaces, and persistence. Its browser and native implementations have separate migration and acceptance records.
+SYNAP brings gameplay, enemies, progression, rendering, effects, interfaces, and saved state together. The browser and native versions have separate development and test histories.
 
-## Development responsibility
+## Project responsibility
 
-Independent development spans architectural direction, AI-assisted implementation, integration, testing, and product iteration. Project records distinguish original components, AI-generated contributions, established frameworks, and upstream models.
+Independent work covers design, AI-assisted coding, integration, testing, and ongoing revisions. The documentation identifies original work, AI assistance, frameworks, and external models separately.
 
-[Supporting evidence](evidence-index.md) · [Attributed Codex technical review](../reviews/self-reports/strengths.md)
+[Supporting evidence](evidence-index.md) · [Codex technical review](../reviews/self-reports/strengths.md)

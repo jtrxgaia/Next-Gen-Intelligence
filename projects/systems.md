@@ -7,7 +7,7 @@
 
 Host-integration development addresses enrollment, capability authorization, request identity, signed proofs, replay rejection, and verified execution across GAIA, EVE, and Mac.
 
-The reviewed source/tests establish implemented components and bounded checks. The inspected physical-demo acceptance record remains incomplete. This distinction preserves a precise account of what the integration has demonstrated.
+The reviewed source/tests establish implemented components and targeted checks. The inspected physical-demo acceptance record remains incomplete. This distinction preserves a precise account of what the integration has demonstrated.
 
 ## QIOS boot, updates, and recovery
 
