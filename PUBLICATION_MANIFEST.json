@@ -199,7 +199,7 @@
       "sha256": "1f1c960553230d4a37fb07997892c54a946c164e3bd8d7a91222e2bc9122e208"
     },
     {
-      "path": "media/portfolio/dark-matter-current.png",
+      "path": "media/portfolio/dark-matter-current.jpg",
       "bytes": 89675,
       "sha256": "32b01d0d33f133182dd76d0198fdae4e3a94f496da60b9ff63eab5cc13135b72"
     },
@@ -216,7 +216,7 @@
     {
       "path": "media/portfolio/README.md",
       "bytes": 2057,
-      "sha256": "11c82f8fd5c43428bbcaaa637f9057d975326558cad0509354968367e4f5c9bd"
+      "sha256": "5209378cf46d5b1d4c4f807bcf3c943968a6f533f0ee0200d0877234857763e9"
     },
     {
       "path": "media/portfolio/synap-browser.png",
@@ -246,7 +246,7 @@
     {
       "path": "projects/dark-matter.md",
       "bytes": 2956,
-      "sha256": "4fab9d420168f6145b81f484a21e6a0f407f98c8d8598dfc139ae56a734a0613"
+      "sha256": "9865b5a0a6ce52c575f08bc8b96d5c62db5f7646e1c1f240dfad62c43ede4fe2"
     },
     {
       "path": "projects/echoqi-web.md",
@@ -271,7 +271,7 @@
     {
       "path": "README.md",
       "bytes": 14549,
-      "sha256": "b6bcb8ca63bbf31183f36df78549461dba4a62fa568c21d73181612abbe70354"
+      "sha256": "098c5fd70d0316aa3470548eda909aba8b1a44df4843851e3c2316e32059d3eb"
     },
     {
       "path": "receipts/2026-10-03_Antigravity_Reported.json",

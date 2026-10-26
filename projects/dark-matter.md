@@ -29,7 +29,7 @@ Historical nonempty snapshot fixtures reduced file reads from two per file to on
 
 The inspected stack includes Electron, React, Vite, Node.js, local workspace services, and Ollama adapters. Configured coding tiers include Qwen-based generation and a DeepSeek-based reviewer; configured model identity is separate from current service health.
 
-![Dark Matter desktop platform after asking Who is Echo](../media/portfolio/dark-matter-current.png)
+![Dark Matter desktop platform after asking Who is Echo](../media/portfolio/dark-matter-current.jpg)
 
 *Captured from the running desktop platform on October 25, 2026, after asking “Who is Echo?” The generated reply is reproduced as displayed. This capture shows the interface and returned response; it does not independently verify the capabilities described in the reply.*
 
