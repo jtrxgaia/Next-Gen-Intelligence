@@ -1,0 +1,1911 @@
+{
+  "schema": "public.edit-safety-benchmark.v1",
+  "executedAt": "2026-10-26T18:49:47.680Z",
+  "runtime": "v24.16.0",
+  "platform": "win32",
+  "arch": "x64",
+  "rounds": 10,
+  "scenarios": 9,
+  "provenance": "AI-assisted public reference and benchmark added October 26, 2026; not private product source.",
+  "interpretation": "Policy fixtures compare a minimal write/check baseline with this public implementation. Repeated conditions are not independent samples. Timings include filesystem and child-process overhead, not model inference. No production, competitor, or AI-quality score.",
+  "sources": [
+    {
+      "path": "code/benchmarks/edit-safety.mjs",
+      "sha256": "e81ee3477a5e5759d2e08f061cf8dc56a3b00cbd247729c747bcfaa0bca567b5"
+    },
+    {
+      "path": "code/verified-edit/verified-edit.mjs",
+      "sha256": "dc6780f041f8c34cffb73d98f3b35e4dcd8953e1556ff8c99dc4828d14686a3c"
+    }
+  ],
+  "summary": {
+    "baseline": {
+      "passed": 30,
+      "total": 90,
+      "medianWallMs": 40.37639999999999,
+      "perScenario": {
+        "valid": {
+          "passed": 10,
+          "total": 10
+        },
+        "invalid-syntax": {
+          "passed": 0,
+          "total": 10
+        },
+        "check-exception": {
+          "passed": 0,
+          "total": 10
+        },
+        "cancel-during-check": {
+          "passed": 0,
+          "total": 10
+        },
+        "external-during-generation": {
+          "passed": 0,
+          "total": 10
+        },
+        "external-during-check-pass": {
+          "passed": 0,
+          "total": 10
+        },
+        "external-during-check-fail": {
+          "passed": 10,
+          "total": 10
+        },
+        "deleted-during-check": {
+          "passed": 10,
+          "total": 10
+        },
+        "cancel-before-start": {
+          "passed": 0,
+          "total": 10
+        }
+      }
+    },
+    "verified": {
+      "passed": 90,
+      "total": 90,
+      "medianWallMs": 4.222800000000177,
+      "perScenario": {
+        "valid": {
+          "passed": 10,
+          "total": 10
+        },
+        "invalid-syntax": {
+          "passed": 10,
+          "total": 10
+        },
+        "check-exception": {
+          "passed": 10,
+          "total": 10
+        },
+        "cancel-during-check": {
+          "passed": 10,
+          "total": 10
+        },
+        "external-during-generation": {
+          "passed": 10,
+          "total": 10
+        },
+        "external-during-check-pass": {
+          "passed": 10,
+          "total": 10
+        },
+        "external-during-check-fail": {
+          "passed": 10,
+          "total": 10
+        },
+        "deleted-during-check": {
+          "passed": 10,
+          "total": 10
+        },
+        "cancel-before-start": {
+          "passed": 10,
+          "total": 10
+        }
+      }
+    }
+  },
+  "rows": [
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.50059999999999
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.6879
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 0,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 42.891400000000004
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 47.599800000000016
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 0,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.7028999999999996
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.052800000000019
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 0,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 47.058899999999994
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 44.387699999999995
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 0,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 42.117999999999995
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.766900000000021
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 0,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 46.695899999999995
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 45.52969999999999
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.786800000000028
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.2649000000000115
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.5466000000000122
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.964400000000012
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 0,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 45.379800000000046
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 0,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.045400000000029195
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 44.433100000000024
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.03620000000001
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 47.684600000000046
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 1,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 46.567800000000034
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 5.085199999999986
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 1,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.4372999999999365
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 52.37309999999991
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 1,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 42.3664
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.733099999999922
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 1,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 44.17019999999991
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 50.117399999999975
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 1,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.58050000000003
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.086800000000039
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.9791000000000167
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.850300000000061
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.4568000000000438
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 1,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.00980000000004111
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 1,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 43.812200000000075
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 45.1812000000001
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 58.38390000000004
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 2,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 54.15129999999999
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 52.59879999999998
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 2,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 0.999599999999873
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.48700000000008
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 2,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 40.359899999999925
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.584499999999935
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 2,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 39.960000000000036
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.181100000000015
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 2,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 39.959100000000035
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 40.54690000000005
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.7626000000000204
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.574000000000069
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.2966000000001259
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.542500000000018
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 2,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 38.47440000000006
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 2,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.006099999999833017
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.992100000000164
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 39.36609999999996
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.20600000000013
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 3,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 40.375099999999975
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.052999999999884
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 3,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.0699999999999363
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.22550000000001
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 3,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 38.90159999999992
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.289600000000064
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 3,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 39.65740000000005
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.24160000000006
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 3,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.2992999999999
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.4050999999999476
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.519900000000007
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.557800000000043
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.4605999999998858
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 3,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.006300000000010186
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 3,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 39.256200000000035
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 39.99199999999996
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 40.71950000000015
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 4,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 40.9226000000001
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.768100000000004
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 4,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.106199999999717
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.378900000000158
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 4,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 39.13310000000001
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.589300000000094
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 4,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.95749999999998
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.409400000000005
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 4,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 40.377700000000004
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.673899999999776
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.5918000000001484
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.396600000000035
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.2583000000004176
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.152599999999893
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 4,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 38.61000000000013
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 4,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.006399999999757711
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 40.6268
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 38.847299999999905
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.63640000000032
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 5,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.197599999999966
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.8872999999998683
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 5,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.0462000000002263
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.108700000000226
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 5,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 40.478000000000065
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.451599999999871
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 5,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 39.875
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.38720000000012
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 5,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 39.103799999999865
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.192399999999907
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.3933999999999287
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.7496000000001004
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.7942000000002736
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 5,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.006399999999757711
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 5,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.21090000000004
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 41.40229999999974
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.26119999999992
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 6,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.35639999999967
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 44.723599999999806
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 6,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.4086999999999534
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.6802999999999884
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 6,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 42.03430000000026
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 45.634700000000066
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 6,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 43.15990000000011
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.8849999999997635
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 6,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.845600000000104
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.99200000000019
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.6586999999999534
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.5641999999998006
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.6248000000000502
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.135099999999966
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 6,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.902700000000095
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 6,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.008499999999912689
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.33329999999978
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.71990000000005
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 45.565200000000004
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 7,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 43.09780000000001
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.677299999999832
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 7,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.5054999999997563
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 47.26350000000002
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 7,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 43.161699999999655
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.5614000000000487
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 7,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.66159999999991
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 44.98810000000003
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 7,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 44.9670000000001
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.180700000000343
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.6532000000001972
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.9025000000001455
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.616899999999987
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 7,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.008500000000367436
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 7,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 44.362600000000384
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.48810000000003
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.97550000000001
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 8,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 43.29639999999972
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 46.34400000000005
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 8,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.0097000000000662
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.142100000000028
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 8,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 44.04230000000007
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 54.0903000000003
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 8,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 45.15700000000015
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.491399999999885
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 8,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 45.30059999999958
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 49.15819999999985
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.83429999999953
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.906199999999444
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.3771999999999025
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.1962000000003172
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 8,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.324499999999716
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 8,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.009700000000520959
+    },
+    {
+      "implementation": "verified",
+      "scenario": "valid",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 45.019100000000435
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "valid",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.542199999999866
+    },
+    {
+      "implementation": "verified",
+      "scenario": "invalid-syntax",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "check-failed-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 48.94250000000011
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "invalid-syntax",
+      "iteration": 9,
+      "policyPassed": false,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 46.402100000000246
+    },
+    {
+      "implementation": "verified",
+      "scenario": "check-exception",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "check-error-restored",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.457499999999527
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "check-exception",
+      "iteration": 9,
+      "policyPassed": false,
+      "outcome": "threw",
+      "error": "Error",
+      "finalMatchesExpected": false,
+      "elapsedMs": 1.4200000000000728
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-during-check",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 48.852499999999964
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-during-check",
+      "iteration": 9,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 44.55239999999958
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-generation",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "conflict-before-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 3.07799999999952
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-generation",
+      "iteration": 9,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 42.981800000000476
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-pass",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 43.958700000000135
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-pass",
+      "iteration": 9,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 42.6824000000006
+    },
+    {
+      "implementation": "verified",
+      "scenario": "external-during-check-fail",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 4.048300000000381
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "external-during-check-fail",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.4674000000004526
+    },
+    {
+      "implementation": "verified",
+      "scenario": "deleted-during-check",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "conflict-after-write",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 2.8004999999993743
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "deleted-during-check",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "check-failed",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 1.7307999999993626
+    },
+    {
+      "implementation": "verified",
+      "scenario": "cancel-before-start",
+      "iteration": 9,
+      "policyPassed": true,
+      "outcome": "cancelled",
+      "error": null,
+      "finalMatchesExpected": true,
+      "elapsedMs": 0.006399999999302963
+    },
+    {
+      "implementation": "baseline",
+      "scenario": "cancel-before-start",
+      "iteration": 9,
+      "policyPassed": false,
+      "outcome": "completed",
+      "error": null,
+      "finalMatchesExpected": false,
+      "elapsedMs": 41.837900000000445
+    }
+  ]
+}

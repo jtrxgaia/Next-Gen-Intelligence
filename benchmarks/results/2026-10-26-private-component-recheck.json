@@ -1,0 +1,32 @@
+{
+  "schema": "portfolio.private-component-recheck.v1",
+  "executed_at": "2026-10-26T18:48:10.293847+00:00",
+  "reviewer": "Codex; also authored this repository extension; not an independent auditor",
+  "runtime": "v24.16.0",
+  "execution_scope": "Fresh execution of the retained October 26 private component snapshot in a task-owned copy. No production application launch, training job, or current production-source equivalence asserted.",
+  "source_snapshot_matches_published_identities": true,
+  "source_files_checked": 9,
+  "source_hashes_unchanged_after_execution": true,
+  "component_suites": {
+    "total": 3,
+    "tests": 47,
+    "passed": 47,
+    "failed": 0
+  },
+  "synthetic_probe": {
+    "demonstrations": 3,
+    "cases_per_condition": 200,
+    "untrained_exact": 0,
+    "trained_exact": 200,
+    "restored_exact": 200,
+    "disabled_resolved": 0
+  },
+  "artifact_identities": {
+    "suite_log_sha256": "6998ae922aa8d584fca56c80c41821677f47afe3b57c63a77db9f473f24f3613",
+    "probe_source_sha256": "208fa6b51f1a756f81654b857211b3914f6fd113487688932942f6e86a25f971",
+    "private_probe_result_sha256": "2b5c86d21f9a0958a0a3bb55b1114e822085d5bd13e4f10a2dce881b92aa7582"
+  },
+  "interpretation": "Fresh generated values in the same supported synthetic family. The probe was reused with a fresh random seed; the evaluator has source knowledge. Learning-on and restored conditions each passed 200 cases, untrained control passed zero, and disabled control resolved zero. Not a blind evaluation, cross-family generalization result, neural-training score, whole-product acceptance, or independent attestation.",
+  "confidentiality": "Only aggregate outcomes and content hashes published. Snapshot, source interfaces, probe, seed, examples, raw logs, model payloads and host paths retained privately.",
+  "prior_record": "benchmarks/results/2026-10-26-private-core-evidence.json"
+}

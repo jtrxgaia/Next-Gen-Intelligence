@@ -17,3 +17,7 @@ The project record covers custom AI components, model training, desktop and web 
 [AI training](../../results/2026-10-25-ai-training-review.json) · [Selected engineering checks](../../results/2026-10-18-selected-checks.json) · [Inspection manifest](../../results/2026-10-25-expanded-inspection.json) · [Native delivery](../../results/2026-10-24-synap-native-summary.json)
 
 [Codex technical assessment](../reviews/self-reports/capabilities.md)
+
+## Direct reviewer path
+
+Use the [architecture evidence guide](reviewer-guide.md) to move from a claim to its receipt, runnable public demonstration or confidential verification procedure. The fresh private snapshot recheck and public recovery benchmark support different conclusions; their scope is explicit in that guide.

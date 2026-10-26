@@ -34,3 +34,7 @@ The review distinguishes owner-designed code, AI-assisted implementation, establ
 | Confidentiality | Confirmation that the attestation excludes implementation methods and private material |
 
 A black-box demonstration establishes behavior. Private source inspection substantiates implementation structure. Development history and a technical walkthrough support ownership and engineering understanding. Together they allow stronger evaluation while preserving the public repository's confidentiality boundary.
+
+## Runnable protocol for the next confidential review
+
+The [public evaluation kit](../../../code/evaluation-runner/README.md) accepts evaluator-owned JSON cases and a private local Node adapter. Expected answers are not sent through the adapter protocol; reports omit raw examples and host paths. Use an evaluator-controlled environment to enforce actual label isolation, pin dependencies/state and observe provider access. The runner is not a security sandbox and does not itself provide independent certification. No proprietary adapter or new external attestation is included in this update.

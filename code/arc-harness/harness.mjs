@@ -5,9 +5,20 @@
 //   - an answer counts only if the whole grid matches exactly
 //   - a task passes only if every one of its test inputs passes
 
-export const gridsEqual = (a, b) =>
-  Array.isArray(a) && Array.isArray(b) && a.length === b.length &&
-  a.every((row, i) => Array.isArray(row) && row.length === b[i].length && row.every((v, j) => v === b[i][j]));
+export function validGrid(grid) {
+  if (!Array.isArray(grid) || grid.length === 0) return false;
+  const width = grid[0]?.length;
+  if (!Number.isInteger(width) || width < 1) return false;
+  for (let i = 0; i < grid.length; i++) {
+    if (!Array.isArray(grid[i]) || grid[i].length !== width) return false;
+    for (let j = 0; j < width; j++) {
+      if (!Number.isInteger(grid[i][j]) || grid[i][j] < 0 || grid[i][j] > 9) return false;
+    }
+  }
+  return true;
+}
+export const gridsEqual = (a, b) => validGrid(a) && validGrid(b) &&
+  a.length === b.length && a.every((row, i) => row.length === b[i].length && row.every((v, j) => v === b[i][j]));
 
 export function withoutAnswers(task) {
   return {
@@ -17,14 +28,20 @@ export function withoutAnswers(task) {
 }
 
 export async function scoreTask(task, makeSolver) {
+  if (!Array.isArray(task?.train) || !Array.isArray(task?.test) || !task.test.length ||
+      [...task.train, ...task.test].some(p => !validGrid(p?.input) || !validGrid(p?.output))) {
+    throw new TypeError('Task must contain valid grids and at least one test input');
+  }
   const visible = withoutAnswers(task);
   const results = [];
   for (let i = 0; i < task.test.length; i++) {
-    const solver = makeSolver();
+    let solver;
+    let creationFailed = false;
+    try { solver = makeSolver(); } catch { creationFailed = true; }
     const started = performance.now();
     let prediction = null;
     try {
-      prediction = await solver({ train: visible.train, input: visible.test[i].input });
+      if (!creationFailed) prediction = await solver(structuredClone({ train: visible.train, input: visible.test[i].input }));
     } catch {
       // A crash counts as a wrong answer.
     }
@@ -43,7 +60,9 @@ export async function scoreSet(tasks, makeSolver) {
   }
   times.sort((a, b) => a - b);
   const passed = Object.values(perTask).filter(Boolean).length;
-  return { passed, total: Object.keys(perTask).length, medianMs: times[Math.floor(times.length / 2)] ?? null, perTask };
+  const middle = Math.floor(times.length / 2);
+  const medianMs = !times.length ? null : times.length % 2 ? times[middle] : (times[middle - 1] + times[middle]) / 2;
+  return { passed, total: Object.keys(perTask).length, medianMs, perTask };
 }
 
 // Returns the input unchanged. Any real solver has to beat this baseline.

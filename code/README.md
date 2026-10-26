@@ -1,31 +1,32 @@
-# Code samples
+# Public engineering samples and reviewer kit
 
-[Return to Jack Rourke’s portfolio](../README.md)
+[Return to the portfolio](../README.md) · [Architecture evidence guide](../benchmarks/portfolio/engineering/reviewer-guide.md)
 
-Three small, working programs that show how Jack designs the trust layer around AI systems: what counts as proof, when a change may be accepted, and how a score is kept honest. Each has automated tests and runs on any computer with Node.js 20 or newer. No packages are installed.
+Inspectable, AI-assisted public implementations of verification and evaluation boundaries. These samples were written for publication. They are not QI Core, Dark Matter source, private learning methods, training recipes, prompts, data or model files.
 
-**What is not here:** QI Core, its learning components, training recipes, prompts, data, and model files. These samples were written for publication. They do not copy or reveal the private implementation.
-
-| Sample | What it shows | Tests |
-|---|---|---|
-| [Evidence verifier](evidence-verifier/verify.mjs) | Checks every published file against its recorded SHA-256 fingerprint. CI runs it against this repository on every change. | 2 |
-| [Verified edit](verified-edit/verified-edit.mjs) | A clean-room version of the [public verified-edit contract](../benchmarks/portfolio/engineering/verified-edit-walkthrough.md): a generated change is accepted only after a real check passes. Failed work is rolled back without overwriting anyone else’s edit. | 5 |
-| [ARC scoring harness](arc-harness/harness.mjs) | The scoring rules from [METHODS](../benchmarks/METHODS.md) as code: answers are hidden from the solver, grids must match exactly, and every test input must pass. Includes the do-nothing baseline any solver must beat. | 5 |
-
-## Run it
+Node.js 20 or newer is required. No dependency installation, API credentials or proprietary downloads are needed.
 
 ```bash
 cd code
 npm test
 npm run verify
+npm run benchmark
+npm run evaluate:example
 ```
 
-## Why these three
+| Sample | What can be inspected and reproduced |
+|---|---|
+| [Evidence verifier](evidence-verifier/verify.mjs) | Exact-byte SHA-256 and size checks against the publication manifest. Hashes identify content; they do not certify claims. |
+| [Verified edit](verified-edit/README.md) | Completion after executed validation, exception recovery, cancellation checkpoints, observed conflict preservation and a cross-process advisory lock. Its documented external-editor and crash limitations are part of the contract. |
+| [ARC scoring harness](arc-harness/harness.mjs) | Exact valid-grid scoring, one attempt per input, fresh solver instances, isolated input copies and identity baseline. This includes no proprietary solver and cannot reproduce the historical 19/50 result. |
+| [Confidential evaluation kit](evaluation-runner/README.md) | Fresh adapter processes, input-only protocol, exact JSON scoring, time/output bounds, full denominators, artifact hashes and sanitized reports. A private adapter stays outside this repository. |
 
-Building a model is only part of building an AI system. The surrounding software decides what to trust. These samples cover the three places where that decision most often goes wrong:
+The safety comparison runs nine conditions ten times per implementation: **90/90** for the verified reference and **30/90** for the deliberately minimal baseline in the [recorded run](../benchmarks/results/2026-10-26-public-edit-safety.json). These are failure-policy fixtures, not a production distribution, model-quality benchmark or competitor comparison. See [methods and per-condition results](../benchmarks/portfolio/engineering/public-safety-benchmark.md).
 
-1. **Published claims.** Is this the same file that was reviewed?
-2. **Generated changes.** Did the check actually run and pass, and does the change still belong to this task?
-3. **Benchmark scores.** Could the solver have seen the answers, and is partial credit being counted as success?
+The evaluator example reverses arrays. It checks the protocol only; no EchoQI capability is inferred from its three smoke cases. No new independent external evaluation is claimed.
 
-A passing test shows that each sample follows its stated rule. It does not certify the private systems they describe.
+## Verification in CI
+
+The test suite covers normal and adverse behavior, including thrown checks, deletions, competing processes, malformed grids, mutation isolation, adapter failures, timeouts, output bounds and adapter changes. CI runs on Windows and Linux with Node 20 and 22, verifies the publication manifest and uploads a newly generated safety result per configuration. The local recorded run used Node v24.16.0 on Windows; workflow success must be checked separately.
+
+The manifest records exact file bytes. `.gitattributes` disables line-ending conversion to preserve historical artifacts and make fresh Windows and Linux checkouts comparable. The manifest excludes itself. Adding new published files requires explicitly adding their identities before publication.

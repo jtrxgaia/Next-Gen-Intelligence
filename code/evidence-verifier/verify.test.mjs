@@ -4,6 +4,7 @@ import { mkdtemp, readFile, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { execFileSync } from 'node:child_process';
 import { buildManifest, verifyManifest } from './verify.mjs';
 
 test('detects unchanged, changed, and missing files', async () => {
@@ -23,4 +24,13 @@ test('this repository matches its own publication manifest', async () => {
   const manifest = JSON.parse(await readFile(join(root, 'benchmarks/portfolio/PUBLICATION_MANIFEST.json'), 'utf8'));
   const bad = (await verifyManifest(root, manifest)).filter(r => r.status !== 'ok');
   assert.deepEqual(bad, []);
+});
+
+test('every tracked publication file is covered, except the manifest itself', async () => {
+  const root = fileURLToPath(new URL('../../', import.meta.url));
+  const manifestPath = 'benchmarks/portfolio/PUBLICATION_MANIFEST.json';
+  const manifest = JSON.parse(await readFile(join(root, manifestPath), 'utf8'));
+  const tracked = execFileSync('git', ['ls-files', '-z'], { cwd: root, encoding: 'utf8' })
+    .split('\0').filter(p => p && p !== manifestPath).sort();
+  assert.deepEqual(manifest.files.map(f => f.path).sort(), tracked);
 });

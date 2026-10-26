@@ -67,3 +67,9 @@ The public contact is `jtrxgaia@gmail.com`. Personal phone, address, employment 
 See the [media catalog](../media/portfolio/README.md) for image origin, capture scope, and limitations. The [publication file manifest](../PUBLICATION_MANIFEST.json) records delivered content identities. Hashes support change detection, not authenticity of every underlying claim.
 
 [Attributed Codex technical review](../reviews/self-reports/scope-and-sources.md)
+
+## Reproducible extension and fresh snapshot recheck
+
+The [reviewer guide](reviewer-guide.md) maps claims to their evidence and limitations. Newly published material includes a [public safety comparison](public-safety-benchmark.md), [raw trial receipt](../../results/2026-10-26-public-edit-safety.json), public code regressions and a [confidential evaluation kit](../../../code/evaluation-runner/README.md). The new sample results do not replace private-product acceptance or reproduce the historical ARC solver result.
+
+The [private snapshot recheck](../../results/2026-10-26-private-component-recheck.json) is fresh execution of the previously retained nine-file snapshot, matching its published source identities, with fresh random probe values and explicit untrained/disabled controls. It is separate from current production-source inspection and from the earlier training experiment. Codex ran the recheck and prepared this extension; no new independent attestation is claimed.

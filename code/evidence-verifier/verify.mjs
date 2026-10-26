@@ -34,7 +34,7 @@ export async function buildManifest(root, paths, meta = {}) {
 }
 
 // CLI: node verify.mjs <repo-root> <manifest-path> [--write]
-if (resolve(fileURLToPath(import.meta.url)) === resolve(process.argv[1])) {
+if (process.argv[1] && resolve(fileURLToPath(import.meta.url)) === resolve(process.argv[1])) {
   const [root = '.', manifestPath = 'benchmarks/portfolio/PUBLICATION_MANIFEST.json'] =
     process.argv.slice(2).filter(a => !a.startsWith('--'));
   const manifestFile = join(root, manifestPath);

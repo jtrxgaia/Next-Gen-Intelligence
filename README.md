@@ -18,7 +18,7 @@ At the center is QI Core, the custom-built neuro-symbolic cognitive system behin
 | **Role** | Founder, architect, and product owner: system design, AI direction, verification, and delivery |
 | **Flagship** | EchoQI / QI Core: a proprietary neuro-symbolic AI system with persistent memory and multi-model coordination |
 | **Shipped surfaces** | Dark Matter (desktop AI coding platform), QI Works / EchoQI.me (web), SYNAP FPS (browser and Unreal Engine) |
-| **Public code** | [Three tested samples](code/README.md) covering evidence integrity, verified AI edits, and fair benchmark scoring |
+| **Public code** | [Tested samples and a confidential evaluation kit](code/README.md), with a [reproducible safety comparison](benchmarks/portfolio/engineering/public-safety-benchmark.md) |
 | **Core evidence** | Custom learning and symbolic-processing source inspected; 47 selected component tests and a 200-case learning/restoration probe passed on October 26 |
 | **Evidence standard** | Dated observations, workload denominators, artifact identities, and confidential reinspection; proprietary methods remain private |
 
@@ -164,10 +164,12 @@ Some of the most useful project records concern things that went wrong:
 QI Core stays private. To show how Jack approaches engineering, this repository includes three small programs written for publication. Each has automated tests that run on every change:
 
 - **[Evidence verifier](code/evidence-verifier/verify.mjs):** confirms every published file still matches its recorded fingerprint.
-- **[Verified edit](code/verified-edit/verified-edit.mjs):** accepts an AI-generated change only after a real check passes, and rolls back failures without overwriting someone else’s work.
+- **[Verified edit](code/verified-edit/verified-edit.mjs):** accepts a change after a real check passes, restores owned changes after failures, and preserves observed competing edits within its documented concurrency limits.
 - **[ARC scoring harness](code/arc-harness/harness.mjs):** hides the answers from the solver, requires exact matches, and compares against a do-nothing baseline.
 
-[About the code samples](code/README.md)
+[About the code samples](code/README.md) · [Architecture evidence and reviewer guide](benchmarks/portfolio/engineering/reviewer-guide.md)
+
+The public verification reference now passes **90/90 failure-policy trials**, compared with **30/90** for a minimal write/check baseline across the same nine conditions. This measures the public reference’s recovery and completion rules, not private-product performance or AI quality. [Reproduce the comparison](benchmarks/portfolio/engineering/public-safety-benchmark.md). A separate [black-box evaluation kit](code/evaluation-runner/README.md) supports confidential reviews without publishing core source or methods.
 
 ## Related systems
 
@@ -193,7 +195,9 @@ The linked AI-authored reviews discuss the source, test results, and project rec
 
 The projects span AI development, desktop and web software, developer tools, and games. The supporting records explain what has been built, what has been tested, and what still needs work.
 
-[Capabilities and supporting evidence](benchmarks/portfolio/engineering/capabilities.md)
+[Capabilities and supporting evidence](benchmarks/portfolio/engineering/capabilities.md) · [Claim-by-claim evidence guide](benchmarks/portfolio/engineering/reviewer-guide.md)
+
+A fresh recheck of the retained private component snapshot passed **47/47 selected tests**, **200/200 learned cases**, and **200/200 restored cases**. The untrained control passed **0/200**; the disabled control resolved **0/200**. All nine snapshot files matched their previously published source identities and remained unchanged during execution. These are bounded, AI-reviewed component results. [Aggregate recheck receipt](benchmarks/results/2026-10-26-private-component-recheck.json).
 
 ## Benchmarks
 
