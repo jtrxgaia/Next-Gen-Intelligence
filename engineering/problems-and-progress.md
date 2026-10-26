@@ -1,5 +1,5 @@
 # Problems, decisions, and progress
-**A software résumé should show what happened when the first approach was not enough.**
+**Recorded integration problems, investigations, corrective measures, and open validation work.**
 
 [Portfolio](../README.md) · [Evidence index](evidence-index.md)
 
@@ -37,8 +37,8 @@
 
 **What the evidence establishes:** VM-level failure injection and rollback worked in that recorded run. It does not qualify every physical machine or establish that all later releases are healthy. [Sanitized recovery receipt](../benchmarks/results/2026-08-18-qios-rollback.json).
 
-## The pattern in Jack’s work
+## Cross-project development practices
 
-Jack keeps the ambition while refining the definition of success. When a claim is too broad, the useful next step is a narrower test, a clearer boundary, or a more observable workflow. That habit is the link between AI architecture, developer tools, game performance, and recovery engineering in these projects.
+Across these projects, documented responses include narrowing test scope, clarifying component boundaries, retaining failed results, and separating diagnostic corrections from broader acceptance claims.
 
 [Attributed Codex technical review](../reviews/self-reports/engineering.md)

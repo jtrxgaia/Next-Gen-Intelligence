@@ -2,7 +2,7 @@
 
 [Portfolio](../README.md) · [Strengths and business value](strengths.md)
 
-Jack’s portfolio demonstrates work across custom AI components, model training, desktop and web products, developer tools, and real-time applications. This profile connects those capabilities to specific records rather than assigning an occupational rank.
+The project record covers custom AI components, model training, desktop and web products, developer tools, and real-time applications. The table links these areas to specific engineering records and their validation scope.
 
 | Capability | Supporting work | Evidence boundary |
 |---|---|---|

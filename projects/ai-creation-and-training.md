@@ -5,9 +5,9 @@
 
 ## Original AI development
 
-Jack’s AI work encompasses the components that learn and the software that governs their use. The inspected source includes custom trainable implementations, native processing, persistent learning state, and interfaces connecting those capabilities to applications.
+AI development covers trainable components and the software governing their use. The inspected source includes custom trainable implementations, native processing, persistent learning state, and interfaces connecting those capabilities to applications.
 
-He directs the development lifecycle from requirements and architecture through implementation, training, integration, and validation. AI coding assistance, frameworks, and upstream models are identified as separate contributions.
+The development lifecycle covers requirements, architecture, implementation, training, integration, and validation. AI coding assistance, frameworks, and upstream models are identified as separate contributions.
 
 ## Training a custom model from scratch
 
@@ -25,9 +25,9 @@ This brings together learning behavior, controlled state, ambiguity handling, re
 
 ## Adapting upstream models
 
-A separate Qwen-based development path retains training source, a dated manifest, and a saved adapter artifact. It demonstrates a model-adaptation workflow with a documented upstream base.
+A separate Qwen-based development path retains training source, a dated manifest, and a saved adapter artifact. The record documents a model-adaptation workflow with an identified upstream base.
 
-Jack’s experience therefore spans both custom initialization and adaptation, allowing system design to reflect the task, available data, deployment constraints, and required behavior.
+Custom initialization and upstream-model adaptation are separate development paths, with different dependencies and evaluation requirements.
 
 ## Experiment lifecycle and status
 

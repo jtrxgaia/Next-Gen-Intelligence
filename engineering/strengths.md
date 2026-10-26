@@ -1,54 +1,42 @@
-# Strengths and business capabilities
-**Original AI architecture, neural-network development, and integrated software delivery.**
+# Engineering specializations and applications
+**Custom AI architecture, neural-network development, and integrated software systems.**
 
-[Portfolio](../README.md) · [AI creation and training](../projects/ai-creation-and-training.md)
+[Portfolio](../README.md) · [AI development](../projects/ai-creation-and-training.md)
 
-## AI creation from the ground up
+## Custom AI development
 
-Jack develops purpose-built AI software from requirements through architecture, custom components, training, evaluation, and application integration. EchoQI combines his work on native processing, learning, persistent state, and controlled execution.
+EchoQI development covers requirements, architecture, custom components, training, evaluation, and application integration. The system combines native processing, learning software, persistent state, and controlled execution.
 
-For a business, this capability supports specialized assistants, task-specific intelligence, internal knowledge tools, and AI features designed around defined requirements and permitted data.
+Potential applications include specialized assistants, internal knowledge tools, and task-specific AI features. Application-specific data permissions, deployment constraints, and acceptance criteria determine delivery requirements.
 
 ## Neural-network development and training
 
-His work includes custom trainable implementations, model initialization from scratch, retained training artifacts, and application-level checks. A separate development path adapts an upstream model with a documented base and saved adapter.
+The documented work includes custom trainable implementations, model initialization without pretrained weights, saved training artifacts, and application-level checks. A separate adaptation path uses an upstream model with an identified base and saved adapter.
 
-He can develop training workflows that connect examples, model artifacts, evaluation targets, and runtime behavior. The inspected records provide concrete evidence of this work while keeping proprietary training methods private.
+Training records connect examples, artifacts, evaluation targets, and runtime behavior. Fitting diagnostics, restart consistency, and independent generalization are separate evidence categories.
 
 ## Systems architecture
 
-Jack defines the responsibilities and interfaces that connect AI components, state, services, and user-facing products. His work addresses decision ownership, persistence, privileged operations, integration failures, and recovery.
+Architecture work covers interfaces between AI components, state, services, and user-facing products. Recorded responsibilities include decision ownership, persistence, privileged operations, integration failures, and recovery.
 
-This capability supports architecture for an AI-enabled product, integration into an existing application, and the development of clear component boundaries as a system grows.
+## Application engineering
 
-## Full-stack and desktop engineering
-
-The ecosystem spans React interfaces, Electron applications, Node.js services, TypeScript server functions, account-aware data, and public web presentation. Jack connects the visible experience to the services and state behind it.
-
-He can build application interfaces, service integrations, sessions, diagnostics, and release workflows around a custom AI capability.
+The ecosystem includes React interfaces, Electron applications, Node.js services, TypeScript server functions, account-aware data, and public web products. Application work covers service integration, sessions, diagnostics, and release workflows.
 
 ## Developer tools and automation
 
-Dark Matter and the repository-intelligence work combine codebase analysis, controlled operations, verification, and recovery. Jack designs workflows that account for current workspace state, actual execution, and preserved user work.
-
-This experience applies to engineering tools, internal automation, and AI-assisted development systems with inspectable outcomes.
+Dark Matter and related repository-intelligence systems combine codebase analysis, controlled file operations, verification, and recovery. Their workflows account for workspace state, executed changes, and preservation of competing edits.
 
 ## Debugging and reliability
 
-The development record includes investigations into learning behavior, generated-code failures, misleading telemetry, rendering workload, persistence, startup, and update recovery. Jack works across component boundaries to identify the failure and define a useful verification target.
+Investigation records cover learning behavior, generated-code failures, telemetry, rendering workload, persistence, startup, and update recovery. Methods include failure reproduction, scoped measurements, regression checks, and rollback.
 
-His strengths include failure isolation, measurement, diagnostics, regression control, and recoverability.
+## Interactive software
 
-## Interactive software and product design
+SYNAP integrates gameplay, enemy behavior, progression, rendering, effects, interfaces, and persistence. Its browser and native implementations have separate migration and acceptance records.
 
-SYNAP connects gameplay, enemy behavior, progression, rendering, effects, interfaces, and persistence. The wider desktop and web products show sustained attention to visual identity and user experience.
+## Development responsibility
 
-These capabilities apply to games, simulations, training applications, and responsive tools where interaction quality matters alongside system behavior.
+Independent development spans architectural direction, AI-assisted implementation, integration, testing, and product iteration. Project records distinguish original components, AI-generated contributions, established frameworks, and upstream models.
 
-## Technical ownership
-
-Jack leads independent projects across architecture, AI-assisted implementation, integration, and review. He sets product direction, evaluates visible results, and carries difficult problems through successive iterations.
-
-His contribution is the combination of original AI development and the software engineering required to turn it into a coherent product. Project evidence documents the implementation and experiment scope; business delivery is defined through application-specific acceptance criteria.
-
-[Attributed Codex technical review](../reviews/self-reports/strengths.md)
+[Supporting evidence](evidence-index.md) · [Attributed Codex technical review](../reviews/self-reports/strengths.md)

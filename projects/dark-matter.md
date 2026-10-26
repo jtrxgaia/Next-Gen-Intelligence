@@ -5,7 +5,7 @@
 
 ## Product and ownership
 
-Jack designs Dark Matter’s development workflow and interface, integrates coding contributors with workspace services, and directs debugging and validation. The product connects repository understanding, change proposals, file operations, verification, and recovery in a desktop environment.
+Dark Matter is a desktop development environment created by Jack Rourke. It connects repository analysis, coding contributors, change proposals, file operations, verification, and recovery. Development includes interface design, workspace-service integration, debugging, and validation.
 
 The engineering objective is precise: completed work must correspond to the intended task, current workspace, actual changed content, and required checks.
 

@@ -3,16 +3,16 @@
 
 [Portfolio](../README.md) · [Benchmark interpretation](../benchmarks/README.md)
 
-This preview combines byte-preserved public historical receipts, sanitized extracts from private records, read-only source inspection, and genuine interface captures. These categories have different evidentiary strength. No private production software, memory, service, or configuration was modified or executed for portfolio verification.
+The evidence record combines byte-preserved public historical receipts, sanitized extracts from private records, read-only source inspection, and genuine interface captures. These categories have different evidentiary strength. No private production software, memory, service, or configuration was modified or executed for portfolio verification.
 
 ## Public historical records
 
 - [ARC-AGI-2 report](../reports/2026-10-03_Codex_Independent_Benchmark_v1.md) and [full receipt](../receipts/2026-10-03_Codex_ARC2.json): restored from `99c7a25c45d05f5c703a0e3e4cbbe2cd8b0aa546` after content review.
 - [ARC-AGI-3 smoke receipt](../receipts/2026-10-03_Codex_ARC3_Smoke.json): tooling fixtures, no games.
 - [Antigravity historical report](../2026-10-03_EchoQI_Benchmark_Audit_v1.md) and [reported-results receipt](../receipts/2026-10-03_Antigravity_Reported.json): attributed historical measurements, not freshly rerun or a new personal review.
-- [Historical manifest](../receipts/INDEX.json): preserved for the original October 3 publication snapshot. It is not a manifest of this new preview and some entries refer to historical versions/paths. SHA-256 identity does not establish truth or certification.
+- [Historical manifest](../receipts/INDEX.json): preserved for the original October 3 publication snapshot. It is not a manifest of the current profile and some entries refer to historical versions/paths. SHA-256 identity does not establish truth or certification.
 - [Original gallery](../LEGACY_SHOWCASE.md): starting README retained beneath a dated correction notice. All original images remain unchanged.
-- [Original evidence policy](../EVIDENCE_POLICY.md): retained, with a separate [preview publication note](publication-note.md).
+- [Original evidence policy](../EVIDENCE_POLICY.md): retained, with a separate [publication note](publication-note.md).
 
 ## Expanded AI creation and ecosystem review
 
@@ -52,7 +52,7 @@ QI Glasses is represented only as a concept in the inspected public product surf
 
 ## Dates, identity, and attribution
 
-Jack supplied his name and public email. His October 18 résumé reports approximately three years of independent software development beginning around 2023; this agrees with his clarification in this conversation. Earlier dates are owner reported. The portfolio repository’s Git history begins October 3, 2026 and does not independently prove the entire development period.
+The developer-provided October 18 résumé dates independent software development to approximately 2023. Earlier dates are self-reported. This repository’s Git history begins October 3, 2026 and does not independently establish the entire development period.
 
 The public contact is `jtrxgaia@gmail.com`. Personal phone, address, employment details, private conversations, and internal host paths are excluded. The repository itself is the résumé; no separate résumé download is required.
 

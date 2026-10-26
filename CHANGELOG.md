@@ -1,5 +1,13 @@
 # Changelog
 
+## October 25, 2026 — reference-style profile
+
+- Recast the main profile and supporting project/engineering pages in neutral, descriptive prose.
+- Reduced repeated personal naming and removed review-narrator language from the profile.
+- Kept attributed AI assessments separate from factual project documentation.
+- Expanded the QI Core overview with neuro-symbolic architecture, continuity, hybrid coordination, learning evidence, and quantum-research scope.
+- Added a linked repository directory at the bottom of the profile; GitHub controls the file browser above the README.
+
 ## October 25, 2026 — professional presentation
 
 - Removed the hypothetical occupational ranking chart and numerical scoring artifacts.

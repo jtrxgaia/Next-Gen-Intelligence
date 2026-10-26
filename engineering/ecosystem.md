@@ -1,11 +1,11 @@
 # The EchoQI ecosystem
-**A capability map prepared by Codex from local project discovery and selected technical inspection.**
+**Project areas, implementation records, and documented evidence scope.**
 
 [Portfolio](../README.md) · [Strengths](strengths.md) · [Review scope](../reviews/self-reports/scope-and-sources.md)
 
 ## Intelligence and learning
 
-| Area | What I found | Engineering capability represented |
+| Area | Documented components | Engineering capability represented |
 |---|---|---|
 | Proprietary runtime | A canonical registry, cognition/conversation services, shared contracts, and multiple implementation generations. | AI system architecture and integration. |
 | Native reasoning | Implemented task-processing components with authored tests and bounded evaluation records. | Building purpose-specific intelligence in code. |
@@ -17,7 +17,7 @@
 
 ## Products and application delivery
 
-| Area | What I found | Engineering capability represented |
+| Area | Documented components | Engineering capability represented |
 |---|---|---|
 | Echo desktop | Electron/React surfaces, interaction components, voice and service integration. | Bringing AI behavior into a usable desktop product. |
 | Dark Matter and development variants | Workspace/coding services, repository analysis, checkpoints, tests, and isolated development layouts. | Developer experience and controlled automation. |
@@ -28,7 +28,7 @@
 
 ## Systems around the products
 
-| Area | What I found | Engineering capability represented |
+| Area | Documented components | Engineering capability represented |
 |---|---|---|
 | Backend services | Node/Express service manifest and integration surfaces supporting the application estate. | API/service integration. |
 | Memory and continuity | Explicit ownership, guarded state, persistence and correction records. | Stateful AI application design. |
@@ -41,7 +41,7 @@
 
 ## How to interpret the map
 
-This is an ecosystem-wide discovery and selected deep review, not a line-by-line audit of every file, dependency, backup, private memory record, and running service on the laptop. I examined the canonical runtime and its divergent sibling, developer variants, backend/web/game roots, project registries, research packages, and dated evidence relevant to the portfolio claims.
+The map summarizes selected project discovery and technical inspection across the core runtime, implementation variants, backend/web/game projects, project registries, research packages, and dated records. It is not an exhaustive audit of all files or running services.
 
 Existence, implemented source, a passing fixture, a recorded experiment, a visible interface, and a qualified live product are different evidence levels. The self-reports state which level supports each assessment. No proprietary payloads, internal host paths, private conversations, or training examples are published.
 

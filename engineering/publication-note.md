@@ -1,6 +1,6 @@
 # Publication and confidentiality
 
-This portfolio expands the existing Next-Gen-Intelligence repository at Jack Rourke’s request. The selected presentation was reviewed locally before publication.
+This repository contains an engineering profile, project documentation, attributed technical reviews, and an archive of the earlier benchmark presentation.
 
 The starting commit is `c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146`. Every file from that commit is preserved byte-for-byte under [the original repository snapshot](../benchmarks/original-repository/README.md). The complete prior showcase is displayed on [Benchmarks](../benchmarks/README.md), with methods and dated corrections accessible alongside it.
 

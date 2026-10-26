@@ -5,15 +5,15 @@
 
 ## Product and ownership
 
-Jack designs the public experience and integrates application views, AI adapters, account-scoped state, game surfaces, and delivery checks. QI Works provides the ecosystem’s discovery and product presentation; EchoQI.me supplies the broader web application surface.
+QI Works provides discovery and product presentation for the EchoQI ecosystem. EchoQI.me includes application views, AI adapters, account-scoped state, game surfaces, and delivery checks.
 
-His contribution spans frontend development, backend contracts, session behavior, service integration, and release handling. Base44 provides managed application services.
+Development covers frontend interfaces, backend contracts, session behavior, service integration, and release handling. Base44 provides managed application services.
 
 ## Application architecture
 
 Public browsing and authenticated operations have separate access boundaries. The inspected response entry requires user identity for chat and passes authorized requests to a shared handler through server-held bridge configuration.
 
-Application contracts cover request validation, route/status diagnostics, sessions, usage, quotas, and entitlements. Jack’s integration work connects these responsibilities while preserving the boundary around privileged desktop state.
+Application contracts cover request validation, route/status diagnostics, sessions, usage, quotas, and entitlements. The integration separates these application responsibilities from privileged desktop state.
 
 ## Implementation and evidence
 
