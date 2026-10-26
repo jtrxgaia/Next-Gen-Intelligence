@@ -42,15 +42,51 @@ The October 25 training record documents a 34-example training-fit diagnostic an
 
 ### EchoQI / QI Core
 
-EchoQI is a proprietary AI system combining native reasoning, custom learning components, persistent state, and controlled actions. Its runtime connects intelligence components to desktop and web applications through defined interfaces.
+EchoQI is a proprietary neuro-symbolic AI system designed by Jack Rourke. Its development combines custom learning software, native reasoning, persistent memory, and coordination across desktop, web, and developer-tool applications. The developer describes the broader design as a **neuro-symbolic, quantum-inspired hybrid “hive mind”**: a connected system in which specialized components contribute to a shared runtime and persistent system identity.
 
-Architecture work addresses component responsibilities, state changes, model contributions, execution evidence, and recovery. Public documentation covers system responsibilities and recorded results while keeping core implementation and training methods confidential.
+The project forms part of a development history beginning around 2023, according to developer-provided records. The public evidence includes later implementation, training, integration, and recovery records; it does not independently date every earlier stage.
+
+#### Neuro-symbolic architecture
+
+The architecture combines trainable components with explicit reasoning and application rules. Neural-learning work covers parameterized behavior and retained learning state. Symbolic and native processing cover supported task operations, relationships, constraints, and controlled decisions. These components have separate responsibilities within the larger system.
+
+This arrangement supports the integration of learned behavior with explicit state and execution boundaries. Upstream models can contribute through defined interfaces alongside original components; their involvement is recorded separately from the proprietary core.
+
+#### Persistent memory and continuity
+
+Memory and continuity work covers retained context, relationship-based information, corrections, state ownership, and restart behavior. The system is designed to preserve relevant state across interactions while controlling which components may modify it.
+
+Persistence is treated as an engineering responsibility with saved state, integrity checks, and recovery records. The available training evidence also includes an eight-output restart comparison using the same weights, establishing consistency for that specific experiment.
+
+#### Hybrid coordination and the “hive mind” concept
+
+The “hive mind” description refers to the coordination of specialized processing components, model contributors, memory services, tools, and application interfaces. Cognition, conversation, persistent state, and execution have defined owners rather than operating as unrelated chat sessions.
+
+Desktop interfaces, Dark Matter, and web integrations provide different application surfaces around the wider ecosystem. Host-coordination work adds capability authorization, request identity, and execution records. Integration and physical deployment retain separate acceptance requirements; a shared design does not establish that every service or host is currently qualified for operation.
+
+#### Custom learning and training
+
+Development includes custom trainable implementations, learning from demonstrations, training from random initialization without pretrained weights, and a separate upstream-model adaptation path. Recorded artifacts include training manifests, dataset/tokenizer provenance, saved model identities, fitting diagnostics, and restart comparisons.
+
+The October 25 experiment met its defined fitting target on 34 training-exposed examples across two task types. This documents a bounded training experiment, with independent generalization and product readiness assessed separately. Neural training, demonstration learning, and retrieval remain distinct functions within the architecture.
+
+#### Quantum-inspired design and quantum-service research
+
+The project’s quantum-inspired design language is distinct from its IBM Quantum/Qiskit integration research. The documented cognitive runtime uses classical graph and reasoning software. Separate research materials describe interfaces for experimental contributions from external quantum services, with simulation and classical fallback paths identified separately.
+
+The preserved records establish integration work and research intent. They do not establish quantum advantage or demonstrate that the cognitive runtime operates on quantum hardware. [Quantum integration record](docs/IBM_QUANTUM_RESEARCH.md).
+
+#### Core engineering and application integration
+
+Development responsibility covers the core’s architecture and custom components together with the software needed to expose them through applications: service contracts, user interfaces, authorized actions, diagnostics, checkpoints, and recovery. This connects model and reasoning experiments to persistent software products.
+
+Public documentation describes component responsibilities and measured outcomes. Proprietary representations, internal procedures, training recipes, model payloads, and private state are excluded.
 
 <img src="media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock" width="760" />
 
 *Desktop interaction component associated with the ecosystem.*
 
-[Core case study](projects/echoqi.md) · [Training and learning](projects/ai-creation-and-training.md)
+[Core case study](projects/echoqi.md) · [Training evidence](benchmarks/results/2026-10-25-ai-training-review.json) · [Implementation inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Attributed core review](reviews/self-reports/echoqi-core.md)
 
 ### Dark Matter
 
