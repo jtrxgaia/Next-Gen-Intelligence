@@ -1,7 +1,7 @@
 # Jack Rourke
-### AI Systems Architect · Software Engineer
+### Founder of EchoQI · AI Systems Architect · Software Engineer
 
-Jack Rourke is an independent AI systems architect and the creator of EchoQI. He designs how AI components, memory, tools, and applications fit together, then directs and verifies their construction across desktop software, web applications, developer tools, and games.
+Jack Rourke is an entrepreneur and the founder of EchoQI. He builds products and puts AI to work: he designs how AI components, memory, tools, and applications fit together, then directs and verifies their construction across desktop software, web applications, developer tools, and games.
 
 At the center is QI Core, the proprietary system behind EchoQI. Around it are projects that explore how AI can be used in everyday software: Dark Matter for development, QI Works and EchoQI.me for web-based tools, and SYNAP FPS for real-time gameplay.
 
@@ -13,7 +13,7 @@ At the center is QI Core, the proprietary system behind EchoQI. Around it are pr
 
 | | |
 |---|---|
-| **Role** | Architect and product owner: system design, AI direction, verification, and delivery |
+| **Role** | Founder, architect, and product owner: system design, AI direction, verification, and delivery |
 | **Flagship** | EchoQI / QI Core: a proprietary neuro-symbolic AI system with persistent memory and multi-model coordination |
 | **Shipped surfaces** | Dark Matter (desktop AI coding platform), QI Works / EchoQI.me (web), SYNAP FPS (browser and Unreal Engine) |
 | **Public code** | [Three tested samples](code/README.md) covering evidence integrity, verified AI edits, and fair benchmark scoring |
