@@ -15,7 +15,3 @@ Each image was visually reviewed for private conversations, credentials, interna
 `synap-gameplay-owner.png` is the owner-supplied in-game capture used in the revised overview and case study. `synap-menu-owner.png` is the owner-supplied title/menu image. Both were reviewed visually and copied byte-for-byte from the attachments. Neither image establishes the exact engine/revision or controlled performance. The original first-preview capture remains preserved.
 
 [Codex self-report](../../reviews/self-reports/synap.md)
-
-## Capability profile graphic
-
-`engineering-capability-tier.png` is a programmatic plot of Codex’s disclosed subjective rubric. The role positions are illustrative anchors, not measured occupational averages. Data and scoring rationale: [rubric](../../engineering/capability-tier.md).

@@ -9,15 +9,11 @@ Jack directs and develops gameplay, progression, enemy encounters, customization
 
 The browser edition remains a distinct product while a separate Unreal project develops a native implementation. Engine and third-party asset contributions are attributed dependencies.
 
-[Codex self-report](../reviews/self-reports/synap.md)
-
 ## Browser engineering
 
 The reviewed local manifest identifies **0.10.222-dev.1**, using TypeScript, Babylon.js 9.28.0, Rapier 0.21.0, Vite, and Node-based checks.
 
 The source/test inventory covers combat, recoil, input, enemy tactics, progression, persistence, render batching, effects, and browser boundaries. Simulation, presentation, input, progression, and release artifacts retain separate responsibilities.
-
-[Codex self-report](../reviews/self-reports/synap.md)
 
 ## Visual presentation
 
@@ -29,8 +25,6 @@ The source/test inventory covers combat, recoil, input, enemy tactics, progressi
 
 *Supplied title/menu capture showing the game’s visual identity, character presentation, and navigation. Exact engine/revision is not established from these images.*
 
-[Codex self-report](../reviews/self-reports/synap.md)
-
 ## Performance investigation
 
 An October 13 investigation reproduced a telemetry defect that reported a mesh count as milliseconds. The isolated replay established false spike classification and a reporting-frequency issue, allowing those diagnostic problems to be separated from the broader gameplay regression.
@@ -38,8 +32,6 @@ An October 13 investigation reproduced a telemetry defect that reported a mesh c
 The development record also examines rendering workload, enemy presentation, visibility, pooling, and reflections. The engineering contribution is the effort to isolate causes while preserving the intended visual experience.
 
 [Investigation record](../engineering/problems-and-progress.md#synap-diagnostic-units).
-
-[Codex self-report](../reviews/self-reports/synap.md)
 
 ## Native migration and delivery
 
@@ -49,12 +41,10 @@ Full migration, normal-input QA, visual acceptance, and performance acceptance r
 
 [Native delivery evidence](../benchmarks/results/2026-10-24-synap-native-summary.json).
 
-[Codex self-report](../reviews/self-reports/synap.md)
-
 ## Engineering capabilities
 
 SYNAP demonstrates experience integrating real-time gameplay, rendering, persistent progression, interfaces, asset workflows, performance diagnostics, packaging, and migration between engines.
 
 Current development priorities include regression closure, repeated matched workloads, normal-input QA, visual acceptance, and versioned migration reconciliation while preserving the browser edition.
 
-[Codex self-report](../reviews/self-reports/synap.md)
+[Attributed Codex technical review](../reviews/self-reports/synap.md)

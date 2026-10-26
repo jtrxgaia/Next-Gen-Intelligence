@@ -8,4 +8,4 @@ The historical evidence policy remains preserved. The owner authorized reviewed 
 
 Private production projects were read-only research sources. No private training, inference, deployment, service, memory, or configuration was modified for this publication. Global Serena remains disabled.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
+[Attributed Codex technical review](../reviews/self-reports/scope-and-sources.md)

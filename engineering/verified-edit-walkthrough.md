@@ -3,15 +3,11 @@
 
 [Dark Matter case study](../projects/dark-matter.md) · [Evidence index](evidence-index.md#dark-matter)
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## The contract
 
 A developer selects a workspace, file, requested change, permissions, and verification command. The system may produce a completion receipt only for work that still belongs to that task and workspace and has passed its required check.
 
 The October 25 read-only source review inspected the workflow and its tests. The description below summarizes observable boundaries rather than publishing the private algorithm or a runnable replacement. No cleared public implementation sample was identified, so no unrelated demonstration or private source is included.
-
-[Codex self-report](../reviews/self-reports/dark-matter.md)
 
 ## Normal path
 
@@ -23,8 +19,6 @@ The October 25 read-only source review inspected the workflow and its tests. The
 6. **Read back and recheck ownership.** Confirm the expected content remains in the same workspace and the session/task has not been cleared or cancelled.
 7. **Issue bounded completion evidence.** A receipt identifies the completed operation and its check rather than asserting unrestricted correctness.
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## Three outcomes that matter
 
 | Situation | Required outcome | Why |
@@ -35,18 +29,14 @@ The October 25 read-only source review inspected the workflow and its tests. The
 
 Cancellation introduces another race: an in-flight verification must settle before recovery can safely decide which bytes it owns. Clearing a chat or changing workspaces must also invalidate a late success. The inspected tests explicitly cover these cases.
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## How to validate this workflow
 
 In a task-owned fixture workspace, use a known file and independent check. Exercise success, check failure, concurrent modification, workspace revision change, session clear, cancellation, and unsupported native instructions. For each case inspect the final bytes, command record, selected route, and whether a completion receipt exists.
 
 Expected observations are behavioral: passing work can complete; failed or invalidated work cannot; recovery does not overwrite a competing edit. The historical October 18 selected-suite summary supports parts of this reliability story. This documentation review did not rerun the current workflow or publish an installable Dark Matter package.
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## Engineering tradeoff
 
 These checks cost more integration effort than a simple generate-and-write loop. They make failure explainable and protect the developer’s workspace. The mechanism is still only as strong as its command isolation, cancellation handling, verification criteria, and actual host integration; all of those need continuing qualification.
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
+[Attributed Codex technical review](../reviews/self-reports/dark-matter.md)
