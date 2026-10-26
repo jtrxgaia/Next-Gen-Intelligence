@@ -22,7 +22,7 @@ At the center is QI Core, the proprietary system behind EchoQI. Around it are pr
 
 These skills apply to specialized AI assistants, internal business tools, development automation, and interactive software.
 
-[Skills and practical applications](engineering/strengths.md) · [Development workflow](engineering/workflow.md)
+[Skills and practical applications](benchmarks/portfolio/engineering/strengths.md) · [Development workflow](benchmarks/portfolio/engineering/workflow.md)
 
 ## AI development
 
@@ -32,7 +32,7 @@ Other work explores learning from examples, saving what has been learned, and co
 
 An October 25 experiment met its training target on 34 examples and produced consistent results across eight checked outputs after a restart. Those examples were used during training, so the result shows that the model learned the training material. Testing on unseen examples is a separate step.
 
-[AI development case study](projects/ai-creation-and-training.md) · [Training record](benchmarks/results/2026-10-25-ai-training-review.json)
+[AI development case study](benchmarks/portfolio/projects/ai-creation-and-training.md) · [Training record](benchmarks/results/2026-10-25-ai-training-review.json)
 
 ## Projects
 
@@ -62,7 +62,7 @@ The core coordinates the work around a shared objective and brings the models’
 
 Available compute, provider access, and task requirements determine how much work can run in parallel. The creator uses **“super AI”** to describe the combined capability envisioned when sufficient compute is available. This is a description of the design’s ambition; performance gains need to be established through task-specific comparisons.
 
-[HiveMind design and scope](projects/echoqi.md#hivemind)
+[HiveMind design and scope](benchmarks/portfolio/projects/echoqi.md#hivemind)
 
 #### Building and training the learning components
 
@@ -74,7 +74,7 @@ Learning, retrieving stored information, and following a demonstrated operation 
 
 The quantum-inspired design and the IBM Quantum/Qiskit research are separate parts of the project. The documented reasoning system runs on classical software. The quantum research explores connections to external quantum services, with simulation and classical alternatives recorded separately.
 
-This is integration and research work. The available records do not demonstrate quantum advantage or establish that EchoQI’s reasoning runs on quantum hardware. [Quantum integration record](docs/IBM_QUANTUM_RESEARCH.md).
+This is integration and research work. The available records do not demonstrate quantum advantage or establish that EchoQI’s reasoning runs on quantum hardware. [Quantum integration record](benchmarks/portfolio/docs/IBM_QUANTUM_RESEARCH.md).
 
 #### Turning the core into usable software
 
@@ -82,11 +82,11 @@ The work extends to the interfaces, services, permissions, diagnostics, and reco
 
 The public record explains these responsibilities and results. The core’s implementation, training recipes, private data, and model files remain private.
 
-<img src="media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock" width="760" />
+<img src="benchmarks/portfolio/media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock" width="760" />
 
 *An Echo desktop interface component.*
 
-[Core case study](projects/echoqi.md) · [Source inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Codex core review](reviews/self-reports/echoqi-core.md)
+[Core case study](benchmarks/portfolio/projects/echoqi.md) · [Source inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Codex core review](benchmarks/portfolio/reviews/self-reports/echoqi-core.md)
 
 ### Dark Matter
 
@@ -94,11 +94,11 @@ Dark Matter is an AI-assisted coding and creation platform for developing softwa
 
 **Built with:** Electron, React, Vite, Node.js, and local model adapters.
 
-<img src="media/portfolio/dark-matter-current.jpg" alt="Current Dark Matter desktop platform showing the question Who is Echo and Echo’s response" width="760" />
+<img src="benchmarks/portfolio/media/portfolio/dark-matter-current.jpg" alt="Current Dark Matter desktop platform showing the question Who is Echo and Echo’s response" width="760" />
 
 *Dark Matter desktop platform, October 25, 2026, after asking “Who is Echo?” The reply is shown as generated; it is not a benchmark or independent verification of its claims.*
 
-[Dark Matter case study](projects/dark-matter.md) · [How changes are checked](engineering/verified-edit-walkthrough.md)
+[Dark Matter case study](benchmarks/portfolio/projects/dark-matter.md) · [How changes are checked](benchmarks/portfolio/engineering/verified-edit-walkthrough.md)
 
 ### SYNAP FPS
 
@@ -106,13 +106,13 @@ SYNAP is a science-fiction first-person shooter with custom weapons, modular equ
 
 The browser edition uses **TypeScript, Babylon.js, and Rapier**. A separate native version uses **Unreal Engine and C++**. Native development builds have been packaged, while feature parity, regression fixes, and performance testing remain in progress.
 
-<img src="media/portfolio/synap-gameplay-owner.png" alt="SYNAP gameplay showing the Aurelia arena, weapon view, holographic structures, and combat HUD" width="900" />
+<img src="benchmarks/portfolio/media/portfolio/synap-gameplay-owner.png" alt="SYNAP gameplay showing the Aurelia arena, weapon view, holographic structures, and combat HUD" width="900" />
 
 *Gameplay capture supplied for the portfolio. The FPS overlay shows that moment, not a controlled benchmark; the image does not identify an exact engine version.*
 
 The development history includes work on rendering, asset integration, packaging, and misleading performance telemetry. The case study also explains the use of AI assistance and established engines.
 
-[SYNAP case study and more images](projects/synap-fps.md)
+[SYNAP case study and more images](benchmarks/portfolio/projects/synap-fps.md)
 
 ### QI Works / EchoQI.me
 
@@ -124,11 +124,11 @@ The platform connects the proprietary core with external AI and media services. 
 
 **Recorded results:** 20 selected checks passed across public adapters, game-match logic, and simulated purchase/save workflows. These tests did not establish that every current signed-in feature or live transaction works.
 
-<img src="media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
+<img src="benchmarks/portfolio/media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
 
 *Public landing page, October 25, 2026. Chat was marked as under maintenance when this image was captured.*
 
-[QI Works and EchoQI.me case study](projects/echoqi-web.md)
+[QI Works and EchoQI.me case study](benchmarks/portfolio/projects/echoqi-web.md)
 
 ## Engineering investigations
 
@@ -140,13 +140,13 @@ Some of the most useful project records concern things that went wrong:
 - **Game performance:** reproducing a diagnostic that displayed a mesh count as milliseconds, then separating that reporting error from unresolved frame-time problems.
 - **OS updates:** rejecting an unhealthy signed update and restoring a known-good version.
 
-[Investigations, fixes, and open work](engineering/problems-and-progress.md)
+[Investigations, fixes, and open work](benchmarks/portfolio/engineering/problems-and-progress.md)
 
 ## Related systems
 
 Other projects explore voice interfaces, communication between hosts, codebase analysis, model research, QIOS, quantum-service integration, and the Stellex/Stellux games. QI Glasses remains a research concept; the reviewed material does not establish a physical prototype.
 
-[Ecosystem map](engineering/ecosystem.md) · [Supporting systems](projects/systems.md)
+[Ecosystem map](benchmarks/portfolio/engineering/ecosystem.md) · [Supporting systems](benchmarks/portfolio/projects/systems.md)
 
 ## Development history
 
@@ -154,19 +154,19 @@ The developer’s history places the start of independent work around 2023. The 
 
 One historical ARC development run passed **19 of 50 public-training tasks**, with a **13.388 ms median solve time per test input**, excluding startup. This was a development result on public training tasks, not a hidden-test score. Older comparison charts are preserved alongside corrections and explanations of their limits.
 
-[Evidence index](engineering/evidence-index.md) · [Results and methods](benchmarks/METHODS.md)
+[Evidence index](benchmarks/portfolio/engineering/evidence-index.md) · [Results and methods](benchmarks/METHODS.md)
 
 ## Technical reviews
 
 The linked AI-authored reviews discuss the source, test results, and project records examined. Each names its author and scope. They are assessments of the evidence, not independent certifications.
 
-[Codex review — GPT 6.1 Sol](reviews/codex-2026-10-25.md) · [Project reviews](reviews/README.md)
+[Codex review — GPT 6.1 Sol](benchmarks/portfolio/reviews/codex-2026-10-25.md) · [Project reviews](benchmarks/portfolio/reviews/README.md)
 
 ## Engineering capability profile
 
 The projects span AI development, desktop and web software, developer tools, and games. The supporting records explain what has been built, what has been tested, and what still needs work.
 
-[Capabilities and supporting evidence](engineering/capabilities.md)
+[Capabilities and supporting evidence](benchmarks/portfolio/engineering/capabilities.md)
 
 ## Benchmarks
 
@@ -180,16 +180,16 @@ The earlier front page, benchmark charts, and IBM Quantum research record are pr
 | Material | Location |
 |---|---|
 | Benchmarks and historical showcase | [benchmarks](benchmarks/README.md) |
-| Technical documentation | [docs](docs/) |
-| Engineering records | [engineering](engineering/) |
-| Images and media | [media](media/) |
-| Project case studies | [projects](projects/) |
-| Evidence receipts | [receipts](receipts/) |
-| Historical reports | [reports](reports/) |
-| Research records | [research](research/) |
-| Attributed technical reviews | [reviews](reviews/README.md) |
-| Original benchmark audit | [October 3 audit](2026-10-03_EchoQI_Benchmark_Audit_v1.md) |
-| Change history | [Changelog](CHANGELOG.md) · [History](HISTORY.md) |
-| Publication policy | [Evidence policy](EVIDENCE_POLICY.md) |
-| Previous front page | [Legacy showcase](LEGACY_SHOWCASE.md) |
-| File integrity record | [Publication manifest](PUBLICATION_MANIFEST.json) |
+| Technical documentation | [docs](benchmarks/portfolio/docs/) |
+| Engineering records | [engineering](benchmarks/portfolio/engineering/) |
+| Images and media | [media](benchmarks/portfolio/media/) |
+| Project case studies | [projects](benchmarks/portfolio/projects/) |
+| Evidence receipts | [receipts](benchmarks/portfolio/receipts/) |
+| Historical reports | [reports](benchmarks/portfolio/reports/) |
+| Research records | [research](benchmarks/portfolio/research/) |
+| Attributed technical reviews | [reviews](benchmarks/portfolio/reviews/README.md) |
+| Original benchmark audit | [October 3 audit](benchmarks/portfolio/2026-10-03_EchoQI_Benchmark_Audit_v1.md) |
+| Change history | [Changelog](benchmarks/portfolio/CHANGELOG.md) · [History](benchmarks/portfolio/HISTORY.md) |
+| Publication policy | [Evidence policy](benchmarks/portfolio/EVIDENCE_POLICY.md) |
+| Previous front page | [Legacy showcase](benchmarks/portfolio/LEGACY_SHOWCASE.md) |
+| File integrity record | [Publication manifest](benchmarks/portfolio/PUBLICATION_MANIFEST.json) |
