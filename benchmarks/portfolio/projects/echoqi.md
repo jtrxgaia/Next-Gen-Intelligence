@@ -43,6 +43,12 @@ This work addresses the practical requirements of stateful AI: retain useful con
 
 ## Evidence and current scope
 
+**Current status: maintenance, October 26, 2026.** Dated component evidence remains available while the core is maintained.
+
+A fresh review inspected custom learning and symbolic-processing source, state ownership, finalization, and application integration. Three selected private suites executed from an isolated copy passed **47/47 tests**. A new synthetic probe passed **200/200 exact new-value cases** after three demonstrations, and **200/200 after state restoration**, with learning activation controls verified. These results concern a supported component family.
+
+[Architecture and implementation evidence](../engineering/core-evidence.md) · [Fresh receipt](../../results/2026-10-26-private-core-evidence.json) · [Confidential verification](../engineering/confidential-verification.md).
+
 The public historical ARC record reports **19/50 public-training tasks passed**, with exact-grid scoring and a fresh solver per input. This is a development-subset result. [Report](../reports/2026-10-03_Codex_Independent_Benchmark_v1.md).
 
 The training record documents a check using **34 training examples** and an **eight-output restart comparison** using the same weights. Independent generalization and testing of the complete production workflow remain separate evaluation stages. [Training evidence](../../results/2026-10-25-ai-training-review.json).

@@ -23,6 +23,16 @@ The inspected implementations contain parameter initialization and update paths,
 
 This brings together learning behavior, controlled state, ambiguity handling, regression checks, and runtime integration. Neural training, symbolic skill learning, and knowledge retrieval retain distinct roles in the architecture.
 
+## Fresh component learning and persistence verification
+
+On October 26, selected private source and required fixture dependencies were copied into an isolated review directory. **47/47 existing tests passed** across three suites covering learning, supported composition, state handling, and persistence. Source hashes were checked before and after execution.
+
+A reviewer-authored synthetic probe then taught three demonstrations and checked **200 new-value cases** in one supported family. All 200 produced exact results; restoration of learned state retained all 200 results. Activation controls verified the dependence on the taught, enabled component. The separate-process persistence behavior is covered by the selected existing suites.
+
+These observations establish bounded component transfer and continuity. They are distinct from the neural-model fitting experiment above. Codex inspected the source, authored the probe, and prepared this portfolio; the receipt identifies that relationship.
+
+[Fresh evidence receipt](../../results/2026-10-26-private-core-evidence.json) · [Core implementation evidence](../engineering/core-evidence.md).
+
 ## Adapting upstream models
 
 A separate Qwen-based development path retains training source, a dated manifest, and a saved adapter artifact. The record documents a model-adaptation workflow with an identified upstream base.
