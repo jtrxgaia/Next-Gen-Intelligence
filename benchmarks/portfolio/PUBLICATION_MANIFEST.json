@@ -14,9 +14,14 @@
       "sha256": "76a6e7c0a598661ceb7796cc0a4a11116c5c2d1078e92cd6dd9397b95bb547cc"
     },
     {
+      "path": ".gitignore",
+      "bytes": 157,
+      "sha256": "3388865b37f3f4c0c5034957e7bfab68fbd78192ce0f406c4b9d99ff06463fa2"
+    },
+    {
       "path": "README.md",
-      "bytes": 12573,
-      "sha256": "626c47e97fcd4abffea90dc2410b7502ba3d50225a60ed6e6c9892254adaca4f"
+      "bytes": 12506,
+      "sha256": "64fb87094a3f99b22e7e793e69b04242eb1c940951572ad62cfbc4ceb1428927"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -75,8 +80,8 @@
     },
     {
       "path": "benchmarks/portfolio/CHANGELOG.md",
-      "bytes": 6970,
-      "sha256": "6d8832e2cb1283c829aa86aa848883f2959807d4f3bf4bd2949ca065db867e18"
+      "bytes": 7179,
+      "sha256": "5d1ed0cc09d8d81a33d1df89a67873bfb336b20e643090fdb1cde5f1f75ee164"
     },
     {
       "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
@@ -105,13 +110,13 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/confidential-verification.md",
-      "bytes": 5009,
-      "sha256": "be6016993adb60a2af8c46717174105150e7577d36719315f8053be3834f5f91"
+      "bytes": 4999,
+      "sha256": "0468d609f0b52959acc6f2272c4fa35946a7463a81c7e66971a88012a5ff3d48"
     },
     {
       "path": "benchmarks/portfolio/engineering/core-evidence.md",
-      "bytes": 3113,
-      "sha256": "a460e5cc7e63b6b838c8028a1dbdd82838d48d7f7dbda9eb3dec4823167d4cb2"
+      "bytes": 3042,
+      "sha256": "24ac27b3a8759ad5cf042a946d9cf0d26c3e35b39bd3faac0d291ce95a5cd5f2"
     },
     {
       "path": "benchmarks/portfolio/engineering/ecosystem.md",
@@ -120,8 +125,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/evidence-index.md",
-      "bytes": 8525,
-      "sha256": "9569635c1bf836633831b7c65ede4503bf9c026aa136e2c1c06c4933ababd3a7"
+      "bytes": 8403,
+      "sha256": "0c039bc11c311e9787fe30de3b68074b4910fc10b2f705362addd25047144982"
     },
     {
       "path": "benchmarks/portfolio/engineering/problems-and-progress.md",
@@ -140,8 +145,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/reviewer-guide.md",
-      "bytes": 3365,
-      "sha256": "2fda74b43b68d34877f1655991798f813f85dc4f4ce4efb701225b2381fb97da"
+      "bytes": 3323,
+      "sha256": "08f00e1f4c85b9acb7a96590950b9f8d0baf4b1dae150502ec09ad479f92f753"
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
@@ -240,13 +245,13 @@
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi-web.md",
-      "bytes": 1564,
-      "sha256": "0ccd629a975f2e1462a473ecca3b74aa9bb5eb2f1040e0e79da27cbccfdfaca0"
+      "bytes": 1534,
+      "sha256": "70193f47ddc067a42ba4010f729ee0fd835dc5ff14eddf2150c41c22642d2647"
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi.md",
-      "bytes": 2376,
-      "sha256": "56dfbf6b238b9e973bb2527b7057cc64f6f94a12467601901eafb1b250690f95"
+      "bytes": 2336,
+      "sha256": "3c18e5d56ebbae034af9e82b454c1f7521fe7c9adaadc6d61abcdd579bb07152"
     },
     {
       "path": "benchmarks/portfolio/projects/synap-fps.md",
@@ -295,8 +300,8 @@
     },
     {
       "path": "benchmarks/portfolio/research/README.md",
-      "bytes": 2810,
-      "sha256": "9d063afb23ba1b730a4da73797d0456d08ce983466e25e3e7c9959b3167503a5"
+      "bytes": 2764,
+      "sha256": "c634fd587f3121a6fba9e5e72d520c09d0cb8ca4ffe94fb1066d271376defd9e"
     },
     {
       "path": "benchmarks/portfolio/reviews/README.md",
@@ -370,8 +375,8 @@
     },
     {
       "path": "benchmarks/portfolio/reviews/self-reports/web.md",
-      "bytes": 2835,
-      "sha256": "ac9090d85f3a300b53f1c3e93c89623aebb96797b7ff72ad69195c6048ad2283"
+      "bytes": 2766,
+      "sha256": "b34f8ed0a4857ba10fc8ccf366fefc3f72a56280bb2945ef2d075c44645ab392"
     },
     {
       "path": "benchmarks/results/2026-08-18-qios-rollback.json",
@@ -425,8 +430,8 @@
     },
     {
       "path": "benchmarks/results/2026-10-26-private-core-evidence.json",
-      "bytes": 7779,
-      "sha256": "7f084ea76628fd4d7c5b68e6ccee569b8372125bad431f27c7ef8b637bec1c53"
+      "bytes": 7668,
+      "sha256": "cbeb651823fe0831989017ac1e87afc73d44ae31fe2e22a092785149ab227520"
     },
     {
       "path": "benchmarks/results/2026-10-26-public-edit-safety.json",

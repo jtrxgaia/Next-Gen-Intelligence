@@ -1,0 +1,12 @@
+# Keep local secrets and model artifacts out of accidental publication.
+.env
+.env.*
+.private/
+_private/
+*.safetensors
+*.gguf
+*.ggml
+*.onnx
+*.pt
+*.pth
+*.ckpt

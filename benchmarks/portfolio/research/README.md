@@ -9,7 +9,7 @@ The [October 26 core review](../engineering/core-evidence.md) inspected the impl
 
 The separate [October 25 training record](../../results/2026-10-25-ai-training-review.json) records custom-model initialization from scratch, **34/34 training-exposed examples**, and **eight consistent restart outputs**. Training fit, symbolic transfer, and broad neural generalization are separate measurements.
 
-The core is currently undergoing maintenance. These dated results document the reviewed implementations and experiments. An external evaluator can add source-inspection and black-box attestations using the [confidential verification procedure](../engineering/confidential-verification.md), with artifact identities, evaluator-controlled tasks, baselines, exposure records, and measured outcomes. Proprietary methods and model artifacts remain private.
+These dated results document the reviewed implementations and experiments. An external evaluator can add source-inspection and black-box attestations using the [confidential verification procedure](../engineering/confidential-verification.md), with artifact identities, evaluator-controlled tasks, baselines, exposure records, and measured outcomes. Proprietary methods and model artifacts remain private.
 
 ## Research areas
 

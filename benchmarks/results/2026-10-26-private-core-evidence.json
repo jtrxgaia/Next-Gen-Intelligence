@@ -3,7 +3,6 @@
   "review_date": "2026-10-26",
   "reviewer": "Codex; same assistant prepared the portfolio update",
   "independent_audit": false,
-  "current_product_status": "UNDER_MAINTENANCE",
   "owner_statement": "Jack Rourke designed and built the proprietary neuro-symbolic QI Core and its application ecosystem, using AI-assisted development and established software dependencies.",
   "authorship_scope": "Owner attribution and inspected development artifacts; not line-by-line proof of sole manual authorship or a third-party IP provenance audit.",
   "inspection": {
@@ -178,7 +177,7 @@
   "qualification_scope": [
     "Source review supports a custom implemented neuro-symbolic system with explicit learning, symbolic processing, state handling, and application integration.",
     "Fresh results establish the listed component behaviors on the selected workloads.",
-    "Current application availability is covered by the maintenance notice; these observations are not a whole-product live-service assessment.",
+    "These component observations are not a whole-product live-service assessment.",
     "No quantum advantage, general intelligence, frontier-model superiority, hidden-test score, or hiring rating is asserted.",
     "Independent confidential inspection and evaluator-controlled black-box execution can substantiate further claims without public source release."
   ]

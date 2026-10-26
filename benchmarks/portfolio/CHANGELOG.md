@@ -1,5 +1,10 @@
 # Changelog
 
+## October 26, 2026 — publication cleanup
+
+- Omitted operational availability labels while preserving recorded measurements and test scope.
+- Added ignore rules for local environment files, private scratch folders and common model artifacts.
+
 ## October 26, 2026 — plain-language reading path
 
 - Shortened the main guides and case studies; preserved front-page sections and images.
@@ -22,7 +27,7 @@
 - Added a source-backed core evidence dossier, opaque artifact identities, and a confidential verification procedure.
 - Recorded 47/47 successful selected private component tests and 200/200 exact fresh synthetic cases, with results retained after restoration.
 - Linked learning, state ownership, finalization, and application integration evidence from the portfolio and case studies.
-- Marked the core as under maintenance and kept raw diagnostics, source, methods, weights, and private state local.
+- Kept raw diagnostics, source, methods, weights, and private state local.
 - Attributed the AI-assisted review and kept each observation tied to its workload and date.
 
 ## October 25, 2026 — simpler repository root

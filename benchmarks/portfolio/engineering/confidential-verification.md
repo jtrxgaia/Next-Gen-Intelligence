@@ -24,7 +24,7 @@ The review distinguishes owner-designed code, AI-assisted implementation, establ
 
 The [runnable evaluator](../../../code/README.md#evaluate-a-private-adapter) accepts a private Node adapter and evaluator-owned grid tasks through a standard JSON subprocess interface. It records task-file and adapter identities, exact scores, attempts, and startup-inclusive wall time. Its adapter protocol is a public evaluation boundary, separate from the core’s private interfaces and methods.
 
-The evaluator retains control of the core build, state, filesystem and network permissions, exposure records, and any descendant workers. The public demonstration uses ordinary synthetic fixtures and a transparent reference adapter. This provides a reproducible evaluation tool while the proprietary core remains under maintenance.
+The evaluator retains control of the core build, state, filesystem and network permissions, exposure records, and any descendant workers. The public demonstration uses ordinary synthetic fixtures and a transparent reference adapter. This provides a reproducible evaluation tool while keeping the proprietary core private.
 
 ## Public attestation fields
 
