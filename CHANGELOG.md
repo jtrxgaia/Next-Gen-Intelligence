@@ -1,5 +1,10 @@
 # Changelog
 
+## October 25, 2026 — Dark Matter description
+
+- Described Dark Matter as a coding and creation platform, similar in purpose to Antigravity, Codex, and Claude Code.
+- Removed the selected-check and snapshot-read results from the featured description and case study. Historical evidence records remain available.
+
 ## October 25, 2026 — current Dark Matter screenshot
 
 - Replaced the older featured image with a capture of the running Dark Matter desktop platform after asking “Who is Echo?”
