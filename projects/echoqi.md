@@ -17,6 +17,16 @@ The architecture defines those jobs and connects reasoning and learned behavior 
 
 Public documentation describes these responsibilities and results; the proprietary procedures behind the core remain confidential.
 
+## HiveMind
+
+HiveMind describes the QI Core coordinating multiple compatible LLMs at the same time on a shared task. The creator identifies Gemini, GPT, Claude, Kimi, and other compatible models as contributors to this design.
+
+The shared task may involve solving a problem, building software, or developing a system. The neuro-symbolic core coordinates the work and brings contributions into the same workflow. Concurrent work on the same objective is central to the concept.
+
+The scale of parallel work depends on available compute, provider access, and the task. The term “super AI” expresses the creator’s vision for this combined capability when sufficient compute is available. It is not a standardized performance level or a measured result in the published evidence.
+
+**Definition source:** creator clarification, October 25, 2026. This section records the intended architecture. The clarification did not include a new concurrent execution test or a comparison against individual models; the earlier source and training review retains its original scope.
+
 ## Neural learning and model development
 
 The reviewed projects contain custom trainable software, native learning from demonstrations, model-training source, and records of saved trained models. An October 25 experiment explicitly records model initialization from scratch without pretrained weights, followed by application-level fitting and restart checks.

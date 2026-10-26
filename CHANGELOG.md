@@ -1,5 +1,12 @@
 # Changelog
 
+## October 25, 2026 — HiveMind definition
+
+- Corrected HiveMind to mean concurrent collaboration by compatible LLMs, coordinated by the neuro-symbolic QI Core on the same problem or software/system build.
+- Named Gemini, GPT, Claude, and Kimi as examples from the creator’s clarification.
+- Recorded the role of available compute and distinguished the “super AI” vision from measured performance.
+- Updated the profile, core case study, ecosystem map, and attributed core review consistently.
+
 ## October 25, 2026 — plain-language editing
 
 - Rewrote the profile in shorter, more direct language while keeping its neutral point of view.

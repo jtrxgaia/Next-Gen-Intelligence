@@ -8,6 +8,7 @@
 | Area | Documented components | Engineering capability represented |
 |---|---|---|
 | Proprietary runtime | A canonical registry, cognition/conversation services, shared contracts, and multiple implementation generations. | AI system architecture and integration. |
+| HiveMind coordination | Creator-defined design for the QI Core to coordinate Gemini, GPT, Claude, Kimi, and compatible LLMs concurrently on one task; [definition and scope](../projects/echoqi.md#hivemind). | Concurrent multi-model problem solving and software development. |
 | Native reasoning | Implemented task-processing components with authored tests and bounded evaluation records. | Building purpose-specific intelligence in code. |
 | Custom neural learning | Learning and persistence implementations, model-related tests, and retained experimental records. | Developing learning software and controlling learned state. |
 | From-scratch model training | Completed training records with random initialization, saved model identities, application checks, and restart tests. | Designing and operating custom training experiments. |
