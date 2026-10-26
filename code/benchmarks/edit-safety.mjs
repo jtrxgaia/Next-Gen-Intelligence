@@ -42,13 +42,13 @@ async function runOne(dir, implementation, scenario, iteration) {
         if (scenario === 'external-during-generation') await writeFile(file,external);
         return candidate;
       },
-      runCheck: async () => {
+      runCheck: async staged => {
         if (scenario === 'check-exception') throw Error('injected process-start error');
         if (scenario === 'cancel-during-check') controller.abort();
         if (scenario.startsWith('external-during-check')) await writeFile(file,external);
         if (scenario === 'deleted-during-check') await unlink(file);
         if (scenario === 'external-during-check-fail' || scenario === 'deleted-during-check') return {command:'injected failure',exitCode:1};
-        return syntaxCheck(file);
+        return syntaxCheck(staged);
       }});
   } catch (e) { error = e.name; }
   const elapsedMs = performance.now()-started;

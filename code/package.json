@@ -2,12 +2,14 @@
   "name": "next-gen-intelligence-code",
   "private": true,
   "type": "module",
-  "description": "Public verification references, reproducible safety comparison and confidential evaluation protocol. No proprietary core code.",
+  "description": "Public engineering samples. No dependencies and no QI Core code.",
   "engines": {
     "node": ">=20"
   },
   "scripts": {
     "test": "node --test",
+    "demo": "node demo/run.mjs",
+    "evaluate": "node arc-harness/evaluate.mjs",
     "verify": "node evidence-verifier/verify.mjs .. benchmarks/portfolio/PUBLICATION_MANIFEST.json",
     "benchmark": "node benchmarks/edit-safety.mjs",
     "evaluate:example": "node evaluation-runner/runner.mjs evaluation-runner/example-cases.json evaluation-runner/example-adapter.mjs"

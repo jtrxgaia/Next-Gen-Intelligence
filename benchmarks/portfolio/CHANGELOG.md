@@ -1,5 +1,14 @@
 # Changelog
 
+## October 26, 2026 — reproducible public engineering workflow
+
+- Connected the public editor, real subprocess checks, integrity verification, and baseline scoring in a one-command demonstration.
+- Added staged candidate promotion, participating-editor serialization, and explicit preservation contracts.
+- Added dense grid validation, isolated solver inputs, a bounded JSON subprocess adapter, and an evaluator CLI with artifact identities.
+- Documented executable contracts and their operating assumptions in code/ARCHITECTURE.md.
+- Put runnable evidence first while preserving project order, images, and the historical archive.
+- Extended CI to Linux and Windows with Node 20 and 22; retained proprietary core methods and diagnostics locally.
+
 ## October 26, 2026 — core architecture and implementation evidence
 
 - Preserved the repository structure, project order, screenshots, public code, and historical archive.

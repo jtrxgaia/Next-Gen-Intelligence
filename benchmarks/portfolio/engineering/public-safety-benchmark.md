@@ -11,9 +11,9 @@ The October 26 Windows/Node v24.16.0 run produced **90/90 policy passes** for th
 | Condition | Baseline | Verified reference | Expected behavior |
 |---|---:|---:|---|
 | Valid candidate | 10/10 | 10/10 | Keep candidate and complete |
-| Invalid JavaScript | 0/10 | 10/10 | Restore baseline and reject completion |
-| Check callback throws | 0/10 | 10/10 | Restore baseline and reject completion |
-| Cancel during check | 0/10 | 10/10 | Restore baseline and reject completion |
+| Invalid JavaScript | 0/10 | 10/10 | Preserve baseline and reject completion |
+| Check callback throws | 0/10 | 10/10 | Preserve baseline and reject completion |
+| Cancel during check | 0/10 | 10/10 | Preserve baseline and reject completion |
 | External edit during generation | 0/10 | 10/10 | Preserve external bytes and reject completion |
 | External edit during successful check | 0/10 | 10/10 | Preserve external bytes and reject completion |
 | External edit during failing check | 10/10 | 10/10 | Preserve external bytes and reject completion |
@@ -39,4 +39,4 @@ Nonparticipating editors can still race between observation and replacement. Cro
 
 ## Relationship to existing work
 
-The existing Dark Matter case study describes verification, ownership and recovery as architectural concerns. This public sample makes a narrow version inspectable without copying private code. The benchmark was designed and executed by the same AI assistant that implemented the extension. It is reproducible engineering evidence, not an independent certification or a new historical product result.
+The existing Dark Matter case study describes verification, ownership and recovery as architectural concerns. This public sample makes a narrow version inspectable without copying private code. Integration preserved the newer staged editor on main, and this comparison was rerun against that implementation. The benchmark was designed and executed by the same AI assistant that implemented the extension. It is reproducible engineering evidence, not an independent certification or a new historical product result.

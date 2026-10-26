@@ -1,70 +1,85 @@
-// Public reference, written from the published contract, not private product source.
+// Public single-file reference implementation, independent of QI Core.
+// Check a staged candidate before promoting it. Participating editors share a
+// lock; observed outside changes are preserved. An unrelated writer that ignores
+// the lock can still race the final comparison and rename. See code/README.md.
 import { createHash, randomUUID } from 'node:crypto';
-import { open, readFile, writeFile, rename, unlink, realpath } from 'node:fs/promises';
+import { lstat, open, readFile, realpath, rename, unlink } from 'node:fs/promises';
+import { basename, dirname, extname, join } from 'node:path';
 
-const digest = text => createHash('sha256').update(text).digest('hex');
-const cancelled = () => ({ outcome: 'cancelled', receipt: null });
-async function readCurrent(file) {
-  try { return await readFile(file, 'utf8'); }
-  catch (error) { if (error.code === 'ENOENT') return null; throw error; }
-}
-async function replace(file, text) {
-  const temporary = `${file}.${randomUUID()}.pending`;
-  try {
-    await writeFile(temporary, text, { flag: 'wx' });
-    await rename(temporary, file);
-  } finally {
-    await unlink(temporary).catch(error => { if (error.code !== 'ENOENT') throw error; });
-  }
-}
+const digest = value => createHash('sha256').update(value).digest('hex');
+const outcome = (name, check = null) => ({ outcome: name, receipt: null, check });
+
 export async function verifiedEdit({ file, produceCandidate, runCheck, signal }) {
-  if (signal?.aborted) return cancelled();
-  file = await realpath(file);
-  // Exclusive creation serializes participants, including separate processes.
-  // External editors do not honor this advisory lock. See README.md.
-  const lockPath = `${file}.verified-edit.lock`;
+  if (typeof produceCandidate !== 'function' || typeof runCheck !== 'function') {
+    throw new TypeError('Candidate and check callbacks are required.');
+  }
+  if (signal?.aborted) return outcome('cancelled');
+  const info = await lstat(file);
+  if (!info.isFile() || info.isSymbolicLink()) throw new TypeError('A regular source file is required.');
+  const target = await realpath(file);
+  const lockPath = `${target}.verified-edit.lock`;
   let lock;
-  try { lock = await open(lockPath, 'wx'); }
-  catch (error) {
-    if (error.code === 'EEXIST') return { outcome: 'busy', receipt: null };
+  try {
+    lock = await open(lockPath, 'wx', 0o600);
+  } catch (error) {
+    if (error.code === 'EEXIST') return outcome('busy');
     throw error;
   }
+  let staged;
   try {
-    const baseline = await readFile(file, 'utf8');
-    const baselineHash = digest(baseline);
-    const candidate = await produceCandidate(baseline);
-    if (signal?.aborted) return cancelled();
-    if (typeof candidate !== 'string') throw new TypeError('Candidate must be UTF-8 text');
-    if (await readCurrent(file) !== baseline) return { outcome: 'conflict-before-write', receipt: null };
-    await replace(file, candidate);
-    const ownedHash = digest(candidate);
-    let check;
-    let checkThrew = false;
+    const baseline = await readFile(target);
+    const before = digest(baseline);
+    const original = new TextDecoder('utf-8', { fatal: true }).decode(baseline);
+    const candidate = await produceCandidate(original);
+    if (signal?.aborted) return outcome('cancelled');
+    if (typeof candidate !== 'string') throw new TypeError('The candidate must be UTF-8 text.');
+    if (digest(await readFile(target)) !== before) return outcome('conflict-before-check');
+
+    // Same directory and extension: relative module imports remain meaningful.
+    staged = join(dirname(target), `.${basename(target, extname(target))}.verified-${randomUUID()}${extname(target)}`);
+    const handle = await open(staged, 'wx', info.mode & 0o777);
     try {
-      check = await runCheck(file);
-      if (!check || typeof check.command !== 'string' || !Number.isInteger(check.exitCode)) {
-        throw new TypeError('Check must return a command and integer exitCode');
-      }
+      await handle.writeFile(candidate, 'utf8');
+      await handle.sync();
+    } finally {
+      await handle.close();
+    }
+    const after = digest(Buffer.from(candidate, 'utf8'));
+    let check;
+    try {
+      check = await runCheck(staged, { signal });
+    } catch {
+      return outcome(signal?.aborted ? 'cancelled' : 'check-error');
+    }
+    if (signal?.aborted) return outcome('cancelled', check);
+    if (!check || check.exitCode !== 0 || typeof check.command !== 'string' || !check.command.trim()) {
+      return outcome('check-rejected', check);
+    }
+    if (digest(await readFile(staged)) !== after) return outcome('candidate-changed', check);
+    let current;
+    try {
+      current = await readFile(target);
     } catch (error) {
-      checkThrew = true;
-      check = { command: null, exitCode: null, error: String(error?.message ?? error) };
+      if (error.code === 'ENOENT') return outcome('conflict-before-commit', check);
+      throw error;
     }
-    // A deletion is also a competing edit; do not resurrect the file.
-    if (await readCurrent(file) !== candidate) return { outcome: 'conflict-after-write', receipt: null, check };
-    if (signal?.aborted || checkThrew || check.exitCode !== 0) {
-      await replace(file, baseline);
-      return {
-        outcome: signal?.aborted ? 'cancelled' : checkThrew ? 'check-error-restored' : 'check-failed-restored',
-        receipt: null, check,
-      };
-    }
+    if (digest(current) !== before) return outcome('conflict-before-commit', check);
+    if (signal?.aborted) return outcome('cancelled', check);
+    await rename(staged, target);
+    staged = null;
+    if (digest(await readFile(target)) !== after) return outcome('conflict-after-commit', check);
     return {
       outcome: 'completed',
-      receipt: { file, before: baselineHash, after: ownedHash, check: check.command, exitCode: check.exitCode },
+      receipt: { file: target, before, after, check: check.command, exitCode: 0 },
       check,
     };
   } finally {
-    await lock.close();
-    await unlink(lockPath);
+    // A process crash leaves the lock for explicit operator inspection.
+    try {
+      if (staged) await unlink(staged).catch(error => { if (error.code !== 'ENOENT') throw error; });
+    } finally {
+      await lock.close();
+      await unlink(lockPath);
+    }
   }
 }

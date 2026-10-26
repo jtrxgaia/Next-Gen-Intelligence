@@ -1,0 +1,19 @@
+{
+  "schema": "portfolio.reference-demo.v1",
+  "scope": "Public reference workflow and synthetic fixtures; independent of the proprietary core.",
+  "safeguards": {
+    "unacceptedCandidatePreservedOriginal": true,
+    "cancellationPreservedAcceptedBytes": true
+  },
+  "realCandidateChecks": 4,
+  "acceptedEditVerified": true,
+  "evidenceIntegrityVerified": true,
+  "evaluation": {
+    "fixtureTasks": 3,
+    "identityBaseline": 1,
+    "referenceAdapter": 3,
+    "attemptsPerInput": 1,
+    "freshProcessPerInput": true
+  },
+  "deterministicResults": true
+}

@@ -41,9 +41,9 @@ The public extension makes the surrounding verification decisions inspectable:
 
 | Decision | Failure addressed | Evidence |
 |---|---|---|
-| Completion depends on executed checks and current candidate bytes | A plausible answer or stale passing result being accepted | Success, failure, exception, cancellation and competing-edit tests; real syntax checks in the safety benchmark |
+| Completion depends on executed checks and current candidate bytes | A plausible answer or stale passing result being accepted | Success, failure, exception, cancellation and competing-edit tests; real staged-candidate syntax checks in the safety benchmark |
 | Cooperating edits acquire an exclusive advisory lock | Two participants both passing a read-before-write check | Cross-process exclusion test; [documented boundary](../../../code/verified-edit/README.md#concurrency-and-recovery-boundary) for outside editors |
-| Check errors trigger recovery just like failing exit codes | An unverified candidate being left after process-start failure | Throwing and malformed check regressions |
+| Check errors reject staged candidates just like failing exit codes | An unverified candidate being left after process-start failure | Throwing and malformed check regressions |
 | A scorer receives a fresh copy of permitted inputs | Mutation contaminating later cases or original examples | ARC mutation-isolation regression |
 | Private review uses an input-only subprocess protocol | Accidental answer disclosure and missing failure denominators | Runner tests for hidden expected fields, errors, timeouts, output limits, adapter changes and empty workloads |
 

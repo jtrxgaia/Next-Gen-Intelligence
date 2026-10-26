@@ -1,6 +1,6 @@
 {
   "schema": "public.edit-safety-benchmark.v1",
-  "executedAt": "2026-10-26T18:49:47.680Z",
+  "executedAt": "2026-10-26T18:58:43.583Z",
   "runtime": "v24.16.0",
   "platform": "win32",
   "arch": "x64",
@@ -11,18 +11,18 @@
   "sources": [
     {
       "path": "code/benchmarks/edit-safety.mjs",
-      "sha256": "e81ee3477a5e5759d2e08f061cf8dc56a3b00cbd247729c747bcfaa0bca567b5"
+      "sha256": "ef0c22ed708547ea965424482f0ed96e5362ed328362b547892455084b2e3824"
     },
     {
       "path": "code/verified-edit/verified-edit.mjs",
-      "sha256": "dc6780f041f8c34cffb73d98f3b35e4dcd8953e1556ff8c99dc4828d14686a3c"
+      "sha256": "3e3e53637d0498f94f92e712aaff455fcdbe0a0ea8e8ca2b43c749988df27d72"
     }
   ],
   "summary": {
     "baseline": {
       "passed": 30,
       "total": 90,
-      "medianWallMs": 40.37639999999999,
+      "medianWallMs": 40.12805000000026,
       "perScenario": {
         "valid": {
           "passed": 10,
@@ -65,7 +65,7 @@
     "verified": {
       "passed": 90,
       "total": 90,
-      "medianWallMs": 4.222800000000177,
+      "medianWallMs": 38.53500000000031,
       "perScenario": {
         "valid": {
           "passed": 10,
@@ -115,7 +115,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.50059999999999
+      "elapsedMs": 50.39790000000001
     },
     {
       "implementation": "verified",
@@ -125,7 +125,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.6879
+      "elapsedMs": 76.5531
     },
     {
       "implementation": "baseline",
@@ -135,17 +135,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 42.891400000000004
+      "elapsedMs": 40.4504
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 0,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 47.599800000000016
+      "elapsedMs": 81.01879999999997
     },
     {
       "implementation": "baseline",
@@ -155,17 +155,17 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.7028999999999996
+      "elapsedMs": 1.4020999999999617
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 0,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.052800000000019
+      "elapsedMs": 37.28819999999996
     },
     {
       "implementation": "baseline",
@@ -175,7 +175,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 47.058899999999994
+      "elapsedMs": 41.766899999999964
     },
     {
       "implementation": "verified",
@@ -185,7 +185,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 44.387699999999995
+      "elapsedMs": 84.56880000000001
     },
     {
       "implementation": "baseline",
@@ -195,17 +195,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 42.117999999999995
+      "elapsedMs": 42.21369999999996
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 0,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.766900000000021
+      "elapsedMs": 2.191100000000006
     },
     {
       "implementation": "baseline",
@@ -215,17 +215,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 46.695899999999995
+      "elapsedMs": 41.12029999999993
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 0,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 45.52969999999999
+      "elapsedMs": 75.86019999999996
     },
     {
       "implementation": "baseline",
@@ -235,17 +235,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.786800000000028
+      "elapsedMs": 1.469000000000051
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 0,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.2649000000000115
+      "elapsedMs": 46.33630000000005
     },
     {
       "implementation": "baseline",
@@ -255,17 +255,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.5466000000000122
+      "elapsedMs": 1.201400000000035
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 0,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.964400000000012
+      "elapsedMs": 11.281399999999962
     },
     {
       "implementation": "baseline",
@@ -275,7 +275,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 45.379800000000046
+      "elapsedMs": 39.257600000000025
     },
     {
       "implementation": "verified",
@@ -285,7 +285,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.045400000000029195
+      "elapsedMs": 0.014300000000048385
     },
     {
       "implementation": "verified",
@@ -295,7 +295,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 44.433100000000024
+      "elapsedMs": 64.83710000000008
     },
     {
       "implementation": "baseline",
@@ -305,17 +305,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.03620000000001
+      "elapsedMs": 38.7106
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 1,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 47.684600000000046
+      "elapsedMs": 66.85199999999998
     },
     {
       "implementation": "baseline",
@@ -325,17 +325,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 46.567800000000034
+      "elapsedMs": 39.64999999999998
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 1,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 5.085199999999986
+      "elapsedMs": 31.60030000000006
     },
     {
       "implementation": "baseline",
@@ -345,7 +345,7 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.4372999999999365
+      "elapsedMs": 1.0241999999999507
     },
     {
       "implementation": "verified",
@@ -355,7 +355,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 52.37309999999991
+      "elapsedMs": 84.98519999999996
     },
     {
       "implementation": "baseline",
@@ -365,17 +365,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 42.3664
+      "elapsedMs": 47.38570000000004
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 1,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.733099999999922
+      "elapsedMs": 2.268299999999954
     },
     {
       "implementation": "baseline",
@@ -385,17 +385,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 44.17019999999991
+      "elapsedMs": 43.46699999999987
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 1,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 50.117399999999975
+      "elapsedMs": 79.74079999999981
     },
     {
       "implementation": "baseline",
@@ -405,17 +405,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.58050000000003
+      "elapsedMs": 38.9982
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 1,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.086800000000039
+      "elapsedMs": 40.98429999999985
     },
     {
       "implementation": "baseline",
@@ -425,17 +425,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.9791000000000167
+      "elapsedMs": 1.663000000000011
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 1,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.850300000000061
+      "elapsedMs": 17.749700000000075
     },
     {
       "implementation": "baseline",
@@ -445,7 +445,7 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.4568000000000438
+      "elapsedMs": 1.228800000000092
     },
     {
       "implementation": "verified",
@@ -455,7 +455,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.00980000000004111
+      "elapsedMs": 0.004000000000132786
     },
     {
       "implementation": "baseline",
@@ -465,7 +465,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 43.812200000000075
+      "elapsedMs": 39.19200000000001
     },
     {
       "implementation": "baseline",
@@ -475,7 +475,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 45.1812000000001
+      "elapsedMs": 41.71720000000005
     },
     {
       "implementation": "verified",
@@ -485,7 +485,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 58.38390000000004
+      "elapsedMs": 88.79460000000017
     },
     {
       "implementation": "baseline",
@@ -495,17 +495,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 54.15129999999999
+      "elapsedMs": 39.96270000000004
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 2,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 52.59879999999998
+      "elapsedMs": 75.98649999999998
     },
     {
       "implementation": "baseline",
@@ -515,17 +515,17 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 0.999599999999873
+      "elapsedMs": 1.2011999999999716
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 2,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.48700000000008
+      "elapsedMs": 29.573399999999992
     },
     {
       "implementation": "baseline",
@@ -535,7 +535,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 40.359899999999925
+      "elapsedMs": 43.07670000000007
     },
     {
       "implementation": "verified",
@@ -545,7 +545,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.584499999999935
+      "elapsedMs": 63.75240000000008
     },
     {
       "implementation": "baseline",
@@ -555,17 +555,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 39.960000000000036
+      "elapsedMs": 43.035699999999906
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 2,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.181100000000015
+      "elapsedMs": 2.317700000000059
     },
     {
       "implementation": "baseline",
@@ -575,17 +575,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 39.959100000000035
+      "elapsedMs": 39.577999999999975
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 2,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 40.54690000000005
+      "elapsedMs": 74.77970000000005
     },
     {
       "implementation": "baseline",
@@ -595,17 +595,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.7626000000000204
+      "elapsedMs": 1.804300000000012
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 2,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.574000000000069
+      "elapsedMs": 19.042900000000145
     },
     {
       "implementation": "baseline",
@@ -615,17 +615,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.2966000000001259
+      "elapsedMs": 1.1532999999999447
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 2,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.542500000000018
+      "elapsedMs": 28.19620000000009
     },
     {
       "implementation": "baseline",
@@ -635,7 +635,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 38.47440000000006
+      "elapsedMs": 38.47550000000001
     },
     {
       "implementation": "verified",
@@ -645,7 +645,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.006099999999833017
+      "elapsedMs": 0.0060000000000854925
     },
     {
       "implementation": "verified",
@@ -655,7 +655,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.992100000000164
+      "elapsedMs": 83.327
     },
     {
       "implementation": "baseline",
@@ -665,17 +665,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 39.36609999999996
+      "elapsedMs": 40.22580000000016
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 3,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.20600000000013
+      "elapsedMs": 81.08509999999978
     },
     {
       "implementation": "baseline",
@@ -685,17 +685,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 40.375099999999975
+      "elapsedMs": 41.50560000000041
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 3,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.052999999999884
+      "elapsedMs": 29.293500000000222
     },
     {
       "implementation": "baseline",
@@ -705,7 +705,7 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.0699999999999363
+      "elapsedMs": 1.0919999999996435
     },
     {
       "implementation": "verified",
@@ -715,7 +715,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.22550000000001
+      "elapsedMs": 74.44650000000001
     },
     {
       "implementation": "baseline",
@@ -725,17 +725,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 38.90159999999992
+      "elapsedMs": 42.11400000000003
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 3,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.289600000000064
+      "elapsedMs": 2.492599999999584
     },
     {
       "implementation": "baseline",
@@ -745,17 +745,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 39.65740000000005
+      "elapsedMs": 42.02320000000009
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 3,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.24160000000006
+      "elapsedMs": 63.453700000000026
     },
     {
       "implementation": "baseline",
@@ -765,17 +765,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.2992999999999
+      "elapsedMs": 44.990600000000086
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 3,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.4050999999999476
+      "elapsedMs": 19.66969999999992
     },
     {
       "implementation": "baseline",
@@ -785,17 +785,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.519900000000007
+      "elapsedMs": 1.1095000000000255
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 3,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.557800000000043
+      "elapsedMs": 41.502500000000055
     },
     {
       "implementation": "baseline",
@@ -805,7 +805,7 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.4605999999998858
+      "elapsedMs": 1.4904999999998836
     },
     {
       "implementation": "verified",
@@ -815,7 +815,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.006300000000010186
+      "elapsedMs": 0.003000000000156433
     },
     {
       "implementation": "baseline",
@@ -825,7 +825,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 39.256200000000035
+      "elapsedMs": 39.50469999999996
     },
     {
       "implementation": "baseline",
@@ -835,7 +835,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 39.99199999999996
+      "elapsedMs": 42.21100000000024
     },
     {
       "implementation": "verified",
@@ -845,7 +845,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 40.71950000000015
+      "elapsedMs": 101.81370000000015
     },
     {
       "implementation": "baseline",
@@ -855,17 +855,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 40.9226000000001
+      "elapsedMs": 42.27459999999974
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 4,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.768100000000004
+      "elapsedMs": 65.64480000000003
     },
     {
       "implementation": "baseline",
@@ -875,17 +875,17 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.106199999999717
+      "elapsedMs": 1.29529999999977
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 4,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.378900000000158
+      "elapsedMs": 25.764799999999923
     },
     {
       "implementation": "baseline",
@@ -895,7 +895,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 39.13310000000001
+      "elapsedMs": 41.29390000000012
     },
     {
       "implementation": "verified",
@@ -905,7 +905,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.589300000000094
+      "elapsedMs": 58.77970000000005
     },
     {
       "implementation": "baseline",
@@ -915,17 +915,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.95749999999998
+      "elapsedMs": 45.22769999999991
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 4,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.409400000000005
+      "elapsedMs": 8.390400000000227
     },
     {
       "implementation": "baseline",
@@ -935,17 +935,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 40.377700000000004
+      "elapsedMs": 42.11770000000024
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 4,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.673899999999776
+      "elapsedMs": 74.06500000000005
     },
     {
       "implementation": "baseline",
@@ -955,17 +955,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.5918000000001484
+      "elapsedMs": 1.3766000000000531
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 4,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.396600000000035
+      "elapsedMs": 30.25960000000032
     },
     {
       "implementation": "baseline",
@@ -975,17 +975,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.2583000000004176
+      "elapsedMs": 1.0141999999996187
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 4,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.152599999999893
+      "elapsedMs": 45.80360000000019
     },
     {
       "implementation": "baseline",
@@ -995,7 +995,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 38.61000000000013
+      "elapsedMs": 41.641799999999876
     },
     {
       "implementation": "verified",
@@ -1005,7 +1005,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.006399999999757711
+      "elapsedMs": 0.0037999999999556167
     },
     {
       "implementation": "verified",
@@ -1015,7 +1015,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 40.6268
+      "elapsedMs": 86.0043999999998
     },
     {
       "implementation": "baseline",
@@ -1025,17 +1025,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 38.847299999999905
+      "elapsedMs": 38.37969999999996
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 5,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.63640000000032
+      "elapsedMs": 111.47900000000027
     },
     {
       "implementation": "baseline",
@@ -1045,17 +1045,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.197599999999966
+      "elapsedMs": 41.26429999999982
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 5,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.8872999999998683
+      "elapsedMs": 36.25910000000022
     },
     {
       "implementation": "baseline",
@@ -1065,7 +1065,7 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.0462000000002263
+      "elapsedMs": 1.0715000000000146
     },
     {
       "implementation": "verified",
@@ -1075,7 +1075,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.108700000000226
+      "elapsedMs": 63.957800000000134
     },
     {
       "implementation": "baseline",
@@ -1085,17 +1085,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 40.478000000000065
+      "elapsedMs": 43.24400000000014
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 5,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.451599999999871
+      "elapsedMs": 2.4560999999998785
     },
     {
       "implementation": "baseline",
@@ -1105,17 +1105,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 39.875
+      "elapsedMs": 40.56950000000006
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 5,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.38720000000012
+      "elapsedMs": 51.84850000000006
     },
     {
       "implementation": "baseline",
@@ -1125,17 +1125,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 39.103799999999865
+      "elapsedMs": 41.90859999999975
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 5,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.192399999999907
+      "elapsedMs": 27.57529999999997
     },
     {
       "implementation": "baseline",
@@ -1145,17 +1145,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.3933999999999287
+      "elapsedMs": 1.199999999999818
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 5,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.7496000000001004
+      "elapsedMs": 11.789499999999862
     },
     {
       "implementation": "baseline",
@@ -1165,7 +1165,7 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.7942000000002736
+      "elapsedMs": 1.1951999999996588
     },
     {
       "implementation": "verified",
@@ -1175,7 +1175,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.006399999999757711
+      "elapsedMs": 0.0025000000000545697
     },
     {
       "implementation": "baseline",
@@ -1185,7 +1185,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.21090000000004
+      "elapsedMs": 42.080299999999625
     },
     {
       "implementation": "baseline",
@@ -1195,7 +1195,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 41.40229999999974
+      "elapsedMs": 41.82789999999977
     },
     {
       "implementation": "verified",
@@ -1205,7 +1205,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.26119999999992
+      "elapsedMs": 82.26830000000018
     },
     {
       "implementation": "baseline",
@@ -1215,17 +1215,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.35639999999967
+      "elapsedMs": 46.72609999999986
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 6,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 44.723599999999806
+      "elapsedMs": 53.29479999999967
     },
     {
       "implementation": "baseline",
@@ -1235,17 +1235,17 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.4086999999999534
+      "elapsedMs": 1.2057000000004336
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 6,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.6802999999999884
+      "elapsedMs": 10.66439999999966
     },
     {
       "implementation": "baseline",
@@ -1255,7 +1255,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 42.03430000000026
+      "elapsedMs": 40.61740000000009
     },
     {
       "implementation": "verified",
@@ -1265,7 +1265,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 45.634700000000066
+      "elapsedMs": 72.78520000000026
     },
     {
       "implementation": "baseline",
@@ -1275,17 +1275,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 43.15990000000011
+      "elapsedMs": 42.38850000000002
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 6,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.8849999999997635
+      "elapsedMs": 2.3156999999991967
     },
     {
       "implementation": "baseline",
@@ -1295,17 +1295,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.845600000000104
+      "elapsedMs": 46.93169999999918
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 6,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.99200000000019
+      "elapsedMs": 53.42699999999968
     },
     {
       "implementation": "baseline",
@@ -1315,17 +1315,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.6586999999999534
+      "elapsedMs": 1.5138999999999214
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 6,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.5641999999998006
+      "elapsedMs": 18.626400000000103
     },
     {
       "implementation": "baseline",
@@ -1335,17 +1335,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.6248000000000502
+      "elapsedMs": 1.1377999999995154
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 6,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.135099999999966
+      "elapsedMs": 21.477100000000064
     },
     {
       "implementation": "baseline",
@@ -1355,7 +1355,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.902700000000095
+      "elapsedMs": 44.393299999999726
     },
     {
       "implementation": "verified",
@@ -1365,7 +1365,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.008499999999912689
+      "elapsedMs": 0.004300000000512227
     },
     {
       "implementation": "verified",
@@ -1375,7 +1375,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.33329999999978
+      "elapsedMs": 58.923499999999876
     },
     {
       "implementation": "baseline",
@@ -1385,17 +1385,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.71990000000005
+      "elapsedMs": 41.8145999999997
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 7,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 45.565200000000004
+      "elapsedMs": 58.56219999999939
     },
     {
       "implementation": "baseline",
@@ -1405,17 +1405,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 43.09780000000001
+      "elapsedMs": 45.85270000000037
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 7,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.677299999999832
+      "elapsedMs": 25.94749999999931
     },
     {
       "implementation": "baseline",
@@ -1425,7 +1425,7 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.5054999999997563
+      "elapsedMs": 1.211699999999837
     },
     {
       "implementation": "verified",
@@ -1435,7 +1435,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 47.26350000000002
+      "elapsedMs": 70.78470000000016
     },
     {
       "implementation": "baseline",
@@ -1445,17 +1445,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 43.161699999999655
+      "elapsedMs": 40.03030000000035
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 7,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.5614000000000487
+      "elapsedMs": 2.093399999999747
     },
     {
       "implementation": "baseline",
@@ -1465,17 +1465,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.66159999999991
+      "elapsedMs": 41.28639999999996
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 7,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 44.98810000000003
+      "elapsedMs": 66.9429999999993
     },
     {
       "implementation": "baseline",
@@ -1485,17 +1485,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 44.9670000000001
+      "elapsedMs": 39.41269999999986
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 7,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.180700000000343
+      "elapsedMs": 34.84760000000006
     },
     {
       "implementation": "baseline",
@@ -1505,17 +1505,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.6532000000001972
+      "elapsedMs": 1.174300000000585
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 7,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.9025000000001455
+      "elapsedMs": 29.599600000000464
     },
     {
       "implementation": "baseline",
@@ -1525,7 +1525,7 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.616899999999987
+      "elapsedMs": 1.3229999999994106
     },
     {
       "implementation": "verified",
@@ -1535,7 +1535,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.008500000000367436
+      "elapsedMs": 0.0027999999992971425
     },
     {
       "implementation": "baseline",
@@ -1545,7 +1545,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 44.362600000000384
+      "elapsedMs": 42.57299999999941
     },
     {
       "implementation": "baseline",
@@ -1555,7 +1555,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.48810000000003
+      "elapsedMs": 49.26920000000064
     },
     {
       "implementation": "verified",
@@ -1565,7 +1565,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.97550000000001
+      "elapsedMs": 91.58560000000034
     },
     {
       "implementation": "baseline",
@@ -1575,17 +1575,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 43.29639999999972
+      "elapsedMs": 42.14520000000084
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 8,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 46.34400000000005
+      "elapsedMs": 77.79269999999997
     },
     {
       "implementation": "baseline",
@@ -1595,17 +1595,17 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.0097000000000662
+      "elapsedMs": 1.2563000000000102
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 8,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.142100000000028
+      "elapsedMs": 39.78180000000066
     },
     {
       "implementation": "baseline",
@@ -1615,7 +1615,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 44.04230000000007
+      "elapsedMs": 39.17779999999948
     },
     {
       "implementation": "verified",
@@ -1625,7 +1625,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 54.0903000000003
+      "elapsedMs": 76.14310000000023
     },
     {
       "implementation": "baseline",
@@ -1635,17 +1635,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 45.15700000000015
+      "elapsedMs": 40.4991
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 8,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.491399999999885
+      "elapsedMs": 2.6445000000003347
     },
     {
       "implementation": "baseline",
@@ -1655,17 +1655,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 45.30059999999958
+      "elapsedMs": 39.65990000000056
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 8,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 49.15819999999985
+      "elapsedMs": 87.59340000000066
     },
     {
       "implementation": "baseline",
@@ -1675,17 +1675,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.83429999999953
+      "elapsedMs": 1.6432999999997264
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 8,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.906199999999444
+      "elapsedMs": 22.66859999999997
     },
     {
       "implementation": "baseline",
@@ -1695,17 +1695,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.3771999999999025
+      "elapsedMs": 1.3629000000000815
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 8,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.1962000000003172
+      "elapsedMs": 34.73109999999997
     },
     {
       "implementation": "baseline",
@@ -1715,7 +1715,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.324499999999716
+      "elapsedMs": 42.63560000000052
     },
     {
       "implementation": "verified",
@@ -1725,7 +1725,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.009700000000520959
+      "elapsedMs": 0.004100000000107684
     },
     {
       "implementation": "verified",
@@ -1735,7 +1735,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 45.019100000000435
+      "elapsedMs": 73.71799999999985
     },
     {
       "implementation": "baseline",
@@ -1745,17 +1745,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.542199999999866
+      "elapsedMs": 39.336599999999635
     },
     {
       "implementation": "verified",
       "scenario": "invalid-syntax",
       "iteration": 9,
       "policyPassed": true,
-      "outcome": "check-failed-restored",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 48.94250000000011
+      "elapsedMs": 78.1260999999995
     },
     {
       "implementation": "baseline",
@@ -1765,17 +1765,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 46.402100000000246
+      "elapsedMs": 42.880699999999706
     },
     {
       "implementation": "verified",
       "scenario": "check-exception",
       "iteration": 9,
       "policyPassed": true,
-      "outcome": "check-error-restored",
+      "outcome": "check-error",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.457499999999527
+      "elapsedMs": 7.670500000000175
     },
     {
       "implementation": "baseline",
@@ -1785,7 +1785,7 @@
       "outcome": "threw",
       "error": "Error",
       "finalMatchesExpected": false,
-      "elapsedMs": 1.4200000000000728
+      "elapsedMs": 1.3229000000001179
     },
     {
       "implementation": "verified",
@@ -1795,7 +1795,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 48.852499999999964
+      "elapsedMs": 53.63749999999982
     },
     {
       "implementation": "baseline",
@@ -1805,17 +1805,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 44.55239999999958
+      "elapsedMs": 44.814799999999195
     },
     {
       "implementation": "verified",
       "scenario": "external-during-generation",
       "iteration": 9,
       "policyPassed": true,
-      "outcome": "conflict-before-write",
+      "outcome": "conflict-before-check",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 3.07799999999952
+      "elapsedMs": 2.3481999999994514
     },
     {
       "implementation": "baseline",
@@ -1825,17 +1825,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 42.981800000000476
+      "elapsedMs": 42.57790000000023
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-pass",
       "iteration": 9,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "conflict-before-commit",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 43.958700000000135
+      "elapsedMs": 58.70840000000044
     },
     {
       "implementation": "baseline",
@@ -1845,17 +1845,17 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 42.6824000000006
+      "elapsedMs": 42.67039999999997
     },
     {
       "implementation": "verified",
       "scenario": "external-during-check-fail",
       "iteration": 9,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 4.048300000000381
+      "elapsedMs": 19.50540000000001
     },
     {
       "implementation": "baseline",
@@ -1865,17 +1865,17 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.4674000000004526
+      "elapsedMs": 1.3176999999996042
     },
     {
       "implementation": "verified",
       "scenario": "deleted-during-check",
       "iteration": 9,
       "policyPassed": true,
-      "outcome": "conflict-after-write",
+      "outcome": "check-rejected",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 2.8004999999993743
+      "elapsedMs": 32.375200000000405
     },
     {
       "implementation": "baseline",
@@ -1885,7 +1885,7 @@
       "outcome": "check-failed",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 1.7307999999993626
+      "elapsedMs": 1.1536999999998443
     },
     {
       "implementation": "verified",
@@ -1895,7 +1895,7 @@
       "outcome": "cancelled",
       "error": null,
       "finalMatchesExpected": true,
-      "elapsedMs": 0.006399999999302963
+      "elapsedMs": 0.0030999999999039574
     },
     {
       "implementation": "baseline",
@@ -1905,7 +1905,7 @@
       "outcome": "completed",
       "error": null,
       "finalMatchesExpected": false,
-      "elapsedMs": 41.837900000000445
+      "elapsedMs": 42.21099999999933
     }
   ]
 }

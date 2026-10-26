@@ -5,7 +5,9 @@ Jack Rourke is an entrepreneur and the founder of EchoQI. He builds products and
 
 At the center is QI Core, the custom-built neuro-symbolic cognitive system behind EchoQI. Around it are projects that explore how AI can be used in everyday software: Dark Matter for development, QI Works and EchoQI.me for web-based tools, and SYNAP FPS for real-time gameplay.
 
-**QI Core is currently undergoing maintenance.** The dated engineering evidence remains available: an October 26 private-source inspection and isolated component run verified **47/47 selected tests**, plus **200/200 exact cases** in a fresh synthetic learning probe and **200/200 after state restoration**. [Architecture and implementation evidence](benchmarks/portfolio/engineering/core-evidence.md).
+**Start with working code:** [Run the public engineering demonstration](code/README.md). One command exercises verified file editing, real subprocess checks, preservation controls, artifact integrity, and black-box scoring against a baseline. No dependencies, credentials, or model downloads are required.
+
+**Core implementation evidence:** [Custom neuro-symbolic source inspection and successful component execution](benchmarks/portfolio/engineering/core-evidence.md). QI Core is currently under maintenance; its proprietary implementation remains private.
 
 [Contact](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
@@ -18,7 +20,7 @@ At the center is QI Core, the custom-built neuro-symbolic cognitive system behin
 | **Role** | Founder, architect, and product owner: system design, AI direction, verification, and delivery |
 | **Flagship** | EchoQI / QI Core: a proprietary neuro-symbolic AI system with persistent memory and multi-model coordination |
 | **Shipped surfaces** | Dark Matter (desktop AI coding platform), QI Works / EchoQI.me (web), SYNAP FPS (browser and Unreal Engine) |
-| **Public code** | [Tested samples and a confidential evaluation kit](code/README.md), with a [reproducible safety comparison](benchmarks/portfolio/engineering/public-safety-benchmark.md) |
+| **Public code** | [Runnable engineering workflow](code/README.md): staged edits, real checks, integrity receipts, exact scoring, and bounded subprocess adapters |
 | **Core evidence** | Custom learning and symbolic-processing source inspected; 47 selected component tests and a 200-case learning/restoration probe passed on October 26 |
 | **Evidence standard** | Dated observations, workload denominators, artifact identities, and confidential reinspection; proprietary methods remain private |
 
@@ -57,7 +59,7 @@ EchoQI is a proprietary AI system designed and built by Jack Rourke through AI-a
 
 The October 26 review inspected the implemented learning and symbolic-processing source, state ownership, finalization boundaries, application controller, and a packaged desktop core entry. Selected component execution establishes working behavior alongside that source evidence. [Core architecture and proof record](benchmarks/portfolio/engineering/core-evidence.md).
 
-The broader design is described as a **neuro-symbolic, quantum-inspired hybrid HiveMind**. The QI Core is designed to coordinate several compatible LLMs at the same time on a shared problem or software build. The design has developed over several years, with a history dating to around 2023 according to the developer’s records.
+The architecture combines learning components, explicit symbolic processing, persistent state, and controlled application integration. HiveMind is the design for coordinating compatible models on a shared task. The development history dates to around 2023 according to the developer’s records.
 
 #### How the parts work together
 
@@ -77,7 +79,7 @@ HiveMind is the design in which the neuro-symbolic QI Core uses **Gemini, GPT, C
 
 The core coordinates the work around a shared objective and brings the models’ contributions into the same workflow. The defining feature is their simultaneous participation in a common task, with the QI Core providing the coordination.
 
-Available compute, provider access, and task requirements determine how much work can run in parallel. The creator uses **“super AI”** to describe the combined capability envisioned when sufficient compute is available. This is a description of the design’s ambition; performance gains need to be established through task-specific comparisons.
+Available compute, provider access, and task requirements determine how much work can run in parallel. Task-specific comparisons establish the value of coordination; the public evidence identifies the workload and component behind each observation.
 
 [HiveMind design and scope](benchmarks/portfolio/projects/echoqi.md#hivemind)
 
@@ -161,15 +163,17 @@ Some of the most useful project records concern things that went wrong:
 
 ## Code samples
 
-QI Core stays private. To show how Jack approaches engineering, this repository includes three small programs written for publication. Each has automated tests that run on every change:
+The public reference workflow connects file editing, executed verification, evidence integrity, and exact benchmark scoring. Run `cd code` followed by `npm run demo` to reproduce it, then `npm test` to exercise its behavioral contracts. These implementations were prepared with Codex assistance for publication and are independent of the proprietary QI Core.
+
+The working components include:
 
 - **[Evidence verifier](code/evidence-verifier/verify.mjs):** confirms every published file still matches its recorded fingerprint.
-- **[Verified edit](code/verified-edit/verified-edit.mjs):** accepts a change after a real check passes, restores owned changes after failures, and preserves observed competing edits within its documented concurrency limits.
-- **[ARC scoring harness](code/arc-harness/harness.mjs):** hides the answers from the solver, requires exact matches, and compares against a do-nothing baseline.
+- **[Verified edit](code/verified-edit/verified-edit.mjs):** checks a staged candidate before promotion, preserves the original when a check does not accept it, and serializes participating editors.
+- **[ARC scoring harness](code/arc-harness/harness.mjs):** withholds answers from solver requests, validates grid structure, requires exact matches, and supports bounded [subprocess adapters](code/arc-harness/process-solver.mjs).
 
-[About the code samples](code/README.md) · [Architecture evidence and reviewer guide](benchmarks/portfolio/engineering/reviewer-guide.md)
+[Run the demonstration](code/README.md) · [Public architecture and tradeoffs](code/ARCHITECTURE.md) · [Evaluate a private adapter](code/README.md#evaluate-a-private-adapter) · [Architecture evidence guide](benchmarks/portfolio/engineering/reviewer-guide.md)
 
-The public verification reference now passes **90/90 failure-policy trials**, compared with **30/90** for a minimal write/check baseline across the same nine conditions. This measures the public reference’s recovery and completion rules, not private-product performance or AI quality. [Reproduce the comparison](benchmarks/portfolio/engineering/public-safety-benchmark.md). A separate [black-box evaluation kit](code/evaluation-runner/README.md) supports confidential reviews without publishing core source or methods.
+The public verification reference passes **90/90 failure-policy trials**, compared with **30/90** for a minimal write/check baseline across the same nine conditions. This measures the public reference’s preservation and completion rules, not private-product performance or AI quality. [Reproduce the comparison](benchmarks/portfolio/engineering/public-safety-benchmark.md). A separate [JSON evaluation kit](code/evaluation-runner/README.md) supports confidential structured-output reviews without publishing core source or methods.
 
 ## Related systems
 
