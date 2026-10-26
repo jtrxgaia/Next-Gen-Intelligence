@@ -110,20 +110,6 @@ Dark Matter is an AI-assisted coding and creation platform for developing softwa
 
 [Dark Matter case study](benchmarks/portfolio/projects/dark-matter.md) · [How changes are checked](benchmarks/portfolio/engineering/verified-edit-walkthrough.md)
 
-### SYNAP FPS
-
-SYNAP is a science-fiction first-person shooter with custom weapons, modular equipment, characters, enemy behavior, maps, progression, and saved state. Development covers both the game’s systems and how they look and feel in play.
-
-The browser edition uses **TypeScript, Babylon.js, and Rapier**. A separate native version uses **Unreal Engine and C++**. Native development builds have been packaged, while feature parity, regression fixes, and performance testing remain in progress.
-
-<img src="benchmarks/portfolio/media/portfolio/synap-gameplay-owner.png" alt="SYNAP gameplay showing the Aurelia arena, weapon view, holographic structures, and combat HUD" width="900" />
-
-*Gameplay capture supplied for the portfolio. The FPS overlay shows that moment, not a controlled benchmark; the image does not identify an exact engine version.*
-
-The development history includes work on rendering, asset integration, packaging, and misleading performance telemetry. The case study also explains the use of AI assistance and established engines.
-
-[SYNAP case study and more images](benchmarks/portfolio/projects/synap-fps.md)
-
 ### QI Works / EchoQI.me
 
 QI Works introduces the projects in the EchoQI ecosystem. EchoQI.me brings the broader web application together, including AI conversations, image and video workflows, user sessions, account data, and game access.
@@ -139,6 +125,20 @@ The platform connects the proprietary core with external AI and media services. 
 *Public landing page, October 25, 2026. Chat was marked as under maintenance when this image was captured.*
 
 [QI Works and EchoQI.me case study](benchmarks/portfolio/projects/echoqi-web.md)
+
+### SYNAP FPS
+
+SYNAP is a science-fiction first-person shooter with custom weapons, modular equipment, characters, enemy behavior, maps, progression, and saved state. Development covers both the game’s systems and how they look and feel in play.
+
+The browser edition uses **TypeScript, Babylon.js, and Rapier**. A separate native version uses **Unreal Engine and C++**. Native development builds have been packaged, while feature parity, regression fixes, and performance testing remain in progress.
+
+<img src="benchmarks/portfolio/media/portfolio/synap-gameplay-owner.png" alt="SYNAP gameplay showing the Aurelia arena, weapon view, holographic structures, and combat HUD" width="900" />
+
+*Gameplay capture supplied for the portfolio. The FPS overlay shows that moment, not a controlled benchmark; the image does not identify an exact engine version.*
+
+The development history includes work on rendering, asset integration, packaging, and misleading performance telemetry. The case study also explains the use of AI assistance and established engines.
+
+[SYNAP case study and more images](benchmarks/portfolio/projects/synap-fps.md)
 
 ## Engineering investigations
 
