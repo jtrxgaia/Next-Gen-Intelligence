@@ -3,7 +3,7 @@
 
 Jack Rourke builds AI systems, desktop tools, web applications, and games. He designs how the parts work together and uses AI-assisted development to build and test them.
 
-His main project is **EchoQI / QI Core**: custom learning and reasoning software with memory that can be saved and restored. The core is private and currently under maintenance.
+His main project is **EchoQI / QI Core**: custom learning and reasoning software with memory that can be saved and restored. The core is private.
 
 **Try the public work:** [Run all checks with one command](code/README.md#run-it). No paid services, API keys, or model downloads are needed.
 
@@ -102,7 +102,7 @@ A web application bringing AI conversations, media tools, accounts, and game acc
 
 <img src="benchmarks/portfolio/media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
 
-*Public page, October 25, 2026. Chat was marked under maintenance.*
+*Public page, October 25, 2026.*
 
 [Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
 

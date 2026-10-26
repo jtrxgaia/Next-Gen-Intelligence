@@ -28,4 +28,4 @@ An outside evaluator can inspect pinned artifacts confidentially, select fresh t
 
 ## Attribution
 
-The records attribute the ecosystem’s design and ownership to Jack Rourke, with AI assistance and dependencies acknowledged. Codex prepared the public examples and documentation and ran the private snapshot recheck. Those records are not independent audits. The core remains private and under its recorded maintenance status.
+The records attribute the ecosystem’s design and ownership to Jack Rourke, with AI assistance and dependencies acknowledged. Codex prepared the public examples and documentation and ran the private snapshot recheck. Those records are not independent audits. The core remains private.
