@@ -40,13 +40,13 @@ An October 25 experiment met its training target on 34 examples and produced con
 
 EchoQI is a proprietary AI system designed by Jack Rourke. It combines custom learning software, reasoning, persistent memory, and tools that connect it to desktop and web applications.
 
-The broader design is described as a **neuro-symbolic, quantum-inspired hybrid “hive mind.”** In practical terms, it is a system of specialized parts that share information and work through a common core. The design has developed over several years, with a history dating to around 2023 according to the developer’s records.
+The broader design is described as a **neuro-symbolic, quantum-inspired hybrid HiveMind**. The QI Core is designed to coordinate several compatible LLMs at the same time on a shared problem or software build. The design has developed over several years, with a history dating to around 2023 according to the developer’s records.
 
 #### How the parts work together
 
 “Neuro-symbolic” describes the combination of learned behavior and explicit reasoning. Trainable components learn from examples. Other parts handle supported operations, relationships, rules, and constraints. The architecture defines where each belongs and how its output can be used.
 
-External models can also contribute through defined interfaces. Their role is documented separately from the original core and its custom learning components.
+Compatible external models contribute through defined interfaces. In HiveMind, the core coordinates concurrent contributions toward the same task. These models remain separate from the original core and its custom learning components.
 
 #### Memory that carries across interactions
 
@@ -54,11 +54,15 @@ Memory work focuses on keeping useful context, relationships, and corrections be
 
 Saved state, integrity checks, and restart tests help check that information survives as intended. Each test establishes a specific behavior; it does not prove that every kind of memory works in every situation.
 
-#### The “hive mind” concept
+#### HiveMind: several models, one shared task
 
-The term describes coordination between reasoning components, models, memory, tools, and application interfaces. Each has a role, while the core sets boundaries around shared state and actions.
+HiveMind is the design in which the neuro-symbolic QI Core uses **Gemini, GPT, Claude, Kimi, and other compatible LLMs concurrently** to work on the same problem. That problem might be a research question, a software build, or the development of a larger system.
 
-Desktop tools, Dark Matter, and web integrations provide different ways to interact with the wider system. Related work covers permissions and communication between hosts. Some integrations still need further testing before they can be treated as ready for regular use.
+The core coordinates the work around a shared objective and brings the models’ contributions into the same workflow. The defining feature is their simultaneous participation in a common task, with the QI Core providing the coordination.
+
+Available compute, provider access, and task requirements determine how much work can run in parallel. The creator uses **“super AI”** to describe the combined capability envisioned when sufficient compute is available. This is a description of the design’s ambition; performance gains need to be established through task-specific comparisons.
+
+[HiveMind design and scope](projects/echoqi.md#hivemind)
 
 #### Building and training the learning components
 

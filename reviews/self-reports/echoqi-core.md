@@ -13,6 +13,12 @@ The reviewed projects include custom trainable source, neural-learning and persi
 
 A separate adaptation path retains an upstream model’s identity and a saved adapter. These records support a substantive account of Jack building AI components from code, training model parameters, and integrating learned behavior into his own architecture.
 
+## HiveMind definition clarification
+
+The creator clarified HiveMind on October 25: the neuro-symbolic QI Core coordinates Gemini, GPT, Claude, Kimi, and other compatible LLMs concurrently on the same problem or software/system build. This replaces the earlier, overly broad description of coordinated components. The intended scale depends on available compute and provider access.
+
+This clarification records the creator’s architecture definition; it does not add a newly verified multi-model run to the inspection results. [Design and scope](../../projects/echoqi.md#hivemind).
+
 ## Architectural ownership
 
 Jack’s contribution is the design and integration of a persistent system whose components must work coherently as it grows. The work includes preserving state, defining component ownership, controlling changes, and retaining evidence when an operation succeeds or fails.

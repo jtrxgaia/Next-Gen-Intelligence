@@ -105,8 +105,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 2333,
-      "sha256": "dc8a4fda9b11741d3f5d36960400600d82edef3afc43855a076609660f174f1d"
+      "bytes": 2842,
+      "sha256": "b5c9cf8993e5f7ca46daadbaeded852e3fc678c649bd4a4ac62fad06078432aa"
     },
     {
       "path": "docs/IBM_QUANTUM_RESEARCH.md",
@@ -120,8 +120,8 @@
     },
     {
       "path": "engineering/ecosystem.md",
-      "bytes": 4776,
-      "sha256": "26a3d66a4830540ae71ace2ce3bcf81e6c04e23812e0e4383f89764980287637"
+      "bytes": 5054,
+      "sha256": "fcbd59d5b190b465b8a180b51ed32b5927fabed561fc004eff92fa0c629f53e5"
     },
     {
       "path": "engineering/evidence-index.md",
@@ -250,8 +250,8 @@
     },
     {
       "path": "projects/echoqi.md",
-      "bytes": 3327,
-      "sha256": "d0c2978730d7a54c6404d7d86b4aa391c981bbf21f838edeaf7aba522663c156"
+      "bytes": 4408,
+      "sha256": "022ee85b90f0801d057f270736914757f0b6bffded9a8a4d46497e8931412797"
     },
     {
       "path": "projects/synap-fps.md",
@@ -265,8 +265,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13812,
-      "sha256": "64fdb6c8384d2ae054c84a4b0edb94eb4b5ce1ce4e5833308766839b38ca6abb"
+      "bytes": 14353,
+      "sha256": "3ee0557b8527fffdd87aa71d516d48d9fe32b99135c897b852f9968477e79c0d"
     },
     {
       "path": "receipts/2026-10-03_Antigravity_Reported.json",
@@ -335,8 +335,8 @@
     },
     {
       "path": "reviews/self-reports/echoqi-core.md",
-      "bytes": 2378,
-      "sha256": "84bb0e3c1d5f7f8f732173990916427baabca7a31d3dce60e7c152c79a25ce4b"
+      "bytes": 2968,
+      "sha256": "81464bb67888b3ba4053f1d6fa375d2fe3de8fe324476652c5bb0c6bd822cce0"
     },
     {
       "path": "reviews/self-reports/ecosystem.md",
