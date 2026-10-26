@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-25",
+  "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
+  "purpose": "Engineering profile with a minimal root and supporting material under benchmarks/portfolio",
+  "files": [
+    {
+      "path": "benchmarks/METHODS.md",
+      "bytes": 6594,
+      "sha256": "d33b105da969331e5b24aab1d42317351be457266742b8e33e87f8e3e726227b"
+    },
+    {
+      "path": "benchmarks/original-repository/docs/IBM_QUANTUM_RESEARCH.md",
+      "bytes": 2155,
+      "sha256": "de92cac62b7169b708aa895e9047a0fbc5234784c7adc2bab4ed5c21df171b6a"
+    },
+    {
+      "path": "benchmarks/original-repository/media/arc_reasoning_benchmark_chart.jpg",
+      "bytes": 726090,
+      "sha256": "6d7bbec83376e2583eaad30828e610fbcbccfb26e93a354f7344e892164d008e"
+    },
+    {
+      "path": "benchmarks/original-repository/media/codebase_refactor_benchmark_chart.jpg",
+      "bytes": 708634,
+      "sha256": "dcc418e7c7d6f05e5c123f8738eea2c8e7c65c342ed8f0f54c16273621a99f8c"
+    },
+    {
+      "path": "benchmarks/original-repository/media/cost_per_billion_chart.jpg",
+      "bytes": 540004,
+      "sha256": "a9ad6966fc54deabfc191932138f009bda8ca8ccef9a1a7103e773ff6e700ee0"
+    },
+    {
+      "path": "benchmarks/original-repository/media/creator_workflow_benchmark_chart.jpg",
+      "bytes": 708920,
+      "sha256": "28279a8701f7431affb783cd498874d7b9823442388aa24ea0458e119d6cc95e"
+    },
+    {
+      "path": "benchmarks/original-repository/media/guardian_security_benchmark_chart.jpg",
+      "bytes": 678358,
+      "sha256": "6af71bec4491c885e613212683a3cb797b382c33ecd4feece24dda78f18d4693"
+    },
+    {
+      "path": "benchmarks/original-repository/media/speed_comparison_chart.jpg",
+      "bytes": 606802,
+      "sha256": "4f367fd248ced7ccf920af46eecc22655a65fc040d21a33ef15afd0a86e930a8"
+    },
+    {
+      "path": "benchmarks/original-repository/README.md",
+      "bytes": 10430,
+      "sha256": "0e283371c1d5391d4ed4f1e41af6ec641c9b9c91719f54948328a0ed6d6098da"
+    },
+    {
+      "path": "benchmarks/portfolio/2026-10-03_EchoQI_Benchmark_Audit_v1.md",
+      "bytes": 2091,
+      "sha256": "f0571135d3c60a19201ca4492534fcd790f3cb96056462d5ac30b74abc50e675"
+    },
+    {
+      "path": "benchmarks/portfolio/CHANGELOG.md",
+      "bytes": 3909,
+      "sha256": "2bb0020d2594d396ea5efbd3599da3e0b7b1ebf5fbb27bb4ddb841d9ca0e98bd"
+    },
+    {
+      "path": "benchmarks/portfolio/docs/IBM_QUANTUM_RESEARCH.md",
+      "bytes": 2155,
+      "sha256": "de92cac62b7169b708aa895e9047a0fbc5234784c7adc2bab4ed5c21df171b6a"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/capabilities.md",
+      "bytes": 1868,
+      "sha256": "0f281ef1c740505d7fab7c0588454b69f9749662f915b1b8c9e9b7c30664e196"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/ecosystem.md",
+      "bytes": 5060,
+      "sha256": "fe2e10d5f5946b33f8818ebc8ebe12a2c6f19ba2f497feeace176a911ec2ec1c"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/evidence-index.md",
+      "bytes": 6397,
+      "sha256": "c4b79d16975b2e59d1cd63e8a12999a8152d11ac8712b70d3fb5bfef49d3c241"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/problems-and-progress.md",
+      "bytes": 4016,
+      "sha256": "9e0bc326a352c0d847cb5f909f282ddfd772d5e109d504e4ddfd161ffa9d74e8"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/publication-note.md",
+      "bytes": 1097,
+      "sha256": "b0acc284d465f33d89565d902915281dfced81172640448e29270c6f807c056f"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/strengths.md",
+      "bytes": 2632,
+      "sha256": "7f91746e8081c47b04dc38efb3f2294fd107895b15cadb7eff548d3eb463b6e6"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/verified-edit-walkthrough.md",
+      "bytes": 4100,
+      "sha256": "fde617b346edf14aad785d99e118e4666f663b1d6e2541b09fef8cf6537819bd"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/workflow.md",
+      "bytes": 1593,
+      "sha256": "86e547845ede4e05cb78552264f04991d19dc17ab033f2c74797102599a565b7"
+    },
+    {
+      "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
+      "bytes": 1866,
+      "sha256": "2e5a0864874a84e5a5b08e2a852479b6b181d6c5a2f793bf22163de5de4a9506"
+    },
+    {
+      "path": "benchmarks/portfolio/HISTORY.md",
+      "bytes": 494,
+      "sha256": "a7f23ebb8d75e7f36c38f0739b6e704f18ccc7b1a81401958fbfb59829b8508d"
+    },
+    {
+      "path": "benchmarks/portfolio/LEGACY_SHOWCASE.md",
+      "bytes": 10903,
+      "sha256": "146dd083ea000d3a0f99476fad2661b8880dac1b1d6cc1c09e7099db7cdb9cc8"
+    },
+    {
+      "path": "benchmarks/portfolio/media/arc_reasoning_benchmark_chart.jpg",
+      "bytes": 726090,
+      "sha256": "6d7bbec83376e2583eaad30828e610fbcbccfb26e93a354f7344e892164d008e"
+    },
+    {
+      "path": "benchmarks/portfolio/media/codebase_refactor_benchmark_chart.jpg",
+      "bytes": 708634,
+      "sha256": "dcc418e7c7d6f05e5c123f8738eea2c8e7c65c342ed8f0f54c16273621a99f8c"
+    },
+    {
+      "path": "benchmarks/portfolio/media/cost_per_billion_chart.jpg",
+      "bytes": 540004,
+      "sha256": "a9ad6966fc54deabfc191932138f009bda8ca8ccef9a1a7103e773ff6e700ee0"
+    },
+    {
+      "path": "benchmarks/portfolio/media/creator_workflow_benchmark_chart.jpg",
+      "bytes": 708920,
+      "sha256": "28279a8701f7431affb783cd498874d7b9823442388aa24ea0458e119d6cc95e"
+    },
+    {
+      "path": "benchmarks/portfolio/media/guardian_security_benchmark_chart.jpg",
+      "bytes": 678358,
+      "sha256": "6af71bec4491c885e613212683a3cb797b382c33ecd4feece24dda78f18d4693"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/dark-matter-creator.jpg",
+      "bytes": 39739,
+      "sha256": "1f1c960553230d4a37fb07997892c54a946c164e3bd8d7a91222e2bc9122e208"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/dark-matter-current.jpg",
+      "bytes": 89675,
+      "sha256": "32b01d0d33f133182dd76d0198fdae4e3a94f496da60b9ff63eab5cc13135b72"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/echo-desktop-dock.png",
+      "bytes": 82766,
+      "sha256": "ff93fb718c8d4b6384b8716c81b6d2e00db725ca71a3e22a1eb39e2796370dd9"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/echoqi-web.png",
+      "bytes": 56263,
+      "sha256": "28e6552d2f1a707396c3c2d38ac6513941b527daca5ea960835a0e4a9818bb9c"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/README.md",
+      "bytes": 2057,
+      "sha256": "5209378cf46d5b1d4c4f807bcf3c943968a6f533f0ee0200d0877234857763e9"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/synap-browser.png",
+      "bytes": 189357,
+      "sha256": "6b7a26d4d1ce21f1001e4f4801d6e956f672dca4fdf5914c4e4d4ce8c6cba02d"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/synap-gameplay-owner.png",
+      "bytes": 4781529,
+      "sha256": "7492e2cffd877ec970dce43acdd0d57ea836cb04e93e490ac077703fbc9782d5"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/synap-menu-owner.png",
+      "bytes": 9290164,
+      "sha256": "29dd7aea554a154183bb2d0d246320a8937da27903a923559bee3b3952dc498f"
+    },
+    {
+      "path": "benchmarks/portfolio/media/speed_comparison_chart.jpg",
+      "bytes": 606802,
+      "sha256": "4f367fd248ced7ccf920af46eecc22655a65fc040d21a33ef15afd0a86e930a8"
+    },
+    {
+      "path": "benchmarks/portfolio/projects/ai-creation-and-training.md",
+      "bytes": 3158,
+      "sha256": "4d9d190d79c79a68dd3096ab18edc02168087e3fd3978599eccff7ccf89af44d"
+    },
+    {
+      "path": "benchmarks/portfolio/projects/dark-matter.md",
+      "bytes": 2148,
+      "sha256": "feeb4eb173963a4b8890798f7bb255d292234c8c2ea012414dcdf13586830e9f"
+    },
+    {
+      "path": "benchmarks/portfolio/projects/echoqi-web.md",
+      "bytes": 2358,
+      "sha256": "7bf8b80a127a5669fa79503d3837d90953f10ce001cca0460c5c25164838daae"
+    },
+    {
+      "path": "benchmarks/portfolio/projects/echoqi.md",
+      "bytes": 4406,
+      "sha256": "ec10925eefe1ef29d672ad44ccf36184e9fbf80274099098ed4a36a3e1286a6e"
+    },
+    {
+      "path": "benchmarks/portfolio/projects/synap-fps.md",
+      "bytes": 3290,
+      "sha256": "6285e64e39758f0fb4a7356f4b0643586526677ff235b00b0d7e259a4cdfc009"
+    },
+    {
+      "path": "benchmarks/portfolio/projects/systems.md",
+      "bytes": 2317,
+      "sha256": "f74427cb9cab5c0dade36de9d44b7eacc52427aecec41bd560df366efb311f18"
+    },
+    {
+      "path": "benchmarks/portfolio/receipts/2026-10-03_Antigravity_Reported.json",
+      "bytes": 893,
+      "sha256": "fb4cd1fa49b8c8229d5914021b5a9239cb5870dc13a166ed74bc08a4611c0eea"
+    },
+    {
+      "path": "benchmarks/portfolio/receipts/2026-10-03_Codex_ARC2.json",
+      "bytes": 16478,
+      "sha256": "ff7f27544036f8d6f0505ee240dfaa7a5daff732bb8989d198a5e2dff932729f"
+    },
+    {
+      "path": "benchmarks/portfolio/receipts/2026-10-03_Codex_ARC3_Smoke.json",
+      "bytes": 1484,
+      "sha256": "7089350cab4c23464985b6e57f5769112eb2f4f859fc39079823966426b832e9"
+    },
+    {
+      "path": "benchmarks/portfolio/receipts/INDEX.json",
+      "bytes": 1880,
+      "sha256": "a17c0e1e199e759895c75d65c3e16b5d2f3d74e85f41bec0c951a019c7378ce4"
+    },
+    {
+      "path": "benchmarks/portfolio/reports/2026-10-03_Codex_Independent_Benchmark_v1.md",
+      "bytes": 3132,
+      "sha256": "e7b3ed145eb321b8717a78b2e4721ec622cfb19ca2a463beac30131ab50b1569"
+    },
+    {
+      "path": "benchmarks/portfolio/reports/QI_1_BILLION_TOKEN_BENCHMARK_REPORT.md",
+      "bytes": 5540,
+      "sha256": "a26e0009776890234f4f15447192480494289a9758247ed938c0edfd1637acb3"
+    },
+    {
+      "path": "benchmarks/portfolio/reports/QI_AUTONOMOUS_CREATOR_BENCHMARK_REPORT.md",
+      "bytes": 2798,
+      "sha256": "52ef2b5fba03ab5efadf1d791e54f54c63d1bb392b1e6ed317fc29df691b4845"
+    },
+    {
+      "path": "benchmarks/portfolio/research/README.md",
+      "bytes": 1557,
+      "sha256": "9dca7febc5515a9bd9ac39cb8d1270646635600768f7d8fab530043c7e36309b"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/codex-2026-10-25.md",
+      "bytes": 2229,
+      "sha256": "b588326e325a29d5ac7130addbbf2a4ef2fbff15646a75d22fe0db88d3fccf86"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/README.md",
+      "bytes": 1257,
+      "sha256": "ce9a6533b77905262eac9b4cab1a3ee79de5a0e5e0e91fc77e499fae2fd7c2c9"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/ai-creation.md",
+      "bytes": 2169,
+      "sha256": "c33eb903b101be245490cea6b6470b7e5d4df4d10e6ed0ec591275873e20c6d5"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/capabilities.md",
+      "bytes": 1097,
+      "sha256": "b8d5d3966edfc66482c61b5baf6cf4880b9c035a320ed9a420e6aba6c2ae3d45"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/dark-matter.md",
+      "bytes": 2159,
+      "sha256": "2b4b4cd93c72d9c39d75250a18295c9316ed13a82bebbb69c70d2c038437ef8b"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/echoqi-core.md",
+      "bytes": 2958,
+      "sha256": "26210ec104842b0b9bcbd7d2242fdeeb10f8fd877bb88e72edacd5a494c8a40f"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/ecosystem.md",
+      "bytes": 1947,
+      "sha256": "58f7a50ffd600fb1a04072e8274bd9e1fc6c7004a54c75ee37a5a5da32d20403"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/engineering.md",
+      "bytes": 1965,
+      "sha256": "0dbc274bc82777d15747b125fa99a32c3158764fe9e9266f33bc8e7502345be9"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/github.md",
+      "bytes": 2037,
+      "sha256": "0670af061c61dceb89de8f53ff0709e77f16cc8118f6191084803b66c355c145"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/profile.md",
+      "bytes": 2127,
+      "sha256": "460bd74a6c5a45985fb46d28bcbb83ba034fc36af696a9641199ac6d82788149"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/README.md",
+      "bytes": 1100,
+      "sha256": "f12da31263ef7b611d77d2c2f316b716e9967f98a7199e4b7462fcd746a841c9"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/scope-and-sources.md",
+      "bytes": 1323,
+      "sha256": "94715489b1b7247a4d758fa4c3588d28c56f41c99d68632f2683e4b7c0eba064"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/strengths.md",
+      "bytes": 2177,
+      "sha256": "af7a019ff5bb16b7d063997908883e68fd848a4e7648ae067f3b6c30a4e609af"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/synap.md",
+      "bytes": 2636,
+      "sha256": "09bb9160de48e75f4cf9ba28122d0baf1dee5cbc2ee2aea32e952eb774fee09f"
+    },
+    {
+      "path": "benchmarks/portfolio/reviews/self-reports/web.md",
+      "bytes": 2835,
+      "sha256": "ac9090d85f3a300b53f1c3e93c89623aebb96797b7ff72ad69195c6048ad2283"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "bytes": 11390,
+      "sha256": "53e68cec26017641c62b4ab0500413400c312676b2c38f671a29228e9211a5cb"
+    },
+    {
+      "path": "benchmarks/results/2026-08-18-qios-rollback.json",
+      "bytes": 900,
+      "sha256": "0c98aa5826581347acab174fc523e145122e9805900280c1be5d14c247eeeec7"
+    },
+    {
+      "path": "benchmarks/results/2026-10-18-selected-checks.json",
+      "bytes": 1391,
+      "sha256": "003e1f724ab4a60161beca4ed05857019c8fd56fbcceb58dab37819871e2f22f"
+    },
+    {
+      "path": "benchmarks/results/2026-10-24-synap-native-summary.json",
+      "bytes": 1485,
+      "sha256": "21317340985d292da801e8443b92975ad7875d6a260678530fb630d898fcbe5a"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-ai-training-review.json",
+      "bytes": 2677,
+      "sha256": "4f1c1cf3dd7ec88b78f150b7de489fad2246d383302ec84848cd3077236ebf85"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-economic-model.json",
+      "bytes": 642,
+      "sha256": "4ddb2ed577dba75f8db7e8e687bc39b1b6e2affe12c1ce0ac2aeeb11d2792380"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-expanded-inspection.json",
+      "bytes": 6721,
+      "sha256": "ab5bd5cdbc87a6bc68b8503b21c75e972c6cf7e7e4ae29dc210de47e132c176e"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-preservation.json",
+      "bytes": 1315,
+      "sha256": "7ce6c8ef413820b646ec7358cb0be3d930af37100739eb09bef0dae806bf000f"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-product-creation-review.json",
+      "bytes": 3111,
+      "sha256": "16a52b5021b4995949e25ced53f967553c61f753e038088fc305444d9abc3d48"
+    },
+    {
+      "path": "benchmarks/results/2026-10-25-source-inspection.json",
+      "bytes": 3626,
+      "sha256": "7e98a571551e9bad1e37b5495092bfe9de5937957ec7df9dd2ef981b26074e32"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14781,
+      "sha256": "71b06061035b411e32780bcd6b802f1394d6598ec1e7344dca5465f1471e027e"
+    }
+  ]
+}
