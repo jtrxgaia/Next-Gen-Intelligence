@@ -5,7 +5,7 @@
 
 ## Project and ownership
 
-Jack Rourke created EchoQI and directs its architecture and development. The project connects original AI components with persistent state, controlled execution, and desktop/web interfaces. His responsibilities span requirements, system design, AI-assisted implementation, integration, testing, and product direction.
+EchoQI is a proprietary AI system created by Jack Rourke. It connects original AI components with persistent state, controlled execution, and desktop/web interfaces. Development covers requirements, system design, AI-assisted implementation, integration, and testing.
 
 The result is an interconnected AI software platform whose core and application layers develop together. Established frameworks and optional upstream models remain attributed dependencies.
 
@@ -13,7 +13,7 @@ The result is an interconnected AI software platform whose core and application 
 
 The central architectural problem is maintaining coherent ownership as the system expands: cognition, conversation, memory, model contributions, and actions must operate through defined boundaries.
 
-Jack’s work establishes component responsibilities and integrates native and learned behavior across several application surfaces. Historical generations are preserved while supported routes are consolidated around declared owners. This enables continued development without making every experimental component an implicit authority.
+The architecture defines component responsibilities and integrates native and learned behavior across several application surfaces. Historical generations are preserved while supported routes are consolidated around declared owners. This enables continued development without making every experimental component an implicit authority.
 
 Public documentation describes these responsibilities and results; the proprietary procedures behind the core remain confidential.
 
@@ -27,7 +27,7 @@ A separate upstream-model adaptation path retains a training manifest and model 
 
 ## Persistence and integration
 
-EchoQI’s application engineering includes state ownership, persistent continuity, corrections, guarded changes, and restart behavior. Jack connects those responsibilities to user-facing software through interfaces and service contracts.
+EchoQI’s application engineering includes state ownership, persistent continuity, corrections, guarded changes, and restart behavior. Interfaces and service contracts connect these functions to user-facing software.
 
 This work addresses the practical requirements of stateful AI: retain useful context, preserve controlled changes, identify what actually executed, and support recovery when an operation fails.
 

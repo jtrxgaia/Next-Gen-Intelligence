@@ -5,13 +5,13 @@
 
 ## Authenticated host coordination
 
-Jack’s host-integration work addresses enrollment, capability authorization, request identity, signed proofs, replay rejection, and verified execution across GAIA, EVE, and Mac.
+Host-integration development addresses enrollment, capability authorization, request identity, signed proofs, replay rejection, and verified execution across GAIA, EVE, and Mac.
 
 The reviewed source/tests establish implemented components and bounded checks. The inspected physical-demo acceptance record remains incomplete. This distinction preserves a precise account of what the integration has demonstrated.
 
 ## QIOS boot, updates, and recovery
 
-QIOS integrates an existing Linux foundation with a boot-aware shell, voice services, persistent data, signed updates, and A/B recovery. Jack directs its product behavior, integration, release boundaries, and acceptance requirements.
+QIOS integrates an existing Linux foundation with a boot-aware shell, voice services, persistent data, signed updates, and A/B recovery. Development includes product behavior, integration, release boundaries, and acceptance requirements.
 
 Historical VM evidence records UEFI/OVMF boot, inactive-slot update staging, and rejection of an unhealthy signed candidate followed by restoration of the known-good version. Physical-device qualification remains distinct from these VM results.
 

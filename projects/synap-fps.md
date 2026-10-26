@@ -5,7 +5,7 @@
 
 ## Project and ownership
 
-Jack directs and develops gameplay, progression, enemy encounters, customization, interfaces, effects, asset integration, and performance investigation through AI-assisted development. His responsibilities connect system behavior with the visual and interactive experience.
+SYNAP is a game project created by Jack Rourke. Its development covers gameplay, progression, enemy encounters, customization, interfaces, effects, asset integration, and performance investigation, using AI-assisted development.
 
 The browser edition remains a distinct product while a separate Unreal project develops a native implementation. Engine and third-party asset contributions are attributed dependencies.
 
@@ -43,7 +43,7 @@ Full migration, normal-input QA, visual acceptance, and performance acceptance r
 
 ## Engineering capabilities
 
-SYNAP demonstrates experience integrating real-time gameplay, rendering, persistent progression, interfaces, asset workflows, performance diagnostics, packaging, and migration between engines.
+The project integrates real-time gameplay, rendering, persistent progression, interfaces, asset workflows, performance diagnostics, packaging, and migration between engines.
 
 Current development priorities include regression closure, repeated matched workloads, normal-input QA, visual acceptance, and versioned migration reconciliation while preserving the browser edition.
 

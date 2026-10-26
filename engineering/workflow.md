@@ -1,32 +1,28 @@
-# How Jack works
-**Product direction, AI-assisted implementation, and evidence-driven refinement.**
+# Development workflow
+**Architecture, AI-assisted implementation, validation, and recovery.**
 
-[Portfolio](../README.md) · [Strengths](strengths.md) · [Codex review](../reviews/codex-2026-10-25.md)
+[Portfolio](../README.md) · [Engineering specializations](strengths.md)
 
-## Own the problem and its architecture
+## Requirements and architecture
 
-Jack defines what the software should do, how it should feel to use, and which boundaries matter. His projects require decisions about state, application interfaces, model contributors, execution, performance, and recovery. He works across those concerns rather than treating them as disconnected tasks.
+Development begins with intended behavior, user interaction, component responsibilities, and acceptance criteria. Architectural decisions cover state, interfaces, model contributors, execution, performance, and recovery.
 
-## Build and investigate with AI
+## AI-assisted implementation
 
-His workflow uses tools including Codex, Claude Code, Antigravity, and Gemini for implementation and analysis. Jack supplies direction, reviews outcomes, challenges weak results, and prioritizes the next iteration. Individual code and asset contributions can be AI-generated or based on upstream dependencies; his ownership concerns the integrated result and its acceptance.
+Tools used for implementation and analysis include Codex, Claude Code, Antigravity, and Gemini. Architectural direction, outcome review, and prioritization remain developer responsibilities. Individual code and asset contributions may be AI-generated or based on upstream dependencies.
 
-The most productive form of this workflow has an explicit goal, bounded changes, observable output, and a concrete review point. In this task he requested a separate preview before any live repository change.
+Recorded workflows use bounded changes, observable output, and explicit review points. Separate previews and checkpoints support review before publication or deployment.
 
-## Train, measure, and preserve evidence
+## Experiments and validation
 
-The learning work includes training manifests, model artifacts, source/data identity, fitting checks, and restart comparisons. The development-tool and game work adds real command evidence, diagnostic investigation, visual review, and regression records. Different evidence answers different questions.
+Learning experiments retain manifests, artifact identities, source/data provenance, fitting checks, and restart comparisons. Developer-tool and game records include executed checks, diagnostic investigations, visual inspection, and regression results. Each result retains its workload and version scope.
 
-Jack’s most transferable process is to make a difficult idea concrete, inspect how the implementation behaves, and keep the next milestone connected to an observable result.
+## Continuity and recovery
 
-## Protect continuity and recoverability
+Checkpoints, guarded state, versioned artifacts, and rollback records support model experiments, generated edits, application updates, and game migration. Recovery logic accounts for content ownership and preservation of existing work.
 
-The ecosystem contains checkpoints, guarded state, immutable or versioned artifacts, and rollback records. The underlying principle is to preserve the user’s work while changing the system. That is relevant to model experiments, generated edits, application updates, and game migration alike.
+## Technical handoff
 
-## Engineering workflow and delivery
+Component contracts, milestones, setup records, and retained evidence support continued development. Project documentation distinguishes implementation, selected passing checks, incomplete validation, and release-specific acceptance.
 
-Jack’s workflow connects architectural direction, AI development, integration, debugging, and product iteration. Explicit milestones, component contracts, reproducible setup, and retained evidence support technical handoff and continued development.
-
-Project ownership, AI assistance, and upstream contributions are identified in the evidence record.
-
-[Attributed Codex technical review](../reviews/self-reports/strengths.md)
+[Evidence index](evidence-index.md) · [Attributed Codex technical review](../reviews/self-reports/strengths.md)
