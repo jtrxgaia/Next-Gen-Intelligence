@@ -10,13 +10,13 @@
     },
     {
       "path": ".github/workflows/checks.yml",
-      "bytes": 915,
-      "sha256": "c1725fc4fff094ee7fe16ead83d35235999a3bcaea7af28dfb40f7e5b7dc47d7"
+      "bytes": 796,
+      "sha256": "76a6e7c0a598661ceb7796cc0a4a11116c5c2d1078e92cd6dd9397b95bb547cc"
     },
     {
       "path": "README.md",
-      "bytes": 20017,
-      "sha256": "15c3a4ff48854dc64711754ed6cac46ec4e5ea0660c2d351b50cc682e77c2b7b"
+      "bytes": 12573,
+      "sha256": "626c47e97fcd4abffea90dc2410b7502ba3d50225a60ed6e6c9892254adaca4f"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -25,8 +25,8 @@
     },
     {
       "path": "benchmarks/README.md",
-      "bytes": 12658,
-      "sha256": "47be76ed340c8babcdd146fdafdb211fb3f67b7e166d069e452a582415d5b44d"
+      "bytes": 2464,
+      "sha256": "61d3cfe27c221fb6ab25c5c73601d2fb298a27bdfbbc13600838785fac3f8137"
     },
     {
       "path": "benchmarks/original-repository/README.md",
@@ -75,8 +75,8 @@
     },
     {
       "path": "benchmarks/portfolio/CHANGELOG.md",
-      "bytes": 6556,
-      "sha256": "73dced122626ba3087d976a8cae8c182e8723707975a3fdbe841caf1c8f78f55"
+      "bytes": 6970,
+      "sha256": "6d8832e2cb1283c829aa86aa848883f2959807d4f3bf4bd2949ca065db867e18"
     },
     {
       "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
@@ -110,8 +110,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/core-evidence.md",
-      "bytes": 7541,
-      "sha256": "6dd1b1e14de4c5f6e725ec72a2e88ad86e2f6890321dc67906910736fd49dd51"
+      "bytes": 3113,
+      "sha256": "a460e5cc7e63b6b838c8028a1dbdd82838d48d7f7dbda9eb3dec4823167d4cb2"
     },
     {
       "path": "benchmarks/portfolio/engineering/ecosystem.md",
@@ -140,13 +140,13 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/reviewer-guide.md",
-      "bytes": 7437,
-      "sha256": "22699b64f74277f06ab325e12e7cf041d374773f0d25367d9dbfb7fa773a8d9d"
+      "bytes": 3365,
+      "sha256": "2fda74b43b68d34877f1655991798f813f85dc4f4ce4efb701225b2381fb97da"
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
-      "bytes": 2632,
-      "sha256": "7f91746e8081c47b04dc38efb3f2294fd107895b15cadb7eff548d3eb463b6e6"
+      "bytes": 1271,
+      "sha256": "17b444ed086094dceb8e990f622e63cd6a50da67d82699c3fa1bf73b3b1f56ec"
     },
     {
       "path": "benchmarks/portfolio/engineering/verified-edit-walkthrough.md",
@@ -155,8 +155,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/workflow.md",
-      "bytes": 1593,
-      "sha256": "86e547845ede4e05cb78552264f04991d19dc17ab033f2c74797102599a565b7"
+      "bytes": 910,
+      "sha256": "ae549fca763e5a65ab7b6d4c342e484f89df593fdcbab243c5231f14fbd36968"
     },
     {
       "path": "benchmarks/portfolio/media/arc_reasoning_benchmark_chart.jpg",
@@ -235,23 +235,23 @@
     },
     {
       "path": "benchmarks/portfolio/projects/dark-matter.md",
-      "bytes": 2148,
-      "sha256": "feeb4eb173963a4b8890798f7bb255d292234c8c2ea012414dcdf13586830e9f"
+      "bytes": 1507,
+      "sha256": "d522de95edf9009339ffbc302fbaa0dd356c110add6d31c7a7d96abaa8bec166"
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi-web.md",
-      "bytes": 2358,
-      "sha256": "7bf8b80a127a5669fa79503d3837d90953f10ce001cca0460c5c25164838daae"
+      "bytes": 1564,
+      "sha256": "0ccd629a975f2e1462a473ecca3b74aa9bb5eb2f1040e0e79da27cbccfdfaca0"
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi.md",
-      "bytes": 5123,
-      "sha256": "4fe32be57eb3e765d2159f2ee723f08ae1a834063dfb11bdeb050f4fcad09b4b"
+      "bytes": 2376,
+      "sha256": "56dfbf6b238b9e973bb2527b7057cc64f6f94a12467601901eafb1b250690f95"
     },
     {
       "path": "benchmarks/portfolio/projects/synap-fps.md",
-      "bytes": 3290,
-      "sha256": "6285e64e39758f0fb4a7356f4b0643586526677ff235b00b0d7e259a4cdfc009"
+      "bytes": 1984,
+      "sha256": "9713058c19ec0a94de5a55650543f20cc2d50896662561e483cf510eba9d86a2"
     },
     {
       "path": "benchmarks/portfolio/projects/systems.md",
@@ -445,8 +445,8 @@
     },
     {
       "path": "code/README.md",
-      "bytes": 7556,
-      "sha256": "7d2bbfc9a68301a84811985b0a8bfc126c9b17ef9e4a40579b910dd4191a68c0"
+      "bytes": 4098,
+      "sha256": "724fcddb9896baf6bbcb228cb3c2cfbb3632d6988e720190615d20906ac3ec8d"
     },
     {
       "path": "code/arc-harness/adversarial.test.mjs",
@@ -540,8 +540,13 @@
     },
     {
       "path": "code/package.json",
-      "bytes": 623,
-      "sha256": "3e4bbd78cee55da63691e058f09b576adf3d9217d914edc38fa73c440d487df0"
+      "bytes": 654,
+      "sha256": "b680c2b02ed35fed518b6000263451476e07a430d1647d7e7da10b5789318f04"
+    },
+    {
+      "path": "code/proof.mjs",
+      "bytes": 1561,
+      "sha256": "a325a3013185108bf75e86c6b6a9fbb8a92bad60b2941106d7ddf0cd99883b1c"
     },
     {
       "path": "code/verified-edit/README.md",

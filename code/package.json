@@ -12,6 +12,7 @@
     "evaluate": "node arc-harness/evaluate.mjs",
     "verify": "node evidence-verifier/verify.mjs .. benchmarks/portfolio/PUBLICATION_MANIFEST.json",
     "benchmark": "node benchmarks/edit-safety.mjs",
-    "evaluate:example": "node evaluation-runner/runner.mjs evaluation-runner/example-cases.json evaluation-runner/example-adapter.mjs"
+    "evaluate:example": "node evaluation-runner/runner.mjs evaluation-runner/example-cases.json evaluation-runner/example-adapter.mjs",
+    "proof": "node proof.mjs"
   }
 }

@@ -1,50 +1,33 @@
 # SYNAP FPS / Dev Snap FPS
-**Real-time game systems, visual product development, and a separate native-engine migration.**
 
-[Portfolio](../../../README.md) · [Evidence index](../engineering/evidence-index.md)
+[Portfolio](../../../README.md) · [Evidence index](../engineering/evidence-index.md#synap)
 
-## Project and ownership
-
-SYNAP is a game project created by Jack Rourke. Its development covers gameplay, progression, enemy encounters, customization, interfaces, effects, asset integration, and performance investigation, using AI-assisted development.
-
-The browser edition remains a distinct product while a separate Unreal project develops a native implementation. Engine and third-party asset contributions are attributed dependencies.
+Jack Rourke’s science-fiction shooter uses AI-assisted development and established engines/assets. Work covers combat, enemies, equipment, progression, rendering, interfaces, and saved games. Browser and native editions have separate acceptance records.
 
 ## Browser engineering
 
-The reviewed local manifest identifies **0.10.222-dev.1**, using TypeScript, Babylon.js 9.28.0, Rapier 0.21.0, Vite, and Node-based checks.
-
-The source and test inventory covers combat, recoil, input, enemy tactics, progression, persistence, render batching, effects, and browser boundaries. Simulation, presentation, input, progression, and release artifacts retain separate responsibilities.
+The inspected local manifest identifies **0.10.222-dev.1**, TypeScript, Babylon.js 9.28.0, Rapier 0.21.0, Vite, and Node-based checks. Source/test inventory covers combat, recoil, input, enemy tactics, progression, persistence, render batching, and effects.
 
 ## Visual presentation
 
 ![SYNAP in-game capture](../media/portfolio/synap-gameplay-owner.png)
 
-*Supplied in-game capture showing the Aurelia arena, weapon view, effects, and HUD. The overlay is a momentary performance reading.*
+*Owner-supplied gameplay capture. Its FPS overlay is a momentary reading.*
 
 ![SYNAP title and menu](../media/portfolio/synap-menu-owner.png)
 
-*Supplied title/menu capture showing the game’s visual identity, character presentation, and navigation. Exact engine/revision is not established from these images.*
+*Owner-supplied menu capture. The images do not establish exact engine/revision.*
 
 ## Performance investigation
 
-An October 13 investigation reproduced a telemetry defect that reported a mesh count as milliseconds. The isolated replay established false spike classification and a reporting-frequency issue, allowing those diagnostic problems to be separated from the broader gameplay regression.
+An October 13 replay reproduced a diagnostic that treated a mesh count as milliseconds, plus a reporting-frequency problem. This explained misleading telemetry; it did not establish the cause of the broader frame-time regression or a repeatable performance gain.
 
-The development record also examines rendering workload, enemy presentation, visibility, pooling, and reflections. The engineering contribution is the effort to isolate causes while preserving the intended visual experience.
+[Investigation](../engineering/problems-and-progress.md#synap-diagnostic-units)
 
-[Investigation record](../engineering/problems-and-progress.md#synap-diagnostic-units).
+## Native migration and status
 
-## Native migration and delivery
+The separate project uses **Unreal Engine 5.8 and C++**. The October 24 `native-v129-qi-workload` record reports successful packaging and packaged combat playtests with rollback material.
 
-The separate native project uses **Unreal Engine 5.8 and C++**. The October 24 `native-v129-qi-workload` record reports successful packaging and packaged combat playtests, with retained rollback material.
+Feature parity, normal-input QA, visual acceptance, and performance acceptance remained incomplete. Notes retained 21 historical suite failures; the full suite was not rerun. Sequential combat observations do not establish a repeatable speedup.
 
-Full migration, normal-input QA, visual acceptance, and performance acceptance remained incomplete for that delivery. Its notes retain 21 historical suite failures, and the full suite was not rerun. Sequential combat observations do not establish a repeatable performance gain.
-
-[Native delivery evidence](../../results/2026-10-24-synap-native-summary.json).
-
-## Engineering capabilities
-
-The project integrates real-time gameplay, rendering, persistent progression, interfaces, asset workflows, performance diagnostics, packaging, and migration between engines.
-
-Current development priorities include fixing regressions, repeated matched workloads, normal-input QA, visual acceptance, and versioned migration reconciliation while preserving the browser edition.
-
-[Attributed Codex technical review](../reviews/self-reports/synap.md)
+[Delivery receipt](../../results/2026-10-24-synap-native-summary.json) · [Attributed review](../reviews/self-reports/synap.md)
