@@ -3,7 +3,9 @@
 
 Jack Rourke is an entrepreneur and the founder of EchoQI. He builds products and puts AI to work: he designs how AI components, memory, tools, and applications fit together, then directs and verifies their construction across desktop software, web applications, developer tools, and games.
 
-At the center is QI Core, the proprietary system behind EchoQI. Around it are projects that explore how AI can be used in everyday software: Dark Matter for development, QI Works and EchoQI.me for web-based tools, and SYNAP FPS for real-time gameplay.
+At the center is QI Core, the custom-built neuro-symbolic cognitive system behind EchoQI. Around it are projects that explore how AI can be used in everyday software: Dark Matter for development, QI Works and EchoQI.me for web-based tools, and SYNAP FPS for real-time gameplay.
+
+**QI Core is currently undergoing maintenance.** The dated engineering evidence remains available: an October 26 private-source inspection and isolated component run verified **47/47 selected tests**, plus **200/200 exact cases** in a fresh synthetic learning probe and **200/200 after state restoration**. [Architecture and implementation evidence](benchmarks/portfolio/engineering/core-evidence.md).
 
 [Contact](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
@@ -17,7 +19,8 @@ At the center is QI Core, the proprietary system behind EchoQI. Around it are pr
 | **Flagship** | EchoQI / QI Core: a proprietary neuro-symbolic AI system with persistent memory and multi-model coordination |
 | **Shipped surfaces** | Dark Matter (desktop AI coding platform), QI Works / EchoQI.me (web), SYNAP FPS (browser and Unreal Engine) |
 | **Public code** | [Three tested samples](code/README.md) covering evidence integrity, verified AI edits, and fair benchmark scoring |
-| **Evidence standard** | Every benchmark is published with its method, its limits, and any later correction |
+| **Core evidence** | Custom learning and symbolic-processing source inspected; 47 selected component tests and a 200-case learning/restoration probe passed on October 26 |
+| **Evidence standard** | Dated observations, workload denominators, artifact identities, and confidential reinspection; proprietary methods remain private |
 
 ## Engineering specializations
 
@@ -42,13 +45,17 @@ Other work explores learning from examples, saving what has been learned, and co
 
 An October 25 experiment met its training target on 34 examples and produced consistent results across eight checked outputs after a restart. Those examples were used during training, so the result shows that the model learned the training material. Testing on unseen examples is a separate step.
 
-[AI development case study](benchmarks/portfolio/projects/ai-creation-and-training.md) · [Training record](benchmarks/results/2026-10-25-ai-training-review.json)
+On October 26, an isolated copy of selected private learning components passed **47 tests**. A new probe taught three demonstrations and checked **200 new-value cases** within one supported synthetic family, with exact results before and after state restoration. This is evidence of bounded component learning and persistence, separate from the model-training experiment. [Dated component evidence](benchmarks/results/2026-10-26-private-core-evidence.json).
+
+[AI development case study](benchmarks/portfolio/projects/ai-creation-and-training.md) · [Training record](benchmarks/results/2026-10-25-ai-training-review.json) · [Confidential verification](benchmarks/portfolio/engineering/confidential-verification.md)
 
 ## Projects
 
 ### EchoQI / QI Core
 
-EchoQI is a proprietary AI system designed by Jack Rourke. It combines custom learning software, reasoning, persistent memory, and tools that connect it to desktop and web applications.
+EchoQI is a proprietary AI system designed and built by Jack Rourke through AI-assisted software development. It combines custom learning software, reasoning, persistent memory, and tools that connect it to desktop and web applications.
+
+The October 26 review inspected the implemented learning and symbolic-processing source, state ownership, finalization boundaries, application controller, and a packaged desktop core entry. Selected component execution establishes working behavior alongside that source evidence. [Core architecture and proof record](benchmarks/portfolio/engineering/core-evidence.md).
 
 The broader design is described as a **neuro-symbolic, quantum-inspired hybrid HiveMind**. The QI Core is designed to coordinate several compatible LLMs at the same time on a shared problem or software build. The design has developed over several years, with a history dating to around 2023 according to the developer’s records.
 
@@ -96,7 +103,7 @@ The public record explains these responsibilities and results. The core’s impl
 
 *An Echo desktop interface component.*
 
-[Core case study](benchmarks/portfolio/projects/echoqi.md) · [Source inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Codex core review](benchmarks/portfolio/reviews/self-reports/echoqi-core.md)
+[Core case study](benchmarks/portfolio/projects/echoqi.md) · [Fresh execution receipt](benchmarks/results/2026-10-26-private-core-evidence.json) · [Source inspection record](benchmarks/results/2026-10-25-expanded-inspection.json) · [Codex core review](benchmarks/portfolio/reviews/self-reports/echoqi-core.md)
 
 ### Dark Matter
 
@@ -203,6 +210,7 @@ The earlier front page, benchmark charts, and IBM Quantum research record are pr
 | Benchmarks and historical showcase | [benchmarks](benchmarks/README.md) |
 | Technical documentation | [docs](benchmarks/portfolio/docs/) |
 | Engineering records | [engineering](benchmarks/portfolio/engineering/) |
+| Core implementation evidence | [Architecture and verified observations](benchmarks/portfolio/engineering/core-evidence.md) · [Confidential verification](benchmarks/portfolio/engineering/confidential-verification.md) |
 | Images and media | [media](benchmarks/portfolio/media/) |
 | Project case studies | [projects](benchmarks/portfolio/projects/) |
 | Evidence receipts | [receipts](benchmarks/portfolio/receipts/) |

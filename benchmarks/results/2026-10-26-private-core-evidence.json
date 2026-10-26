@@ -1,0 +1,185 @@
+{
+  "schema": "portfolio.private-core-evidence.v1",
+  "review_date": "2026-10-26",
+  "reviewer": "Codex; same assistant prepared the portfolio update",
+  "independent_audit": false,
+  "current_product_status": "UNDER_MAINTENANCE",
+  "owner_statement": "Jack Rourke designed and built the proprietary neuro-symbolic QI Core and its application ecosystem, using AI-assisted development and established software dependencies.",
+  "authorship_scope": "Owner attribution and inspected development artifacts; not line-by-line proof of sole manual authorship or a third-party IP provenance audit.",
+  "inspection": {
+    "custom_learning_implementation_inspected": true,
+    "parameter_and_state_update_paths_inspected": true,
+    "explicit_symbolic_processing_inspected": true,
+    "learning_to_application_source_connection_inspected": true,
+    "state_ownership_and_finalization_boundaries_inspected": true,
+    "packaged_desktop_core_source_present": true,
+    "scope": "Selected implementations and source connections; no entire-product availability or acceptance claim."
+  },
+  "fresh_component_execution": {
+    "runtime": "v24.16.0",
+    "method": "Executed three existing private component suites from a task-owned copy of their selected source and required fixture dependencies.",
+    "suites": 3,
+    "tests": 47,
+    "passed": 47,
+    "areas": [
+      "learning on supported structured examples",
+      "composition within supported families",
+      "persistence and restoration",
+      "bounded state and ownership behavior"
+    ],
+    "source_hashes_checked_before_and_after": true,
+    "raw_log_sha256": "ed63f2b53d696d327b8e17ddca360175e536836b6245f11100f4984b5c5d289f",
+    "raw_log_location": "Retained privately; excluded from the public repository."
+  },
+  "fresh_synthetic_probe": {
+    "training_examples": 3,
+    "new_value_cases": 200,
+    "exact_cases": 200,
+    "restored_exact_cases": 200,
+    "learning_activation_controls_satisfied": true,
+    "probe_source_sha256": "208fa6b51f1a756f81654b857211b3914f6fd113487688932942f6e86a25f971",
+    "private_result_sha256": "8127ae9b5dcf1eb9e93b65df295ba42fe70ac70049165e981b186c7a745b132c",
+    "scope": "New synthetic values within one supported family, generated after the source snapshot. Reviewer inspected source and authored probe. This is bounded symbolic/component transfer, not an independent blind benchmark or a neural-model generalization score.",
+    "seed_and_raw_examples": "Retained privately; no dataset answers or proprietary interfaces published."
+  },
+  "retained_training_evidence": {
+    "execution_date": "2026-10-25",
+    "training_exposed_examples": 34,
+    "first_task_group": {
+      "total": 17,
+      "passed": 17
+    },
+    "second_task_group": {
+      "total": 17,
+      "passed": 17
+    },
+    "restart_outputs_checked": 8,
+    "review_scope": "Retained successful training-fit and restart record; no retraining performed for this update.",
+    "initialization_evidence": "Existing training provenance records random initialization without pretrained weights; distinct from the separately documented upstream-model adaptation path.",
+    "public_record": "benchmarks/results/2026-10-25-ai-training-review.json"
+  },
+  "publication": {
+    "included": [
+      "public descriptions of responsibilities",
+      "dated successful aggregate observations",
+      "opaque artifact identifiers and SHA-256 identities",
+      "confidential-review procedure"
+    ],
+    "excluded": [
+      "core source",
+      "internal algorithms and representations",
+      "training recipes",
+      "weights",
+      "private state",
+      "raw prompts",
+      "dataset answers",
+      "host paths",
+      "raw diagnostic logs"
+    ],
+    "hash_meaning": "Content identity for confidential reinspection; not authentication, source disclosure, independent certification, or proof of a capability by itself."
+  },
+  "source_identities": [
+    {
+      "id": "private-component-01",
+      "bytes": 112181,
+      "sha256": "ed8b30ca1a0557a2207c98c3c4e7fcbca057ff902c4f38ef61001489445b4889"
+    },
+    {
+      "id": "private-component-02",
+      "bytes": 4553,
+      "sha256": "8aa5f65428f7795ecbdb9c4d0e3946efc7e68e3d40318e74b0d3caecdb2b5e15"
+    },
+    {
+      "id": "private-component-03",
+      "bytes": 1370,
+      "sha256": "fe1c4971d61b62dda7a4fb41197254a1df420c1bce302bedf4ba7690c8733582"
+    },
+    {
+      "id": "private-component-04",
+      "bytes": 10526,
+      "sha256": "b8730a7288a8a185f2166778f5e35cd1aea9df74059735281728f7d5c1a8e56b"
+    },
+    {
+      "id": "private-component-05",
+      "bytes": 9833,
+      "sha256": "11aede8f1d13897063e75be89c60f5ed229075a1561df0aea559ed0519b57fa2"
+    },
+    {
+      "id": "private-component-06",
+      "bytes": 5359,
+      "sha256": "b1bca733d00d8a3f473036dd30ab8fc742775c69c849eaf385bed94200d8f6d1"
+    },
+    {
+      "id": "private-component-07",
+      "bytes": 8066,
+      "sha256": "786258b7c4ef44f66311f3ebdcbe70bba3381c5e63cd14b024a82591cf8abd10"
+    },
+    {
+      "id": "private-component-08",
+      "bytes": 233562,
+      "sha256": "9bce4e12bb9d820775ef21febbd58ba75f4fa55b5dcc8aa695486b3f61871b66"
+    },
+    {
+      "id": "private-component-09",
+      "bytes": 38516,
+      "sha256": "008a21f24f6d4873668ebcae55728fd0ead432ce7ad99177fc6abbe1241ae308"
+    },
+    {
+      "id": "core-application-controller",
+      "bytes": 110744,
+      "sha256": "62f845916f4e3dcf90eb53256e1cc6294ab9b887b1a7dae9eb4bdec222fc8fc7"
+    },
+    {
+      "id": "core-state-ownership",
+      "bytes": 28575,
+      "sha256": "b2964bf687102673a3975eb1460737e6d92b1a5a6efab868a71ed10ebefe98ca"
+    },
+    {
+      "id": "core-symbolic-contracts",
+      "bytes": 7997,
+      "sha256": "5be236fa70b799645c4102cb701729e3646457c0d310aadaff5d6ca542767229"
+    },
+    {
+      "id": "core-finalization-boundary",
+      "bytes": 46437,
+      "sha256": "28b704dd9d25d4a95857a7a7031bd0271afb0cfc8250c082d298d2be0b26cafd"
+    },
+    {
+      "id": "runtime-ownership-record",
+      "bytes": 9436,
+      "sha256": "c3e9c05cbafd604780662e5c2c44e4ac0cbba45db7425fb39756c3825e5e43d2"
+    },
+    {
+      "id": "project-ownership-registry",
+      "bytes": 22979,
+      "sha256": "414fee255c8c3afda74c0fb63e397bad4c92e6bd8face3caa283e5146f1f1a1a"
+    },
+    {
+      "id": "packaged-desktop-core-entry",
+      "bytes": 91759,
+      "sha256": "9b87471eac3733f7ed020077e8497b103d3d5ec0c42d04eedfad956c5a5d65f0"
+    },
+    {
+      "id": "desktop-channel-manifest",
+      "bytes": 9222,
+      "sha256": "4146a614b9b68caf7d5218923081c741bc98bbd56cc9829a47b17f8faaa17f36"
+    },
+    {
+      "id": "from-scratch-training-source",
+      "bytes": 13192,
+      "sha256": "81f8f3a5934881a6d745175b65d65e78cab755d6d3290f6a57011eb4b7f7968c"
+    },
+    {
+      "id": "retained-training-comparison",
+      "bytes": 8368,
+      "sha256": "52cde97f94d7b810a197c7c3fa2b95d60efa401ebe7239edfa2e082157e10478"
+    }
+  ],
+  "qualification_scope": [
+    "Source review supports a custom implemented neuro-symbolic system with explicit learning, symbolic processing, state handling, and application integration.",
+    "Fresh results establish the listed component behaviors on the selected workloads.",
+    "Current application availability is covered by the maintenance notice; these observations are not a whole-product live-service assessment.",
+    "No quantum advantage, general intelligence, frontier-model superiority, hidden-test score, or hiring rating is asserted.",
+    "Independent confidential inspection and evaluator-controlled black-box execution can substantiate further claims without public source release."
+  ]
+}

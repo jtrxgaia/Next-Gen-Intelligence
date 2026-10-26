@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
   "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
-  "purpose": "Engineering profile with a minimal root and supporting material under benchmarks/portfolio",
+  "purpose": "Engineering portfolio with confidential core implementation evidence and dated component observations",
   "files": [
     {
       "path": ".github/workflows/checks.yml",
@@ -10,8 +10,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 16405,
-      "sha256": "e79b16b5c7b0f428d6ba05f564ecb5818096004d033bb9990c1bf0e8d01456cf"
+      "bytes": 18344,
+      "sha256": "31eae6aaded0e150bb1c0243822fbebc9f6258117246b549e4230375a0fbc5ba"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -70,8 +70,8 @@
     },
     {
       "path": "benchmarks/portfolio/CHANGELOG.md",
-      "bytes": 3909,
-      "sha256": "2bb0020d2594d396ea5efbd3599da3e0b7b1ebf5fbb27bb4ddb841d9ca0e98bd"
+      "bytes": 4687,
+      "sha256": "cd70f870d2ca577197abab7b4d16d3a0fbfe82a047fc979948d14253e88f63d5"
     },
     {
       "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
@@ -95,8 +95,18 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/capabilities.md",
-      "bytes": 1868,
-      "sha256": "0f281ef1c740505d7fab7c0588454b69f9749662f915b1b8c9e9b7c30664e196"
+      "bytes": 1952,
+      "sha256": "d9a308c80ac699a1252731517f84ebe572797969cc5af24a0d7721a5efe5440c"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/confidential-verification.md",
+      "bytes": 3644,
+      "sha256": "c8c2008d003f1a4c9d6a402f486fa9e60c91c83b990f21b7d7d582e827fb9ce2"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/core-evidence.md",
+      "bytes": 7541,
+      "sha256": "6dd1b1e14de4c5f6e725ec72a2e88ad86e2f6890321dc67906910736fd49dd51"
     },
     {
       "path": "benchmarks/portfolio/engineering/ecosystem.md",
@@ -105,8 +115,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/evidence-index.md",
-      "bytes": 6397,
-      "sha256": "c4b79d16975b2e59d1cd63e8a12999a8152d11ac8712b70d3fb5bfef49d3c241"
+      "bytes": 7535,
+      "sha256": "14ce58f85a4669eabd39ab20da1cf2d1b8c895bd7c40b838228fd3e1fb83acb5"
     },
     {
       "path": "benchmarks/portfolio/engineering/problems-and-progress.md",
@@ -115,8 +125,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/publication-note.md",
-      "bytes": 1097,
-      "sha256": "b0acc284d465f33d89565d902915281dfced81172640448e29270c6f807c056f"
+      "bytes": 1315,
+      "sha256": "c64d4b63f42fa1d3d44cce19e64a39a9797293dc7399e7dbae9e19daa35562c6"
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
@@ -205,8 +215,8 @@
     },
     {
       "path": "benchmarks/portfolio/projects/ai-creation-and-training.md",
-      "bytes": 3158,
-      "sha256": "4d9d190d79c79a68dd3096ab18edc02168087e3fd3978599eccff7ccf89af44d"
+      "bytes": 4316,
+      "sha256": "21e2ed7f4d4f6af85e71b4a8ccdfa385a664b28ddcda12d25d0ad7a52881c464"
     },
     {
       "path": "benchmarks/portfolio/projects/dark-matter.md",
@@ -220,8 +230,8 @@
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi.md",
-      "bytes": 4406,
-      "sha256": "ec10925eefe1ef29d672ad44ccf36184e9fbf80274099098ed4a36a3e1286a6e"
+      "bytes": 5210,
+      "sha256": "ac15e407e6de1fdab4a6612920baf98d381d2c8930688d5955f5091a4e86e04e"
     },
     {
       "path": "benchmarks/portfolio/projects/synap-fps.md",
@@ -270,8 +280,8 @@
     },
     {
       "path": "benchmarks/portfolio/research/README.md",
-      "bytes": 1557,
-      "sha256": "9dca7febc5515a9bd9ac39cb8d1270646635600768f7d8fab530043c7e36309b"
+      "bytes": 2810,
+      "sha256": "9d063afb23ba1b730a4da73797d0456d08ce983466e25e3e7c9959b3167503a5"
     },
     {
       "path": "benchmarks/portfolio/reviews/README.md",
@@ -392,6 +402,11 @@
       "path": "benchmarks/results/2026-10-25-source-inspection.json",
       "bytes": 3626,
       "sha256": "7e98a571551e9bad1e37b5495092bfe9de5937957ec7df9dd2ef981b26074e32"
+    },
+    {
+      "path": "benchmarks/results/2026-10-26-private-core-evidence.json",
+      "bytes": 7779,
+      "sha256": "7f084ea76628fd4d7c5b68e6ccee569b8372125bad431f27c7ef8b637bec1c53"
     },
     {
       "path": "code/README.md",

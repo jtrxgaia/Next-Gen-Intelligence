@@ -1,9 +1,15 @@
 # Evidence index and provenance
-**Review date: October 25, 2026.**
+**Latest core evidence: October 26, 2026. Earlier observations retain their original dates.**
 
 [Portfolio](../../../README.md) · [Benchmark interpretation](../../README.md)
 
-The evidence record combines byte-preserved public historical receipts, sanitized extracts from private records, read-only source inspection, and genuine interface captures. These categories have different evidentiary strength. No private production software, memory, service, or configuration was modified or executed for portfolio verification.
+The evidence record combines byte-preserved public historical receipts, sanitized extracts from private records, read-only source inspection, and genuine interface captures. These categories have different evidentiary strength. The October 25 review left private production software, memory, services, and configuration unchanged. The October 26 update executed a task-owned copy of selected learning components and fixtures; production applications and training jobs were left unchanged.
+
+## Fresh core implementation and execution evidence
+
+The October 26 [core evidence record](core-evidence.md) connects selected private implementation inspection with **47 passing component tests** and a **200-case synthetic learning/restoration probe**. The [sanitized receipt](../../results/2026-10-26-private-core-evidence.json) retains opaque source identities, hashes, complete workload denominators, successful observations, reviewer attribution, and the owner-reported maintenance status. Raw source, probe interfaces, training recipes, state, and diagnostics remain private.
+
+The selected suites include a fresh-process persistence check. The new-value probe covers one supported family, separately from the retained neural training-fit experiment. Codex performed the review and prepared this update; [confidential external verification](confidential-verification.md) provides a route to a separate evaluator attestation.
 
 ## Public historical records
 
