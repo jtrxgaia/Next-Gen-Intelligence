@@ -4,7 +4,7 @@
 
 The complete EchoQI showcase previously displayed on the repository front page is preserved below. [Browse every original repository file](original-repository/README.md) · [Methods, evidence, and dated corrections](METHODS.md).
 
-The original presentation contains historical comparison claims. Use the linked methods and corrections when interpreting them. The snapshot preserves commit `c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146` and its original files.
+**Historical archive:** the charts below preserve earlier comparison claims; they are not validated current comparisons with frontier models. Consult [methods and corrections](METHODS.md) for supported measurements, missing controls, and limitations. The snapshot preserves commit `c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146` and its original files.
 
 ---
 

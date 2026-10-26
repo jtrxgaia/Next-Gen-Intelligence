@@ -9,8 +9,6 @@ Jack’s AI work encompasses the components that learn and the software that gov
 
 He directs the development lifecycle from requirements and architecture through implementation, training, integration, and validation. AI coding assistance, frameworks, and upstream models are identified as separate contributions.
 
-[Codex self-report](../reviews/self-reports/ai-creation.md)
-
 ## Training a custom model from scratch
 
 A completed October 25 experiment records **random initialization without pretrained weights**, an owned training job, saved-artifact identities, dataset/tokenizer provenance, application-level checks, and a restart comparison.
@@ -19,23 +17,17 @@ The defined fitting target covered **34 training-exposed examples** across two t
 
 These measurements establish the training-fit and artifact-continuity targets. They are recorded separately from independent generalization. [Sanitized evidence](../benchmarks/results/2026-10-25-ai-training-review.json).
 
-[Codex self-report](../reviews/self-reports/ai-creation.md)
-
 ## Custom learning and persistence
 
 The inspected implementations contain parameter initialization and update paths, supported by learning and persistence tests. Native demonstration-learning work also records carrying a taught operation across turns and applying it to different inputs under defined constraints.
 
 This brings together learning behavior, controlled state, ambiguity handling, regression checks, and runtime integration. Neural training, symbolic skill learning, and knowledge retrieval retain distinct roles in the architecture.
 
-[Codex self-report](../reviews/self-reports/ai-creation.md)
-
 ## Adapting upstream models
 
 A separate Qwen-based development path retains training source, a dated manifest, and a saved adapter artifact. It demonstrates a model-adaptation workflow with a documented upstream base.
 
 Jack’s experience therefore spans both custom initialization and adaptation, allowing system design to reflect the task, available data, deployment constraints, and required behavior.
-
-[Codex self-report](../reviews/self-reports/ai-creation.md)
 
 ## Experiment lifecycle and status
 
@@ -45,4 +37,4 @@ The records preserve experiment identities, training provenance, trained-artifac
 
 **Engineering capabilities:** custom AI development, neural-model experimentation, training pipelines, artifact handling, evaluation, and application integration. Proprietary source, data, and training recipes remain private.
 
-[Codex self-report](../reviews/self-reports/ai-creation.md)
+[Attributed Codex technical review](../reviews/self-reports/ai-creation.md)

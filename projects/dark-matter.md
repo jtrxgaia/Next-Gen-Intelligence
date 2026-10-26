@@ -9,8 +9,6 @@ Jack designs Dark Matter’s development workflow and interface, integrates codi
 
 The engineering objective is precise: completed work must correspond to the intended task, current workspace, actual changed content, and required checks.
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## System design
 
 The interface coordinates the task while host-owned services control workspace reads, writes, checks, and completion evidence. Native editing and model-assisted contributions have distinct execution paths.
@@ -18,8 +16,6 @@ The interface coordinates the task while host-owned services control workspace r
 The inspected source and tests address scope, permissions, workspace revision, content identity, cancellation, and stale completion. Recovery preserves competing edits by checking whether the workflow still owns the content it would restore.
 
 [Implementation walkthrough](../engineering/verified-edit-walkthrough.md).
-
-[Codex self-report](../reviews/self-reports/dark-matter.md)
 
 ## Measured engineering results
 
@@ -29,8 +25,6 @@ Historical nonempty snapshot fixtures reduced file reads from two per file to on
 
 [Check and fixture evidence](../benchmarks/results/2026-10-18-selected-checks.json).
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## Technology and interface
 
 The inspected stack includes Electron, React, Vite, Node.js, local workspace services, and Ollama adapters. Configured coding tiers include Qwen-based generation and a DeepSeek-based reviewer; configured model identity is separate from current service health.
@@ -39,12 +33,10 @@ The inspected stack includes Electron, React, Vite, Node.js, local workspace ser
 
 *Creator renderer preview, October 3, 2026. Completed workflow evidence is documented separately.*
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
-
 ## Status and capabilities
 
 **Status:** active development with selected source/test inspection and historical candidate checks. Full installed-app journeys and current service readiness require separate acceptance. The benchmark corrections retain the scope of older refactor claims.
 
 **Engineering capabilities:** developer experience, repository analysis, async workflows, concurrency, model integration, execution verification, and recovery.
 
-[Codex self-report](../reviews/self-reports/dark-matter.md)
+[Attributed Codex technical review](../reviews/self-reports/dark-matter.md)

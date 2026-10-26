@@ -13,7 +13,7 @@
 | QI Works and EchoQI.me | [Codex self-report](web.md) |
 | Debugging and reliability | [Codex self-report](engineering.md) |
 | Ecosystem engineering | [Codex self-report](ecosystem.md) |
-| Hypothetical capability placement | [Codex self-report](capability-tier.md) |
+| Engineering capabilities | [Codex self-report](capabilities.md) |
 
 Each report states the finding, links its evidence, and preserves the measurement scope. Shared methodology and confidentiality notes appear in [review scope](scope-and-sources.md).
 

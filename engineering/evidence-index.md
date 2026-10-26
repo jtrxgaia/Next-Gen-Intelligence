@@ -5,8 +5,6 @@
 
 This preview combines byte-preserved public historical receipts, sanitized extracts from private records, read-only source inspection, and genuine interface captures. These categories have different evidentiary strength. No private production software, memory, service, or configuration was modified or executed for portfolio verification.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
-
 ## Public historical records
 
 - [ARC-AGI-2 report](../reports/2026-10-03_Codex_Independent_Benchmark_v1.md) and [full receipt](../receipts/2026-10-03_Codex_ARC2.json): restored from `99c7a25c45d05f5c703a0e3e4cbbe2cd8b0aa546` after content review.
@@ -16,21 +14,15 @@ This preview combines byte-preserved public historical receipts, sanitized extra
 - [Original gallery](../LEGACY_SHOWCASE.md): starting README retained beneath a dated correction notice. All original images remain unchanged.
 - [Original evidence policy](../EVIDENCE_POLICY.md): retained, with a separate [preview publication note](publication-note.md).
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
-
 ## Expanded AI creation and ecosystem review
 
 The second review extends into the canonical runtime registry, custom neural and trainable-model implementations, native skill learning, recent from-scratch training records, a separate upstream-model adapter, and additional developer/backend/research areas. Source identities are in the [expanded inspection manifest](../benchmarks/results/2026-10-25-expanded-inspection.json). The [sanitized training review](../benchmarks/results/2026-10-25-ai-training-review.json) reports bounded findings without proprietary source, data, recipes, or payloads.
-
-[Codex self-report](../reviews/self-reports/ai-creation.md)
 
 ## EchoQI runtime
 
 Private source review examined the canonical-authority architecture decision dated August 7, the August 13 authority map, current-limitations and memory-ownership documents, and sampled federation/capability contracts and tests. These support the case study’s system-boundary discussion. Documents from different stages can disagree; no old verdict is treated as a fresh whole-product run.
 
 The source records identify experimental graph work separately from authoritative memory, and keep source reachability separate from release acceptance. Selected source identities are recorded in the [inspection manifest](../benchmarks/results/2026-10-25-source-inspection.json). Private source is not included.
-
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
 
 ## Dark Matter
 
@@ -40,15 +32,11 @@ The October 18 candidate review summary and preserved local recheck log support 
 
 An older local ensemble-results file was also inspected; it includes a failed median-array task. Its task outcomes are not an official SWE-bench result. No source code, prompts, or generated candidates from that file are published.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
-
 ## SYNAP
 
 The active browser package manifest, development handoff, October 13 regression investigation, and October 24 v129 native delivery/performance notes were inspected. The version and delivery facts in the case study come from those records, not from a fresh game launch or build.
 
 [Sanitized native summary](../benchmarks/results/2026-10-24-synap-native-summary.json). Workload differences, sequential runs, unfinished normal-input QA, incomplete full-suite acceptance, and unmeasured input latency remain explicit.
-
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
 
 ## Web application
 
@@ -56,15 +44,11 @@ The web manifest, shared SDK client, v4 server response entry, shared runtime ha
 
 [Selected-check summary](../benchmarks/results/2026-10-18-selected-checks.json). Persona tests and historical builds use their own scopes; they are not current authenticated production acceptance. The public page’s chat-maintenance notice was retained in the case study status.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
-
 ## Supporting systems
 
 QIOS implementation and install-review records were inspected alongside the August 18 broken-candidate receipt. [Sanitized recovery extract](../benchmarks/results/2026-08-18-qios-rollback.json). The federation demo acceptance record remains incomplete for physical end-to-end execution. The existing public IBM Quantum document is preserved unchanged.
 
 QI Glasses is represented only as a concept in the inspected public product surface. The Stellux manifest and launcher establish a local game lineage; they do not reconcile all historical names or establish current public gameplay quality.
-
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
 
 ## Dates, identity, and attribution
 
@@ -72,10 +56,8 @@ Jack supplied his name and public email. His October 18 résumé reports approxi
 
 The public contact is `jtrxgaia@gmail.com`. Personal phone, address, employment details, private conversations, and internal host paths are excluded. The repository itself is the résumé; no separate résumé download is required.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
-
 ## Media
 
 See the [media catalog](../media/portfolio/README.md) for image origin, capture scope, and limitations. The [publication file manifest](../PUBLICATION_MANIFEST.json) records delivered content identities. Hashes support change detection, not authenticity of every underlying claim.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
+[Attributed Codex technical review](../reviews/self-reports/scope-and-sources.md)

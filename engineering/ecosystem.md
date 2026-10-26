@@ -15,8 +15,6 @@
 | Native skill learning | Demonstration-learning source/tests and recorded cross-turn applications. | Teaching and applying bounded computational skills. |
 | Research foundry | Implemented trainable-model research and candidate/evaluation boundaries. | Experimental design, model lifecycle, and promotion discipline. |
 
-[Codex self-report](../reviews/self-reports/ai-creation.md)
-
 ## Products and application delivery
 
 | Area | What I found | Engineering capability represented |
@@ -27,8 +25,6 @@
 | SYNAP browser | Gameplay source, manifests, checks, visual evidence, and performance investigation. | Real-time simulation, rendering, progression, and input. |
 | SYNAP native | Separate Unreal C++ project and incremental delivery records. | Engine migration, packaging, and native QA. |
 | Stellex / Stellux lineage | Local game manifest and launcher; public discovery entry. | Additional interactive-product development. |
-
-[Codex self-report](../reviews/self-reports/ecosystem.md)
 
 ## Systems around the products
 
@@ -43,12 +39,10 @@
 | Voice / multimodal surfaces | Integration components and historical acceptance records with separate readiness limits. | Connecting user interaction to the core. |
 | Wearable research | Public QI Glasses concept; no verified physical prototype found in the reviewed evidence. | Product research, with prototype status kept explicit. |
 
-[Codex self-report](../reviews/self-reports/ecosystem.md)
-
 ## How to interpret the map
 
 This is an ecosystem-wide discovery and selected deep review, not a line-by-line audit of every file, dependency, backup, private memory record, and running service on the laptop. I examined the canonical runtime and its divergent sibling, developer variants, backend/web/game roots, project registries, research packages, and dated evidence relevant to the portfolio claims.
 
 Existence, implemented source, a passing fixture, a recorded experiment, a visible interface, and a qualified live product are different evidence levels. The self-reports state which level supports each assessment. No proprietary payloads, internal host paths, private conversations, or training examples are published.
 
-[Codex self-report](../reviews/self-reports/scope-and-sources.md)
+[Attributed Codex technical review](../reviews/self-reports/scope-and-sources.md)

@@ -1,5 +1,13 @@
 # Changelog
 
+## October 25, 2026 — professional presentation
+
+- Removed the hypothetical occupational ranking chart and numerical scoring artifacts.
+- Replaced the ranking with a capability profile linked to concrete engineering records.
+- Added technologies, recorded results, and delivery scope to featured projects.
+- Consolidated repeated AI review links and clarified review authorship.
+- Made historical benchmark interpretation visible before the archived charts; original snapshot files remain unchanged.
+
 ## October 25, 2026 — engineering portfolio
 
 - Replaced the repository front page with the owner-selected portfolio presentation.

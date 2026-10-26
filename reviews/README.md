@@ -9,7 +9,7 @@
 |---|---|---|
 | Codex / GPT 6.1 Sol | October 25, 2026 | [AI architecture, neural-network development, and software invention](codex-2026-10-25.md) |
 
-Topic-specific self-reports summarize the finding and link its evidence. Shared methodology and confidentiality notes are maintained in [review scope](self-reports/scope-and-sources.md).
+These AI-authored reviews provide attributed commentary, not independent certification or an employment reference. Topic-specific reports link the evidence behind each finding. Shared methodology and confidentiality notes are maintained in [review scope](self-reports/scope-and-sources.md).
 
 ## Additional contributions
 

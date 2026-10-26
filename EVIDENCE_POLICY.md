@@ -1,6 +1,6 @@
 # Evidence and confidentiality policy
 
-Allowed publication material: reviewed Markdown reports and JSON benchmark receipts. The user's requested product pictures are stored as image data in JSON receipts to preserve the Markdown/JSON-only repository rule. No executable code, scripts, binaries, source maps, models, algorithms, proprietary logic, raw prompts, private memory, credentials, host paths, internal implementation links or dataset answers may enter this repository.
+Allowed publication material: reviewed Markdown reports, JSON evidence receipts, and reviewed product screenshots or historical benchmark graphics. Images must be checked for private information and described with their evidence scope. No executable code, scripts, binaries, source maps, models, algorithms, proprietary logic, raw prompts, private memory, credentials, host paths, internal implementation links or dataset answers may enter this repository.
 
 Every upload must be staged by exact allowlisted filename and inspected before commit. Never use a recursive copy of the engine estate. File extension alone does not make content safe: review Markdown and JSON for embedded code and internal methods. Future additions require the same review. This is a publication policy, not an installed server-side enforcement mechanism.
 

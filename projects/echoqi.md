@@ -9,8 +9,6 @@ Jack Rourke created EchoQI and directs its architecture and development. The pro
 
 The result is an interconnected AI software platform whose core and application layers develop together. Established frameworks and optional upstream models remain attributed dependencies.
 
-[Codex self-report](../reviews/self-reports/echoqi-core.md)
-
 ## Architecture and tradeoff
 
 The central architectural problem is maintaining coherent ownership as the system expands: cognition, conversation, memory, model contributions, and actions must operate through defined boundaries.
@@ -18,8 +16,6 @@ The central architectural problem is maintaining coherent ownership as the syste
 Jack’s work establishes component responsibilities and integrates native and learned behavior across several application surfaces. Historical generations are preserved while supported routes are consolidated around declared owners. This enables continued development without making every experimental component an implicit authority.
 
 Public documentation describes these responsibilities and results; the proprietary procedures behind the core remain confidential.
-
-[Codex self-report](../reviews/self-reports/echoqi-core.md)
 
 ## Neural learning and model development
 
@@ -29,15 +25,11 @@ A separate upstream-model adaptation path retains a training manifest and model 
 
 [AI creation and training case study](ai-creation-and-training.md).
 
-[Codex self-report](../reviews/self-reports/echoqi-core.md)
-
 ## Persistence and integration
 
 EchoQI’s application engineering includes state ownership, persistent continuity, corrections, guarded changes, and restart behavior. Jack connects those responsibilities to user-facing software through interfaces and service contracts.
 
 This work addresses the practical requirements of stateful AI: retain useful context, preserve controlled changes, identify what actually executed, and support recovery when an operation fails.
-
-[Codex self-report](../reviews/self-reports/echoqi-core.md)
 
 ## Evidence and current scope
 
@@ -47,4 +39,4 @@ The training record documents a **34-example training-fit diagnostic** and an **
 
 **Engineering capabilities:** proprietary AI architecture, custom learning software, model training, persistent state, component integration, evaluation, and recoverability.
 
-[Codex self-report](../reviews/self-reports/echoqi-core.md)
+[Attributed Codex technical review](../reviews/self-reports/echoqi-core.md)

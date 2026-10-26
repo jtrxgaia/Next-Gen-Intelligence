@@ -9,15 +9,11 @@ Jack designs the public experience and integrates application views, AI adapters
 
 His contribution spans frontend development, backend contracts, session behavior, service integration, and release handling. Base44 provides managed application services.
 
-[Codex self-report](../reviews/self-reports/web.md)
-
 ## Application architecture
 
 Public browsing and authenticated operations have separate access boundaries. The inspected response entry requires user identity for chat and passes authorized requests to a shared handler through server-held bridge configuration.
 
 Application contracts cover request validation, route/status diagnostics, sessions, usage, quotas, and entitlements. Jack’s integration work connects these responsibilities while preserving the boundary around privileged desktop state.
-
-[Codex self-report](../reviews/self-reports/web.md)
 
 ## Implementation and evidence
 
@@ -27,8 +23,6 @@ The October 18 record contains **20 selected passing checks** across public adap
 
 [Validation evidence](../benchmarks/results/2026-10-18-selected-checks.json).
 
-[Codex self-report](../reviews/self-reports/web.md)
-
 ## Product surface
 
 ![QI Works public landing page](../media/portfolio/echoqi-web.png)
@@ -37,12 +31,10 @@ The October 18 record contains **20 selected passing checks** across public adap
 
 Public browsing was observed during review. The page displayed a chat-maintenance notice; current authenticated chat and live transactions were outside the executed review scope.
 
-[Codex self-report](../reviews/self-reports/web.md)
-
 ## Delivery scope and capabilities
 
 Historical build output records a completed Vite production build. Deployed revision identity, current access rules, signed-in workflows, and rollback remain deployment-specific acceptance items.
 
 **Engineering capabilities:** frontend/backend integration, API contracts, account-aware state, authorization boundaries, deployment workflows, and user-facing error handling.
 
-[Codex self-report](../reviews/self-reports/web.md)
+[Attributed Codex technical review](../reviews/self-reports/web.md)

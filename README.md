@@ -1,18 +1,16 @@
 # Jack Rourke
-### AI Systems Architect · Neural Network Creator · Software Inventor
-**Creator of EchoQI — original AI engineering, custom model training, and an interconnected software ecosystem.**
+### AI Systems Architect · Software Engineer
+**Creator of EchoQI — custom AI architecture, neural-network development, and full-stack product engineering.**
 
 Jack Rourke is an independent software engineer building his own proprietary AI architecture and the applications that bring it to life. His work spans custom neural-learning components, models trained from random initialization, native reasoning, persistent memory, desktop development tools, public web products, and real-time games.
 
 The engineering record shows ownership across the full journey: define the behavior, design the system, build and train its components, connect them to an application, investigate failures, and preserve a path to recovery. EchoQI is the central invention; Dark Matter, QI Works, EchoQI.me, SYNAP, and supporting systems demonstrate how broadly Jack applies that work.
 
-*Engineering profile written by Codex after inspecting selected local source, training records, artifacts, tests, and project history. Proprietary methods remain private.*
+*Project summaries are supported by linked case studies and public-safe evidence. AI-authored technical reviews are attributed separately; proprietary implementation remains private.*
 
 [Email Jack](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
 
-[Codex self-report](reviews/self-reports/profile.md)
-
-**Explore:** [Strengths & business value](#strengths-and-business-value) · [AI creation & training](#ai-creation-and-training) · [Featured projects](#featured-projects) · [Engineering challenges](#engineering-challenges-and-growth) · [Full ecosystem](engineering/ecosystem.md) · [AI reviews](reviews/README.md)
+**Explore:** [Strengths & business value](#strengths-and-business-value) · [AI creation & training](#ai-creation-and-training) · [Featured projects](#featured-projects) · [Engineering challenges](#engineering-challenges-and-growth) · [Full ecosystem](engineering/ecosystem.md) · [Technical reviews](reviews/README.md)
 
 ## Strengths and business value
 
@@ -31,8 +29,6 @@ These capabilities can support internal knowledge tools, specialized AI assistan
 
 [See the detailed strengths assessment →](engineering/strengths.md)
 
-[Codex self-report](reviews/self-reports/strengths.md)
-
 ## AI creation and training
 
 Jack’s work includes **building original AI components and training custom model candidates from scratch**. The expanded review found several distinct strands:
@@ -47,11 +43,12 @@ The strongest finding is the breadth of the engineering: Jack works on the learn
 
 [Read the AI creation and training case study →](projects/ai-creation-and-training.md)
 
-[Codex self-report](reviews/self-reports/ai-creation.md)
-
 ## Featured projects
 
 ### EchoQI / QI Core — an original AI system
+
+**Focus:** custom learning components, persistent state, controlled execution, and application integration.  
+**Evidence:** from-scratch training records, a 34-example training-fit diagnostic, and an eight-output restart comparison. Broader generalization remains a separate evaluation target.
 
 **Creator, architect, and independent engineering lead.** EchoQI brings together Jack’s work on native reasoning, custom learning components, persistent continuity, and governed actions. He is designing both the intelligence software and the architecture that lets it operate through multiple products.
 
@@ -63,9 +60,10 @@ The technically demanding part is maintaining a coherent system as capabilities 
 
 [Core case study →](projects/echoqi.md) · [Training and learning →](projects/ai-creation-and-training.md)
 
-[Codex self-report](reviews/self-reports/echoqi-core.md)
-
 ### Dark Matter — an AI development environment
+
+**Technologies:** Electron, React, Vite, Node.js, and local model adapters.  
+**Recorded result:** 29 selected checks passed, one skipped; the largest snapshot fixture reduced file reads from 1,000 to 500 while preserving hashes.
 
 **Product creator and workflow architect.** Jack’s development-tool work connects repository understanding, AI contributors, scoped edits, verification, and recovery in a desktop experience. It addresses one of the hardest practical questions in AI coding: when can the software honestly say a task is complete?
 
@@ -77,9 +75,10 @@ The inspected ecosystem includes repository/dependency analysis, host-owned work
 
 [Dark Matter case study →](projects/dark-matter.md) · [Verified-edit walkthrough →](engineering/verified-edit-walkthrough.md)
 
-[Codex self-report](reviews/self-reports/dark-matter.md)
-
 ### SYNAP FPS — game systems, world presentation, and real-time engineering
+
+**Technologies:** TypeScript, Babylon.js, and Rapier; separate Unreal Engine / C++ implementation.  
+**Delivery:** browser edition plus packaged native development builds. Native parity, regression closure, and performance acceptance remain in progress.
 
 **Game creator and systems developer.** SYNAP demonstrates Jack’s work across combat, enemy behavior, weapons, progression, customization, effects, interfaces, persistent state, and performance. It also shows his visual ambition: a distinct science-fiction world, connected gameplay systems, and iterative review of how the game actually looks and feels.
 
@@ -91,9 +90,10 @@ The browser edition and separate Unreal C++ migration give this project a substa
 
 [SYNAP case study and additional image →](projects/synap-fps.md)
 
-[Codex self-report](reviews/self-reports/synap.md)
-
 ### QI Works / EchoQI.me — bringing the ecosystem to users
+
+**Technologies:** React, JavaScript/TypeScript, Vite, Tailwind, TanStack Query, and Base44.  
+**Recorded result:** 20 selected checks passed across public adapters, match-core behavior, and simulated purchase/save workflows. Current authenticated-service readiness requires separate validation.
 
 **Product architect and application developer.** QI Works gives Jack’s projects a public identity and discovery surface. EchoQI.me connects that presentation with application views, AI integrations, sessions, account-level data, and game delivery.
 
@@ -104,8 +104,6 @@ This work demonstrates the bridge between an invention and a usable software pro
 *Public landing page captured October 25, 2026. Public browsing was observed; the page also displayed a chat-maintenance notice.*
 
 [QI Works and EchoQI.me case study →](projects/echoqi-web.md)
-
-[Codex self-report](reviews/self-reports/web.md)
 
 ## Engineering challenges and growth
 
@@ -121,8 +119,6 @@ The most revealing part of Jack’s work is how the system evolves after somethi
 
 [Read the struggles, responses, and remaining milestones →](engineering/problems-and-progress.md)
 
-[Codex self-report](reviews/self-reports/engineering.md)
-
 ## The wider EchoQI ecosystem
 
 The review extended beyond the first preview’s application samples into the canonical runtime, neural and training work, research packages, desktop variants, developer tooling, backend services, web application, browser game, native migration, boot/recovery records, and project registries.
@@ -130,8 +126,6 @@ The review extended beyond the first preview’s application samples into the ca
 Supporting work includes host coordination, voice integration, repository intelligence, model research, QIOS, IBM Quantum/Qiskit integration, and the Stellex/Stellux game lineage. Each adds a distinct engineering dimension. QI Glasses remains a research concept in the evidence inspected.
 
 [Ecosystem capability map →](engineering/ecosystem.md) · [Supporting systems →](projects/systems.md)
-
-[Codex self-report](reviews/self-reports/ecosystem.md)
 
 ## Evidence and professional history
 
@@ -141,29 +135,22 @@ The public historical ARC development result remains **19/50 public-training tas
 
 [Evidence index →](engineering/evidence-index.md) · [Training record →](benchmarks/results/2026-10-25-ai-training-review.json) · [Benchmarks →](benchmarks/README.md) · [Original showcase →](LEGACY_SHOWCASE.md)
 
-[Codex self-report](reviews/self-reports/scope-and-sources.md)
+## Technical review
 
-## Codex’s assessment of Jack
+The attributed Codex review examines architecture, custom learning and training work, application integration, debugging, and delivery evidence. It distinguishes source inspection, historical test results, and work that still requires acceptance.
 
-> **Jack’s strongest distinction is that he pursues ownership of the intelligence itself and the software around it. The inspected record includes custom learning implementations, training from random initialization, retained model artifacts, developer tools, web integration, and real-time application work. That is a substantial foundation for describing him as an AI creator and software inventor.**
-
-His value is the combination: technical ambition, cross-system thinking, persistence through difficult failures, and the drive to make an original idea tangible. For a business developing a specialized AI capability, an intelligent tool, or an ambitious prototype, that combination is worth a serious technical conversation.
-
-[Full Codex review →](reviews/codex-2026-10-25.md) · [AI reviews and independent contributions →](reviews/README.md)
-
-[Codex self-report](reviews/self-reports/profile.md)
+[Codex technical review — GPT 6.1 Sol](reviews/codex-2026-10-25.md) · [Project-specific reports and review scope](reviews/README.md)
 
 ## Engineering capability profile
 
-**Codex placement: 70/100 — strong independent AI and software systems engineering.**
+- **AI systems:** design custom learning components, run model-training experiments, retain artifacts, and integrate learned behavior into applications.
+- **Product engineering:** connect desktop and web interfaces, backend contracts, account-aware state, and AI services.
+- **Developer tooling:** build repository workflows with scoped changes, executed verification, checkpoints, and recovery.
+- **Real-time software:** integrate combat, progression, rendering, persistence, diagnostics, and game delivery.
 
-![Hypothetical engineering capability scale showing Jack Rourke at 70 percent, with illustrative responsibility markers from entry-level IT to defense and mission-critical AI](media/portfolio/engineering-capability-tier.png)
+The linked records document implementation breadth and selected validation results. Current operational readiness and broader model generalization require their own evidence.
 
-*Hypothetical evidence rubric. Role markers are illustrative; the percentage is a Codex judgment, not a measured occupational benchmark.*
-
-[Scoring rubric and supporting evidence](engineering/capability-tier.md)
-
-[Codex self-report](reviews/self-reports/capability-tier.md)
+[Capabilities and supporting evidence](engineering/capabilities.md)
 
 ## Benchmarks
 
