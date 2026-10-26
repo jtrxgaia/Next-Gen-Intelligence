@@ -1,0 +1,11 @@
+{
+  "name": "next-gen-intelligence-code",
+  "private": true,
+  "type": "module",
+  "description": "Public engineering samples. No dependencies and no QI Core code.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "verify": "node evidence-verifier/verify.mjs .. benchmarks/portfolio/PUBLICATION_MANIFEST.json"
+  }
+}

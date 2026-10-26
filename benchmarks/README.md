@@ -45,6 +45,8 @@ The performance showcase below presents the capability areas explored throughout
   <img src="original-repository/media/cost_per_billion_chart.jpg" alt="Cost Per 1 Billion Tokens: Frontier LLMs vs EchoQI" width="100%" />
 </div>
 
+> **Evidence status:** Modeled electricity cost, not a metered billion-token run of equal quality. [Arithmetic and assumptions](METHODS.md#economic-assumptions-explicitly-modeled).
+
 ### What This Benchmark Tested:
 - **Scope:** Evaluated the total financial delivery cost to generate or resolve **1,000,000,000 equivalent tokens** across leading cloud APIs versus EchoQI's provider-free core.
 - **Conversion Metric:** Normalized into 3,007,519 full message turns (~250 words / 332.5 tokens per turn).
@@ -57,6 +59,8 @@ The performance showcase below presents the capability areas explored throughout
 <div align="center">
   <img src="original-repository/media/speed_comparison_chart.jpg" alt="Inference Speed & Latency: Frontier LLMs vs EchoQI Native Core" width="100%" />
 </div>
+
+> **Evidence status:** Internal kernel timing compared with cloud first-token latency. These are different measurements. [Correction](METHODS.md#corrections-to-the-historical-showcase).
 
 ### What This Benchmark Tested:
 - **Scope:** Benchmarked Time-To-First-Token (TTFT) and throughput across traditional LLMs (GPT-4o, Claude 3.5), specialized AI wafer silicon (Groq, Cerebras), and EchoQI's internal reflex kernel.
@@ -71,6 +75,8 @@ The performance showcase below presents the capability areas explored throughout
   <img src="original-repository/media/arc_reasoning_benchmark_chart.jpg" alt="ARC-AGI Abstract Reasoning: Frontier Models vs EchoQI Native Kernel" width="100%" />
 </div>
 
+> **Evidence status:** Measured: 19/50 (38%) on public **training** tasks, not the evaluation set. No matched competitor runs. [Record](METHODS.md#arc-agi-2-development-measurement).
+
 ### What This Benchmark Tested:
 - **Scope:** Evaluated abstract non-linguistic visual grid transformation on the ARC-AGI benchmark (the gold standard for testing genuine novel reasoning without memorized web data).
 - **Competitors Tested:** GPT-4o, Claude 3.5 Sonnet, and OpenAI o1-preview.
@@ -83,6 +89,8 @@ The performance showcase below presents the capability areas explored throughout
 <div align="center">
   <img src="original-repository/media/guardian_security_benchmark_chart.jpg" alt="AI Safety & Defense: Prompt Injection & Reverse Engineering Shield" width="100%" />
 </div>
+
+> **Evidence status:** Not verified. Attack corpus, false-positive rate, and matched timing are not published. [Correction](METHODS.md#corrections-to-the-historical-showcase).
 
 ### What This Benchmark Tested:
 - **Scope:** Tested resilience against multi-turn jailbreaks, prompt injection, model architecture reconnaissance, and source code exfiltration attacks.
@@ -97,6 +105,8 @@ The performance showcase below presents the capability areas explored throughout
   <img src="original-repository/media/creator_workflow_benchmark_chart.jpg" alt="End-to-End Autonomous Web Build: Devin vs Claude Code vs EchoQI Creator" width="100%" />
 </div>
 
+> **Evidence status:** Historical internal timing. No matched end-to-end competitor campaign was verified. [Correction](METHODS.md#corrections-to-the-historical-showcase).
+
 ### What This Benchmark Tested:
 - **Scope:** Timed the complete autonomous synthesis of a full business website—including semantic layout sections, responsive CSS styling, typography, interactive UI components, and instant browser preview delivery.
 - **Competitors Tested:** Devin (Cognition AI), Claude Code (Anthropic), and Codex/Cursor Agent.
@@ -110,6 +120,8 @@ The performance showcase below presents the capability areas explored throughout
   <img src="original-repository/media/codebase_refactor_benchmark_chart.jpg" alt="Codebase Multi-File Refactor & Audit: Claude 3.5 vs Devin/Codex vs Dark Matter" width="100%" />
 </div>
 
+> **Evidence status:** Local authored workload, not an official SWE-bench result. [Correction](METHODS.md#corrections-to-the-historical-showcase).
+
 ### What This Benchmark Tested:
 - **Scope:** Evaluated deep multi-file architectural refactoring, boundary bug audits (off-by-one errors and syntax invariants), and atomic sandbox rollbacks across a 15-file module.
 - **Engine Evaluated:** Dark Matter's 4-brain local connectome (`darkmatter-coder` 30B MoE + `deepseek-coder-v2` auditor) against Claude 3.5 Sonnet and Devin.
@@ -118,6 +130,8 @@ The performance showcase below presents the capability areas explored throughout
 ---
 
 ## Summary Performance Matrix
+
+> **Historical claims, not current results.** The multipliers below come from the original showcase and are not supported by matched comparisons. The [methods page](METHODS.md) has the measured values.
 
 | Evaluation Dimension | Frontier Cloud AI (OpenAI / Anthropic / Devin) | EchoQI Sovereign Engine | Advantage Multiplier |
 | :--- | :--- | :--- | :--- |
