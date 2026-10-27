@@ -6,7 +6,7 @@
 
 | Kind | Available evidence | Limit |
 |---|---|---|
-| **Public and runnable** | Verification/scoring source, tests, working demo, safety comparison, and CI | Qualifies these public examples, not the full private products |
+| **Public and runnable** | Verification/scoring source, 59 tests, demo, safety comparison, CI, and SYNAP gameplay video | Checks qualify the public examples; video shows recorded gameplay. Full private-product acceptance remains separate. |
 | **Private and observed** | Selected source inspection, 47 passing component tests, and a controlled synthetic-learning probe | AI-authored records; outsiders need confidential access to verify them |
 | **Historical** | Training artifacts, ARC receipts, application checks, delivery notes, and screenshots | Applies to the recorded version, date, and workload |
 
@@ -20,7 +20,7 @@
 | The public editor checks changes before accepting them | [Implementation](../../../code/verified-edit/verified-edit.mjs), tests, and [90/90 policy comparison](public-safety-benchmark.md) | Staged validation and preservation under the named conditions; outside writers can still race the advisory lock |
 | Public evaluation avoids common scoring errors | [ARC scorer](../../../code/arc-harness/harness.mjs), [process adapter](../../../code/arc-harness/process-solver.mjs), and [JSON kit](../../../code/evaluation-runner/README.md) | Exact scoring, input isolation, process limits, and complete denominators on supported tasks |
 | Historical ARC result was 19/50 | [Methods and receipt](../../METHODS.md#arc-agi-2-development-measurement) | A public-training development result; the public examples do not reproduce that solver |
-| Work spans desktop, web, and games | [Dark Matter](../projects/dark-matter.md), [web](../projects/echoqi-web.md), [SYNAP](../projects/synap-fps.md) | Documented projects with selected checks and open acceptance work |
+| Work spans desktop, web, and games | [Dark Matter](../projects/dark-matter.md), [web](../projects/echoqi-web.md), [SYNAP](../projects/synap-fps.md) | SYNAP has a public gameplay video; other records include selected checks. Full-product acceptance remains open. |
 
 ## Verify the private work
 

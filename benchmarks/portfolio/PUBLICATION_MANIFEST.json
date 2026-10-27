@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-26",
-  "starting_commit": "c797a0a20bb2eb52f30d82bf052fe0bf8e2e4146",
-  "purpose": "Portfolio evidence, fresh confidential snapshot recheck and reproducible public verification/evaluation references",
+  "date": "2026-10-27",
+  "starting_commit": "ca2b1aa06cc06216fe72211f398b0e1bb2448579",
+  "purpose": "Portfolio evidence and public checks; concise overview and owner-supplied SYNAP gameplay video",
   "files": [
     {
       "path": ".gitattributes",
@@ -10,8 +10,8 @@
     },
     {
       "path": ".github/ISSUE_TEMPLATE/review.yml",
-      "bytes": 1761,
-      "sha256": "1ce48b0208d5c44edb1d2d765b01026035c6863ff115eea216389b191bd8a97e"
+      "bytes": 1820,
+      "sha256": "b3bed474ef76f42a96a78b5c063e3261a9f3d47e3560d4809dd96e2e5817360d"
     },
     {
       "path": ".github/workflows/checks.yml",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 13084,
-      "sha256": "339c8dbae0b9458e6a9ddfa2c4e2962e4ffd73ec3b47bc7c2a808cb6b23cc0ea"
+      "bytes": 11975,
+      "sha256": "94e62162918059cd9e4ee0f6028e5ced3df6c60ba7e8c4f42016773aac3e9652"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -105,8 +105,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/capabilities.md",
-      "bytes": 2281,
-      "sha256": "d753e811124953a5cd492116227b3cb30ddc39e9b52ceae81437f3074e32ee23"
+      "bytes": 2352,
+      "sha256": "087f3cfd5cadca3c919153008c158c10c2ec785c809c94f595f689045ffa8194"
     },
     {
       "path": "benchmarks/portfolio/engineering/confidential-verification.md",
@@ -145,8 +145,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/reviewer-guide.md",
-      "bytes": 3365,
-      "sha256": "2fda74b43b68d34877f1655991798f813f85dc4f4ce4efb701225b2381fb97da"
+      "bytes": 3482,
+      "sha256": "4454e5b89c282535604b62b025a45c3efe29872f0f91490654aabd6f293e3368"
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
@@ -190,8 +190,13 @@
     },
     {
       "path": "benchmarks/portfolio/media/portfolio/README.md",
-      "bytes": 2057,
-      "sha256": "5209378cf46d5b1d4c4f807bcf3c943968a6f533f0ee0200d0877234857763e9"
+      "bytes": 3198,
+      "sha256": "08f2693241a2358bd1126d4ee943c0d14bdcd5e09c17b73c5bb886eb890784a1"
+    },
+    {
+      "path": "benchmarks/portfolio/media/portfolio/SYNAP-Gameplay-Demo-Web.mp4",
+      "bytes": 8768321,
+      "sha256": "6ec1f529b2573e749b2f1f85b3cf6b06ff5f3964f2895b885f62e86770c310e4"
     },
     {
       "path": "benchmarks/portfolio/media/portfolio/dark-matter-creator.jpg",
@@ -255,8 +260,8 @@
     },
     {
       "path": "benchmarks/portfolio/projects/synap-fps.md",
-      "bytes": 1984,
-      "sha256": "9713058c19ec0a94de5a55650543f20cc2d50896662561e483cf510eba9d86a2"
+      "bytes": 2218,
+      "sha256": "30d0c697547677e5f04fa058bd3d8cb885f10103db22386ac511c21a34a661ee"
     },
     {
       "path": "benchmarks/portfolio/projects/systems.md",

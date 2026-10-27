@@ -43,7 +43,7 @@ body:
     id: review
     attributes:
       label: Your review
-      description: What was the project, how did it go, and what was the result?
+      description: What did you need, what did Jack deliver, and what worked? Include communication, timing, and the result where relevant.
     validations:
       required: true
   - type: input
