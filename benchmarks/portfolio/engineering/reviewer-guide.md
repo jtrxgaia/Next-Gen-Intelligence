@@ -6,7 +6,7 @@
 
 | Kind | Available evidence | Limit |
 |---|---|---|
-| **Public and runnable** | Verification/scoring source, 59 tests, demo, safety comparison, CI, and SYNAP gameplay video | Checks qualify the public examples; video shows recorded gameplay. Full private-product acceptance remains separate. |
+| **Public and runnable** | Verification/scoring source, 67 tests, demo, safety comparison, CI, and SYNAP gameplay video | Checks qualify the public examples; video shows recorded gameplay. Full private-product acceptance remains separate. |
 | **Private and observed** | Selected source inspection, 47 passing component tests, and a controlled synthetic-learning probe | AI-authored records; outsiders need confidential access to verify them |
 | **Historical** | Training artifacts, ARC receipts, application checks, delivery notes, and screenshots | Applies to the recorded version, date, and workload |
 
@@ -28,4 +28,4 @@ An outside evaluator can inspect pinned artifacts confidentially, select fresh t
 
 ## Attribution
 
-The records attribute the ecosystem’s design and ownership to Jack Rourke, with AI assistance and dependencies acknowledged. Codex prepared the public examples and documentation and ran the private snapshot recheck. Those records are not independent audits. The core remains private and under its recorded maintenance status.
+The records attribute the ecosystem’s design and ownership to Jack Rourke, with AI assistance and dependencies acknowledged. Codex prepared the public examples and documentation and ran the private snapshot recheck. Those records are not independent audits. The core remains private.

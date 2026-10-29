@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "starting_commit": "ca2b1aa06cc06216fe72211f398b0e1bb2448579",
-  "purpose": "Portfolio evidence and public checks; concise overview and owner-supplied SYNAP gameplay video",
+  "purpose": "Intelligence architecture, software defense evidence, and reproducible public checks",
   "files": [
     {
       "path": ".gitattributes",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11975,
-      "sha256": "94e62162918059cd9e4ee0f6028e5ced3df6c60ba7e8c4f42016773aac3e9652"
+      "bytes": 12918,
+      "sha256": "ddfd976e16d60ba3aa3113dc809d98bcb5bdc75e8bb3029e02706fadcc5490dd"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -80,8 +80,8 @@
     },
     {
       "path": "benchmarks/portfolio/CHANGELOG.md",
-      "bytes": 6970,
-      "sha256": "6d8832e2cb1283c829aa86aa848883f2959807d4f3bf4bd2949ca065db867e18"
+      "bytes": 7326,
+      "sha256": "21e2ef7193a3f78d5ec613e79969df4a6159eb84fdf676680271c914c1d57952"
     },
     {
       "path": "benchmarks/portfolio/EVIDENCE_POLICY.md",
@@ -110,13 +110,13 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/confidential-verification.md",
-      "bytes": 5009,
-      "sha256": "be6016993adb60a2af8c46717174105150e7577d36719315f8053be3834f5f91"
+      "bytes": 4999,
+      "sha256": "0468d609f0b52959acc6f2272c4fa35946a7463a81c7e66971a88012a5ff3d48"
     },
     {
       "path": "benchmarks/portfolio/engineering/core-evidence.md",
-      "bytes": 3113,
-      "sha256": "a460e5cc7e63b6b838c8028a1dbdd82838d48d7f7dbda9eb3dec4823167d4cb2"
+      "bytes": 3042,
+      "sha256": "24ac27b3a8759ad5cf042a946d9cf0d26c3e35b39bd3faac0d291ce95a5cd5f2"
     },
     {
       "path": "benchmarks/portfolio/engineering/ecosystem.md",
@@ -125,8 +125,13 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/evidence-index.md",
-      "bytes": 8525,
-      "sha256": "9569635c1bf836633831b7c65ede4503bf9c026aa136e2c1c06c4933ababd3a7"
+      "bytes": 8399,
+      "sha256": "166d294e76879103db9d633e4be700988f7d9804fba33a2846094ed6bff6ab0a"
+    },
+    {
+      "path": "benchmarks/portfolio/engineering/intelligence-design.md",
+      "bytes": 4133,
+      "sha256": "a5b07bf07a6ec336165f8f4162cc74351c8b3d499bc1fb0848edf5998bd5c5c7"
     },
     {
       "path": "benchmarks/portfolio/engineering/problems-and-progress.md",
@@ -145,8 +150,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/reviewer-guide.md",
-      "bytes": 3482,
-      "sha256": "4454e5b89c282535604b62b025a45c3efe29872f0f91490654aabd6f293e3368"
+      "bytes": 3440,
+      "sha256": "74b7ad67f222bff6e25e8007db2c08f32153632e45d4783217d778a31c3fd506"
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
@@ -250,13 +255,13 @@
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi-web.md",
-      "bytes": 1564,
-      "sha256": "0ccd629a975f2e1462a473ecca3b74aa9bb5eb2f1040e0e79da27cbccfdfaca0"
+      "bytes": 1527,
+      "sha256": "f9fc2a200262f9b49819a9c912871773c28efc766c1f7abdc97123d496b615e6"
     },
     {
       "path": "benchmarks/portfolio/projects/echoqi.md",
-      "bytes": 2376,
-      "sha256": "56dfbf6b238b9e973bb2527b7057cc64f6f94a12467601901eafb1b250690f95"
+      "bytes": 2336,
+      "sha256": "3c18e5d56ebbae034af9e82b454c1f7521fe7c9adaadc6d61abcdd579bb07152"
     },
     {
       "path": "benchmarks/portfolio/projects/synap-fps.md",
@@ -449,14 +454,19 @@
       "sha256": "6a26da2ca2a6176f2c3ba4dc7de75968f4828b65bbe50c622b832bfa24d414cb"
     },
     {
+      "path": "benchmarks/results/2026-10-28-training-progression.json",
+      "bytes": 1400,
+      "sha256": "f3a0feb496101a1966d329c14b4bc5baf31cdbf981eb4bb75770213abd13c8b1"
+    },
+    {
       "path": "code/ARCHITECTURE.md",
       "bytes": 4979,
       "sha256": "711272dd9d65a817eefb53dce68e7151cc720db9b1c1e784c30ced1a9c6ab701"
     },
     {
       "path": "code/README.md",
-      "bytes": 4098,
-      "sha256": "724fcddb9896baf6bbcb228cb3c2cfbb3632d6988e720190615d20906ac3ec8d"
+      "bytes": 4308,
+      "sha256": "45525e85b418e78e375b82d6074952c537290f042afbc96ee7ffadecb60bbc44"
     },
     {
       "path": "code/arc-harness/adversarial.test.mjs",
@@ -539,6 +549,16 @@
       "sha256": "20b6e886d36174b92f4a715322fcc861f968be165251ef8622d2f63a1b0e3e6c"
     },
     {
+      "path": "code/evidence-verifier/audit.mjs",
+      "bytes": 7974,
+      "sha256": "e91c1df6a24f128194119ed3275d8080266eeffd94209004225c2052eddab191"
+    },
+    {
+      "path": "code/evidence-verifier/audit.test.mjs",
+      "bytes": 2996,
+      "sha256": "418e067b6336ea5b2156094f1f558d71d1ceedf144ca04f70d2d066d9b474ac2"
+    },
+    {
       "path": "code/evidence-verifier/verify.mjs",
       "bytes": 3864,
       "sha256": "2eb8e598d80734786d4b4477291f1cbf4e1b892d386751ce5d03e71f724d3b14"
@@ -550,13 +570,13 @@
     },
     {
       "path": "code/package.json",
-      "bytes": 654,
-      "sha256": "b680c2b02ed35fed518b6000263451476e07a430d1647d7e7da10b5789318f04"
+      "bytes": 712,
+      "sha256": "49aa73f0e4a6d2647b9aa5e58ba358b13a346727ae6c9bd47d628d7c75d2b8c9"
     },
     {
       "path": "code/proof.mjs",
-      "bytes": 1561,
-      "sha256": "a325a3013185108bf75e86c6b6a9fbb8a92bad60b2941106d7ddf0cd99883b1c"
+      "bytes": 1628,
+      "sha256": "febee849e7c69dc20020a4c250dbc0b3c3c67bf625e756f53035c7dbc9a97dc5"
     },
     {
       "path": "code/verified-edit/README.md",

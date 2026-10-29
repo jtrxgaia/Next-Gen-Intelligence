@@ -1,9 +1,9 @@
 # Jack Rourke
-### Founder of EchoQI · AI Systems Architect · Software Engineer
+### Intelligence Architect · AI Creator · Software Defense Systems Designer
 
-Jack Rourke designs and builds AI systems, desktop tools, web applications, and games with AI-assisted development.
+Jack Rourke designs and builds intelligence systems from custom learning and reasoning components through memory, software defenses, and applications. His work spans EchoQI, developer tools, web software, and games, with AI-assisted development and established libraries.
 
-**EchoQI / QI Core** is his main project: custom learning, reasoning, and persistent memory. The core is private and under maintenance.
+**EchoQI / QI Core** is his main project: custom learning, reasoning, and persistent memory. The core is proprietary.
 
 **Try the public work:** [Run all checks with one command](code/README.md#run-it). No API keys, paid services, or model downloads.
 
@@ -15,10 +15,10 @@ Jack Rourke designs and builds AI systems, desktop tools, web applications, and 
 
 | | |
 |---|---|
-| **Role** | Founder and software engineer; AI-assisted development |
+| **Role** | Intelligence architect and software defense systems designer; AI-assisted development |
 | **Main project** | EchoQI / QI Core: learning, reasoning, memory, and application tools |
 | **Other projects** | Dark Matter · QI Works / EchoQI.me · SYNAP FPS |
-| **Public proof** | 59 tests, runnable demo, safety comparison, and gameplay video |
+| **Public proof** | 67 tests, runnable demo, safety comparison, and gameplay video |
 | **Private proof** | Dated source reviews and component results; confidential review available |
 | **Start here** | [What the evidence proves](benchmarks/portfolio/engineering/reviewer-guide.md) · [Run the checks](code/README.md) |
 
@@ -26,7 +26,8 @@ Jack Rourke designs and builds AI systems, desktop tools, web applications, and 
 
 | Area | What Jack works on |
 |---|---|
-| AI architecture | Connecting learning, reasoning, memory, models, and tools |
+| Intelligence architecture | Designing learning, reasoning, memory, models, and tools as a system |
+| Software defense design | Controlling actions, preserving state, checking changes, and recovering from failures |
 | Model development | Building trainable components, running experiments, and saving models |
 | Desktop and web software | Interfaces, backend services, accounts, and AI integrations |
 | Developer tools | Checking code changes and protecting existing work |
@@ -41,6 +42,8 @@ Work covers custom learning components, models trained from random weights, and 
 
 - **Components:** **47/47 tests** passed. After three demonstrations: **200/200 new-value cases**, retained after state restoration, within one synthetic task family. Untrained: **0/200**; disabled: **0/200 resolved**.
 - **Training:** **34/34 training examples** passed; eight checked outputs survived restart. This establishes training fit and saved-model consistency; unseen-task performance is unproven.
+
+A recorded training comparison improved from **17/34 to 34/34** on the same training-exposed target; eight outputs remained consistent after restart. The implementation builds on established neural-network software, with randomly initialized weights. [Training progression](benchmarks/results/2026-10-28-training-progression.json).
 
 Private inspection records are AI-authored; independent verification remains open. [Component receipt](benchmarks/results/2026-10-26-private-component-recheck.json) · [Training receipt](benchmarks/results/2026-10-25-ai-training-review.json) · [Full case study](benchmarks/portfolio/projects/ai-creation-and-training.md)
 
@@ -102,7 +105,7 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 <img src="benchmarks/portfolio/media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
 
-*Public page, October 25, 2026. Chat was marked under maintenance.*
+*Public page, October 25, 2026.*
 
 [Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
 
@@ -118,7 +121,9 @@ https://github.com/user-attachments/assets/1f033242-aed3-45e0-8c7d-77f0e30bf1bf
 
 ## Engineering investigations
 
-Investigations cover failed code checks, competing state owners, a mesh-count/timing diagnostic error, and OS update recovery.
+Building intelligence that can learn, retain context, and act safely requires more than generating answers. The work addresses competing decision owners, unverified action claims, state recovery, failed code checks, and signed updates that can still fail health checks. The records trace the failures, design choices, and limits.
+
+[Architecture and defense evidence](benchmarks/portfolio/engineering/intelligence-design.md)
 
 [What failed, what changed, and what remains open](benchmarks/portfolio/engineering/problems-and-progress.md)
 
@@ -132,7 +137,7 @@ cd Next-Gen-Intelligence/code
 npm run proof
 ```
 
-Runs tests, demo, integrity checks, safety comparison, and evaluator example; stops on failure.
+Runs tests, demo, integrity checks, receipt arithmetic audit, safety comparison, and evaluator example; stops on failure.
 
 - **[Verified edit](code/verified-edit/verified-edit.mjs):** validates staged changes before replacing a file.
 - **[Evidence verifier](code/evidence-verifier/verify.mjs):** checks file sizes and SHA-256 hashes.

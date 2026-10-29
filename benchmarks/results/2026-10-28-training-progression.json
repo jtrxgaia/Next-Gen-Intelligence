@@ -1,0 +1,45 @@
+{
+  "schema": "portfolio.training-progression.v1",
+  "review_date": "2026-10-28",
+  "execution_date": "2026-10-25",
+  "reviewer": "Codex; AI-assisted, not an independent auditor",
+  "new_execution": false,
+  "independent_audit": false,
+  "exposure": "TRAINING_EXPOSED",
+  "baseline": {
+    "interpret": {
+      "total": 17,
+      "passed": 0
+    },
+    "realize": {
+      "total": 17,
+      "passed": 17
+    },
+    "passed": 17,
+    "total": 34,
+    "report_sha256": "80acb183244c330a07096e65ab74800bc5c1e6f5fef590ac2b2cbb722538279c",
+    "weights_sha256": "3b363e45e99077923d5dde67c3ef02e453f96f0365252f8f38cc842a8ef8844d"
+  },
+  "revised": {
+    "interpret": {
+      "total": 17,
+      "passed": 17
+    },
+    "realize": {
+      "total": 17,
+      "passed": 17
+    },
+    "passed": 34,
+    "total": 34,
+    "report_sha256": "71dbb18aa23c30635b47faeaad8bff171ba2c4d626426289ccbfd04d870f0b96",
+    "weights_sha256": "0b1ce42788e4cf9fd5a9ce13472cf685ca7c082c7f38c46f9642bc85339725d0"
+  },
+  "improvement_in_exact_training_outputs": 17,
+  "restart": {
+    "outputs_compared": 8,
+    "same_weights": true,
+    "consistent_except_elapsed_time": true,
+    "optimizer_started": false
+  },
+  "limits": "Retained experiment; different source builds. Matching records cover specified training controls, not identical implementations or an independent held-out result. No claim of general model capability."
+}

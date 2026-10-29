@@ -7,7 +7,7 @@ The evidence record combines byte-preserved public historical receipts, sanitize
 
 ## Fresh core implementation and execution evidence
 
-The October 26 [core evidence record](core-evidence.md) connects selected private implementation inspection with **47 passing component tests** and a **200-case synthetic learning/restoration probe**. The [sanitized receipt](../../results/2026-10-26-private-core-evidence.json) retains opaque source identities, hashes, complete workload denominators, successful observations, reviewer attribution, and the owner-reported maintenance status. Raw source, probe interfaces, training recipes, state, and diagnostics remain private.
+The October 26 [core evidence record](core-evidence.md) connects selected private implementation inspection with **47 passing component tests** and a **200-case synthetic learning/restoration probe**. The [sanitized receipt](../../results/2026-10-26-private-core-evidence.json) retains opaque source identities, hashes, complete workload denominators, successful observations, reviewer attribution. Raw source, probe interfaces, training recipes, state, and diagnostics remain private.
 
 The selected suites include a fresh-process persistence check. The new-value probe covers one supported family, separately from the retained neural training-fit experiment. Codex performed the review and prepared this update; [confidential external verification](confidential-verification.md) provides a route to a separate evaluator attestation.
 
@@ -48,7 +48,7 @@ The active browser package manifest, development handoff, October 13 regression 
 
 The web manifest, shared SDK client, v4 server response entry, shared runtime handler, session entity, and prior selected test/build records were inspected. The public landing page was also opened and captured on October 25.
 
-[Selected-check summary](../../results/2026-10-18-selected-checks.json). Persona tests and historical builds use their own scopes; they are not current authenticated production acceptance. The public page’s chat-maintenance notice was retained in the case study status.
+[Selected-check summary](../../results/2026-10-18-selected-checks.json). Persona tests and historical builds use their own scopes; they are not current authenticated production acceptance.
 
 ## Supporting systems
 

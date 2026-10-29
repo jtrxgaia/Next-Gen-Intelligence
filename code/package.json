@@ -11,6 +11,7 @@
     "demo": "node demo/run.mjs",
     "evaluate": "node arc-harness/evaluate.mjs",
     "verify": "node evidence-verifier/verify.mjs .. benchmarks/portfolio/PUBLICATION_MANIFEST.json",
+    "audit:evidence": "node evidence-verifier/audit.mjs",
     "benchmark": "node benchmarks/edit-safety.mjs",
     "evaluate:example": "node evaluation-runner/runner.mjs evaluation-runner/example-cases.json evaluation-runner/example-adapter.mjs",
     "proof": "node proof.mjs"

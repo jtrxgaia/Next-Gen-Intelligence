@@ -8,7 +8,7 @@ QI Core is Jack Rourke’s proprietary AI system. It combines learning from exam
 
 The October 26 review examined selected private learning implementations, parameter/state updates, symbolic processing, state ownership, finalization, application-controller connections, and a packaged desktop core entry. Opaque file identities and hashes are in the receipt; the source and methods remain private.
 
-This supports the presence of those implementations and connections in the inspected artifacts. It does not establish current availability of the complete application. The recorded product status is **maintenance**.
+This supports the presence of those implementations and connections in the inspected artifacts. It does not establish current availability of the complete application.
 
 ## Executed results
 
@@ -32,4 +32,4 @@ The inspected work assigns who may finalize an answer, change saved state, contr
 
 An evaluator can inspect pinned artifacts, supply fresh tasks, witness a restart/failure, and ask Jack to explain and change a component. [Procedure](confidential-verification.md).
 
-**Attribution:** Codex inspected selected source, ran component checks, and prepared these records. The owner supplied project attribution and maintenance status. This is an AI-assisted record, not an independent audit. Hashes identify bytes, not the truth of a capability claim.
+**Attribution:** Codex inspected selected source, ran component checks, and prepared these records. The owner supplied project attribution. This is an AI-assisted record, not an independent audit. Hashes identify bytes, not the truth of a capability claim.

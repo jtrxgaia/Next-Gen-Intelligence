@@ -20,13 +20,15 @@ No package installation, API key, paid service, or model download is needed. Alr
 
 | Command | What it checks | Expected result for this version |
 |---|---|---|
-| `npm test` | Automated success and failure cases | 59 tests pass |
+| `npm test` | Automated success and failure cases | 67 tests pass |
 | `npm run demo` | Real code checks, file preservation, hashes, and subprocess scoring | All demo assertions pass; example adapter 3/3, identity baseline 1/3 |
 | `npm run verify` | Every tracked publication file’s recorded bytes | All entries match; manifest excludes itself |
 | `npm run benchmark` | Nine editing conditions, ten runs each | Verified editor 90/90; simple baseline 30/90 |
 | `npm run evaluate:example` | Input/output protocol using array reversal | 3/3; protocol example only, not an AI result |
 
-`npm run proof` runs all five. Windows/Linux CI uses the same command on Node 20 and 22 and saves its safety result as an artifact. See [CI runs](https://github.com/jtrxgaia/Next-Gen-Intelligence/actions/workflows/checks.yml).
+`npm run audit:evidence` recomputes published ARC, defense-trial, learning-control and training counts from the retained receipts. It checks internal consistency, not whether the private observations occurred.
+
+`npm run proof` runs all six. Windows/Linux CI uses the same command on Node 20 and 22 and saves its safety result as an artifact. See [CI runs](https://github.com/jtrxgaia/Next-Gen-Intelligence/actions/workflows/checks.yml).
 
 ## Inspect the code
 

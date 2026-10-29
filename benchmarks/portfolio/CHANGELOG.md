@@ -1,5 +1,11 @@
 # Changelog
 
+## October 28, 2026 — intelligence architecture and defense evidence
+
+- Connected the architecture, training progression, state, action verification, and recovery records in a focused reviewer path.
+- Added a sanitized training comparison and a runnable audit of public receipt arithmetic. No private source or live service was run or published.
+
+
 ## October 26, 2026 — plain-language reading path
 
 - Shortened the main guides and case studies; preserved front-page sections and images.

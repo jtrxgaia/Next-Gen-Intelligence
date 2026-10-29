@@ -20,7 +20,7 @@ The records distinguish custom learning software, a model trained from random st
 
 ## Results and status
 
-The recorded status is **maintenance**. Selected private components passed **47/47 tests** and **200/200 synthetic new-value cases**, including **200/200 after state restoration**. The fresh recheck’s untrained control passed **0/200**; its disabled control resolved **0/200**. This covers one supported task family.
+Selected private components passed **47/47 tests** and **200/200 synthetic new-value cases**, including **200/200 after state restoration**. The fresh recheck’s untrained control passed **0/200**; its disabled control resolved **0/200**. This covers one supported task family.
 
 The separate model experiment passed **34/34 training-exposed examples** with eight consistent restart outputs. A historical ARC run passed **19/50 public-training tasks**. Neither is an independent hidden-test score.
 

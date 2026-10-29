@@ -20,7 +20,7 @@ The October 18 record contains **20 passing selected checks** across public adap
 
 ![QI Works public landing page](../media/portfolio/echoqi-web.png)
 
-*October 25, 2026 public page. Browsing was observed; chat displayed a maintenance notice.*
+*October 25, 2026 public page; browsing was observed.*
 
 Current deployed features, permissions, payments, and release recovery need separate acceptance checks.
 

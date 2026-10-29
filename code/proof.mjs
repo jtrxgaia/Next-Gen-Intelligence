@@ -13,6 +13,7 @@ const checks = [
   ['Automated tests', ['--test']],
   ['Working demonstration', ['demo/run.mjs']],
   ['Published file integrity', ['evidence-verifier/verify.mjs', '..', 'benchmarks/portfolio/PUBLICATION_MANIFEST.json']],
+  ['Evidence receipt arithmetic', ['evidence-verifier/audit.mjs']],
   ['Editing safety comparison', benchmark],
   ['Evaluation protocol example', ['evaluation-runner/runner.mjs', 'evaluation-runner/example-cases.json', 'evaluation-runner/example-adapter.mjs']],
 ];
@@ -27,4 +28,4 @@ for (const [index, [label, command]] of checks.entries()) {
     process.exit(Number.isInteger(result.status) && result.status > 0 ? result.status : 1);
   }
 }
-console.log('\nPASS: all five public checks completed. Private core capabilities are outside this command.');
+console.log('\nPASS: all six public checks completed. Private core capabilities are outside this command.');
