@@ -109,6 +109,20 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 [Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
 
+### EchoQI in Dark Matter — four websites in two minutes
+
+**What if you could turn on airplane mode—and your AI could still build your next website?**
+
+Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. Jack also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
+
+[![Watch the Dark Matter four-website demo](benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png)](benchmarks/portfolio/media/dark-matter/Dark-Matter-Four-Websites-Hero-Edits-2-Minute-Demo.mp4)
+
+**[Watch or download the original 1440p / 60 fps video](https://github.com/jtrxgaia/Next-Gen-Intelligence/raw/refs/heads/main/benchmarks/portfolio/media/dark-matter/Dark-Matter-Four-Websites-Hero-Edits-2-Minute-Demo.mp4)** · 2:00 · Original MP4 preserved without re-encoding.
+
+Recorded conversation responses: approximately 12–44 ms; headline/button edits: 0.56–0.64 seconds; website builds: 0.87–2.03 seconds. These task timings exclude opening/rendering previews. Operator pauses are trimmed; retained build/edit intervals play at normal speed. Development demonstration, not a general capability benchmark.
+
+**[Join the waitlist at echoqi.me](https://echoqi.me). Dark Matter launches mid-2027.**
+
 ### SYNAP FPS
 
 A science-fiction shooter with combat, enemies, equipment, progression, and saved games. **Browser:** TypeScript, Babylon.js, and Rapier. **Native:** Unreal Engine / C++; development packages exist, with migration and acceptance testing in progress.
