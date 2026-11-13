@@ -1,26 +1,110 @@
 # Jack Rourke
-### Intelligence Architect · EchoQI Core Creator · Defense & Robotics Integration
+### Founder of EchoQI · Neuro-symbolic AI architect · Custom AI systems engineering
 
-Jack Rourke designs and builds intelligence systems from custom learning and reasoning components through memory, software defenses, and applications. His work spans EchoQI, developer tools, web software, and games, with AI-assisted development and established libraries.
+## Your application. A purpose-built version of QI.
 
-**EchoQI / QI Core** is his main project: custom learning, reasoning, and persistent memory. The core is proprietary.
+I develop custom versions of **EchoQI’s neuro-symbolic AI** for organizations that need intelligence integrated into their own products, operations, and hardware. Through EchoQI / QI Works, I work under contract to develop a version of QI that the client owns for its agreed applications, with ownership, licensing, integration, and handover defined in the contract.
 
-**Try the public work:** [Run all checks with one command](code/README.md#run-it). No API keys, paid services, or model downloads.
+**Primary focus:** private-sector defense applications, robotics integration, enterprise systems, and practical everyday automation.
 
-[Contact](mailto:jtrxgaia@gmail.com) · [GitHub](https://github.com/jtrxgaia) · [EchoQI.me](https://echoqi.me)
+**[Discuss a custom QI project at echoqi.me →](https://echoqi.me)**
 
-**Explore:** [Skills](#engineering-specializations) · [AI development](#ai-development) · [Projects](#projects) · [Problem solving](#engineering-investigations) · [Code](#code-samples) · [History](#development-history) · [Reviews](#technical-reviews) · [Repository directory](#repository-directory) · [Client reviews](#client-reviews)
+[▶ Watch the demos](#watch-the-demos) · [Commission a QI system](#work-with-echoqi) · [Explore the engineering](#engineering-specializations)
 
-### At a glance
+---
 
-| | |
+## Work with EchoQI
+
+### Commission intelligence for a specific purpose
+
+Bring the application, the systems it must connect to, and the work you need it to perform. I scope and develop a tailored QI system around those requirements—from the core’s reasoning and memory to its tools, interfaces, and execution controls.
+
+| What you can commission | Application focus |
 |---|---|
-| **Role** | Intelligence architect and software defense systems designer; AI-assisted development |
-| **Main project** | EchoQI / QI Core: learning, reasoning, memory, and application tools |
-| **Other projects** | Dark Matter · QI Works / EchoQI.me · SYNAP FPS |
-| **Public proof** | 67 tests, runnable demo, safety comparison, and gameplay video |
-| **Private proof** | Dated source reviews and component results; confidential review available |
-| **Start here** | [What the evidence proves](benchmarks/portfolio/engineering/reviewer-guide.md) · [Run the checks](code/README.md) |
+| **A client-owned version of QI** | A purpose-built system developed under contract for your organization’s agreed use, with the delivered assets and ownership rights specified |
+| **Defense-focused AI integration** | QI integration for private-sector defense software, technical workflows, and connected systems, with permissions, traceability, and acceptance criteria scoped to the application |
+| **Robotics and device integration** | Connecting QI to robotic platforms, sensors, device interfaces, and hardware workflows |
+| **Business and everyday automation** | Specialized assistants, internal tools, knowledge workflows, task coordination, and software integrations |
+| **Distributed host coordination** | Workflows that delegate tasks across connected computers and bring verified results back to a main host |
+| **Core licensing and integration engineering** | Discuss an existing-core licensing arrangement or a custom development engagement suited to the intended application |
+
+### From requirements to a working system
+
+1. **Define the job.** Establish the use case, users, operating environment, hardware, data, and success criteria.
+2. **Agree the delivery.** Set the development scope, interfaces, ownership or licensing terms, milestones, and handover requirements.
+3. **Build and integrate.** Develop the agreed QI version and connect it to the client’s application and systems.
+4. **Validate and hand over.** Test against agreed acceptance criteria and deliver the contracted system and documentation.
+
+**Start at [echoqi.me](https://echoqi.me)** with a short description of your application, what you want QI to do, and the software or hardware it needs to work with.
+
+[Read the custom development and licensing overview](CUSTOM_QI_SYSTEMS.md)
+
+---
+
+## Watch the demos
+
+**Watch in your browser. No file download required.** Each preview opens the original-quality video player on the [GitHub-hosted demo page](https://jtrxgaia.github.io/Next-Gen-Intelligence/).
+
+| Demo | What to look for |
+|---|---|
+| **[Four websites in two minutes](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)** | Website creation, edits, and context carried through a native EchoQI workflow |
+| **[Trinity: three hosts, one coordinated workflow](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)** | Website building, bug repair, response-connection recovery, scheduling, and policy verification across QIOS, Mac, and Windows |
+| **[SYNAP: two-minute gameplay montage](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)** | Combat, enemies, abilities, weather, and boss encounters in a real-time game |
+
+### EchoQI in Dark Matter — four websites in two minutes
+
+**What if you could turn on airplane mode—and your AI could still build your next website?**
+
+Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. Jack also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
+
+[![Watch the Dark Matter four-website demo](benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)
+
+**[▶ Watch the website demo in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)** · 2:00 · Original MP4 preserved without re-encoding.
+
+Recorded conversation responses: approximately 12–44 ms; headline/button edits: 0.56–0.64 seconds; website builds: 0.87–2.03 seconds. These task timings exclude opening/rendering previews. Operator pauses are trimmed; retained build/edit intervals play at normal speed. Development demonstration, not a general capability benchmark.
+
+**[Join the waitlist at echoqi.me](https://echoqi.me). Dark Matter launches mid-2027.**
+
+### Meet EchoQI through DarkMatter — Trinity
+
+**One intelligence. Three machines. Working together.**
+
+EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
+
+Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
+
+[![Watch EchoQI Trinity](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/cue_0001.jpg)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)
+
+**[▶ Watch Trinity in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
+
+**[Explore EchoQI at echoqi.me](https://echoqi.me).**
+
+### SYNAP FPS
+
+A science-fiction shooter with combat, enemies, equipment, progression, and saved games. **Browser:** TypeScript, Babylon.js, and Rapier. **Native:** Unreal Engine / C++; development packages exist, with migration and acceptance testing in progress.
+
+[![Watch the current two-minute SYNAP gameplay demo](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/cue_0002.jpg)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)
+
+**[▶ Watch SYNAP in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)** · 2:00 · Current two-minute montage featured on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7526303072743190528/). Full-quality master uploaded unchanged, without re-encoding.
+
+*Arena combat, weapons, enemies, abilities, weather, and boss encounters. Owner-supplied footage; FPS overlays are not controlled benchmarks.*
+
+[Game case study and more images](benchmarks/portfolio/projects/synap-fps.md)
+
+---
+
+## The ecosystem behind the work
+
+| Project | Purpose | Explore |
+|---|---|---|
+| **EchoQI / QI Core** | Proprietary neuro-symbolic architecture combining learning, reasoning, persistent memory, and execution tools | [Architecture and core case study](benchmarks/portfolio/projects/echoqi.md) |
+| **Dark Matter** | Desktop AI and development platform with controlled changes, verification, and recovery | [Platform case study](benchmarks/portfolio/projects/dark-matter.md) |
+| **EchoQI.me / QI Works** | Public platform and the route to custom AI systems development and integration inquiries | [Visit echoqi.me](https://echoqi.me) · [Platform case study](benchmarks/portfolio/projects/echoqi-web.md) |
+| **QIOS and Trinity** | Operating-system integration and coordinated work across connected hosts | [Supporting systems](benchmarks/portfolio/projects/systems.md) · [Watch Trinity](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity) |
+| **SYNAP FPS** | Real-time game systems spanning combat, enemy behavior, rendering, and progression | [Game case study](benchmarks/portfolio/projects/synap-fps.md) |
+| **QI Glasses** | Augmented-reality and smart-glasses research connected to the EchoQI ecosystem | [Wearable research](benchmarks/portfolio/projects/systems.md#wearable-research) |
+| **Robotics integration** | Application work connecting QI with robotic systems, sensors, and device interfaces | [Engineering specializations](#engineering-specializations) |
+| **Quantum and adjacent research** | IBM Quantum/Qiskit integration, voice interfaces, and supporting technical projects | [Research and supporting systems](benchmarks/portfolio/projects/systems.md) |
 
 ## Engineering specializations
 
@@ -40,6 +124,22 @@ Jack Rourke designs and builds intelligence systems from custom learning and rea
 
 [Skills and practical applications](benchmarks/portfolio/engineering/strengths.md) · [Development workflow](benchmarks/portfolio/engineering/workflow.md)
 
+## Engineering you can inspect
+
+The public repository includes runnable examples, dated measurements, project case studies, and documented failure analysis. Private core implementation remains proprietary; application-specific technical review can be scoped as part of an engagement.
+
+| Engineering question | Evidence to explore |
+|---|---|
+| **How does the architecture connect learning, reasoning, and memory?** | [Core responsibilities and evidence](benchmarks/portfolio/engineering/core-evidence.md) |
+| **How are code changes checked and working files preserved?** | [Verified-edit walkthrough](benchmarks/portfolio/engineering/verified-edit-walkthrough.md) · [Public code](code/README.md) |
+| **What happens when execution or verification fails?** | [Investigations and recovery](benchmarks/portfolio/engineering/problems-and-progress.md) |
+| **What do the measurements actually establish?** | [Reviewer guide](benchmarks/portfolio/engineering/reviewer-guide.md) · [Benchmark methods](benchmarks/METHODS.md) |
+
+**[Run the public checks](code/README.md#run-it)** · **[Explore the case studies](benchmarks/portfolio/projects/)** · **[Discuss your application](https://echoqi.me)**
+
+<details>
+<summary><strong>Explore architecture, model development, code samples, benchmarks, and technical reviews</strong></summary>
+
 ## AI development
 
 Work covers custom learning components, models trained from random weights, and adaptation of an existing model.
@@ -51,7 +151,7 @@ A recorded training comparison improved from **17/34 to 34/34** on the same trai
 
 Private inspection records are AI-authored; independent verification remains open. [Component receipt](benchmarks/results/2026-10-26-private-component-recheck.json) · [Training receipt](benchmarks/results/2026-10-25-ai-training-review.json) · [Full case study](benchmarks/portfolio/projects/ai-creation-and-training.md)
 
-## Projects
+## Platform architecture and project detail
 
 ### EchoQI / QI Core
 
@@ -113,45 +213,7 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 [Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
 
-### EchoQI in Dark Matter — four websites in two minutes
 
-**What if you could turn on airplane mode—and your AI could still build your next website?**
-
-Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. Jack also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
-
-[![Watch the Dark Matter four-website demo](benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)
-
-**[▶ Watch the website demo in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)** · 2:00 · Original MP4 preserved without re-encoding.
-
-Recorded conversation responses: approximately 12–44 ms; headline/button edits: 0.56–0.64 seconds; website builds: 0.87–2.03 seconds. These task timings exclude opening/rendering previews. Operator pauses are trimmed; retained build/edit intervals play at normal speed. Development demonstration, not a general capability benchmark.
-
-**[Join the waitlist at echoqi.me](https://echoqi.me). Dark Matter launches mid-2027.**
-
-### Meet EchoQI through DarkMatter — Trinity
-
-**One intelligence. Three machines. Working together.**
-
-EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
-
-Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
-
-[![Watch EchoQI Trinity](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/cue_0001.jpg)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)
-
-**[▶ Watch Trinity in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
-
-**[Explore EchoQI at echoqi.me](https://echoqi.me).**
-
-### SYNAP FPS
-
-A science-fiction shooter with combat, enemies, equipment, progression, and saved games. **Browser:** TypeScript, Babylon.js, and Rapier. **Native:** Unreal Engine / C++; development packages exist, with migration and acceptance testing in progress.
-
-[![Watch the current two-minute SYNAP gameplay demo](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/cue_0002.jpg)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)
-
-**[▶ Watch SYNAP in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)** · 2:00 · Current two-minute montage featured on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7526303072743190528/). Full-quality master uploaded unchanged, without re-encoding.
-
-*Arena combat, weapons, enemies, abilities, weather, and boss encounters. Owner-supplied footage; FPS overlays are not controlled benchmarks.*
-
-[Game case study and more images](benchmarks/portfolio/projects/synap-fps.md)
 
 ## Engineering investigations
 
@@ -187,16 +249,6 @@ Other work: robotics integration, QI Glasses augmented-reality and smart-glasses
 
 [Ecosystem map](benchmarks/portfolio/engineering/ecosystem.md) · [Supporting systems](benchmarks/portfolio/projects/systems.md)
 
-## Development history
-
-**Echo began in 2020.** Jack started developing Echo that year, continued after a Mac reset around 2022–2023, and rebuilt and expanded the project using USB-based storage during 2024–2025. EchoQI’s development predates this public portfolio; October 3, 2026 marks an audit documented here, not the beginning of the project.
-
-[Development timeline and surviving archive records](benchmarks/portfolio/HISTORY.md).
-
-**Historical ARC run:** **19/50 public-training tasks**; **13.388 ms median per test input**, excluding startup. Hidden-test performance and competitor comparisons remain unestablished.
-
-[Dated results and corrections](benchmarks/METHODS.md) · [Evidence index](benchmarks/portfolio/engineering/evidence-index.md)
-
 ## Technical reviews
 
 AI-authored reviews disclose authors, sources, and limits. They are supporting records, not independent audits.
@@ -214,6 +266,21 @@ Inspect the runnable verification/evaluation tools, gameplay demo, and dated pri
 Current results lead; historical charts retain their corrections in the archive.
 
 [Results and runnable checks](benchmarks/README.md) · [Methods](benchmarks/METHODS.md) · [Historical showcase](benchmarks/original-repository/README.md)
+
+</details>
+
+## Development history
+
+**Echo began in 2020.** Jack started developing Echo that year, continued after a Mac reset around 2022–2023, and rebuilt and expanded the project using USB-based storage during 2024–2025. EchoQI’s development predates this public portfolio; October 3, 2026 marks an audit documented here, not the beginning of the project.
+
+[Development timeline and surviving archive records](benchmarks/portfolio/HISTORY.md).
+
+**Historical ARC run:** **19/50 public-training tasks**; **13.388 ms median per test input**, excluding startup. Hidden-test performance and competitor comparisons remain unestablished.
+
+[Dated results and corrections](benchmarks/METHODS.md) · [Evidence index](benchmarks/portfolio/engineering/evidence-index.md)
+
+<details>
+<summary><strong>Browse the full repository directory and retained records</strong></summary>
 
 ## Repository directory
 
@@ -236,6 +303,8 @@ Current results lead; historical charts retain their corrections in the archive.
 | Previous front page | [Legacy showcase](benchmarks/portfolio/LEGACY_SHOWCASE.md) |
 | File integrity record | [Publication manifest](benchmarks/portfolio/PUBLICATION_MANIFEST.json) |
 
+</details>
+
 ## Client reviews
 
 Worked with Jack? Share the project, what he delivered, and the result.
@@ -243,3 +312,13 @@ Worked with Jack? Share the project, what he delivered, and the result.
 **[Leave a review](https://github.com/jtrxgaia/Next-Gen-Intelligence/issues/new?template=review.yml)** · **[Read all reviews](https://github.com/jtrxgaia/Next-Gen-Intelligence/issues?q=label%3Areview)**
 
 Reviews are public, dated, and posted from the client’s own GitHub account. A free account is required.
+
+---
+
+## Build your version of QI
+
+Have a business process, robotic platform, defense application, or product that needs a specialized intelligence system?
+
+**[Reach out through echoqi.me →](https://echoqi.me)**
+
+Describe the purpose. Define the requirements. Commission a QI system for your application.
