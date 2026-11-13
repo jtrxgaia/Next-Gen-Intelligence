@@ -1,7 +1,8 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-11-13",
   "starting_commit": "ca2b1aa06cc06216fe72211f398b0e1bb2448579",
   "purpose": "Intelligence architecture, software defense evidence, and reproducible public checks",
+  "verified_tree_commit": "c3cd8d4bf5df82c35d6eca323f790d4ee9aa4b7c",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,9 +20,14 @@
       "sha256": "76a6e7c0a598661ceb7796cc0a4a11116c5c2d1078e92cd6dd9397b95bb547cc"
     },
     {
+      "path": "CUSTOM_QI_SYSTEMS.md",
+      "bytes": 3299,
+      "sha256": "0b6b937ca1bafd4c7138fb97f355a0c33bfd580b7f0b83653eadcba6d308ceb5"
+    },
+    {
       "path": "README.md",
-      "bytes": 12918,
-      "sha256": "ddfd976e16d60ba3aa3113dc809d98bcb5bdc75e8bb3029e02706fadcc5490dd"
+      "bytes": 22430,
+      "sha256": "7048c8e50a1f9c9d6bda6b3281a9f802b7fee48c7cc49ee728b35cf17ac3744a"
     },
     {
       "path": "benchmarks/METHODS.md",
@@ -90,8 +96,8 @@
     },
     {
       "path": "benchmarks/portfolio/HISTORY.md",
-      "bytes": 494,
-      "sha256": "a7f23ebb8d75e7f36c38f0739b6e704f18ccc7b1a81401958fbfb59829b8508d"
+      "bytes": 2798,
+      "sha256": "dc48b7acf2039fd8e46f98d9028f78b150b480cecf0b768db98c8926656b49f9"
     },
     {
       "path": "benchmarks/portfolio/LEGACY_SHOWCASE.md",
@@ -155,8 +161,8 @@
     },
     {
       "path": "benchmarks/portfolio/engineering/strengths.md",
-      "bytes": 1271,
-      "sha256": "17b444ed086094dceb8e990f622e63cd6a50da67d82699c3fa1bf73b3b1f56ec"
+      "bytes": 2742,
+      "sha256": "be630432dff8c0c1abb52357fbb11d3bf1b8c6d836bb4dc0f40cd36a6ac5f784"
     },
     {
       "path": "benchmarks/portfolio/engineering/verified-edit-walkthrough.md",
@@ -187,6 +193,16 @@
       "path": "benchmarks/portfolio/media/creator_workflow_benchmark_chart.jpg",
       "bytes": 708920,
       "sha256": "28279a8701f7431affb783cd498874d7b9823442388aa24ea0458e119d6cc95e"
+    },
+    {
+      "path": "benchmarks/portfolio/media/dark-matter/Dark-Matter-Four-Websites-Hero-Edits-2-Minute-Demo.mp4",
+      "bytes": 11075983,
+      "sha256": "9e4e35d1a0316abd2c982c2ec0cbc7d809a38426902fae2577869229217d3899"
+    },
+    {
+      "path": "benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png",
+      "bytes": 346154,
+      "sha256": "7d62e1030398fe2fbaefafcaef0c37359ce7cbe557b795da1466c5370241f856"
     },
     {
       "path": "benchmarks/portfolio/media/guardian_security_benchmark_chart.jpg",
@@ -597,6 +613,11 @@
       "path": "code/verified-edit/verified-edit.test.mjs",
       "bytes": 5503,
       "sha256": "87580f0647262dcaa83e596bacbd0769c72eb99bd13f0c51d17f7b8aa3efe27a"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 5666,
+      "sha256": "a85b1d8acd8e089a58be0bf4dc1c437f7ae4c68221a33de734610d7280698eb4"
     }
   ]
 }
