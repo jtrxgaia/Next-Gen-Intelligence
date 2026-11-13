@@ -19,7 +19,7 @@ The main engagement is custom development of a QI version that the client owns f
 | Distributed computing | Task delegation and result coordination across connected machines |
 | AR and smart glasses | Research and development of wearable interfaces connected to the QI ecosystem |
 
-These are engagement areas to scope against the client’s requirements. The [project case studies](benchmarks/portfolio/projects/) and [demos](https://jtrxgaia.github.io/Next-Gen-Intelligence/) show the existing engineering work.
+These are engagement areas to scope against the client’s requirements. The [project case studies](portfolio/projects/) and [demos](https://jtrxgaia.github.io/Next-Gen-Intelligence/) show the existing engineering work.
 
 ## What the engagement defines
 

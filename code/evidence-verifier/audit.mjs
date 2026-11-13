@@ -115,7 +115,7 @@ export function auditTraining(r, original) {
 export async function auditRepository(root) {
   const load = async path => JSON.parse(await readFile(resolve(root, path), 'utf8'));
   const results = [];
-  results.push(auditArc(await load('benchmarks/portfolio/receipts/2026-10-03_Codex_ARC2.json')));
+  results.push(auditArc(await load('portfolio/receipts/2026-10-03_Codex_ARC2.json')));
   results.push(auditSafety(await load('benchmarks/results/2026-10-26-public-edit-safety.json')));
   results.push(auditLearning(await load('benchmarks/results/2026-10-26-private-component-recheck.json')));
   results.push(auditTraining(await load('benchmarks/results/2026-10-28-training-progression.json'), await load('benchmarks/results/2026-10-25-ai-training-review.json')));

@@ -21,4 +21,4 @@ The report contains exact-match results, every case's index and status, the full
 - JSON exact match is appropriate for structured tasks with an agreed canonical output. Open-ended writing requires a different rubric. This runner makes no network, cost or model-quality measurements.
 - Report both baseline and enabled conditions on the same evaluator-selected cases. Pin dependencies and state beforehand. Record exposure, attempts, reviewer relationship, failures and limitations alongside the report.
 
-The existing private component receipt was generated with its retained private probe, not this newly added runner. An external evaluation using this protocol has not yet been performed. See the [confidential verification procedure](../../benchmarks/portfolio/engineering/confidential-verification.md).
+The existing private component receipt was generated with its retained private probe, not this newly added runner. An external evaluation using this protocol has not yet been performed. See the [confidential verification procedure](../../portfolio/engineering/confidential-verification.md).

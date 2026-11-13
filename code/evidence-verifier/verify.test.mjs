@@ -42,14 +42,14 @@ test('invalid metadata and duplicate entries are rejected', async t => {
 
 test('this repository matches its own publication manifest', async () => {
   const root = fileURLToPath(new URL('../../', import.meta.url));
-  const manifest = JSON.parse(await readFile(join(root, 'benchmarks/portfolio/PUBLICATION_MANIFEST.json'), 'utf8'));
+  const manifest = JSON.parse(await readFile(join(root, 'portfolio/PUBLICATION_MANIFEST.json'), 'utf8'));
   const bad = (await verifyManifest(root, manifest)).filter(r => r.status !== 'ok');
   assert.deepEqual(bad, []);
 });
 
 test('every tracked publication file is covered, except the manifest itself', async () => {
   const root = fileURLToPath(new URL('../../', import.meta.url));
-  const manifestPath = 'benchmarks/portfolio/PUBLICATION_MANIFEST.json';
+  const manifestPath = 'portfolio/PUBLICATION_MANIFEST.json';
   const manifest = JSON.parse(await readFile(join(root, manifestPath), 'utf8'));
   const tracked = execFileSync('git', ['ls-files', '-z'], { cwd: root, encoding: 'utf8' })
     .split('\0').filter(p => p && p !== manifestPath).sort();

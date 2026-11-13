@@ -12,7 +12,7 @@ if (args.length) benchmark.push('--output', args[1]);
 const checks = [
   ['Automated tests', ['--test']],
   ['Working demonstration', ['demo/run.mjs']],
-  ['Published file integrity', ['evidence-verifier/verify.mjs', '..', 'benchmarks/portfolio/PUBLICATION_MANIFEST.json']],
+  ['Published file integrity', ['evidence-verifier/verify.mjs', '..', 'portfolio/PUBLICATION_MANIFEST.json']],
   ['Evidence receipt arithmetic', ['evidence-verifier/audit.mjs']],
   ['Editing safety comparison', benchmark],
   ['Evaluation protocol example', ['evaluation-runner/runner.mjs', 'evaluation-runner/example-cases.json', 'evaluation-runner/example-adapter.mjs']],

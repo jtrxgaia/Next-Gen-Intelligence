@@ -1,6 +1,6 @@
 # Run and inspect the public proof
 
-[Portfolio](../README.md) · [Architecture and limits](ARCHITECTURE.md) · [Private core evidence](../benchmarks/portfolio/engineering/core-evidence.md)
+[Portfolio](../README.md) · [Architecture and limits](ARCHITECTURE.md) · [Private core evidence](../portfolio/engineering/core-evidence.md)
 
 These are runnable public examples of checking code changes and scoring results. They were prepared with Codex assistance. They contain no proprietary core code or methods and do not test the full private products.
 
@@ -9,7 +9,7 @@ These are runnable public examples of checking code changes and scoring results.
 Install Git and Node.js 20 or newer, then run:
 
 ```bash
-git clone https://github.com/jtrxgaia/Next-Gen-Intelligence.git
+git clone --depth 1 https://github.com/jtrxgaia/Next-Gen-Intelligence.git
 cd Next-Gen-Intelligence/code
 npm run proof
 ```
@@ -56,4 +56,10 @@ Use ordinary paths for your operating system. The task file maps task IDs to `tr
 
 The result includes scores, case denominators, runtime, time limits, and task/adapter hashes. It excludes answers, predictions, and local paths; use opaque task IDs if needed. Separately pin the core build, dependencies, and state. The evaluator must control access to answer files, network access, and descendant processes: the adapter retains the current user’s permissions.
 
-[Confidential review procedure](../benchmarks/portfolio/engineering/confidential-verification.md) · [What each result proves](../benchmarks/portfolio/engineering/reviewer-guide.md)
+[Confidential review procedure](../portfolio/engineering/confidential-verification.md) · [What each result proves](../portfolio/engineering/reviewer-guide.md)
+
+The quick start uses a shallow clone so evaluators do not fetch archived binary history. Original videos stream from the [demo page](https://jtrxgaia.github.io/Next-Gen-Intelligence/) and remain available as release assets.
+
+## Evaluation license
+
+These examples are available for local internal evaluation and educational study under the [repository evaluation license](../LICENSE), including local modifications for those purposes. Redistribution, hosted services, and commercial product integration require separate permission through [echoqi.me](https://echoqi.me). No private QI Core source or license is included.

@@ -4,7 +4,7 @@ This implementation was prepared with Codex assistance for publication and is in
 
 The checker receives the **staged candidate path**, not the target path. Participating editors share an exclusive advisory lock beside the canonical target. Before promotion, both the staged candidate and original target must retain their expected bytes. Observed outside edits or deletion prevent completion. The checker must actually execute its validator and settle after it finishes.
 
-See the [public architecture and tradeoffs](../ARCHITECTURE.md), [working demonstration](../README.md) and [reproducible policy comparison](../../benchmarks/portfolio/engineering/public-safety-benchmark.md). The comparison qualifies this public reference only.
+See the [public architecture and tradeoffs](../ARCHITECTURE.md), [working demonstration](../README.md) and [reproducible policy comparison](../../portfolio/engineering/public-safety-benchmark.md). The comparison qualifies this public reference only.
 
 ## Concurrency and recovery boundary
 

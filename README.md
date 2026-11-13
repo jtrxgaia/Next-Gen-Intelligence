@@ -57,7 +57,7 @@ Bring the application, the systems it must connect to, and the work you need it 
 
 Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. Jack also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
 
-[![Watch the Dark Matter four-website demo](benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)
+[![Watch the Dark Matter four-website demo](portfolio/media/dark-matter/four-websites-demo-preview.png)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)
 
 **[▶ Watch the website demo in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)** · 2:00 · Original MP4 preserved without re-encoding.
 
@@ -89,7 +89,7 @@ A science-fiction shooter with combat, enemies, equipment, progression, and save
 
 *Arena combat, weapons, enemies, abilities, weather, and boss encounters. Owner-supplied footage; FPS overlays are not controlled benchmarks.*
 
-[Game case study and more images](benchmarks/portfolio/projects/synap-fps.md)
+[Game case study and more images](portfolio/projects/synap-fps.md)
 
 ---
 
@@ -97,14 +97,14 @@ A science-fiction shooter with combat, enemies, equipment, progression, and save
 
 | Project | Purpose | Explore |
 |---|---|---|
-| **EchoQI / QI Core** | Proprietary neuro-symbolic architecture combining learning, reasoning, persistent memory, and execution tools | [Architecture and core case study](benchmarks/portfolio/projects/echoqi.md) |
-| **Dark Matter** | Desktop AI and development platform with controlled changes, verification, and recovery | [Platform case study](benchmarks/portfolio/projects/dark-matter.md) |
-| **EchoQI.me / QI Works** | Public platform and the route to custom AI systems development and integration inquiries | [Visit echoqi.me](https://echoqi.me) · [Platform case study](benchmarks/portfolio/projects/echoqi-web.md) |
-| **QIOS and Trinity** | Operating-system integration and coordinated work across connected hosts | [Supporting systems](benchmarks/portfolio/projects/systems.md) · [Watch Trinity](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity) |
-| **SYNAP FPS** | Real-time game systems spanning combat, enemy behavior, rendering, and progression | [Game case study](benchmarks/portfolio/projects/synap-fps.md) |
-| **QI Glasses** | Augmented-reality and smart-glasses research connected to the EchoQI ecosystem | [Wearable research](benchmarks/portfolio/projects/systems.md#wearable-research) |
+| **EchoQI / QI Core** | Proprietary neuro-symbolic architecture combining learning, reasoning, persistent memory, and execution tools | [Architecture and core case study](portfolio/projects/echoqi.md) |
+| **Dark Matter** | Desktop AI and development platform with controlled changes, verification, and recovery | [Platform case study](portfolio/projects/dark-matter.md) |
+| **EchoQI.me / QI Works** | Public platform and the route to custom AI systems development and integration inquiries | [Visit echoqi.me](https://echoqi.me) · [Platform case study](portfolio/projects/echoqi-web.md) |
+| **QIOS and Trinity** | Operating-system integration and coordinated work across connected hosts | [Supporting systems](portfolio/projects/systems.md) · [Watch Trinity](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity) |
+| **SYNAP FPS** | Real-time game systems spanning combat, enemy behavior, rendering, and progression | [Game case study](portfolio/projects/synap-fps.md) |
+| **QI Glasses** | Augmented-reality and smart-glasses research connected to the EchoQI ecosystem | [Wearable research](portfolio/projects/systems.md#wearable-research) |
 | **Robotics integration** | Application work connecting QI with robotic systems, sensors, and device interfaces | [Engineering specializations](#engineering-specializations) |
-| **Quantum and adjacent research** | IBM Quantum/Qiskit integration, voice interfaces, and supporting technical projects | [Research and supporting systems](benchmarks/portfolio/projects/systems.md) |
+| **Quantum and adjacent research** | IBM Quantum/Qiskit integration, voice interfaces, and supporting technical projects | [Research and supporting systems](portfolio/projects/systems.md) |
 
 ## Engineering specializations
 
@@ -122,7 +122,9 @@ A science-fiction shooter with combat, enemies, equipment, progression, and save
 | **Real-time game systems** | Develops combat, enemy behavior, rendering, abilities, progression, and saved games |
 | **Reliability and recovery** | Diagnoses failures, measures behavior, preserves working state, and engineers recoverable changes |
 
-[Skills and practical applications](benchmarks/portfolio/engineering/strengths.md) · [Development workflow](benchmarks/portfolio/engineering/workflow.md)
+[Skills and practical applications](portfolio/engineering/strengths.md) · [Development workflow](portfolio/engineering/workflow.md)
+
+[Browse the portfolio library](portfolio/README.md) · [Project case studies](portfolio/projects/README.md)
 
 ## Engineering you can inspect
 
@@ -130,12 +132,12 @@ The public repository includes runnable examples, dated measurements, project ca
 
 | Engineering question | Evidence to explore |
 |---|---|
-| **How does the architecture connect learning, reasoning, and memory?** | [Core responsibilities and evidence](benchmarks/portfolio/engineering/core-evidence.md) |
-| **How are code changes checked and working files preserved?** | [Verified-edit walkthrough](benchmarks/portfolio/engineering/verified-edit-walkthrough.md) · [Public code](code/README.md) |
-| **What happens when execution or verification fails?** | [Investigations and recovery](benchmarks/portfolio/engineering/problems-and-progress.md) |
-| **What do the measurements actually establish?** | [Reviewer guide](benchmarks/portfolio/engineering/reviewer-guide.md) · [Benchmark methods](benchmarks/METHODS.md) |
+| **How does the architecture connect learning, reasoning, and memory?** | [Core responsibilities and evidence](portfolio/engineering/core-evidence.md) |
+| **How are code changes checked and working files preserved?** | [Verified-edit walkthrough](portfolio/engineering/verified-edit-walkthrough.md) · [Public code](code/README.md) |
+| **What happens when execution or verification fails?** | [Investigations and recovery](portfolio/engineering/problems-and-progress.md) |
+| **What do the measurements actually establish?** | [Reviewer guide](portfolio/engineering/reviewer-guide.md) · [Benchmark methods](benchmarks/METHODS.md) |
 
-**[Run the public checks](code/README.md#run-it)** · **[Explore the case studies](benchmarks/portfolio/projects/)** · **[Discuss your application](https://echoqi.me)**
+**[Run the public checks](code/README.md#run-it)** · **[Explore the case studies](portfolio/projects/)** · **[Discuss your application](https://echoqi.me)**
 
 <details>
 <summary><strong>Explore architecture, model development, code samples, benchmarks, and technical reviews</strong></summary>
@@ -149,13 +151,13 @@ Work covers custom learning components, models trained from random weights, and 
 
 A recorded training comparison improved from **17/34 to 34/34** on the same training-exposed target; eight outputs remained consistent after restart. The implementation builds on established neural-network software, with randomly initialized weights. [Training progression](benchmarks/results/2026-10-28-training-progression.json).
 
-Private inspection records are AI-authored; independent verification remains open. [Component receipt](benchmarks/results/2026-10-26-private-component-recheck.json) · [Training receipt](benchmarks/results/2026-10-25-ai-training-review.json) · [Full case study](benchmarks/portfolio/projects/ai-creation-and-training.md)
+Private inspection records are AI-authored; independent verification remains open. [Component receipt](benchmarks/results/2026-10-26-private-component-recheck.json) · [Training receipt](benchmarks/results/2026-10-25-ai-training-review.json) · [Full case study](portfolio/projects/ai-creation-and-training.md)
 
 ## Platform architecture and project detail
 
 ### EchoQI / QI Core
 
-Custom learning and reasoning, persistent memory, and application tools, designed and developed by Jack with AI assistance. [Architecture evidence](benchmarks/portfolio/engineering/core-evidence.md).
+Custom learning and reasoning, persistent memory, and application tools, designed and developed by Jack with AI assistance. [Architecture evidence](portfolio/engineering/core-evidence.md).
 
 #### How the parts work together
 
@@ -167,25 +169,25 @@ Selected tests cover context storage, write permissions, and restoration after r
 
 #### HiveMind: several models, one shared task
 
-HiveMind is designed to coordinate compatible models—including Gemini, GPT, Claude, and Kimi—on a shared task. Its benefit over one model is unmeasured. [Design and scope](benchmarks/portfolio/projects/echoqi.md#hivemind).
+HiveMind is designed to coordinate compatible models—including Gemini, GPT, Claude, and Kimi—on a shared task. Its benefit over one model is unmeasured. [Design and scope](portfolio/projects/echoqi.md#hivemind).
 
 #### Building and training the learning components
 
-Records distinguish example-based learning, model training, and adaptation, with saved artifacts and experiment scope. [Training case study](benchmarks/portfolio/projects/ai-creation-and-training.md).
+Records distinguish example-based learning, model training, and adaptation, with saved artifacts and experiment scope. [Training case study](portfolio/projects/ai-creation-and-training.md).
 
 #### Quantum research
 
-IBM Quantum/Qiskit is a separate research integration. The reasoning software is classical; no quantum advantage is established. [Research record](benchmarks/portfolio/docs/IBM_QUANTUM_RESEARCH.md).
+IBM Quantum/Qiskit is a separate research integration. The reasoning software is classical; no quantum advantage is established. [Research record](portfolio/docs/IBM_QUANTUM_RESEARCH.md).
 
 #### Turning the core into usable software
 
 Application integration covers requests, results, permissions, diagnostics, and recovery. Core source, methods, training recipes, and models remain private.
 
-<img src="benchmarks/portfolio/media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock" width="760" />
+<img src="portfolio/media/portfolio/echo-desktop-dock.png" alt="Echo desktop interaction dock" width="760" />
 
 *Echo desktop interface component.*
 
-[Core case study](benchmarks/portfolio/projects/echoqi.md) · [Source inspection record](benchmarks/results/2026-10-26-private-core-evidence.json) · [Confidential verification](benchmarks/portfolio/engineering/confidential-verification.md)
+[Core case study](portfolio/projects/echoqi.md) · [Source inspection record](benchmarks/results/2026-10-26-private-core-evidence.json) · [Confidential verification](portfolio/engineering/confidential-verification.md)
 
 ### Dark Matter
 
@@ -193,11 +195,11 @@ An AI-assisted coding platform with checked file changes, permissions, and recov
 
 **Stack:** Electron, React, Vite, Node.js, and local model adapters.
 
-<img src="benchmarks/portfolio/media/portfolio/dark-matter-current.jpg" alt="Current Dark Matter desktop platform showing the question Who is Echo and Echo’s response" width="760" />
+<img src="portfolio/media/portfolio/dark-matter-current.jpg" alt="Current Dark Matter desktop platform showing the question Who is Echo and Echo’s response" width="760" />
 
 *Desktop capture, October 25, 2026. The displayed reply is a self-description.*
 
-[Case study](benchmarks/portfolio/projects/dark-matter.md) · [Verification workflow](benchmarks/portfolio/engineering/verified-edit-walkthrough.md)
+[Case study](portfolio/projects/dark-matter.md) · [Verification workflow](portfolio/engineering/verified-edit-walkthrough.md)
 
 ### QI Works / EchoQI.me
 
@@ -207,11 +209,11 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 **Checks:** **20/20 selected tests**, including simulated purchases and saves. Live payments and full signed-in acceptance remain unverified.
 
-<img src="benchmarks/portfolio/media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
+<img src="portfolio/media/portfolio/echoqi-web.png" alt="QI Works public landing page" width="760" />
 
 *Public page, October 25, 2026.*
 
-[Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
+[Web application case study](portfolio/projects/echoqi-web.md)
 
 
 
@@ -219,16 +221,16 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 Building intelligence that can learn, retain context, and act safely requires more than generating answers. The work addresses competing decision owners, unverified action claims, state recovery, failed code checks, and signed updates that can still fail health checks. The records trace the failures, design choices, and limits.
 
-[Architecture and defense evidence](benchmarks/portfolio/engineering/intelligence-design.md)
+[Architecture and defense evidence](portfolio/engineering/intelligence-design.md)
 
-[What failed, what changed, and what remains open](benchmarks/portfolio/engineering/problems-and-progress.md)
+[What failed, what changed, and what remains open](portfolio/engineering/problems-and-progress.md)
 
 ## Code samples
 
 Run with Git and Node.js 20+:
 
 ```bash
-git clone https://github.com/jtrxgaia/Next-Gen-Intelligence.git
+git clone --depth 1 https://github.com/jtrxgaia/Next-Gen-Intelligence.git
 cd Next-Gen-Intelligence/code
 npm run proof
 ```
@@ -241,25 +243,25 @@ Runs tests, demo, integrity checks, receipt arithmetic audit, safety comparison,
 
 **Safety comparison:** **90/90 policy trials**, versus **30/90** for a minimal write/check baseline: nine conditions, repeated ten times. It tests file preservation and completion decisions. These Codex-assisted examples contain no private core source and establish no AI-quality or private-product score.
 
-[Commands and expected results](code/README.md) · [Benchmark methods](benchmarks/portfolio/engineering/public-safety-benchmark.md) · [Architecture and limits](code/ARCHITECTURE.md)
+[Commands and expected results](code/README.md) · [Benchmark methods](portfolio/engineering/public-safety-benchmark.md) · [Architecture and limits](code/ARCHITECTURE.md)
 
 ## Related systems
 
 Other work: robotics integration, QI Glasses augmented-reality and smart-glasses research, voice interfaces, host communication, codebase analysis, QIOS, quantum services, and earlier games.
 
-[Ecosystem map](benchmarks/portfolio/engineering/ecosystem.md) · [Supporting systems](benchmarks/portfolio/projects/systems.md)
+[Ecosystem map](portfolio/engineering/ecosystem.md) · [Supporting systems](portfolio/projects/systems.md)
 
 ## Technical reviews
 
 AI-authored reviews disclose authors, sources, and limits. They are supporting records, not independent audits.
 
-[Codex review](benchmarks/portfolio/reviews/codex-2026-10-25.md) · [Project reviews](benchmarks/portfolio/reviews/README.md)
+[Codex review](portfolio/reviews/codex-2026-10-25.md) · [Project reviews](portfolio/reviews/README.md)
 
 ## Engineering capability profile
 
 Inspect the runnable verification/evaluation tools, gameplay demo, and dated private-component records. Confidential review is available.
 
-[Claim-by-claim evidence](benchmarks/portfolio/engineering/reviewer-guide.md) · [Capabilities](benchmarks/portfolio/engineering/capabilities.md)
+[Claim-by-claim evidence](portfolio/engineering/reviewer-guide.md) · [Capabilities](portfolio/engineering/capabilities.md)
 
 ## Benchmarks
 
@@ -273,11 +275,11 @@ Current results lead; historical charts retain their corrections in the archive.
 
 **Echo began in 2020.** Jack started developing Echo that year, continued after a Mac reset around 2022–2023, and rebuilt and expanded the project using USB-based storage during 2024–2025. EchoQI’s development predates this public portfolio; October 3, 2026 marks an audit documented here, not the beginning of the project.
 
-[Development timeline and surviving archive records](benchmarks/portfolio/HISTORY.md).
+[Development timeline and surviving archive records](portfolio/HISTORY.md).
 
 **Historical ARC run:** **19/50 public-training tasks**; **13.388 ms median per test input**, excluding startup. Hidden-test performance and competitor comparisons remain unestablished.
 
-[Dated results and corrections](benchmarks/METHODS.md) · [Evidence index](benchmarks/portfolio/engineering/evidence-index.md)
+[Dated results and corrections](benchmarks/METHODS.md) · [Evidence index](portfolio/engineering/evidence-index.md)
 
 <details>
 <summary><strong>Browse the full repository directory and retained records</strong></summary>
@@ -288,20 +290,20 @@ Current results lead; historical charts retain their corrections in the archive.
 |---|---|
 | Code samples and tests | [code](code/README.md) |
 | Benchmarks and historical showcase | [benchmarks](benchmarks/README.md) |
-| Technical documentation | [docs](benchmarks/portfolio/docs/) |
-| Engineering records | [engineering](benchmarks/portfolio/engineering/) |
-| Core implementation evidence | [Architecture and verified observations](benchmarks/portfolio/engineering/core-evidence.md) · [Confidential verification](benchmarks/portfolio/engineering/confidential-verification.md) |
-| Images and media | [media](benchmarks/portfolio/media/) |
-| Project case studies | [projects](benchmarks/portfolio/projects/) |
-| Evidence receipts | [receipts](benchmarks/portfolio/receipts/) |
-| Historical reports | [reports](benchmarks/portfolio/reports/) |
-| Research records | [research](benchmarks/portfolio/research/) |
-| Attributed technical reviews | [reviews](benchmarks/portfolio/reviews/README.md) |
-| Original benchmark audit | [October 3 audit](benchmarks/portfolio/2026-10-03_EchoQI_Benchmark_Audit_v1.md) |
-| Change history | [Changelog](benchmarks/portfolio/CHANGELOG.md) · [History](benchmarks/portfolio/HISTORY.md) |
-| Publication policy | [Evidence policy](benchmarks/portfolio/EVIDENCE_POLICY.md) |
-| Previous front page | [Legacy showcase](benchmarks/portfolio/LEGACY_SHOWCASE.md) |
-| File integrity record | [Publication manifest](benchmarks/portfolio/PUBLICATION_MANIFEST.json) |
+| Technical documentation | [docs](portfolio/docs/) |
+| Engineering records | [engineering](portfolio/engineering/) |
+| Core implementation evidence | [Architecture and verified observations](portfolio/engineering/core-evidence.md) · [Confidential verification](portfolio/engineering/confidential-verification.md) |
+| Images and media | [media](portfolio/media/) |
+| Project case studies | [projects](portfolio/projects/) |
+| Evidence receipts | [receipts](portfolio/receipts/) |
+| Historical reports | [reports](portfolio/reports/) |
+| Research records | [research](portfolio/research/) |
+| Attributed technical reviews | [reviews](portfolio/reviews/README.md) |
+| Original benchmark audit | [October 3 audit](portfolio/2026-10-03_EchoQI_Benchmark_Audit_v1.md) |
+| Change history | [Changelog](portfolio/CHANGELOG.md) · [History](portfolio/HISTORY.md) |
+| Publication policy | [Evidence policy](portfolio/EVIDENCE_POLICY.md) |
+| Previous front page | [Legacy showcase](portfolio/LEGACY_SHOWCASE.md) |
+| File integrity record | [Publication manifest](portfolio/PUBLICATION_MANIFEST.json) |
 
 </details>
 
@@ -322,3 +324,9 @@ Have a business process, robotic platform, defense application, or product that 
 **[Reach out through echoqi.me →](https://echoqi.me)**
 
 Describe the purpose. Define the requirements. Commission a QI system for your application.
+
+## Usage and licensing
+
+The public reference examples can be run, inspected, and modified locally for internal evaluation and study under the [repository evaluation license](LICENSE). Commercial reuse and redistribution require separate permission. Portfolio materials, branding, and media retain their reserved rights. The private QI core and commissioned systems are governed by separate agreements.
+
+**[Discuss commercial licensing or your own QI version at echoqi.me →](https://echoqi.me)**

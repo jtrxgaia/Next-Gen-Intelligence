@@ -1,0 +1,15 @@
+# Local credentials, scratch state and model artifacts are not publication assets.
+.env
+.env.*
+!.env.example
+.private/
+_private/
+*.safetensors
+*.gguf
+*.ggml
+*.onnx
+*.pt
+*.pth
+*.ckpt
+node_modules/
+code/ci-safety-result.json

@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 import { auditArc, auditSafety, auditLearning, auditTraining, auditRepository } from './audit.mjs';
 const root = new URL('../../', import.meta.url);
 const load = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
-const arc = await load('benchmarks/portfolio/receipts/2026-10-03_Codex_ARC2.json');
+const arc = await load('portfolio/receipts/2026-10-03_Codex_ARC2.json');
 const safety = await load('benchmarks/results/2026-10-26-public-edit-safety.json');
 const learning = await load('benchmarks/results/2026-10-26-private-component-recheck.json');
 const training = await load('benchmarks/results/2026-10-28-training-progression.json');

@@ -1,0 +1,47 @@
+EchoQI Portfolio and Public Reference Evaluation License
+
+Copyright (c) 2026 Jack Rourke. All rights reserved, except for the limited
+permissions expressly granted below.
+
+1. Public reference examples
+
+You may download, run, inspect, and modify the original public reference code
+in code/ solely for your own internal technical evaluation, educational study,
+and assessment of a possible engagement with EchoQI / QI Works. You may keep
+copies and local modifications needed for those purposes. Preserve copyright
+and license notices in those copies.
+
+This permission does not authorize redistribution, sublicensing, sale,
+commercial product integration, or offering the code as a hosted service.
+Contact the owner through https://echoqi.me for permission for those uses.
+
+2. Portfolio materials and media
+
+Documentation, reports, screenshots, charts, videos, branding, and trademarks
+are provided for viewing and evaluation. You may link to the public portfolio
+and its demos. No general permission to republish, modify, sell, or reuse these
+materials in another product is granted by this license. Rights otherwise
+available under applicable law are unaffected.
+
+3. Private QI Core and client work
+
+No rights to proprietary QI Core source, models, methods, private data, or
+client-specific systems are granted by publishing this repository. Custom QI
+development, ownership of commissioned deliverables, and any core licenses
+are governed by a separate written agreement.
+
+4. Third-party materials
+
+This license applies only to material the owner has the right to license.
+Third-party software, assets, names, and marks remain subject to their own
+licenses and rights. Nothing here replaces those terms or grants additional
+rights to them.
+
+5. No warranty
+
+The evaluation materials are provided "AS IS", without warranties of any kind,
+express or implied, including merchantability, fitness for a particular purpose,
+and noninfringement. To the extent permitted by law, the owner is not liable for
+claims, damages, or other liability arising from use of these materials.
+
+Commercial and additional permissions: https://echoqi.me

@@ -32,7 +32,7 @@ The performance showcase below presents the capability areas explored throughout
 ## Benchmark 1: Cost Collapse (Cost Per 1 Billion Tokens)
 
 <div align="center">
-  <img src="media/cost_per_billion_chart.jpg" alt="Cost Per 1 Billion Tokens: Frontier LLMs vs EchoQI" width="100%" />
+  <img src="../media/cost_per_billion_chart.jpg" alt="Cost Per 1 Billion Tokens: Frontier LLMs vs EchoQI" width="100%" />
 </div>
 
 ### What This Benchmark Tested:
@@ -45,7 +45,7 @@ The performance showcase below presents the capability areas explored throughout
 ## Benchmark 2: Inference Speed & Response Latency
 
 <div align="center">
-  <img src="media/speed_comparison_chart.jpg" alt="Inference Speed & Latency: Frontier LLMs vs EchoQI Native Core" width="100%" />
+  <img src="../media/speed_comparison_chart.jpg" alt="Inference Speed & Latency: Frontier LLMs vs EchoQI Native Core" width="100%" />
 </div>
 
 ### What This Benchmark Tested:
@@ -58,7 +58,7 @@ The performance showcase below presents the capability areas explored throughout
 ## Benchmark 3: ARC-AGI Abstract Reasoning & Zero-Shot Logic
 
 <div align="center">
-  <img src="media/arc_reasoning_benchmark_chart.jpg" alt="ARC-AGI Abstract Reasoning: Frontier Models vs EchoQI Native Kernel" width="100%" />
+  <img src="../media/arc_reasoning_benchmark_chart.jpg" alt="ARC-AGI Abstract Reasoning: Frontier Models vs EchoQI Native Kernel" width="100%" />
 </div>
 
 ### What This Benchmark Tested:
@@ -71,7 +71,7 @@ The performance showcase below presents the capability areas explored throughout
 ## Benchmark 4: Autonomous Cyber Defense & Anti-Reverse Engineering
 
 <div align="center">
-  <img src="media/guardian_security_benchmark_chart.jpg" alt="AI Safety & Defense: Prompt Injection & Reverse Engineering Shield" width="100%" />
+  <img src="../media/guardian_security_benchmark_chart.jpg" alt="AI Safety & Defense: Prompt Injection & Reverse Engineering Shield" width="100%" />
 </div>
 
 ### What This Benchmark Tested:
@@ -84,7 +84,7 @@ The performance showcase below presents the capability areas explored throughout
 ## Benchmark 5: End-to-End Autonomous Web Creation
 
 <div align="center">
-  <img src="media/creator_workflow_benchmark_chart.jpg" alt="End-to-End Autonomous Web Build: Devin vs Claude Code vs EchoQI Creator" width="100%" />
+  <img src="../media/creator_workflow_benchmark_chart.jpg" alt="End-to-End Autonomous Web Build: Devin vs Claude Code vs EchoQI Creator" width="100%" />
 </div>
 
 ### What This Benchmark Tested:
@@ -97,7 +97,7 @@ The performance showcase below presents the capability areas explored throughout
 ## Benchmark 6: Codebase Multi-File Refactor & Security Audit
 
 <div align="center">
-  <img src="media/codebase_refactor_benchmark_chart.jpg" alt="Codebase Multi-File Refactor & Audit: Claude 3.5 vs Devin/Codex vs Dark Matter" width="100%" />
+  <img src="../media/codebase_refactor_benchmark_chart.jpg" alt="Codebase Multi-File Refactor & Audit: Claude 3.5 vs Devin/Codex vs Dark Matter" width="100%" />
 </div>
 
 ### What This Benchmark Tested:
