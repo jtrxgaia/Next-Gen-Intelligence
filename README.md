@@ -109,6 +109,18 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 [Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
 
+### Meet EchoQI through DarkMatter — Trinity
+
+**One intelligence. Three machines. Working together.**
+
+EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
+
+Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
+
+**[Watch the Trinity demo and download the original MP4](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/tag/echoqi-trinity-demo-2026-11-13)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
+
+**[Explore EchoQI at echoqi.me](https://echoqi.me).**
+
 ### EchoQI in Dark Matter — four websites in two minutes
 
 **What if you could turn on airplane mode—and your AI could still build your next website?**
