@@ -1,5 +1,5 @@
 # Jack Rourke
-### Intelligence Architect · AI Creator · Software Defense Systems Designer
+### Intelligence Architect · EchoQI Core Creator · Defense & Robotics Integration
 
 Jack Rourke designs and builds intelligence systems from custom learning and reasoning components through memory, software defenses, and applications. His work spans EchoQI, developer tools, web software, and games, with AI-assisted development and established libraries.
 
@@ -24,15 +24,19 @@ Jack Rourke designs and builds intelligence systems from custom learning and rea
 
 ## Engineering specializations
 
-| Area | What Jack works on |
+**Building intelligence from the core to the systems it powers.** Jack’s work spans proprietary AI architecture, commercial defense integration, robotics, augmented reality, and software that coordinates work across machines.
+
+| Specialization | What Jack builds and integrates |
 |---|---|
-| Intelligence architecture | Designing learning, reasoning, memory, models, and tools as a system |
-| Software defense design | Controlling actions, preserving state, checking changes, and recovering from failures |
-| Model development | Building trainable components, running experiments, and saving models |
-| Desktop and web software | Interfaces, backend services, accounts, and AI integrations |
-| Developer tools | Checking code changes and protecting existing work |
-| Game development | Combat, enemies, rendering, progression, and saved games |
-| Reliability | Finding failures, checking measurements, and recovering working versions |
+| **EchoQI core engineering** | Designs and builds the proprietary neuro-symbolic core, connecting learning, reasoning, persistent memory, models, and execution tools |
+| **Defense applications and core integration** | Offers EchoQI’s core commercially for defense applications, with application-specific integration, controlled execution, traceable actions, integrity checks, and recovery |
+| **Robotics integration** | Works on connecting EchoQI with robotic systems, sensors, and device interfaces for perception, reasoning, and control |
+| **QI Glasses · AR and smart glasses** | Develops the QI Glasses direction: augmented-reality and wearable interfaces connected to EchoQI |
+| **Distributed AI and operating systems** | Builds QIOS and Trinity workflows that delegate and coordinate work across QIOS, Mac, and Windows hosts |
+| **Model development** | Builds trainable components, runs experiments, evaluates behavior, and preserves saved-model continuity |
+| **Desktop, web, and developer platforms** | Builds Dark Matter, EchoQI.me, backend services, user accounts, AI integrations, and tools for verified code changes |
+| **Real-time game systems** | Develops combat, enemy behavior, rendering, abilities, progression, and saved games |
+| **Reliability and recovery** | Diagnoses failures, measures behavior, preserves working state, and engineers recoverable changes |
 
 [Skills and practical applications](benchmarks/portfolio/engineering/strengths.md) · [Development workflow](benchmarks/portfolio/engineering/workflow.md)
 
@@ -179,13 +183,15 @@ Runs tests, demo, integrity checks, receipt arithmetic audit, safety comparison,
 
 ## Related systems
 
-Other work: voice interfaces, host communication, codebase analysis, QIOS, quantum services, and earlier games. QI Glasses remains a concept.
+Other work: robotics integration, QI Glasses augmented-reality and smart-glasses research, voice interfaces, host communication, codebase analysis, QIOS, quantum services, and earlier games.
 
 [Ecosystem map](benchmarks/portfolio/engineering/ecosystem.md) · [Supporting systems](benchmarks/portfolio/projects/systems.md)
 
 ## Development history
 
-Jack reports development since around 2023. This repository documents work from October 3, 2026; the earlier timeline is unverified.
+**Echo began in 2020.** Jack started developing Echo that year, continued after a Mac reset around 2022–2023, and rebuilt and expanded the project using USB-based storage during 2024–2025. EchoQI’s development predates this public portfolio; October 3, 2026 marks an audit documented here, not the beginning of the project.
+
+[Development timeline and surviving archive records](benchmarks/portfolio/HISTORY.md).
 
 **Historical ARC run:** **19/50 public-training tasks**; **13.388 ms median per test input**, excluding startup. Hidden-test performance and competitor comparisons remain unestablished.
 
