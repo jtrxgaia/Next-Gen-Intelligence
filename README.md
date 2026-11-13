@@ -109,18 +109,6 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 [Web application case study](benchmarks/portfolio/projects/echoqi-web.md)
 
-### Meet EchoQI through DarkMatter — Trinity
-
-**One intelligence. Three machines. Working together.**
-
-EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
-
-Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
-
-**[Watch the Trinity demo and download the original MP4](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/tag/echoqi-trinity-demo-2026-11-13)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
-
-**[Explore EchoQI at echoqi.me](https://echoqi.me).**
-
 ### EchoQI in Dark Matter — four websites in two minutes
 
 **What if you could turn on airplane mode—and your AI could still build your next website?**
@@ -135,13 +123,29 @@ Recorded conversation responses: approximately 12–44 ms; headline/button edits
 
 **[Join the waitlist at echoqi.me](https://echoqi.me). Dark Matter launches mid-2027.**
 
+### Meet EchoQI through DarkMatter — Trinity
+
+**One intelligence. Three machines. Working together.**
+
+EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
+
+Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
+
+[![Watch EchoQI Trinity](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/cue_0001.jpg)](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/EchoQI-Trinity-Demo.mp4)
+
+**[Watch the Trinity demo and download the original MP4](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/tag/echoqi-trinity-demo-2026-11-13)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
+
+**[Explore EchoQI at echoqi.me](https://echoqi.me).**
+
 ### SYNAP FPS
 
 A science-fiction shooter with combat, enemies, equipment, progression, and saved games. **Browser:** TypeScript, Babylon.js, and Rapier. **Native:** Unreal Engine / C++; development packages exist, with migration and acceptance testing in progress.
 
-https://github.com/user-attachments/assets/1f033242-aed3-45e0-8c7d-77f0e30bf1bf
+[![Watch the current two-minute SYNAP gameplay demo](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/cue_0002.jpg)](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/SYNAP-Two-Minute-Gameplay-Mashup-No-Added-Logo.mp4)
 
-*1:36 gameplay demo: arena combat, weapons, enemies, effects, and HUD updates. Owner-supplied footage; FPS overlays are not controlled benchmarks. [Original 1080p video](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-10-27/SYNAP-Gameplay-Demo-Final-v2.mp4).*
+**[Watch or download the original 1080p / 60 fps video](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/SYNAP-Two-Minute-Gameplay-Mashup-No-Added-Logo.mp4)** · 2:00 · Current two-minute montage featured on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7526303072743190528/). Full-quality master uploaded unchanged, without re-encoding.
+
+*Arena combat, weapons, enemies, abilities, weather, and boss encounters. Owner-supplied footage; FPS overlays are not controlled benchmarks.*
 
 [Game case study and more images](benchmarks/portfolio/projects/synap-fps.md)
 
