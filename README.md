@@ -115,9 +115,9 @@ AI conversations, media tools, accounts, and game access, using Base44 managed s
 
 Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. Jack also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
 
-[![Watch the Dark Matter four-website demo](benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png)](benchmarks/portfolio/media/dark-matter/Dark-Matter-Four-Websites-Hero-Edits-2-Minute-Demo.mp4)
+[![Watch the Dark Matter four-website demo](benchmarks/portfolio/media/dark-matter/four-websites-demo-preview.png)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)
 
-**[Watch or download the original 1440p / 60 fps video](https://github.com/jtrxgaia/Next-Gen-Intelligence/raw/refs/heads/main/benchmarks/portfolio/media/dark-matter/Dark-Matter-Four-Websites-Hero-Edits-2-Minute-Demo.mp4)** · 2:00 · Original MP4 preserved without re-encoding.
+**[▶ Watch the website demo in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)** · 2:00 · Original MP4 preserved without re-encoding.
 
 Recorded conversation responses: approximately 12–44 ms; headline/button edits: 0.56–0.64 seconds; website builds: 0.87–2.03 seconds. These task timings exclude opening/rendering previews. Operator pauses are trimmed; retained build/edit intervals play at normal speed. Development demonstration, not a general capability benchmark.
 
@@ -131,9 +131,9 @@ EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built o
 
 Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
 
-[![Watch EchoQI Trinity](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/cue_0001.jpg)](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/EchoQI-Trinity-Demo.mp4)
+[![Watch EchoQI Trinity](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/echoqi-trinity-demo-2026-11-13/cue_0001.jpg)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)
 
-**[Watch the Trinity demo and download the original MP4](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/tag/echoqi-trinity-demo-2026-11-13)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
+**[▶ Watch Trinity in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#trinity)** · 5:03 · 3440 × 1356 · 60 fps. Original file preserved without re-encoding.
 
 **[Explore EchoQI at echoqi.me](https://echoqi.me).**
 
@@ -141,9 +141,9 @@ Watch the demo: website building, controlled bug repair, recovery from a dropped
 
 A science-fiction shooter with combat, enemies, equipment, progression, and saved games. **Browser:** TypeScript, Babylon.js, and Rapier. **Native:** Unreal Engine / C++; development packages exist, with migration and acceptance testing in progress.
 
-[![Watch the current two-minute SYNAP gameplay demo](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/cue_0002.jpg)](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/SYNAP-Two-Minute-Gameplay-Mashup-No-Added-Logo.mp4)
+[![Watch the current two-minute SYNAP gameplay demo](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/cue_0002.jpg)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)
 
-**[Watch or download the original 1080p / 60 fps video](https://github.com/jtrxgaia/Next-Gen-Intelligence/releases/download/synap-gameplay-demo-2026-11-13/SYNAP-Two-Minute-Gameplay-Mashup-No-Added-Logo.mp4)** · 2:00 · Current two-minute montage featured on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7526303072743190528/). Full-quality master uploaded unchanged, without re-encoding.
+**[▶ Watch SYNAP in your browser](https://jtrxgaia.github.io/Next-Gen-Intelligence/#synap)** · 2:00 · Current two-minute montage featured on [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7526303072743190528/). Full-quality master uploaded unchanged, without re-encoding.
 
 *Arena combat, weapons, enemies, abilities, weather, and boss encounters. Owner-supplied footage; FPS overlays are not controlled benchmarks.*
 
