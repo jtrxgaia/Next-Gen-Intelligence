@@ -4,6 +4,7 @@
 
 | Result | What it means | Can an outside reviewer rerun it? |
 |---|---|---|
+| Local symbolic skills: 1,000/1,000 cases and 5 million correct answers in 12.41 s | Direct local execution across five task families | [Inspect the cases, check answers and review CPU energy](local-core-2026-11-14/) |
 | Public tests and demonstration | The published verification and scoring code passes its documented checks | **Yes:** `npm run proof` from `code` |
 | Safety comparison: verified 90/90, baseline 30/90 | Nine controlled editing conditions, repeated ten times; tests preservation and completion rules | **Yes:** `npm run benchmark`. [Methods](../portfolio/engineering/public-safety-benchmark.md) · [Raw trials](results/2026-10-26-public-edit-safety.json) |
 | Private component checks: 47/47 | Selected learning and persistence tests passed in a retained snapshot | **Confidential review:** [aggregate receipt](results/2026-10-26-private-component-recheck.json) |

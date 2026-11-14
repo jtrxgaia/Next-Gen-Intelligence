@@ -1,0 +1,1000 @@
+{"skill":"arithmetic","input":"(-75 + 3) * 2","expected":-144,"actual":-144,"ms":0.17680000000000007}
+{"skill":"unit_conversion","input":{"value":-75,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-1030,"actual":-1030,"ms":0.05649999999999977}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":30},{"id":2,"score":50}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.06750000000000256}
+{"skill":"graph_traversal","input":{"start":1,"target":6,"edges":[[1,2],[2,3],[3,4],[4,5],[5,6]]},"expected":true,"actual":true,"ms":0.10410000000000252}
+{"skill":"constraint_checking","input":{"value":0,"min":0,"max":1},"expected":true,"actual":true,"ms":0.10060000000000002}
+{"skill":"arithmetic","input":"(-74 + 4) * 3","expected":-210,"actual":-210,"ms":0.15220000000000056}
+{"skill":"unit_conversion","input":{"value":-74,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-1012,"actual":-1012,"ms":0.013400000000004297}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":31},{"id":2,"score":51}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.008200000000002206}
+{"skill":"graph_traversal","input":{"start":31,"target":37,"edges":[[31,32],[33,34],[34,35],[35,36],[36,37]]},"expected":false,"actual":false,"ms":0.0747999999999962}
+{"skill":"constraint_checking","input":{"value":1,"min":0,"max":1},"expected":true,"actual":true,"ms":0.002200000000001978}
+{"skill":"arithmetic","input":"(-73 + 5) * 4","expected":-272,"actual":-272,"ms":0.05980000000000274}
+{"skill":"unit_conversion","input":{"value":-73,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-994,"actual":-994,"ms":0.0030000000000001137}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":32},{"id":2,"score":52}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.004599999999996385}
+{"skill":"graph_traversal","input":{"start":61,"target":68,"edges":[[61,62],[62,63],[63,64],[64,65],[65,66],[66,67],[67,68]]},"expected":true,"actual":true,"ms":0.14170000000000016}
+{"skill":"constraint_checking","input":{"value":2,"min":0,"max":1},"expected":false,"actual":false,"ms":0.0034999999999953957}
+{"skill":"arithmetic","input":"(-72 + 6) * 5","expected":-330,"actual":-330,"ms":0.055299999999995464}
+{"skill":"unit_conversion","input":{"value":-72,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-976,"actual":-976,"ms":0.0029000000000038995}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":33},{"id":2,"score":53}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.004800000000003024}
+{"skill":"graph_traversal","input":{"start":91,"target":99,"edges":[[91,92],[92,93],[93,94],[95,96],[96,97],[97,98],[98,99]]},"expected":false,"actual":false,"ms":0.02839999999999776}
+{"skill":"constraint_checking","input":{"value":3,"min":0,"max":4},"expected":true,"actual":true,"ms":0.0016999999999995907}
+{"skill":"arithmetic","input":"(-71 + 7) * 6","expected":-384,"actual":-384,"ms":0.02839999999999776}
+{"skill":"unit_conversion","input":{"value":-71,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-958,"actual":-958,"ms":0.0021999999999948727}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":34},{"id":2,"score":54}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.014200000000002433}
+{"skill":"graph_traversal","input":{"start":121,"target":130,"edges":[[121,122],[122,123],[123,124],[124,125],[125,126],[126,127],[127,128],[128,129],[129,130]]},"expected":true,"actual":true,"ms":0.04509999999999792}
+{"skill":"constraint_checking","input":{"value":4,"min":4,"max":4},"expected":true,"actual":true,"ms":0.0016000000000033765}
+{"skill":"arithmetic","input":"(-70 + 8) * 7","expected":-434,"actual":-434,"ms":0.02580000000000382}
+{"skill":"unit_conversion","input":{"value":-70,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-940,"actual":-940,"ms":0.0020999999999986585}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":35},{"id":2,"score":55}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0033999999999991815}
+{"skill":"graph_traversal","input":{"start":151,"target":161,"edges":[[151,152],[152,153],[153,154],[154,155],[155,156],[157,158],[158,159],[159,160],[160,161]]},"expected":false,"actual":false,"ms":0.031100000000002126}
+{"skill":"constraint_checking","input":{"value":5,"min":4,"max":4},"expected":false,"actual":false,"ms":0.0015000000000000568}
+{"skill":"arithmetic","input":"(-69 + 9) * 8","expected":-480,"actual":-480,"ms":0.048799999999999955}
+{"skill":"unit_conversion","input":{"value":-69,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-922,"actual":-922,"ms":0.0016000000000033765}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":36},{"id":2,"score":56}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00269999999999726}
+{"skill":"graph_traversal","input":{"start":181,"target":192,"edges":[[181,182],[182,183],[183,184],[184,185],[185,186],[186,187],[187,188],[188,189],[189,190],[190,191],[191,192]]},"expected":true,"actual":true,"ms":0.04679999999999751}
+{"skill":"constraint_checking","input":{"value":6,"min":4,"max":7},"expected":true,"actual":true,"ms":0.0025000000000048317}
+{"skill":"arithmetic","input":"(-68 + 10) * 2","expected":-116,"actual":-116,"ms":0.02669999999999817}
+{"skill":"unit_conversion","input":{"value":-68,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-904,"actual":-904,"ms":0.0022999999999981924}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":37},{"id":2,"score":57}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0033999999999991815}
+{"skill":"graph_traversal","input":{"start":211,"target":223,"edges":[[211,212],[212,213],[213,214],[214,215],[215,216],[216,217],[217,218],[219,220],[220,221],[221,222],[222,223]]},"expected":false,"actual":false,"ms":0.026099999999999568}
+{"skill":"constraint_checking","input":{"value":7,"min":4,"max":7},"expected":true,"actual":true,"ms":0.0015000000000000568}
+{"skill":"arithmetic","input":"(-67 + 11) * 3","expected":-168,"actual":-168,"ms":0.02370000000000516}
+{"skill":"unit_conversion","input":{"value":-67,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-886,"actual":-886,"ms":0.002400000000001512}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":38},{"id":2,"score":58}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002899999999996794}
+{"skill":"graph_traversal","input":{"start":241,"target":254,"edges":[[241,242],[242,243],[243,244],[244,245],[245,246],[246,247],[247,248],[248,249],[249,250],[250,251],[251,252],[252,253],[253,254]]},"expected":true,"actual":true,"ms":0.040500000000001535}
+{"skill":"constraint_checking","input":{"value":8,"min":8,"max":7},"expected":false,"actual":false,"ms":0.0024999999999977263}
+{"skill":"arithmetic","input":"(-66 + 12) * 4","expected":-216,"actual":-216,"ms":0.02109999999999701}
+{"skill":"unit_conversion","input":{"value":-66,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-868,"actual":-868,"ms":0.0023999999999944066}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":39},{"id":2,"score":59}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0075999999999964984}
+{"skill":"graph_traversal","input":{"start":271,"target":285,"edges":[[271,272],[272,273],[273,274],[274,275],[275,276],[276,277],[277,278],[278,279],[279,280],[281,282],[282,283],[283,284],[284,285]]},"expected":false,"actual":false,"ms":0.04169999999999874}
+{"skill":"constraint_checking","input":{"value":9,"min":8,"max":10},"expected":true,"actual":true,"ms":0.0012000000000043087}
+{"skill":"arithmetic","input":"(-65 + 13) * 5","expected":-260,"actual":-260,"ms":0.01640000000000441}
+{"skill":"unit_conversion","input":{"value":-65,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-850,"actual":-850,"ms":0.0020999999999986585}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":40},{"id":2,"score":60}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0038000000000053547}
+{"skill":"graph_traversal","input":{"start":301,"target":316,"edges":[[301,302],[302,303],[303,304],[304,305],[305,306],[306,307],[307,308],[308,309],[309,310],[310,311],[311,312],[312,313],[313,314],[314,315],[315,316]]},"expected":true,"actual":true,"ms":0.044899999999998386}
+{"skill":"constraint_checking","input":{"value":10,"min":8,"max":10},"expected":true,"actual":true,"ms":0.0020999999999986585}
+{"skill":"arithmetic","input":"(-64 + 14) * 6","expected":-300,"actual":-300,"ms":0.018099999999996896}
+{"skill":"unit_conversion","input":{"value":-64,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-832,"actual":-832,"ms":0.003099999999996328}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":41},{"id":2,"score":61}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0018000000000029104}
+{"skill":"graph_traversal","input":{"start":331,"target":347,"edges":[[331,332],[332,333],[333,334],[334,335],[335,336],[336,337],[337,338],[338,339],[339,340],[340,341],[341,342],[343,344],[344,345],[345,346],[346,347]]},"expected":false,"actual":false,"ms":0.06430000000000291}
+{"skill":"constraint_checking","input":{"value":11,"min":8,"max":10},"expected":false,"actual":false,"ms":0.001100000000000989}
+{"skill":"arithmetic","input":"(-63 + 15) * 7","expected":-336,"actual":-336,"ms":0.010500000000000398}
+{"skill":"unit_conversion","input":{"value":-63,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-814,"actual":-814,"ms":0.0017000000000066962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":42},{"id":2,"score":62}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":361,"target":378,"edges":[[361,362],[362,363],[363,364],[364,365],[365,366],[366,367],[367,368],[368,369],[369,370],[370,371],[371,372],[372,373],[373,374],[374,375],[375,376],[376,377],[377,378]]},"expected":true,"actual":true,"ms":0.035000000000003695}
+{"skill":"constraint_checking","input":{"value":12,"min":12,"max":13},"expected":true,"actual":true,"ms":0.002400000000001512}
+{"skill":"arithmetic","input":"(-62 + 16) * 8","expected":-368,"actual":-368,"ms":0.01379999999999626}
+{"skill":"unit_conversion","input":{"value":-62,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-796,"actual":-796,"ms":0.001999999999995339}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":30},{"id":2,"score":63}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":391,"target":409,"edges":[[391,392],[392,393],[393,394],[394,395],[395,396],[396,397],[397,398],[398,399],[399,400],[400,401],[401,402],[402,403],[403,404],[405,406],[406,407],[407,408],[408,409]]},"expected":false,"actual":false,"ms":0.05019999999999669}
+{"skill":"constraint_checking","input":{"value":13,"min":12,"max":13},"expected":true,"actual":true,"ms":0.004699999999999704}
+{"skill":"arithmetic","input":"(-61 + 17) * 2","expected":-88,"actual":-88,"ms":0.030000000000001137}
+{"skill":"unit_conversion","input":{"value":-61,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-778,"actual":-778,"ms":0.004599999999996385}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":31},{"id":2,"score":64}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0022999999999981924}
+{"skill":"graph_traversal","input":{"start":421,"target":426,"edges":[[421,422],[422,423],[423,424],[424,425],[425,426]]},"expected":true,"actual":true,"ms":0.011099999999999}
+{"skill":"constraint_checking","input":{"value":14,"min":12,"max":13},"expected":false,"actual":false,"ms":0.001999999999995339}
+{"skill":"arithmetic","input":"(-60 + 18) * 3","expected":-126,"actual":-126,"ms":0.014299999999998647}
+{"skill":"unit_conversion","input":{"value":-60,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-760,"actual":-760,"ms":0.0020000000000024443}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":32},{"id":2,"score":65}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0015000000000000568}
+{"skill":"graph_traversal","input":{"start":451,"target":457,"edges":[[451,452],[452,453],[453,454],[455,456],[456,457]]},"expected":false,"actual":false,"ms":0.005400000000001626}
+{"skill":"constraint_checking","input":{"value":15,"min":12,"max":16},"expected":true,"actual":true,"ms":0.001100000000000989}
+{"skill":"arithmetic","input":"(-59 + 19) * 4","expected":-160,"actual":-160,"ms":0.011400000000001853}
+{"skill":"unit_conversion","input":{"value":-59,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-742,"actual":-742,"ms":0.0018999999999991246}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":33},{"id":2,"score":66}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001100000000000989}
+{"skill":"graph_traversal","input":{"start":481,"target":488,"edges":[[481,482],[482,483],[483,484],[484,485],[485,486],[486,487],[487,488]]},"expected":true,"actual":true,"ms":0.008600000000001273}
+{"skill":"constraint_checking","input":{"value":16,"min":16,"max":16},"expected":true,"actual":true,"ms":0.0010000000000047748}
+{"skill":"arithmetic","input":"(-58 + 20) * 5","expected":-190,"actual":-190,"ms":0.010400000000004184}
+{"skill":"unit_conversion","input":{"value":-58,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-724,"actual":-724,"ms":0.001300000000000523}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":34},{"id":2,"score":67}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0006000000000057071}
+{"skill":"graph_traversal","input":{"start":511,"target":519,"edges":[[511,512],[513,514],[514,515],[515,516],[516,517],[517,518],[518,519]]},"expected":false,"actual":false,"ms":0.002600000000001046}
+{"skill":"constraint_checking","input":{"value":17,"min":16,"max":16},"expected":false,"actual":false,"ms":0.0009999999999976694}
+{"skill":"arithmetic","input":"(-57 + 21) * 6","expected":-216,"actual":-216,"ms":0.008200000000002206}
+{"skill":"unit_conversion","input":{"value":-57,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-706,"actual":-706,"ms":0.0012000000000043087}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":35},{"id":2,"score":68}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.000499999999995282}
+{"skill":"graph_traversal","input":{"start":541,"target":550,"edges":[[541,542],[542,543],[543,544],[544,545],[545,546],[546,547],[547,548],[548,549],[549,550]]},"expected":true,"actual":true,"ms":0.00560000000000116}
+{"skill":"constraint_checking","input":{"value":18,"min":16,"max":19},"expected":true,"actual":true,"ms":0.0010000000000047748}
+{"skill":"arithmetic","input":"(-56 + 3) * 7","expected":-371,"actual":-371,"ms":0.007600000000003604}
+{"skill":"unit_conversion","input":{"value":-56,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-688,"actual":-688,"ms":0.0012999999999934175}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":36},{"id":2,"score":69}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005999999999986017}
+{"skill":"graph_traversal","input":{"start":571,"target":581,"edges":[[571,572],[572,573],[573,574],[574,575],[575,576],[576,577],[577,578],[578,579],[579,580]]},"expected":false,"actual":false,"ms":0.009000000000000341}
+{"skill":"constraint_checking","input":{"value":19,"min":16,"max":19},"expected":true,"actual":true,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(-55 + 4) * 8","expected":-408,"actual":-408,"ms":0.008699999999997488}
+{"skill":"unit_conversion","input":{"value":-55,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-670,"actual":-670,"ms":0.0015000000000000568}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":37},{"id":2,"score":70}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005999999999986017}
+{"skill":"graph_traversal","input":{"start":601,"target":612,"edges":[[601,602],[602,603],[603,604],[604,605],[605,606],[606,607],[607,608],[608,609],[609,610],[610,611],[611,612]]},"expected":true,"actual":true,"ms":0.006599999999998829}
+{"skill":"constraint_checking","input":{"value":20,"min":20,"max":19},"expected":false,"actual":false,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(-54 + 5) * 2","expected":-98,"actual":-98,"ms":0.00829999999999842}
+{"skill":"unit_conversion","input":{"value":-54,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-652,"actual":-652,"ms":0.0025999999999939405}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":38},{"id":2,"score":71}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0006000000000057071}
+{"skill":"graph_traversal","input":{"start":631,"target":643,"edges":[[631,632],[632,633],[633,634],[634,635],[635,636],[636,637],[637,638],[638,639],[639,640],[641,642],[642,643]]},"expected":false,"actual":false,"ms":0.004899999999999238}
+{"skill":"constraint_checking","input":{"value":21,"min":20,"max":22},"expected":true,"actual":true,"ms":0.0009999999999976694}
+{"skill":"arithmetic","input":"(-53 + 6) * 3","expected":-141,"actual":-141,"ms":0.009000000000000341}
+{"skill":"unit_conversion","input":{"value":-53,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-634,"actual":-634,"ms":0.0049999999999954525}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":39},{"id":2,"score":72}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005999999999986017}
+{"skill":"graph_traversal","input":{"start":661,"target":674,"edges":[[661,662],[662,663],[663,664],[664,665],[665,666],[666,667],[667,668],[668,669],[669,670],[670,671],[671,672],[672,673],[673,674]]},"expected":true,"actual":true,"ms":1.124299999999998}
+{"skill":"constraint_checking","input":{"value":22,"min":20,"max":22},"expected":true,"actual":true,"ms":0.0058000000000006935}
+{"skill":"arithmetic","input":"(-52 + 7) * 4","expected":-180,"actual":-180,"ms":0.07730000000000103}
+{"skill":"unit_conversion","input":{"value":-52,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-616,"actual":-616,"ms":0.011699999999997601}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":40},{"id":2,"score":73}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.005599999999994054}
+{"skill":"graph_traversal","input":{"start":691,"target":705,"edges":[[691,692],[692,693],[693,694],[694,695],[695,696],[696,697],[697,698],[698,699],[699,700],[701,702],[702,703],[703,704],[704,705]]},"expected":false,"actual":false,"ms":0.04229999999999734}
+{"skill":"constraint_checking","input":{"value":23,"min":20,"max":22},"expected":false,"actual":false,"ms":0.0058000000000006935}
+{"skill":"arithmetic","input":"(-51 + 8) * 5","expected":-215,"actual":-215,"ms":0.019700000000000273}
+{"skill":"unit_conversion","input":{"value":-51,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-598,"actual":-598,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":41},{"id":2,"score":74}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0040000000000048885}
+{"skill":"graph_traversal","input":{"start":721,"target":736,"edges":[[721,722],[722,723],[723,724],[724,725],[725,726],[726,727],[727,728],[728,729],[729,730],[730,731],[731,732],[732,733],[733,734],[734,735],[735,736]]},"expected":true,"actual":true,"ms":0.09369999999999834}
+{"skill":"constraint_checking","input":{"value":24,"min":24,"max":25},"expected":true,"actual":true,"ms":0.007200000000004536}
+{"skill":"arithmetic","input":"(-50 + 9) * 6","expected":-246,"actual":-246,"ms":0.054100000000005366}
+{"skill":"unit_conversion","input":{"value":-50,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-580,"actual":-580,"ms":0.005500000000004945}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":42},{"id":2,"score":75}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0031999999999996476}
+{"skill":"graph_traversal","input":{"start":751,"target":767,"edges":[[751,752],[752,753],[753,754],[754,755],[755,756],[756,757],[757,758],[758,759],[759,760],[761,762],[762,763],[763,764],[764,765],[765,766],[766,767]]},"expected":false,"actual":false,"ms":0.051600000000000534}
+{"skill":"constraint_checking","input":{"value":25,"min":24,"max":25},"expected":true,"actual":true,"ms":0.0033999999999991815}
+{"skill":"arithmetic","input":"(-49 + 10) * 7","expected":-273,"actual":-273,"ms":0.03889999999999816}
+{"skill":"unit_conversion","input":{"value":-49,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-562,"actual":-562,"ms":0.001999999999995339}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":25},{"id":1,"score":30},{"id":2,"score":76}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.003900000000001569}
+{"skill":"graph_traversal","input":{"start":781,"target":798,"edges":[[781,782],[782,783],[783,784],[784,785],[785,786],[786,787],[787,788],[788,789],[789,790],[790,791],[791,792],[792,793],[793,794],[794,795],[795,796],[796,797],[797,798]]},"expected":true,"actual":true,"ms":0.058900000000001285}
+{"skill":"constraint_checking","input":{"value":26,"min":24,"max":25},"expected":false,"actual":false,"ms":0.003700000000002035}
+{"skill":"arithmetic","input":"(-48 + 11) * 8","expected":-296,"actual":-296,"ms":0.018699999999995498}
+{"skill":"unit_conversion","input":{"value":-48,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-544,"actual":-544,"ms":0.0005999999999986017}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":7},{"id":1,"score":31},{"id":2,"score":77}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009999999999976694}
+{"skill":"graph_traversal","input":{"start":811,"target":829,"edges":[[811,812],[812,813],[813,814],[814,815],[815,816],[816,817],[817,818],[818,819],[819,820],[821,822],[822,823],[823,824],[824,825],[825,826],[826,827],[827,828],[828,829]]},"expected":false,"actual":false,"ms":0.01729999999999876}
+{"skill":"constraint_checking","input":{"value":27,"min":24,"max":28},"expected":true,"actual":true,"ms":0.001300000000000523}
+{"skill":"arithmetic","input":"(-47 + 12) * 2","expected":-70,"actual":-70,"ms":0.014200000000002433}
+{"skill":"unit_conversion","input":{"value":-47,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-526,"actual":-526,"ms":0.0006999999999948159}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":18},{"id":1,"score":32},{"id":2,"score":78}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":841,"target":846,"edges":[[841,842],[842,843],[843,844],[844,845],[845,846]]},"expected":true,"actual":true,"ms":0.007600000000003604}
+{"skill":"constraint_checking","input":{"value":28,"min":28,"max":28},"expected":true,"actual":true,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(-46 + 13) * 3","expected":-99,"actual":-99,"ms":0.00999999999999801}
+{"skill":"unit_conversion","input":{"value":-46,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-508,"actual":-508,"ms":0.0007000000000019213}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":33},{"id":2,"score":79}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":871,"target":877,"edges":[[871,872],[872,873],[873,874],[874,875],[875,876]]},"expected":false,"actual":false,"ms":0.009000000000000341}
+{"skill":"constraint_checking","input":{"value":29,"min":28,"max":28},"expected":false,"actual":false,"ms":0.0020999999999986585}
+{"skill":"arithmetic","input":"(-45 + 14) * 4","expected":-124,"actual":-124,"ms":0.010400000000004184}
+{"skill":"unit_conversion","input":{"value":-45,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-490,"actual":-490,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":34},{"id":2,"score":80}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001999999999995339}
+{"skill":"graph_traversal","input":{"start":901,"target":908,"edges":[[901,902],[902,903],[903,904],[904,905],[905,906],[906,907],[907,908]]},"expected":true,"actual":true,"ms":0.012399999999999523}
+{"skill":"constraint_checking","input":{"value":30,"min":28,"max":31},"expected":true,"actual":true,"ms":0.0010999999999938836}
+{"skill":"arithmetic","input":"(-44 + 15) * 5","expected":-145,"actual":-145,"ms":0.011899999999997135}
+{"skill":"unit_conversion","input":{"value":-44,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-472,"actual":-472,"ms":0.0004999999999881766}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":35},{"id":2,"score":81}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":931,"target":939,"edges":[[931,932],[932,933],[933,934],[934,935],[935,936],[936,937],[937,938]]},"expected":false,"actual":false,"ms":0.005899999999996908}
+{"skill":"constraint_checking","input":{"value":31,"min":28,"max":31},"expected":true,"actual":true,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(-43 + 16) * 6","expected":-162,"actual":-162,"ms":0.00909999999998945}
+{"skill":"unit_conversion","input":{"value":-43,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-454,"actual":-454,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":36},{"id":2,"score":82}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005000000000023874}
+{"skill":"graph_traversal","input":{"start":961,"target":970,"edges":[[961,962],[962,963],[963,964],[964,965],[965,966],[966,967],[967,968],[968,969],[969,970]]},"expected":true,"actual":true,"ms":0.007399999999989859}
+{"skill":"constraint_checking","input":{"value":32,"min":32,"max":31},"expected":false,"actual":false,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(-42 + 17) * 7","expected":-175,"actual":-175,"ms":0.0075999999999964984}
+{"skill":"unit_conversion","input":{"value":-42,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-436,"actual":-436,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":37},{"id":2,"score":83}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":991,"target":1001,"edges":[[991,992],[992,993],[993,994],[995,996],[996,997],[997,998],[998,999],[999,1000],[1000,1001]]},"expected":false,"actual":false,"ms":0.006200000000006867}
+{"skill":"constraint_checking","input":{"value":33,"min":32,"max":34},"expected":true,"actual":true,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(-41 + 18) * 8","expected":-184,"actual":-184,"ms":0.007900000000006457}
+{"skill":"unit_conversion","input":{"value":-41,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-418,"actual":-418,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":38},{"id":2,"score":84}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005000000000023874}
+{"skill":"graph_traversal","input":{"start":1021,"target":1032,"edges":[[1021,1022],[1022,1023],[1023,1024],[1024,1025],[1025,1026],[1026,1027],[1027,1028],[1028,1029],[1029,1030],[1030,1031],[1031,1032]]},"expected":true,"actual":true,"ms":0.005899999999996908}
+{"skill":"constraint_checking","input":{"value":34,"min":32,"max":34},"expected":true,"actual":true,"ms":0.0010000000000047748}
+{"skill":"arithmetic","input":"(-40 + 19) * 2","expected":-42,"actual":-42,"ms":0.00740000000000407}
+{"skill":"unit_conversion","input":{"value":-40,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-400,"actual":-400,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":39},{"id":2,"score":85}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005000000000023874}
+{"skill":"graph_traversal","input":{"start":1051,"target":1063,"edges":[[1051,1052],[1052,1053],[1053,1054],[1054,1055],[1055,1056],[1056,1057],[1057,1058],[1058,1059],[1059,1060],[1060,1061],[1061,1062]]},"expected":false,"actual":false,"ms":0.00560000000000116}
+{"skill":"constraint_checking","input":{"value":35,"min":32,"max":34},"expected":false,"actual":false,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(-39 + 20) * 3","expected":-57,"actual":-57,"ms":0.006899999999987472}
+{"skill":"unit_conversion","input":{"value":-39,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-382,"actual":-382,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":40},{"id":2,"score":86}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":1081,"target":1094,"edges":[[1081,1082],[1082,1083],[1083,1084],[1084,1085],[1085,1086],[1086,1087],[1087,1088],[1088,1089],[1089,1090],[1090,1091],[1091,1092],[1092,1093],[1093,1094]]},"expected":true,"actual":true,"ms":0.009500000000002728}
+{"skill":"constraint_checking","input":{"value":36,"min":36,"max":37},"expected":true,"actual":true,"ms":0.0010999999999938836}
+{"skill":"arithmetic","input":"(-38 + 21) * 4","expected":-68,"actual":-68,"ms":0.007399999999989859}
+{"skill":"unit_conversion","input":{"value":-38,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-364,"actual":-364,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":41},{"id":2,"score":87}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005999999999914962}
+{"skill":"graph_traversal","input":{"start":1111,"target":1125,"edges":[[1111,1112],[1112,1113],[1113,1114],[1114,1115],[1115,1116],[1116,1117],[1117,1118],[1118,1119],[1119,1120],[1121,1122],[1122,1123],[1123,1124],[1124,1125]]},"expected":false,"actual":false,"ms":0.005700000000004479}
+{"skill":"constraint_checking","input":{"value":37,"min":36,"max":37},"expected":true,"actual":true,"ms":0.0015000000000071623}
+{"skill":"arithmetic","input":"(-37 + 3) * 5","expected":-170,"actual":-170,"ms":0.015599999999992065}
+{"skill":"unit_conversion","input":{"value":-37,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-346,"actual":-346,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":42},{"id":2,"score":88}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":1141,"target":1156,"edges":[[1141,1142],[1142,1143],[1143,1144],[1144,1145],[1145,1146],[1146,1147],[1147,1148],[1148,1149],[1149,1150],[1150,1151],[1151,1152],[1152,1153],[1153,1154],[1154,1155],[1155,1156]]},"expected":true,"actual":true,"ms":0.008599999999987062}
+{"skill":"constraint_checking","input":{"value":38,"min":36,"max":37},"expected":false,"actual":false,"ms":0.0010000000000047748}
+{"skill":"arithmetic","input":"(-36 + 4) * 6","expected":-192,"actual":-192,"ms":0.008899999999997021}
+{"skill":"unit_conversion","input":{"value":-36,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-328,"actual":-328,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":30},{"id":2,"score":89}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005000000000023874}
+{"skill":"graph_traversal","input":{"start":1171,"target":1187,"edges":[[1171,1172],[1172,1173],[1173,1174],[1174,1175],[1175,1176],[1176,1177],[1177,1178],[1179,1180],[1180,1181],[1181,1182],[1182,1183],[1183,1184],[1184,1185],[1185,1186],[1186,1187]]},"expected":false,"actual":false,"ms":0.012300000000010414}
+{"skill":"constraint_checking","input":{"value":39,"min":36,"max":40},"expected":true,"actual":true,"ms":0.012099999999989564}
+{"skill":"arithmetic","input":"(-35 + 5) * 7","expected":-210,"actual":-210,"ms":0.02020000000000266}
+{"skill":"unit_conversion","input":{"value":-35,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-310,"actual":-310,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":31},{"id":2,"score":90}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001599999999996271}
+{"skill":"graph_traversal","input":{"start":1201,"target":1218,"edges":[[1201,1202],[1202,1203],[1203,1204],[1204,1205],[1205,1206],[1206,1207],[1207,1208],[1208,1209],[1209,1210],[1210,1211],[1211,1212],[1212,1213],[1213,1214],[1214,1215],[1215,1216],[1216,1217],[1217,1218]]},"expected":true,"actual":true,"ms":0.015200000000007208}
+{"skill":"constraint_checking","input":{"value":40,"min":40,"max":40},"expected":true,"actual":true,"ms":0.007000000000005002}
+{"skill":"arithmetic","input":"(-34 + 6) * 8","expected":-224,"actual":-224,"ms":0.12449999999999761}
+{"skill":"unit_conversion","input":{"value":-34,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-292,"actual":-292,"ms":0.0024999999999977263}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":32},{"id":2,"score":91}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.005699999999990268}
+{"skill":"graph_traversal","input":{"start":1231,"target":1249,"edges":[[1231,1232],[1232,1233],[1233,1234],[1234,1235],[1235,1236],[1237,1238],[1238,1239],[1239,1240],[1240,1241],[1241,1242],[1242,1243],[1243,1244],[1244,1245],[1245,1246],[1246,1247],[1247,1248],[1248,1249]]},"expected":false,"actual":false,"ms":0.038000000000010914}
+{"skill":"constraint_checking","input":{"value":41,"min":40,"max":40},"expected":false,"actual":false,"ms":0.06819999999999027}
+{"skill":"arithmetic","input":"(-33 + 7) * 2","expected":-52,"actual":-52,"ms":0.03810000000000002}
+{"skill":"unit_conversion","input":{"value":-33,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-274,"actual":-274,"ms":0.001999999999995339}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":33},{"id":2,"score":92}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.012000000000000455}
+{"skill":"graph_traversal","input":{"start":1261,"target":1266,"edges":[[1261,1262],[1262,1263],[1263,1264],[1264,1265],[1265,1266]]},"expected":true,"actual":true,"ms":0.031999999999996476}
+{"skill":"constraint_checking","input":{"value":42,"min":40,"max":43},"expected":true,"actual":true,"ms":0.0016999999999995907}
+{"skill":"arithmetic","input":"(-32 + 8) * 3","expected":-72,"actual":-72,"ms":0.024799999999999045}
+{"skill":"unit_conversion","input":{"value":-32,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-256,"actual":-256,"ms":0.0018000000000029104}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":34},{"id":2,"score":93}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":1291,"target":1297,"edges":[[1291,1292],[1293,1294],[1294,1295],[1295,1296],[1296,1297]]},"expected":false,"actual":false,"ms":0.006200000000006867}
+{"skill":"constraint_checking","input":{"value":43,"min":40,"max":43},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(-31 + 9) * 4","expected":-88,"actual":-88,"ms":0.012399999999999523}
+{"skill":"unit_conversion","input":{"value":-31,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-238,"actual":-238,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":35},{"id":2,"score":94}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.004199999999997317}
+{"skill":"graph_traversal","input":{"start":1321,"target":1328,"edges":[[1321,1322],[1322,1323],[1323,1324],[1324,1325],[1325,1326],[1326,1327],[1327,1328]]},"expected":true,"actual":true,"ms":0.011800000000008026}
+{"skill":"constraint_checking","input":{"value":44,"min":44,"max":43},"expected":false,"actual":false,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(-30 + 10) * 5","expected":-100,"actual":-100,"ms":0.014000000000010004}
+{"skill":"unit_conversion","input":{"value":-30,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-220,"actual":-220,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":36},{"id":2,"score":95}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005999999999914962}
+{"skill":"graph_traversal","input":{"start":1351,"target":1359,"edges":[[1351,1352],[1352,1353],[1353,1354],[1354,1355],[1355,1356],[1357,1358],[1358,1359]]},"expected":false,"actual":false,"ms":0.007900000000006457}
+{"skill":"constraint_checking","input":{"value":45,"min":44,"max":46},"expected":true,"actual":true,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(-29 + 11) * 6","expected":-108,"actual":-108,"ms":0.01300000000000523}
+{"skill":"unit_conversion","input":{"value":-29,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-202,"actual":-202,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":37},{"id":2,"score":96}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002600000000001046}
+{"skill":"graph_traversal","input":{"start":1381,"target":1390,"edges":[[1381,1382],[1382,1383],[1383,1384],[1384,1385],[1385,1386],[1386,1387],[1387,1388],[1388,1389],[1389,1390]]},"expected":true,"actual":true,"ms":0.03370000000001028}
+{"skill":"constraint_checking","input":{"value":46,"min":44,"max":46},"expected":true,"actual":true,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(-28 + 12) * 7","expected":-112,"actual":-112,"ms":0.04569999999999652}
+{"skill":"unit_conversion","input":{"value":-28,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-184,"actual":-184,"ms":0.003900000000001569}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":38},{"id":2,"score":97}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0049999999999954525}
+{"skill":"graph_traversal","input":{"start":1411,"target":1421,"edges":[[1411,1412],[1412,1413],[1413,1414],[1414,1415],[1415,1416],[1416,1417],[1417,1418],[1419,1420],[1420,1421]]},"expected":false,"actual":false,"ms":0.11549999999999727}
+{"skill":"constraint_checking","input":{"value":47,"min":44,"max":46},"expected":false,"actual":false,"ms":0.0013999999999896318}
+{"skill":"arithmetic","input":"(-27 + 13) * 8","expected":-112,"actual":-112,"ms":0.04899999999999238}
+{"skill":"unit_conversion","input":{"value":-27,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-166,"actual":-166,"ms":0.004500000000007276}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":39},{"id":2,"score":98}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.004400000000003956}
+{"skill":"graph_traversal","input":{"start":1441,"target":1452,"edges":[[1441,1442],[1442,1443],[1443,1444],[1444,1445],[1445,1446],[1446,1447],[1447,1448],[1448,1449],[1449,1450],[1450,1451],[1451,1452]]},"expected":true,"actual":true,"ms":0.10119999999999152}
+{"skill":"constraint_checking","input":{"value":48,"min":48,"max":49},"expected":true,"actual":true,"ms":0.0011000000000080945}
+{"skill":"arithmetic","input":"(-26 + 14) * 2","expected":-24,"actual":-24,"ms":0.03439999999999088}
+{"skill":"unit_conversion","input":{"value":-26,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-148,"actual":-148,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":40},{"id":2,"score":99}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0023999999999944066}
+{"skill":"graph_traversal","input":{"start":1471,"target":1483,"edges":[[1471,1472],[1473,1474],[1474,1475],[1475,1476],[1476,1477],[1477,1478],[1478,1479],[1479,1480],[1480,1481],[1481,1482],[1482,1483]]},"expected":false,"actual":false,"ms":0.026099999999999568}
+{"skill":"constraint_checking","input":{"value":49,"min":48,"max":49},"expected":true,"actual":true,"ms":0.0010999999999938836}
+{"skill":"arithmetic","input":"(-25 + 15) * 3","expected":-30,"actual":-30,"ms":0.017399999999994975}
+{"skill":"unit_conversion","input":{"value":-25,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-130,"actual":-130,"ms":0.0016999999999995907}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":41},{"id":2,"score":100}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0030000000000001137}
+{"skill":"graph_traversal","input":{"start":1501,"target":1514,"edges":[[1501,1502],[1502,1503],[1503,1504],[1504,1505],[1505,1506],[1506,1507],[1507,1508],[1508,1509],[1509,1510],[1510,1511],[1511,1512],[1512,1513],[1513,1514]]},"expected":true,"actual":true,"ms":0.05079999999999529}
+{"skill":"constraint_checking","input":{"value":50,"min":48,"max":49},"expected":false,"actual":false,"ms":0.00039999999999906777}
+{"skill":"arithmetic","input":"(-24 + 16) * 4","expected":-32,"actual":-32,"ms":0.023000000000010346}
+{"skill":"unit_conversion","input":{"value":-24,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-112,"actual":-112,"ms":0.0006999999999948159}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":42},{"id":2,"score":101}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0026999999999901547}
+{"skill":"graph_traversal","input":{"start":1531,"target":1545,"edges":[[1531,1532],[1532,1533],[1533,1534],[1534,1535],[1535,1536],[1536,1537],[1537,1538],[1538,1539],[1539,1540],[1541,1542],[1542,1543],[1543,1544],[1544,1545]]},"expected":false,"actual":false,"ms":0.03300000000000125}
+{"skill":"constraint_checking","input":{"value":51,"min":48,"max":52},"expected":true,"actual":true,"ms":0.000999999999990564}
+{"skill":"arithmetic","input":"(-23 + 17) * 5","expected":-30,"actual":-30,"ms":0.013700000000000045}
+{"skill":"unit_conversion","input":{"value":-23,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-94,"actual":-94,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":30},{"id":2,"score":102}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":1561,"target":1576,"edges":[[1561,1562],[1562,1563],[1563,1564],[1564,1565],[1565,1566],[1566,1567],[1567,1568],[1568,1569],[1569,1570],[1570,1571],[1571,1572],[1572,1573],[1573,1574],[1574,1575],[1575,1576]]},"expected":true,"actual":true,"ms":0.041299999999992565}
+{"skill":"constraint_checking","input":{"value":52,"min":52,"max":52},"expected":true,"actual":true,"ms":0.00039999999999906777}
+{"skill":"arithmetic","input":"(-22 + 18) * 6","expected":-24,"actual":-24,"ms":0.01269999999999527}
+{"skill":"unit_conversion","input":{"value":-22,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-76,"actual":-76,"ms":0.0007000000000090267}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":31},{"id":2,"score":103}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.001599999999996271}
+{"skill":"graph_traversal","input":{"start":1591,"target":1607,"edges":[[1591,1592],[1592,1593],[1593,1594],[1594,1595],[1595,1596],[1597,1598],[1598,1599],[1599,1600],[1600,1601],[1601,1602],[1602,1603],[1603,1604],[1604,1605],[1605,1606],[1606,1607]]},"expected":false,"actual":false,"ms":0.0257000000000005}
+{"skill":"constraint_checking","input":{"value":53,"min":52,"max":52},"expected":false,"actual":false,"ms":0.0018000000000029104}
+{"skill":"arithmetic","input":"(-21 + 19) * 7","expected":-14,"actual":-14,"ms":0.013099999999994338}
+{"skill":"unit_conversion","input":{"value":-21,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-58,"actual":-58,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":32},{"id":2,"score":104}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0014999999999929514}
+{"skill":"graph_traversal","input":{"start":1621,"target":1638,"edges":[[1621,1622],[1622,1623],[1623,1624],[1624,1625],[1625,1626],[1626,1627],[1627,1628],[1628,1629],[1629,1630],[1630,1631],[1631,1632],[1632,1633],[1633,1634],[1634,1635],[1635,1636],[1636,1637],[1637,1638]]},"expected":true,"actual":true,"ms":0.04980000000000473}
+{"skill":"constraint_checking","input":{"value":54,"min":52,"max":55},"expected":true,"actual":true,"ms":0.00039999999999906777}
+{"skill":"arithmetic","input":"(-20 + 20) * 8","expected":0,"actual":0,"ms":0.013599999999996726}
+{"skill":"unit_conversion","input":{"value":-20,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-40,"actual":-40,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":25},{"id":1,"score":33},{"id":2,"score":105}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":1651,"target":1669,"edges":[[1651,1652],[1653,1654],[1654,1655],[1655,1656],[1656,1657],[1657,1658],[1658,1659],[1659,1660],[1660,1661],[1661,1662],[1662,1663],[1663,1664],[1664,1665],[1665,1666],[1666,1667],[1667,1668],[1668,1669]]},"expected":false,"actual":false,"ms":0.03359999999999275}
+{"skill":"constraint_checking","input":{"value":55,"min":52,"max":55},"expected":true,"actual":true,"ms":0.0007000000000090267}
+{"skill":"arithmetic","input":"(-19 + 21) * 2","expected":4,"actual":4,"ms":0.975200000000001}
+{"skill":"unit_conversion","input":{"value":-19,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-22,"actual":-22,"ms":0.0014000000000038426}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":7},{"id":1,"score":34},{"id":2,"score":106}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.003900000000001569}
+{"skill":"graph_traversal","input":{"start":1681,"target":1686,"edges":[[1681,1682],[1682,1683],[1683,1684],[1684,1685],[1685,1686]]},"expected":true,"actual":true,"ms":0.03249999999999886}
+{"skill":"constraint_checking","input":{"value":56,"min":56,"max":55},"expected":false,"actual":false,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(-18 + 3) * 3","expected":-45,"actual":-45,"ms":0.017600000000001614}
+{"skill":"unit_conversion","input":{"value":-18,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":-4,"actual":-4,"ms":0.0006000000000057071}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":18},{"id":1,"score":35},{"id":2,"score":107}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0016999999999995907}
+{"skill":"graph_traversal","input":{"start":1711,"target":1717,"edges":[[1711,1712],[1712,1713],[1713,1714],[1715,1716],[1716,1717]]},"expected":false,"actual":false,"ms":0.01099999999999568}
+{"skill":"constraint_checking","input":{"value":57,"min":56,"max":58},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(-17 + 4) * 4","expected":-52,"actual":-52,"ms":0.013400000000004297}
+{"skill":"unit_conversion","input":{"value":-17,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":14,"actual":14,"ms":0.0011000000000080945}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":36},{"id":2,"score":108}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0016999999999995907}
+{"skill":"graph_traversal","input":{"start":1741,"target":1748,"edges":[[1741,1742],[1742,1743],[1743,1744],[1744,1745],[1745,1746],[1746,1747],[1747,1748]]},"expected":true,"actual":true,"ms":0.018000000000000682}
+{"skill":"constraint_checking","input":{"value":58,"min":56,"max":58},"expected":true,"actual":true,"ms":0.0007000000000090267}
+{"skill":"arithmetic","input":"(-16 + 5) * 5","expected":-55,"actual":-55,"ms":0.020899999999997476}
+{"skill":"unit_conversion","input":{"value":-16,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":32,"actual":32,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":37},{"id":2,"score":109}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.001999999999995339}
+{"skill":"graph_traversal","input":{"start":1771,"target":1779,"edges":[[1771,1772],[1772,1773],[1773,1774],[1775,1776],[1776,1777],[1777,1778],[1778,1779]]},"expected":false,"actual":false,"ms":0.010100000000008436}
+{"skill":"constraint_checking","input":{"value":59,"min":56,"max":58},"expected":false,"actual":false,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(-15 + 6) * 6","expected":-54,"actual":-54,"ms":0.016099999999994452}
+{"skill":"unit_conversion","input":{"value":-15,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":50,"actual":50,"ms":0.0012000000000114142}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":38},{"id":2,"score":110}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001300000000000523}
+{"skill":"graph_traversal","input":{"start":1801,"target":1810,"edges":[[1801,1802],[1802,1803],[1803,1804],[1804,1805],[1805,1806],[1806,1807],[1807,1808],[1808,1809],[1809,1810]]},"expected":true,"actual":true,"ms":0.017299999999991655}
+{"skill":"constraint_checking","input":{"value":60,"min":60,"max":61},"expected":true,"actual":true,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(-14 + 7) * 7","expected":-49,"actual":-49,"ms":0.015799999999998704}
+{"skill":"unit_conversion","input":{"value":-14,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":68,"actual":68,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":39},{"id":2,"score":111}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0007000000000090267}
+{"skill":"graph_traversal","input":{"start":1831,"target":1841,"edges":[[1831,1832],[1833,1834],[1834,1835],[1835,1836],[1836,1837],[1837,1838],[1838,1839],[1839,1840],[1840,1841]]},"expected":false,"actual":false,"ms":0.01269999999999527}
+{"skill":"constraint_checking","input":{"value":61,"min":60,"max":61},"expected":true,"actual":true,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(-13 + 8) * 8","expected":-40,"actual":-40,"ms":0.015100000000003888}
+{"skill":"unit_conversion","input":{"value":-13,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":86,"actual":86,"ms":0.001300000000000523}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":40},{"id":2,"score":112}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002300000000005298}
+{"skill":"graph_traversal","input":{"start":1861,"target":1872,"edges":[[1861,1862],[1862,1863],[1863,1864],[1864,1865],[1865,1866],[1866,1867],[1867,1868],[1868,1869],[1869,1870],[1870,1871],[1871,1872]]},"expected":true,"actual":true,"ms":0.035700000000005616}
+{"skill":"constraint_checking","input":{"value":62,"min":60,"max":61},"expected":false,"actual":false,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(-12 + 9) * 2","expected":-6,"actual":-6,"ms":0.021000000000000796}
+{"skill":"unit_conversion","input":{"value":-12,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":104,"actual":104,"ms":0.0016999999999995907}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":41},{"id":2,"score":113}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":1891,"target":1903,"edges":[[1891,1892],[1892,1893],[1893,1894],[1895,1896],[1896,1897],[1897,1898],[1898,1899],[1899,1900],[1900,1901],[1901,1902],[1902,1903]]},"expected":false,"actual":false,"ms":0.02360000000000184}
+{"skill":"constraint_checking","input":{"value":63,"min":60,"max":64},"expected":true,"actual":true,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(-11 + 10) * 3","expected":-3,"actual":-3,"ms":0.030799999999999272}
+{"skill":"unit_conversion","input":{"value":-11,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":122,"actual":122,"ms":0.001599999999996271}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":42},{"id":2,"score":114}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002500000000011937}
+{"skill":"graph_traversal","input":{"start":1921,"target":1934,"edges":[[1921,1922],[1922,1923],[1923,1924],[1924,1925],[1925,1926],[1926,1927],[1927,1928],[1928,1929],[1929,1930],[1930,1931],[1931,1932],[1932,1933],[1933,1934]]},"expected":true,"actual":true,"ms":0.04169999999999163}
+{"skill":"constraint_checking","input":{"value":64,"min":64,"max":64},"expected":true,"actual":true,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(-10 + 11) * 4","expected":4,"actual":4,"ms":0.015200000000007208}
+{"skill":"unit_conversion","input":{"value":-10,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":140,"actual":140,"ms":0.0010999999999938836}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":30},{"id":2,"score":115}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00190000000000623}
+{"skill":"graph_traversal","input":{"start":1951,"target":1965,"edges":[[1951,1952],[1952,1953],[1953,1954],[1954,1955],[1955,1956],[1956,1957],[1957,1958],[1958,1959],[1959,1960],[1961,1962],[1962,1963],[1963,1964],[1964,1965]]},"expected":false,"actual":false,"ms":0.034300000000001774}
+{"skill":"constraint_checking","input":{"value":65,"min":64,"max":64},"expected":false,"actual":false,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(-9 + 12) * 5","expected":15,"actual":15,"ms":0.01279999999999859}
+{"skill":"unit_conversion","input":{"value":-9,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":158,"actual":158,"ms":0.0010000000000047748}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":31},{"id":2,"score":116}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":1981,"target":1996,"edges":[[1981,1982],[1982,1983],[1983,1984],[1984,1985],[1985,1986],[1986,1987],[1987,1988],[1988,1989],[1989,1990],[1990,1991],[1991,1992],[1992,1993],[1993,1994],[1994,1995],[1995,1996]]},"expected":true,"actual":true,"ms":0.04049999999999443}
+{"skill":"constraint_checking","input":{"value":66,"min":64,"max":67},"expected":true,"actual":true,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(-8 + 13) * 6","expected":30,"actual":30,"ms":0.012299999999996203}
+{"skill":"unit_conversion","input":{"value":-8,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":176,"actual":176,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":32},{"id":2,"score":117}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0010000000000047748}
+{"skill":"graph_traversal","input":{"start":2011,"target":2027,"edges":[[2011,2012],[2012,2013],[2013,2014],[2015,2016],[2016,2017],[2017,2018],[2018,2019],[2019,2020],[2020,2021],[2021,2022],[2022,2023],[2023,2024],[2024,2025],[2025,2026],[2026,2027]]},"expected":false,"actual":false,"ms":0.015399999999999636}
+{"skill":"constraint_checking","input":{"value":67,"min":64,"max":67},"expected":true,"actual":true,"ms":0.0008000000000123464}
+{"skill":"arithmetic","input":"(-7 + 14) * 7","expected":49,"actual":49,"ms":0.013899999999992474}
+{"skill":"unit_conversion","input":{"value":-7,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":194,"actual":194,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":33},{"id":2,"score":118}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001300000000000523}
+{"skill":"graph_traversal","input":{"start":2041,"target":2058,"edges":[[2041,2042],[2042,2043],[2043,2044],[2044,2045],[2045,2046],[2046,2047],[2047,2048],[2048,2049],[2049,2050],[2050,2051],[2051,2052],[2052,2053],[2053,2054],[2054,2055],[2055,2056],[2056,2057],[2057,2058]]},"expected":true,"actual":true,"ms":0.035700000000005616}
+{"skill":"constraint_checking","input":{"value":68,"min":68,"max":67},"expected":false,"actual":false,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(-6 + 15) * 8","expected":72,"actual":72,"ms":0.014099999999999113}
+{"skill":"unit_conversion","input":{"value":-6,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":212,"actual":212,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":34},{"id":2,"score":119}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0007000000000090267}
+{"skill":"graph_traversal","input":{"start":2071,"target":2089,"edges":[[2071,2072],[2072,2073],[2073,2074],[2074,2075],[2075,2076],[2076,2077],[2077,2078],[2078,2079],[2079,2080],[2080,2081],[2081,2082],[2082,2083],[2083,2084],[2084,2085],[2085,2086],[2087,2088],[2088,2089]]},"expected":false,"actual":false,"ms":0.03830000000000666}
+{"skill":"constraint_checking","input":{"value":69,"min":68,"max":70},"expected":true,"actual":true,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(-5 + 16) * 2","expected":22,"actual":22,"ms":0.028899999999993042}
+{"skill":"unit_conversion","input":{"value":-5,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":230,"actual":230,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":35},{"id":2,"score":120}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0016999999999995907}
+{"skill":"graph_traversal","input":{"start":2101,"target":2106,"edges":[[2101,2102],[2102,2103],[2103,2104],[2104,2105],[2105,2106]]},"expected":true,"actual":true,"ms":0.010199999999997544}
+{"skill":"constraint_checking","input":{"value":70,"min":68,"max":70},"expected":true,"actual":true,"ms":0.0007000000000090267}
+{"skill":"arithmetic","input":"(-4 + 17) * 3","expected":39,"actual":39,"ms":0.017099999999999227}
+{"skill":"unit_conversion","input":{"value":-4,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":248,"actual":248,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":36},{"id":2,"score":121}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.001599999999996271}
+{"skill":"graph_traversal","input":{"start":2131,"target":2137,"edges":[[2131,2132],[2132,2133],[2133,2134],[2134,2135],[2135,2136]]},"expected":false,"actual":false,"ms":0.009799999999998477}
+{"skill":"constraint_checking","input":{"value":71,"min":68,"max":70},"expected":false,"actual":false,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(-3 + 18) * 4","expected":60,"actual":60,"ms":0.014200000000002433}
+{"skill":"unit_conversion","input":{"value":-3,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":266,"actual":266,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":37},{"id":2,"score":122}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":2161,"target":2168,"edges":[[2161,2162],[2162,2163],[2163,2164],[2164,2165],[2165,2166],[2166,2167],[2167,2168]]},"expected":true,"actual":true,"ms":0.00539999999999452}
+{"skill":"constraint_checking","input":{"value":72,"min":72,"max":73},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(-2 + 19) * 5","expected":85,"actual":85,"ms":0.012299999999996203}
+{"skill":"unit_conversion","input":{"value":-2,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":284,"actual":284,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":38},{"id":2,"score":123}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0011000000000080945}
+{"skill":"graph_traversal","input":{"start":2191,"target":2199,"edges":[[2191,2192],[2193,2194],[2194,2195],[2195,2196],[2196,2197],[2197,2198],[2198,2199]]},"expected":false,"actual":false,"ms":0.0030000000000001137}
+{"skill":"constraint_checking","input":{"value":73,"min":72,"max":73},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(-1 + 20) * 6","expected":114,"actual":114,"ms":0.010000000000005116}
+{"skill":"unit_conversion","input":{"value":-1,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":302,"actual":302,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":39},{"id":2,"score":124}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":2221,"target":2230,"edges":[[2221,2222],[2222,2223],[2223,2224],[2224,2225],[2225,2226],[2226,2227],[2227,2228],[2228,2229],[2229,2230]]},"expected":true,"actual":true,"ms":0.006999999999990791}
+{"skill":"constraint_checking","input":{"value":74,"min":72,"max":73},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(0 + 21) * 7","expected":147,"actual":147,"ms":0.021299999999996544}
+{"skill":"unit_conversion","input":{"value":0,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":320,"actual":320,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":40},{"id":2,"score":125}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":2251,"target":2261,"edges":[[2251,2252],[2252,2253],[2253,2254],[2254,2255],[2255,2256],[2257,2258],[2258,2259],[2259,2260],[2260,2261]]},"expected":false,"actual":false,"ms":0.0036999999999949296}
+{"skill":"constraint_checking","input":{"value":75,"min":72,"max":76},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(1 + 3) * 8","expected":32,"actual":32,"ms":0.008099999999998886}
+{"skill":"unit_conversion","input":{"value":1,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":338,"actual":338,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":41},{"id":2,"score":126}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2281,"target":2292,"edges":[[2281,2282],[2282,2283],[2283,2284],[2284,2285],[2285,2286],[2286,2287],[2287,2288],[2288,2289],[2289,2290],[2290,2291],[2291,2292]]},"expected":true,"actual":true,"ms":0.0053000000000054115}
+{"skill":"constraint_checking","input":{"value":76,"min":76,"max":76},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(2 + 4) * 2","expected":12,"actual":12,"ms":0.006500000000002615}
+{"skill":"unit_conversion","input":{"value":2,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":356,"actual":356,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":42},{"id":2,"score":127}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005000000000023874}
+{"skill":"graph_traversal","input":{"start":2311,"target":2323,"edges":[[2311,2312],[2312,2313],[2313,2314],[2314,2315],[2315,2316],[2317,2318],[2318,2319],[2319,2320],[2320,2321],[2321,2322],[2322,2323]]},"expected":false,"actual":false,"ms":0.0033999999999991815}
+{"skill":"constraint_checking","input":{"value":77,"min":76,"max":76},"expected":false,"actual":false,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(3 + 5) * 3","expected":24,"actual":24,"ms":0.0069000000000016826}
+{"skill":"unit_conversion","input":{"value":3,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":374,"actual":374,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":30},{"id":2,"score":128}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007000000000090267}
+{"skill":"graph_traversal","input":{"start":2341,"target":2354,"edges":[[2341,2342],[2342,2343],[2343,2344],[2344,2345],[2345,2346],[2346,2347],[2347,2348],[2348,2349],[2349,2350],[2350,2351],[2351,2352],[2352,2353],[2353,2354]]},"expected":true,"actual":true,"ms":0.005200000000002092}
+{"skill":"constraint_checking","input":{"value":78,"min":76,"max":79},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(4 + 6) * 4","expected":40,"actual":40,"ms":0.006500000000002615}
+{"skill":"unit_conversion","input":{"value":4,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":392,"actual":392,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":31},{"id":2,"score":129}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2371,"target":2385,"edges":[[2371,2372],[2372,2373],[2373,2374],[2374,2375],[2375,2376],[2376,2377],[2377,2378],[2378,2379],[2379,2380],[2381,2382],[2382,2383],[2383,2384],[2384,2385]]},"expected":false,"actual":false,"ms":0.004300000000000637}
+{"skill":"constraint_checking","input":{"value":79,"min":76,"max":79},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(5 + 7) * 5","expected":60,"actual":60,"ms":0.011099999999999}
+{"skill":"unit_conversion","input":{"value":5,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":410,"actual":410,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":32},{"id":2,"score":130}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005999999999914962}
+{"skill":"graph_traversal","input":{"start":2401,"target":2416,"edges":[[2401,2402],[2402,2403],[2403,2404],[2404,2405],[2405,2406],[2406,2407],[2407,2408],[2408,2409],[2409,2410],[2410,2411],[2411,2412],[2412,2413],[2413,2414],[2414,2415],[2415,2416]]},"expected":true,"actual":true,"ms":0.00730000000000075}
+{"skill":"constraint_checking","input":{"value":80,"min":80,"max":79},"expected":false,"actual":false,"ms":9.99999999891088e-05}
+{"skill":"arithmetic","input":"(6 + 8) * 6","expected":84,"actual":84,"ms":0.007199999999997431}
+{"skill":"unit_conversion","input":{"value":6,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":428,"actual":428,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":33},{"id":2,"score":131}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2431,"target":2447,"edges":[[2431,2432],[2433,2434],[2434,2435],[2435,2436],[2436,2437],[2437,2438],[2438,2439],[2439,2440],[2440,2441],[2441,2442],[2442,2443],[2443,2444],[2444,2445],[2445,2446],[2446,2447]]},"expected":false,"actual":false,"ms":0.0030000000000001137}
+{"skill":"constraint_checking","input":{"value":81,"min":80,"max":82},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(7 + 9) * 7","expected":112,"actual":112,"ms":0.014899999999997249}
+{"skill":"unit_conversion","input":{"value":7,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":446,"actual":446,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":34},{"id":2,"score":132}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2461,"target":2478,"edges":[[2461,2462],[2462,2463],[2463,2464],[2464,2465],[2465,2466],[2466,2467],[2467,2468],[2468,2469],[2469,2470],[2470,2471],[2471,2472],[2472,2473],[2473,2474],[2474,2475],[2475,2476],[2476,2477],[2477,2478]]},"expected":true,"actual":true,"ms":0.007099999999994111}
+{"skill":"constraint_checking","input":{"value":82,"min":80,"max":82},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(8 + 10) * 8","expected":144,"actual":144,"ms":0.007100000000008322}
+{"skill":"unit_conversion","input":{"value":8,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":464,"actual":464,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":35},{"id":2,"score":133}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2491,"target":2509,"edges":[[2491,2492],[2492,2493],[2493,2494],[2494,2495],[2495,2496],[2496,2497],[2497,2498],[2498,2499],[2499,2500],[2500,2501],[2501,2502],[2503,2504],[2504,2505],[2505,2506],[2506,2507],[2507,2508],[2508,2509]]},"expected":false,"actual":false,"ms":0.005400000000008731}
+{"skill":"constraint_checking","input":{"value":83,"min":80,"max":82},"expected":false,"actual":false,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(9 + 11) * 2","expected":40,"actual":40,"ms":0.0069000000000016826}
+{"skill":"unit_conversion","input":{"value":9,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":482,"actual":482,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":25},{"id":1,"score":36},{"id":2,"score":134}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0004999999999881766}
+{"skill":"graph_traversal","input":{"start":2521,"target":2526,"edges":[[2521,2522],[2522,2523],[2523,2524],[2524,2525],[2525,2526]]},"expected":true,"actual":true,"ms":0.002600000000001046}
+{"skill":"constraint_checking","input":{"value":84,"min":84,"max":85},"expected":true,"actual":true,"ms":9.99999999891088e-05}
+{"skill":"arithmetic","input":"(10 + 12) * 3","expected":66,"actual":66,"ms":0.008399999999994634}
+{"skill":"unit_conversion","input":{"value":10,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":500,"actual":500,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":7},{"id":1,"score":37},{"id":2,"score":135}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2551,"target":2557,"edges":[[2551,2552],[2553,2554],[2554,2555],[2555,2556],[2556,2557]]},"expected":false,"actual":false,"ms":0.0016999999999995907}
+{"skill":"constraint_checking","input":{"value":85,"min":84,"max":85},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(11 + 13) * 4","expected":96,"actual":96,"ms":0.006100000000003547}
+{"skill":"unit_conversion","input":{"value":11,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":518,"actual":518,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":18},{"id":1,"score":38},{"id":2,"score":136}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2581,"target":2588,"edges":[[2581,2582],[2582,2583],[2583,2584],[2584,2585],[2585,2586],[2586,2587],[2587,2588]]},"expected":true,"actual":true,"ms":0.0030000000000001137}
+{"skill":"constraint_checking","input":{"value":86,"min":84,"max":85},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(12 + 14) * 5","expected":130,"actual":130,"ms":0.006100000000003547}
+{"skill":"unit_conversion","input":{"value":12,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":536,"actual":536,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":39},{"id":2,"score":137}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2611,"target":2619,"edges":[[2611,2612],[2612,2613],[2613,2614],[2614,2615],[2615,2616],[2616,2617],[2617,2618]]},"expected":false,"actual":false,"ms":0.003199999999992542}
+{"skill":"constraint_checking","input":{"value":87,"min":84,"max":88},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(13 + 15) * 6","expected":168,"actual":168,"ms":0.0069000000000016826}
+{"skill":"unit_conversion","input":{"value":13,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":554,"actual":554,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":40},{"id":2,"score":138}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00030000000000995897}
+{"skill":"graph_traversal","input":{"start":2641,"target":2650,"edges":[[2641,2642],[2642,2643],[2643,2644],[2644,2645],[2645,2646],[2646,2647],[2647,2648],[2648,2649],[2649,2650]]},"expected":true,"actual":true,"ms":0.0037999999999982492}
+{"skill":"constraint_checking","input":{"value":88,"min":88,"max":88},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(14 + 16) * 7","expected":210,"actual":210,"ms":0.006799999999998363}
+{"skill":"unit_conversion","input":{"value":14,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":572,"actual":572,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":41},{"id":2,"score":139}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0004999999999881766}
+{"skill":"graph_traversal","input":{"start":2671,"target":2681,"edges":[[2671,2672],[2672,2673],[2673,2674],[2674,2675],[2675,2676],[2676,2677],[2677,2678],[2678,2679],[2679,2680]]},"expected":false,"actual":false,"ms":0.003900000000001569}
+{"skill":"constraint_checking","input":{"value":89,"min":88,"max":88},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(15 + 17) * 8","expected":256,"actual":256,"ms":0.006799999999998363}
+{"skill":"unit_conversion","input":{"value":15,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":590,"actual":590,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":42},{"id":2,"score":140}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2701,"target":2712,"edges":[[2701,2702],[2702,2703],[2703,2704],[2704,2705],[2705,2706],[2706,2707],[2707,2708],[2708,2709],[2709,2710],[2710,2711],[2711,2712]]},"expected":true,"actual":true,"ms":0.004499999999993065}
+{"skill":"constraint_checking","input":{"value":90,"min":88,"max":91},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(16 + 18) * 2","expected":68,"actual":68,"ms":0.016899999999992588}
+{"skill":"unit_conversion","input":{"value":16,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":608,"actual":608,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":30},{"id":2,"score":141}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005000000000023874}
+{"skill":"graph_traversal","input":{"start":2731,"target":2743,"edges":[[2731,2732],[2732,2733],[2733,2734],[2734,2735],[2735,2736],[2736,2737],[2737,2738],[2739,2740],[2740,2741],[2741,2742],[2742,2743]]},"expected":false,"actual":false,"ms":0.0036000000000058208}
+{"skill":"constraint_checking","input":{"value":91,"min":88,"max":91},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(17 + 19) * 3","expected":108,"actual":108,"ms":0.006799999999998363}
+{"skill":"unit_conversion","input":{"value":17,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":626,"actual":626,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":31},{"id":2,"score":142}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2761,"target":2774,"edges":[[2761,2762],[2762,2763],[2763,2764],[2764,2765],[2765,2766],[2766,2767],[2767,2768],[2768,2769],[2769,2770],[2770,2771],[2771,2772],[2772,2773],[2773,2774]]},"expected":true,"actual":true,"ms":0.005099999999998772}
+{"skill":"constraint_checking","input":{"value":92,"min":92,"max":91},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(18 + 20) * 4","expected":152,"actual":152,"ms":0.006200000000006867}
+{"skill":"unit_conversion","input":{"value":18,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":644,"actual":644,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":32},{"id":2,"score":143}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":2791,"target":2805,"edges":[[2791,2792],[2792,2793],[2793,2794],[2794,2795],[2795,2796],[2796,2797],[2797,2798],[2798,2799],[2799,2800],[2801,2802],[2802,2803],[2803,2804],[2804,2805]]},"expected":false,"actual":false,"ms":0.009700000000009368}
+{"skill":"constraint_checking","input":{"value":93,"min":92,"max":94},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(19 + 21) * 5","expected":200,"actual":200,"ms":0.013900000000006685}
+{"skill":"unit_conversion","input":{"value":19,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":662,"actual":662,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":33},{"id":2,"score":144}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.000999999999990564}
+{"skill":"graph_traversal","input":{"start":2821,"target":2836,"edges":[[2821,2822],[2822,2823],[2823,2824],[2824,2825],[2825,2826],[2826,2827],[2827,2828],[2828,2829],[2829,2830],[2830,2831],[2831,2832],[2832,2833],[2833,2834],[2834,2835],[2835,2836]]},"expected":true,"actual":true,"ms":0.007699999999999818}
+{"skill":"constraint_checking","input":{"value":94,"min":92,"max":94},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(20 + 3) * 6","expected":138,"actual":138,"ms":0.00919999999999277}
+{"skill":"unit_conversion","input":{"value":20,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":680,"actual":680,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":34},{"id":2,"score":145}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":2851,"target":2867,"edges":[[2851,2852],[2852,2853],[2853,2854],[2854,2855],[2855,2856],[2856,2857],[2857,2858],[2858,2859],[2859,2860],[2860,2861],[2861,2862],[2862,2863],[2863,2864],[2864,2865],[2865,2866]]},"expected":false,"actual":false,"ms":0.022800000000003706}
+{"skill":"constraint_checking","input":{"value":95,"min":92,"max":94},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(21 + 4) * 7","expected":175,"actual":175,"ms":0.01640000000000441}
+{"skill":"unit_conversion","input":{"value":21,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":698,"actual":698,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":35},{"id":2,"score":146}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001300000000000523}
+{"skill":"graph_traversal","input":{"start":2881,"target":2898,"edges":[[2881,2882],[2882,2883],[2883,2884],[2884,2885],[2885,2886],[2886,2887],[2887,2888],[2888,2889],[2889,2890],[2890,2891],[2891,2892],[2892,2893],[2893,2894],[2894,2895],[2895,2896],[2896,2897],[2897,2898]]},"expected":true,"actual":true,"ms":0.00920000000000698}
+{"skill":"constraint_checking","input":{"value":96,"min":96,"max":97},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(22 + 5) * 8","expected":216,"actual":216,"ms":0.017899999999997362}
+{"skill":"unit_conversion","input":{"value":22,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":716,"actual":716,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":36},{"id":2,"score":147}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0018000000000029104}
+{"skill":"graph_traversal","input":{"start":2911,"target":2929,"edges":[[2911,2912],[2912,2913],[2913,2914],[2914,2915],[2915,2916],[2916,2917],[2917,2918],[2919,2920],[2920,2921],[2921,2922],[2922,2923],[2923,2924],[2924,2925],[2925,2926],[2926,2927],[2927,2928],[2928,2929]]},"expected":false,"actual":false,"ms":0.039199999999993906}
+{"skill":"constraint_checking","input":{"value":97,"min":96,"max":97},"expected":true,"actual":true,"ms":0.0010000000000047748}
+{"skill":"arithmetic","input":"(23 + 6) * 2","expected":58,"actual":58,"ms":0.02009999999999934}
+{"skill":"unit_conversion","input":{"value":23,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":734,"actual":734,"ms":0.0014999999999929514}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":37},{"id":2,"score":148}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0027000000000043656}
+{"skill":"graph_traversal","input":{"start":2941,"target":2946,"edges":[[2941,2942],[2942,2943],[2943,2944],[2944,2945],[2945,2946]]},"expected":true,"actual":true,"ms":0.019800000000003593}
+{"skill":"constraint_checking","input":{"value":98,"min":96,"max":97},"expected":false,"actual":false,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(24 + 7) * 3","expected":93,"actual":93,"ms":0.01660000000001105}
+{"skill":"unit_conversion","input":{"value":24,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":752,"actual":752,"ms":0.0012000000000114142}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":38},{"id":2,"score":149}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.002299999999991087}
+{"skill":"graph_traversal","input":{"start":2971,"target":2977,"edges":[[2971,2972],[2972,2973],[2973,2974],[2975,2976],[2976,2977]]},"expected":false,"actual":false,"ms":0.013800000000003365}
+{"skill":"constraint_checking","input":{"value":99,"min":96,"max":100},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(25 + 8) * 4","expected":132,"actual":132,"ms":0.010400000000004184}
+{"skill":"unit_conversion","input":{"value":25,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":770,"actual":770,"ms":0.0006999999999948159}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":39},{"id":2,"score":150}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":3001,"target":3008,"edges":[[3001,3002],[3002,3003],[3003,3004],[3004,3005],[3005,3006],[3006,3007],[3007,3008]]},"expected":true,"actual":true,"ms":0.07689999999999486}
+{"skill":"constraint_checking","input":{"value":100,"min":100,"max":100},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(26 + 9) * 5","expected":175,"actual":175,"ms":0.010800000000003251}
+{"skill":"unit_conversion","input":{"value":26,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":788,"actual":788,"ms":0.001300000000000523}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":40},{"id":2,"score":151}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0016999999999995907}
+{"skill":"graph_traversal","input":{"start":3031,"target":3039,"edges":[[3031,3032],[3032,3033],[3033,3034],[3034,3035],[3035,3036],[3037,3038],[3038,3039]]},"expected":false,"actual":false,"ms":0.01649999999999352}
+{"skill":"constraint_checking","input":{"value":101,"min":100,"max":100},"expected":false,"actual":false,"ms":0.00039999999999906777}
+{"skill":"arithmetic","input":"(27 + 10) * 6","expected":222,"actual":222,"ms":0.04229999999999734}
+{"skill":"unit_conversion","input":{"value":27,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":806,"actual":806,"ms":0.0010000000000047748}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":41},{"id":2,"score":152}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002200000000001978}
+{"skill":"graph_traversal","input":{"start":3061,"target":3070,"edges":[[3061,3062],[3062,3063],[3063,3064],[3064,3065],[3065,3066],[3066,3067],[3067,3068],[3068,3069],[3069,3070]]},"expected":true,"actual":true,"ms":0.018799999999998818}
+{"skill":"constraint_checking","input":{"value":102,"min":100,"max":103},"expected":true,"actual":true,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(28 + 11) * 7","expected":273,"actual":273,"ms":0.01839999999999975}
+{"skill":"unit_conversion","input":{"value":28,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":824,"actual":824,"ms":0.0010999999999938836}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":42},{"id":2,"score":153}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0018000000000029104}
+{"skill":"graph_traversal","input":{"start":3091,"target":3101,"edges":[[3091,3092],[3092,3093],[3093,3094],[3095,3096],[3096,3097],[3097,3098],[3098,3099],[3099,3100],[3100,3101]]},"expected":false,"actual":false,"ms":0.010699999999999932}
+{"skill":"constraint_checking","input":{"value":103,"min":100,"max":103},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(29 + 12) * 8","expected":328,"actual":328,"ms":0.01630000000000109}
+{"skill":"unit_conversion","input":{"value":29,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":842,"actual":842,"ms":0.0014999999999929514}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":30},{"id":2,"score":154}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001599999999996271}
+{"skill":"graph_traversal","input":{"start":3121,"target":3132,"edges":[[3121,3122],[3122,3123],[3123,3124],[3124,3125],[3125,3126],[3126,3127],[3127,3128],[3128,3129],[3129,3130],[3130,3131],[3131,3132]]},"expected":true,"actual":true,"ms":0.018999999999991246}
+{"skill":"constraint_checking","input":{"value":104,"min":104,"max":103},"expected":false,"actual":false,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(30 + 13) * 2","expected":86,"actual":86,"ms":0.013800000000003365}
+{"skill":"unit_conversion","input":{"value":30,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":860,"actual":860,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":31},{"id":2,"score":155}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":3151,"target":3163,"edges":[[3151,3152],[3152,3153],[3153,3154],[3154,3155],[3155,3156],[3156,3157],[3157,3158],[3158,3159],[3159,3160],[3161,3162],[3162,3163]]},"expected":false,"actual":false,"ms":0.017899999999997362}
+{"skill":"constraint_checking","input":{"value":105,"min":104,"max":106},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(31 + 14) * 3","expected":135,"actual":135,"ms":0.013800000000003365}
+{"skill":"unit_conversion","input":{"value":31,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":878,"actual":878,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":32},{"id":2,"score":156}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":3181,"target":3194,"edges":[[3181,3182],[3182,3183],[3183,3184],[3184,3185],[3185,3186],[3186,3187],[3187,3188],[3188,3189],[3189,3190],[3190,3191],[3191,3192],[3192,3193],[3193,3194]]},"expected":true,"actual":true,"ms":0.3539999999999992}
+{"skill":"constraint_checking","input":{"value":106,"min":104,"max":106},"expected":true,"actual":true,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(32 + 15) * 4","expected":188,"actual":188,"ms":0.03680000000001371}
+{"skill":"unit_conversion","input":{"value":32,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":896,"actual":896,"ms":0.0011999999999972033}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":33},{"id":2,"score":157}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0024999999999977263}
+{"skill":"graph_traversal","input":{"start":3211,"target":3225,"edges":[[3211,3212],[3212,3213],[3213,3214],[3214,3215],[3215,3216],[3216,3217],[3217,3218],[3218,3219],[3219,3220],[3221,3222],[3222,3223],[3223,3224],[3224,3225]]},"expected":false,"actual":false,"ms":0.006000000000000227}
+{"skill":"constraint_checking","input":{"value":107,"min":104,"max":106},"expected":false,"actual":false,"ms":0.00039999999999906777}
+{"skill":"arithmetic","input":"(33 + 16) * 5","expected":245,"actual":245,"ms":0.010599999999996612}
+{"skill":"unit_conversion","input":{"value":33,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":914,"actual":914,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":34},{"id":2,"score":158}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":3241,"target":3256,"edges":[[3241,3242],[3242,3243],[3243,3244],[3244,3245],[3245,3246],[3246,3247],[3247,3248],[3248,3249],[3249,3250],[3250,3251],[3251,3252],[3252,3253],[3253,3254],[3254,3255],[3255,3256]]},"expected":true,"actual":true,"ms":0.0033999999999991815}
+{"skill":"constraint_checking","input":{"value":108,"min":108,"max":109},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(34 + 17) * 6","expected":306,"actual":306,"ms":0.0069000000000016826}
+{"skill":"unit_conversion","input":{"value":34,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":932,"actual":932,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":35},{"id":2,"score":159}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3271,"target":3287,"edges":[[3271,3272],[3272,3273],[3273,3274],[3274,3275],[3275,3276],[3276,3277],[3277,3278],[3278,3279],[3279,3280],[3280,3281],[3281,3282],[3282,3283],[3283,3284],[3285,3286],[3286,3287]]},"expected":false,"actual":false,"ms":0.003299999999995862}
+{"skill":"constraint_checking","input":{"value":109,"min":108,"max":109},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(35 + 18) * 7","expected":371,"actual":371,"ms":0.006599999999991724}
+{"skill":"unit_conversion","input":{"value":35,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":950,"actual":950,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":36},{"id":2,"score":160}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3301,"target":3318,"edges":[[3301,3302],[3302,3303],[3303,3304],[3304,3305],[3305,3306],[3306,3307],[3307,3308],[3308,3309],[3309,3310],[3310,3311],[3311,3312],[3312,3313],[3313,3314],[3314,3315],[3315,3316],[3316,3317],[3317,3318]]},"expected":true,"actual":true,"ms":0.0037999999999982492}
+{"skill":"constraint_checking","input":{"value":110,"min":108,"max":109},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(36 + 19) * 8","expected":440,"actual":440,"ms":0.006199999999992656}
+{"skill":"unit_conversion","input":{"value":36,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":968,"actual":968,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":37},{"id":2,"score":161}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3331,"target":3349,"edges":[[3331,3332],[3332,3333],[3333,3334],[3335,3336],[3336,3337],[3337,3338],[3338,3339],[3339,3340],[3340,3341],[3341,3342],[3342,3343],[3343,3344],[3344,3345],[3345,3346],[3346,3347],[3347,3348],[3348,3349]]},"expected":false,"actual":false,"ms":0.001999999999995339}
+{"skill":"constraint_checking","input":{"value":111,"min":108,"max":112},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(37 + 20) * 2","expected":114,"actual":114,"ms":0.006500000000002615}
+{"skill":"unit_conversion","input":{"value":37,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":986,"actual":986,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":38},{"id":2,"score":162}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00030000000000995897}
+{"skill":"graph_traversal","input":{"start":3361,"target":3366,"edges":[[3361,3362],[3362,3363],[3363,3364],[3364,3365],[3365,3366]]},"expected":true,"actual":true,"ms":0.0020999999999986585}
+{"skill":"constraint_checking","input":{"value":112,"min":112,"max":112},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(38 + 21) * 3","expected":177,"actual":177,"ms":0.007499999999993179}
+{"skill":"unit_conversion","input":{"value":38,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1004,"actual":1004,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":25},{"id":1,"score":39},{"id":2,"score":163}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3391,"target":3397,"edges":[[3391,3392],[3392,3393],[3393,3394],[3394,3395],[3395,3396]]},"expected":false,"actual":false,"ms":0.001600000000010482}
+{"skill":"constraint_checking","input":{"value":113,"min":112,"max":112},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(39 + 3) * 4","expected":168,"actual":168,"ms":0.006200000000006867}
+{"skill":"unit_conversion","input":{"value":39,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1022,"actual":1022,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":7},{"id":1,"score":40},{"id":2,"score":164}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3421,"target":3428,"edges":[[3421,3422],[3422,3423],[3423,3424],[3424,3425],[3425,3426],[3426,3427],[3427,3428]]},"expected":true,"actual":true,"ms":0.001600000000010482}
+{"skill":"constraint_checking","input":{"value":114,"min":112,"max":115},"expected":true,"actual":true,"ms":9.99999999891088e-05}
+{"skill":"arithmetic","input":"(40 + 4) * 5","expected":220,"actual":220,"ms":0.005900000000011119}
+{"skill":"unit_conversion","input":{"value":40,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1040,"actual":1040,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":18},{"id":1,"score":41},{"id":2,"score":165}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3451,"target":3459,"edges":[[3451,3452],[3452,3453],[3453,3454],[3455,3456],[3456,3457],[3457,3458],[3458,3459]]},"expected":false,"actual":false,"ms":0.0013999999999896318}
+{"skill":"constraint_checking","input":{"value":115,"min":112,"max":115},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(41 + 5) * 6","expected":276,"actual":276,"ms":0.00560000000000116}
+{"skill":"unit_conversion","input":{"value":41,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1058,"actual":1058,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":42},{"id":2,"score":166}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3481,"target":3490,"edges":[[3481,3482],[3482,3483],[3483,3484],[3484,3485],[3485,3486],[3486,3487],[3487,3488],[3488,3489],[3489,3490]]},"expected":true,"actual":true,"ms":0.002200000000001978}
+{"skill":"constraint_checking","input":{"value":116,"min":116,"max":115},"expected":false,"actual":false,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(42 + 6) * 7","expected":336,"actual":336,"ms":0.006000000000000227}
+{"skill":"unit_conversion","input":{"value":42,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1076,"actual":1076,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":30},{"id":2,"score":167}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3511,"target":3521,"edges":[[3511,3512],[3512,3513],[3513,3514],[3514,3515],[3515,3516],[3516,3517],[3517,3518],[3519,3520],[3520,3521]]},"expected":false,"actual":false,"ms":0.0016999999999995907}
+{"skill":"constraint_checking","input":{"value":117,"min":116,"max":118},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(43 + 7) * 8","expected":400,"actual":400,"ms":0.00560000000000116}
+{"skill":"unit_conversion","input":{"value":43,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1094,"actual":1094,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":31},{"id":2,"score":168}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0049999999999954525}
+{"skill":"graph_traversal","input":{"start":3541,"target":3552,"edges":[[3541,3542],[3542,3543],[3543,3544],[3544,3545],[3545,3546],[3546,3547],[3547,3548],[3548,3549],[3549,3550],[3550,3551],[3551,3552]]},"expected":true,"actual":true,"ms":0.009700000000009368}
+{"skill":"constraint_checking","input":{"value":118,"min":116,"max":118},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(44 + 8) * 2","expected":104,"actual":104,"ms":0.007800000000003138}
+{"skill":"unit_conversion","input":{"value":44,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1112,"actual":1112,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":32},{"id":2,"score":169}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":3571,"target":3583,"edges":[[3571,3572],[3572,3573],[3573,3574],[3574,3575],[3575,3576],[3576,3577],[3577,3578],[3578,3579],[3579,3580],[3580,3581],[3581,3582]]},"expected":false,"actual":false,"ms":0.005099999999998772}
+{"skill":"constraint_checking","input":{"value":119,"min":116,"max":118},"expected":false,"actual":false,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(45 + 9) * 3","expected":162,"actual":162,"ms":0.0069000000000016826}
+{"skill":"unit_conversion","input":{"value":45,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1130,"actual":1130,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":33},{"id":2,"score":170}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3601,"target":3614,"edges":[[3601,3602],[3602,3603],[3603,3604],[3604,3605],[3605,3606],[3606,3607],[3607,3608],[3608,3609],[3609,3610],[3610,3611],[3611,3612],[3612,3613],[3613,3614]]},"expected":true,"actual":true,"ms":0.005299999999991201}
+{"skill":"constraint_checking","input":{"value":120,"min":120,"max":121},"expected":true,"actual":true,"ms":9.99999999891088e-05}
+{"skill":"arithmetic","input":"(46 + 10) * 4","expected":224,"actual":224,"ms":0.0066000000000059345}
+{"skill":"unit_conversion","input":{"value":46,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1148,"actual":1148,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":34},{"id":2,"score":171}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":3631,"target":3645,"edges":[[3631,3632],[3632,3633],[3633,3634],[3634,3635],[3635,3636],[3636,3637],[3637,3638],[3638,3639],[3639,3640],[3641,3642],[3642,3643],[3643,3644],[3644,3645]]},"expected":false,"actual":false,"ms":0.005200000000002092}
+{"skill":"constraint_checking","input":{"value":121,"min":120,"max":121},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(47 + 11) * 5","expected":290,"actual":290,"ms":0.0072999999999865395}
+{"skill":"unit_conversion","input":{"value":47,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1166,"actual":1166,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":35},{"id":2,"score":172}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0002999999999957481}
+{"skill":"graph_traversal","input":{"start":3661,"target":3676,"edges":[[3661,3662],[3662,3663],[3663,3664],[3664,3665],[3665,3666],[3666,3667],[3667,3668],[3668,3669],[3669,3670],[3670,3671],[3671,3672],[3672,3673],[3673,3674],[3674,3675],[3675,3676]]},"expected":true,"actual":true,"ms":0.0062999999999959755}
+{"skill":"constraint_checking","input":{"value":122,"min":120,"max":121},"expected":false,"actual":false,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(48 + 12) * 6","expected":360,"actual":360,"ms":0.011499999999998067}
+{"skill":"unit_conversion","input":{"value":48,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1184,"actual":1184,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":36},{"id":2,"score":173}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3691,"target":3707,"edges":[[3691,3692],[3692,3693],[3693,3694],[3694,3695],[3695,3696],[3696,3697],[3697,3698],[3698,3699],[3699,3700],[3700,3701],[3701,3702],[3703,3704],[3704,3705],[3705,3706],[3706,3707]]},"expected":false,"actual":false,"ms":0.004800000000003024}
+{"skill":"constraint_checking","input":{"value":123,"min":120,"max":124},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(49 + 13) * 7","expected":434,"actual":434,"ms":0.007800000000003138}
+{"skill":"unit_conversion","input":{"value":49,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1202,"actual":1202,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":37},{"id":2,"score":174}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3721,"target":3738,"edges":[[3721,3722],[3722,3723],[3723,3724],[3724,3725],[3725,3726],[3726,3727],[3727,3728],[3728,3729],[3729,3730],[3730,3731],[3731,3732],[3732,3733],[3733,3734],[3734,3735],[3735,3736],[3736,3737],[3737,3738]]},"expected":true,"actual":true,"ms":0.006300000000010186}
+{"skill":"constraint_checking","input":{"value":124,"min":124,"max":124},"expected":true,"actual":true,"ms":9.99999999891088e-05}
+{"skill":"arithmetic","input":"(50 + 14) * 8","expected":512,"actual":512,"ms":0.009700000000009368}
+{"skill":"unit_conversion","input":{"value":50,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1220,"actual":1220,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":38},{"id":2,"score":175}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3751,"target":3769,"edges":[[3751,3752],[3752,3753],[3753,3754],[3754,3755],[3755,3756],[3756,3757],[3757,3758],[3758,3759],[3759,3760],[3760,3761],[3761,3762],[3762,3763],[3763,3764],[3764,3765],[3765,3766],[3766,3767],[3767,3768]]},"expected":false,"actual":false,"ms":0.012399999999999523}
+{"skill":"constraint_checking","input":{"value":125,"min":124,"max":124},"expected":false,"actual":false,"ms":9.99999999891088e-05}
+{"skill":"arithmetic","input":"(51 + 15) * 2","expected":132,"actual":132,"ms":0.007699999999999818}
+{"skill":"unit_conversion","input":{"value":51,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1238,"actual":1238,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":39},{"id":2,"score":176}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":3781,"target":3786,"edges":[[3781,3782],[3782,3783],[3783,3784],[3784,3785],[3785,3786]]},"expected":true,"actual":true,"ms":0.0026999999999901547}
+{"skill":"constraint_checking","input":{"value":126,"min":124,"max":127},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(52 + 16) * 3","expected":204,"actual":204,"ms":0.010800000000003251}
+{"skill":"unit_conversion","input":{"value":52,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1256,"actual":1256,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":40},{"id":2,"score":177}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":3811,"target":3817,"edges":[[3811,3812],[3813,3814],[3814,3815],[3815,3816],[3816,3817]]},"expected":false,"actual":false,"ms":0.0014999999999929514}
+{"skill":"constraint_checking","input":{"value":127,"min":124,"max":127},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(53 + 17) * 4","expected":280,"actual":280,"ms":0.007699999999999818}
+{"skill":"unit_conversion","input":{"value":53,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1274,"actual":1274,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":41},{"id":2,"score":178}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3841,"target":3848,"edges":[[3841,3842],[3842,3843],[3843,3844],[3844,3845],[3845,3846],[3846,3847],[3847,3848]]},"expected":true,"actual":true,"ms":0.0030999999999892225}
+{"skill":"constraint_checking","input":{"value":128,"min":128,"max":127},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(54 + 18) * 5","expected":360,"actual":360,"ms":0.00910000000000366}
+{"skill":"unit_conversion","input":{"value":54,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1292,"actual":1292,"ms":0.00010000000000331966}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":42},{"id":2,"score":179}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":3871,"target":3879,"edges":[[3871,3872],[3873,3874],[3874,3875],[3875,3876],[3876,3877],[3877,3878],[3878,3879]]},"expected":false,"actual":false,"ms":0.001599999999996271}
+{"skill":"constraint_checking","input":{"value":129,"min":128,"max":130},"expected":true,"actual":true,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(55 + 19) * 6","expected":444,"actual":444,"ms":0.008300000000005525}
+{"skill":"unit_conversion","input":{"value":55,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1310,"actual":1310,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":30},{"id":2,"score":180}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00030000000000995897}
+{"skill":"graph_traversal","input":{"start":3901,"target":3910,"edges":[[3901,3902],[3902,3903],[3903,3904],[3904,3905],[3905,3906],[3906,3907],[3907,3908],[3908,3909],[3909,3910]]},"expected":true,"actual":true,"ms":0.0030000000000001137}
+{"skill":"constraint_checking","input":{"value":130,"min":128,"max":130},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(56 + 20) * 7","expected":532,"actual":532,"ms":0.005899999999996908}
+{"skill":"unit_conversion","input":{"value":56,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1328,"actual":1328,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":31},{"id":2,"score":181}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00039999999999906777}
+{"skill":"graph_traversal","input":{"start":3931,"target":3941,"edges":[[3931,3932],[3933,3934],[3934,3935],[3935,3936],[3936,3937],[3937,3938],[3938,3939],[3939,3940],[3940,3941]]},"expected":false,"actual":false,"ms":0.0014000000000038426}
+{"skill":"constraint_checking","input":{"value":131,"min":128,"max":130},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(57 + 21) * 8","expected":624,"actual":624,"ms":0.00750000000000739}
+{"skill":"unit_conversion","input":{"value":57,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1346,"actual":1346,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":32},{"id":2,"score":182}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005999999999914962}
+{"skill":"graph_traversal","input":{"start":3961,"target":3972,"edges":[[3961,3962],[3962,3963],[3963,3964],[3964,3965],[3965,3966],[3966,3967],[3967,3968],[3968,3969],[3969,3970],[3970,3971],[3971,3972]]},"expected":true,"actual":true,"ms":0.004199999999997317}
+{"skill":"constraint_checking","input":{"value":132,"min":132,"max":133},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(58 + 3) * 2","expected":122,"actual":122,"ms":0.006699999999995043}
+{"skill":"unit_conversion","input":{"value":58,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1364,"actual":1364,"ms":9.99999999891088e-05}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":33},{"id":2,"score":183}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0011000000000080945}
+{"skill":"graph_traversal","input":{"start":3991,"target":4003,"edges":[[3991,3992],[3993,3994],[3994,3995],[3995,3996],[3996,3997],[3997,3998],[3998,3999],[3999,4000],[4000,4001],[4001,4002],[4002,4003]]},"expected":false,"actual":false,"ms":0.0015000000000071623}
+{"skill":"constraint_checking","input":{"value":133,"min":132,"max":133},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(59 + 4) * 3","expected":189,"actual":189,"ms":0.006699999999995043}
+{"skill":"unit_conversion","input":{"value":59,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1382,"actual":1382,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":34},{"id":2,"score":184}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0002999999999957481}
+{"skill":"graph_traversal","input":{"start":4021,"target":4034,"edges":[[4021,4022],[4022,4023],[4023,4024],[4024,4025],[4025,4026],[4026,4027],[4027,4028],[4028,4029],[4029,4030],[4030,4031],[4031,4032],[4032,4033],[4033,4034]]},"expected":true,"actual":true,"ms":0.003900000000001569}
+{"skill":"constraint_checking","input":{"value":134,"min":132,"max":133},"expected":false,"actual":false,"ms":0.00010000000000331966}
+{"skill":"arithmetic","input":"(60 + 5) * 4","expected":260,"actual":260,"ms":0.018799999999998818}
+{"skill":"unit_conversion","input":{"value":60,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1400,"actual":1400,"ms":0.0002000000000066393}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":35},{"id":2,"score":185}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0002999999999957481}
+{"skill":"graph_traversal","input":{"start":4051,"target":4065,"edges":[[4051,4052],[4052,4053],[4053,4054],[4054,4055],[4055,4056],[4056,4057],[4057,4058],[4058,4059],[4059,4060],[4061,4062],[4062,4063],[4063,4064],[4064,4065]]},"expected":false,"actual":false,"ms":0.03140000000000498}
+{"skill":"constraint_checking","input":{"value":135,"min":132,"max":136},"expected":true,"actual":true,"ms":0.0011999999999972033}
+{"skill":"arithmetic","input":"(61 + 6) * 5","expected":335,"actual":335,"ms":0.01859999999999218}
+{"skill":"unit_conversion","input":{"value":61,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1418,"actual":1418,"ms":0.001300000000000523}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":36},{"id":2,"score":186}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0030000000000001137}
+{"skill":"graph_traversal","input":{"start":4081,"target":4096,"edges":[[4081,4082],[4082,4083],[4083,4084],[4084,4085],[4085,4086],[4086,4087],[4087,4088],[4088,4089],[4089,4090],[4090,4091],[4091,4092],[4092,4093],[4093,4094],[4094,4095],[4095,4096]]},"expected":true,"actual":true,"ms":0.04370000000000118}
+{"skill":"constraint_checking","input":{"value":136,"min":136,"max":136},"expected":true,"actual":true,"ms":0.0014000000000038426}
+{"skill":"arithmetic","input":"(62 + 7) * 6","expected":414,"actual":414,"ms":0.02930000000000632}
+{"skill":"unit_conversion","input":{"value":62,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1436,"actual":1436,"ms":0.001599999999996271}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":37},{"id":2,"score":187}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.003999999999990678}
+{"skill":"graph_traversal","input":{"start":4111,"target":4127,"edges":[[4111,4112],[4112,4113],[4113,4114],[4114,4115],[4115,4116],[4116,4117],[4117,4118],[4118,4119],[4119,4120],[4121,4122],[4122,4123],[4123,4124],[4124,4125],[4125,4126],[4126,4127]]},"expected":false,"actual":false,"ms":0.041200000000003456}
+{"skill":"constraint_checking","input":{"value":137,"min":136,"max":136},"expected":false,"actual":false,"ms":0.0024000000000086175}
+{"skill":"arithmetic","input":"(63 + 8) * 7","expected":497,"actual":497,"ms":0.017300000000005866}
+{"skill":"unit_conversion","input":{"value":63,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1454,"actual":1454,"ms":0.0017999999999886995}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":38},{"id":2,"score":188}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0027999999999934744}
+{"skill":"graph_traversal","input":{"start":4141,"target":4158,"edges":[[4141,4142],[4142,4143],[4143,4144],[4144,4145],[4145,4146],[4146,4147],[4147,4148],[4148,4149],[4149,4150],[4150,4151],[4151,4152],[4152,4153],[4153,4154],[4154,4155],[4155,4156],[4156,4157],[4157,4158]]},"expected":true,"actual":true,"ms":0.05679999999999552}
+{"skill":"constraint_checking","input":{"value":138,"min":136,"max":139},"expected":true,"actual":true,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(64 + 9) * 8","expected":584,"actual":584,"ms":0.017200000000002547}
+{"skill":"unit_conversion","input":{"value":64,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1472,"actual":1472,"ms":0.0010000000000047748}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":39},{"id":2,"score":189}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.001600000000010482}
+{"skill":"graph_traversal","input":{"start":4171,"target":4189,"edges":[[4171,4172],[4172,4173],[4173,4174],[4174,4175],[4175,4176],[4176,4177],[4177,4178],[4178,4179],[4179,4180],[4180,4181],[4181,4182],[4182,4183],[4183,4184],[4185,4186],[4186,4187],[4187,4188],[4188,4189]]},"expected":false,"actual":false,"ms":0.03370000000001028}
+{"skill":"constraint_checking","input":{"value":139,"min":136,"max":139},"expected":true,"actual":true,"ms":0.0010999999999938836}
+{"skill":"arithmetic","input":"(65 + 10) * 2","expected":150,"actual":150,"ms":0.01630000000000109}
+{"skill":"unit_conversion","input":{"value":65,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1490,"actual":1490,"ms":0.0020999999999986585}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":40},{"id":2,"score":190}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0027000000000043656}
+{"skill":"graph_traversal","input":{"start":4201,"target":4206,"edges":[[4201,4202],[4202,4203],[4203,4204],[4204,4205],[4205,4206]]},"expected":true,"actual":true,"ms":0.012499999999988631}
+{"skill":"constraint_checking","input":{"value":140,"min":140,"max":139},"expected":false,"actual":false,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(66 + 11) * 3","expected":231,"actual":231,"ms":0.019300000000001205}
+{"skill":"unit_conversion","input":{"value":66,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1508,"actual":1508,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":41},{"id":2,"score":191}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00190000000000623}
+{"skill":"graph_traversal","input":{"start":4231,"target":4237,"edges":[[4231,4232],[4232,4233],[4233,4234],[4235,4236],[4236,4237]]},"expected":false,"actual":false,"ms":0.008300000000005525}
+{"skill":"constraint_checking","input":{"value":141,"min":140,"max":142},"expected":true,"actual":true,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(67 + 12) * 4","expected":316,"actual":316,"ms":0.014400000000009072}
+{"skill":"unit_conversion","input":{"value":67,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1526,"actual":1526,"ms":0.0011999999999972033}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":25},{"id":1,"score":42},{"id":2,"score":192}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002200000000001978}
+{"skill":"graph_traversal","input":{"start":4261,"target":4268,"edges":[[4261,4262],[4262,4263],[4263,4264],[4264,4265],[4265,4266],[4266,4267],[4267,4268]]},"expected":true,"actual":true,"ms":0.014299999999991542}
+{"skill":"constraint_checking","input":{"value":142,"min":140,"max":142},"expected":true,"actual":true,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(68 + 13) * 5","expected":405,"actual":405,"ms":0.015800000000012915}
+{"skill":"unit_conversion","input":{"value":68,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1544,"actual":1544,"ms":0.0010999999999938836}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":7},{"id":1,"score":30},{"id":2,"score":193}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0018000000000029104}
+{"skill":"graph_traversal","input":{"start":4291,"target":4299,"edges":[[4291,4292],[4292,4293],[4293,4294],[4294,4295],[4295,4296],[4296,4297],[4297,4298]]},"expected":false,"actual":false,"ms":0.01470000000000482}
+{"skill":"constraint_checking","input":{"value":143,"min":140,"max":142},"expected":false,"actual":false,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(69 + 14) * 6","expected":498,"actual":498,"ms":0.015899999999987813}
+{"skill":"unit_conversion","input":{"value":69,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1562,"actual":1562,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":18},{"id":1,"score":31},{"id":2,"score":194}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0024999999999977263}
+{"skill":"graph_traversal","input":{"start":4321,"target":4330,"edges":[[4321,4322],[4322,4323],[4323,4324],[4324,4325],[4325,4326],[4326,4327],[4327,4328],[4328,4329],[4329,4330]]},"expected":true,"actual":true,"ms":0.01670000000000016}
+{"skill":"constraint_checking","input":{"value":144,"min":144,"max":145},"expected":true,"actual":true,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(70 + 15) * 7","expected":595,"actual":595,"ms":0.012300000000010414}
+{"skill":"unit_conversion","input":{"value":70,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1580,"actual":1580,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":32},{"id":2,"score":195}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0014999999999929514}
+{"skill":"graph_traversal","input":{"start":4351,"target":4361,"edges":[[4351,4352],[4352,4353],[4353,4354],[4354,4355],[4355,4356],[4357,4358],[4358,4359],[4359,4360],[4360,4361]]},"expected":false,"actual":false,"ms":0.011899999999997135}
+{"skill":"constraint_checking","input":{"value":145,"min":144,"max":145},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(71 + 16) * 8","expected":696,"actual":696,"ms":0.009900000000001796}
+{"skill":"unit_conversion","input":{"value":71,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1598,"actual":1598,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":33},{"id":2,"score":196}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001599999999996271}
+{"skill":"graph_traversal","input":{"start":4381,"target":4392,"edges":[[4381,4382],[4382,4383],[4383,4384],[4384,4385],[4385,4386],[4386,4387],[4387,4388],[4388,4389],[4389,4390],[4390,4391],[4391,4392]]},"expected":true,"actual":true,"ms":0.021599999999992292}
+{"skill":"constraint_checking","input":{"value":146,"min":144,"max":145},"expected":false,"actual":false,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(72 + 17) * 2","expected":178,"actual":178,"ms":0.012700000000009481}
+{"skill":"unit_conversion","input":{"value":72,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1616,"actual":1616,"ms":0.0010000000000047748}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":34},{"id":2,"score":197}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":4411,"target":4423,"edges":[[4411,4412],[4412,4413],[4413,4414],[4415,4416],[4416,4417],[4417,4418],[4418,4419],[4419,4420],[4420,4421],[4421,4422],[4422,4423]]},"expected":false,"actual":false,"ms":0.010400000000004184}
+{"skill":"constraint_checking","input":{"value":147,"min":144,"max":148},"expected":true,"actual":true,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(73 + 18) * 3","expected":273,"actual":273,"ms":0.011600000000001387}
+{"skill":"unit_conversion","input":{"value":73,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1634,"actual":1634,"ms":0.001599999999996271}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":35},{"id":2,"score":198}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.002900000000011005}
+{"skill":"graph_traversal","input":{"start":4441,"target":4454,"edges":[[4441,4442],[4442,4443],[4443,4444],[4444,4445],[4445,4446],[4446,4447],[4447,4448],[4448,4449],[4449,4450],[4450,4451],[4451,4452],[4452,4453],[4453,4454]]},"expected":true,"actual":true,"ms":0.037500000000008527}
+{"skill":"constraint_checking","input":{"value":148,"min":148,"max":148},"expected":true,"actual":true,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(74 + 19) * 4","expected":372,"actual":372,"ms":0.02939999999999543}
+{"skill":"unit_conversion","input":{"value":74,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1652,"actual":1652,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":36},{"id":2,"score":199}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0016999999999995907}
+{"skill":"graph_traversal","input":{"start":4471,"target":4485,"edges":[[4471,4472],[4472,4473],[4473,4474],[4474,4475],[4475,4476],[4476,4477],[4477,4478],[4478,4479],[4479,4480],[4481,4482],[4482,4483],[4483,4484],[4484,4485]]},"expected":false,"actual":false,"ms":0.01649999999999352}
+{"skill":"constraint_checking","input":{"value":149,"min":148,"max":148},"expected":false,"actual":false,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(75 + 20) * 5","expected":475,"actual":475,"ms":0.03450000000000841}
+{"skill":"unit_conversion","input":{"value":75,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1670,"actual":1670,"ms":0.0010999999999938836}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":37},{"id":2,"score":200}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0033999999999991815}
+{"skill":"graph_traversal","input":{"start":4501,"target":4516,"edges":[[4501,4502],[4502,4503],[4503,4504],[4504,4505],[4505,4506],[4506,4507],[4507,4508],[4508,4509],[4509,4510],[4510,4511],[4511,4512],[4512,4513],[4513,4514],[4514,4515],[4515,4516]]},"expected":true,"actual":true,"ms":0.03810000000000002}
+{"skill":"constraint_checking","input":{"value":150,"min":148,"max":151},"expected":true,"actual":true,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(76 + 21) * 6","expected":582,"actual":582,"ms":0.017699999999990723}
+{"skill":"unit_conversion","input":{"value":76,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1688,"actual":1688,"ms":0.0036000000000058208}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":38},{"id":2,"score":201}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0020000000000095497}
+{"skill":"graph_traversal","input":{"start":4531,"target":4547,"edges":[[4531,4532],[4532,4533],[4533,4534],[4534,4535],[4535,4536],[4536,4537],[4537,4538],[4539,4540],[4540,4541],[4541,4542],[4542,4543],[4543,4544],[4544,4545],[4545,4546],[4546,4547]]},"expected":false,"actual":false,"ms":0.02759999999999252}
+{"skill":"constraint_checking","input":{"value":151,"min":148,"max":151},"expected":true,"actual":true,"ms":0.0010999999999938836}
+{"skill":"arithmetic","input":"(77 + 3) * 7","expected":560,"actual":560,"ms":0.024699999999995725}
+{"skill":"unit_conversion","input":{"value":77,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1706,"actual":1706,"ms":0.0006000000000057071}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":39},{"id":2,"score":202}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0028000000000076852}
+{"skill":"graph_traversal","input":{"start":4561,"target":4578,"edges":[[4561,4562],[4562,4563],[4563,4564],[4564,4565],[4565,4566],[4566,4567],[4567,4568],[4568,4569],[4569,4570],[4570,4571],[4571,4572],[4572,4573],[4573,4574],[4574,4575],[4575,4576],[4576,4577],[4577,4578]]},"expected":true,"actual":true,"ms":0.04080000000000439}
+{"skill":"constraint_checking","input":{"value":152,"min":152,"max":151},"expected":false,"actual":false,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(78 + 4) * 8","expected":656,"actual":656,"ms":0.019000000000005457}
+{"skill":"unit_conversion","input":{"value":78,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1724,"actual":1724,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":40},{"id":2,"score":203}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.002200000000001978}
+{"skill":"graph_traversal","input":{"start":4591,"target":4609,"edges":[[4591,4592],[4592,4593],[4593,4594],[4594,4595],[4595,4596],[4596,4597],[4597,4598],[4598,4599],[4599,4600],[4601,4602],[4602,4603],[4603,4604],[4604,4605],[4605,4606],[4606,4607],[4607,4608],[4608,4609]]},"expected":false,"actual":false,"ms":1.2889999999999873}
+{"skill":"constraint_checking","input":{"value":153,"min":152,"max":154},"expected":true,"actual":true,"ms":0.002899999999996794}
+{"skill":"arithmetic","input":"(79 + 5) * 2","expected":168,"actual":168,"ms":0.12860000000000582}
+{"skill":"unit_conversion","input":{"value":79,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1742,"actual":1742,"ms":0.0049999999999954525}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":41},{"id":2,"score":204}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.010699999999999932}
+{"skill":"graph_traversal","input":{"start":4621,"target":4626,"edges":[[4621,4622],[4622,4623],[4623,4624],[4624,4625],[4625,4626]]},"expected":true,"actual":true,"ms":0.015699999999995384}
+{"skill":"constraint_checking","input":{"value":154,"min":152,"max":154},"expected":true,"actual":true,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(80 + 6) * 3","expected":258,"actual":258,"ms":0.023299999999991883}
+{"skill":"unit_conversion","input":{"value":80,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1760,"actual":1760,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":42},{"id":2,"score":205}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":4651,"target":4657,"edges":[[4651,4652],[4652,4653],[4653,4654],[4654,4655],[4655,4656]]},"expected":false,"actual":false,"ms":0.005299999999991201}
+{"skill":"constraint_checking","input":{"value":155,"min":152,"max":154},"expected":false,"actual":false,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(81 + 7) * 4","expected":352,"actual":352,"ms":0.010400000000004184}
+{"skill":"unit_conversion","input":{"value":81,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1778,"actual":1778,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":30},{"id":2,"score":206}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007000000000090267}
+{"skill":"graph_traversal","input":{"start":4681,"target":4688,"edges":[[4681,4682],[4682,4683],[4683,4684],[4684,4685],[4685,4686],[4686,4687],[4687,4688]]},"expected":true,"actual":true,"ms":0.0020000000000095497}
+{"skill":"constraint_checking","input":{"value":156,"min":156,"max":157},"expected":true,"actual":true,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(82 + 8) * 5","expected":450,"actual":450,"ms":0.009500000000002728}
+{"skill":"unit_conversion","input":{"value":82,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1796,"actual":1796,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":31},{"id":2,"score":207}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0005999999999914962}
+{"skill":"graph_traversal","input":{"start":4711,"target":4719,"edges":[[4711,4712],[4712,4713],[4713,4714],[4714,4715],[4715,4716],[4717,4718],[4718,4719]]},"expected":false,"actual":false,"ms":0.0020999999999986585}
+{"skill":"constraint_checking","input":{"value":157,"min":156,"max":157},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(83 + 9) * 6","expected":552,"actual":552,"ms":0.01110000000001321}
+{"skill":"unit_conversion","input":{"value":83,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1814,"actual":1814,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":32},{"id":2,"score":208}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":4741,"target":4750,"edges":[[4741,4742],[4742,4743],[4743,4744],[4744,4745],[4745,4746],[4746,4747],[4747,4748],[4748,4749],[4749,4750]]},"expected":true,"actual":true,"ms":0.0027999999999934744}
+{"skill":"constraint_checking","input":{"value":158,"min":156,"max":157},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(84 + 10) * 7","expected":658,"actual":658,"ms":0.011600000000001387}
+{"skill":"unit_conversion","input":{"value":84,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1832,"actual":1832,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":33},{"id":2,"score":209}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":4771,"target":4781,"edges":[[4771,4772],[4772,4773],[4773,4774],[4774,4775],[4775,4776],[4776,4777],[4777,4778],[4778,4779],[4779,4780]]},"expected":false,"actual":false,"ms":0.003299999999995862}
+{"skill":"constraint_checking","input":{"value":159,"min":156,"max":160},"expected":true,"actual":true,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(85 + 11) * 8","expected":768,"actual":768,"ms":0.012000000000000455}
+{"skill":"unit_conversion","input":{"value":85,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1850,"actual":1850,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":34},{"id":2,"score":210}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007000000000090267}
+{"skill":"graph_traversal","input":{"start":4801,"target":4812,"edges":[[4801,4802],[4802,4803],[4803,4804],[4804,4805],[4805,4806],[4806,4807],[4807,4808],[4808,4809],[4809,4810],[4810,4811],[4811,4812]]},"expected":true,"actual":true,"ms":0.0033000000000100727}
+{"skill":"constraint_checking","input":{"value":160,"min":160,"max":160},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(86 + 12) * 2","expected":196,"actual":196,"ms":0.015100000000003888}
+{"skill":"unit_conversion","input":{"value":86,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1868,"actual":1868,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":35},{"id":2,"score":211}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00190000000000623}
+{"skill":"graph_traversal","input":{"start":4831,"target":4843,"edges":[[4831,4832],[4832,4833],[4833,4834],[4834,4835],[4835,4836],[4837,4838],[4838,4839],[4839,4840],[4840,4841],[4841,4842],[4842,4843]]},"expected":false,"actual":false,"ms":0.00539999999999452}
+{"skill":"constraint_checking","input":{"value":161,"min":160,"max":160},"expected":false,"actual":false,"ms":0.0008000000000123464}
+{"skill":"arithmetic","input":"(87 + 13) * 3","expected":300,"actual":300,"ms":0.01670000000000016}
+{"skill":"unit_conversion","input":{"value":87,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1886,"actual":1886,"ms":0.0008999999999872443}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":36},{"id":2,"score":212}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":4861,"target":4874,"edges":[[4861,4862],[4862,4863],[4863,4864],[4864,4865],[4865,4866],[4866,4867],[4867,4868],[4868,4869],[4869,4870],[4870,4871],[4871,4872],[4872,4873],[4873,4874]]},"expected":true,"actual":true,"ms":0.007999999999995566}
+{"skill":"constraint_checking","input":{"value":162,"min":160,"max":163},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(88 + 14) * 4","expected":408,"actual":408,"ms":0.015600000000006276}
+{"skill":"unit_conversion","input":{"value":88,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1904,"actual":1904,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":37},{"id":2,"score":213}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0015000000000071623}
+{"skill":"graph_traversal","input":{"start":4891,"target":4905,"edges":[[4891,4892],[4892,4893],[4893,4894],[4894,4895],[4895,4896],[4896,4897],[4897,4898],[4898,4899],[4899,4900],[4901,4902],[4902,4903],[4903,4904],[4904,4905]]},"expected":false,"actual":false,"ms":0.0049999999999954525}
+{"skill":"constraint_checking","input":{"value":163,"min":160,"max":163},"expected":true,"actual":true,"ms":0.0007000000000090267}
+{"skill":"arithmetic","input":"(89 + 15) * 5","expected":520,"actual":520,"ms":0.010300000000000864}
+{"skill":"unit_conversion","input":{"value":89,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1922,"actual":1922,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":38},{"id":2,"score":214}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":4921,"target":4936,"edges":[[4921,4922],[4922,4923],[4923,4924],[4924,4925],[4925,4926],[4926,4927],[4927,4928],[4928,4929],[4929,4930],[4930,4931],[4931,4932],[4932,4933],[4933,4934],[4934,4935],[4935,4936]]},"expected":true,"actual":true,"ms":0.006100000000003547}
+{"skill":"constraint_checking","input":{"value":164,"min":164,"max":163},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(90 + 16) * 6","expected":636,"actual":636,"ms":0.011499999999998067}
+{"skill":"unit_conversion","input":{"value":90,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1940,"actual":1940,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":39},{"id":2,"score":215}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0008999999999872443}
+{"skill":"graph_traversal","input":{"start":4951,"target":4967,"edges":[[4951,4952],[4952,4953],[4953,4954],[4954,4955],[4955,4956],[4957,4958],[4958,4959],[4959,4960],[4960,4961],[4961,4962],[4962,4963],[4963,4964],[4964,4965],[4965,4966],[4966,4967]]},"expected":false,"actual":false,"ms":0.003299999999995862}
+{"skill":"constraint_checking","input":{"value":165,"min":164,"max":166},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(91 + 17) * 7","expected":756,"actual":756,"ms":0.015299999999996317}
+{"skill":"unit_conversion","input":{"value":91,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1958,"actual":1958,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":40},{"id":2,"score":216}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0024999999999977263}
+{"skill":"graph_traversal","input":{"start":4981,"target":4998,"edges":[[4981,4982],[4982,4983],[4983,4984],[4984,4985],[4985,4986],[4986,4987],[4987,4988],[4988,4989],[4989,4990],[4990,4991],[4991,4992],[4992,4993],[4993,4994],[4994,4995],[4995,4996],[4996,4997],[4997,4998]]},"expected":true,"actual":true,"ms":0.04200000000000159}
+{"skill":"constraint_checking","input":{"value":166,"min":164,"max":166},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(92 + 18) * 8","expected":880,"actual":880,"ms":0.013500000000007617}
+{"skill":"unit_conversion","input":{"value":92,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1976,"actual":1976,"ms":0.0014000000000038426}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":41},{"id":2,"score":217}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.003199999999992542}
+{"skill":"graph_traversal","input":{"start":5011,"target":5029,"edges":[[5011,5012],[5012,5013],[5013,5014],[5014,5015],[5015,5016],[5017,5018],[5018,5019],[5019,5020],[5020,5021],[5021,5022],[5022,5023],[5023,5024],[5024,5025],[5025,5026],[5026,5027],[5027,5028],[5028,5029]]},"expected":false,"actual":false,"ms":0.02240000000000464}
+{"skill":"constraint_checking","input":{"value":167,"min":164,"max":166},"expected":false,"actual":false,"ms":0.0007999999999981355}
+{"skill":"arithmetic","input":"(93 + 19) * 2","expected":224,"actual":224,"ms":0.017899999999997362}
+{"skill":"unit_conversion","input":{"value":93,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":1994,"actual":1994,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":42},{"id":2,"score":218}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0010999999999938836}
+{"skill":"graph_traversal","input":{"start":5041,"target":5046,"edges":[[5041,5042],[5042,5043],[5043,5044],[5044,5045],[5045,5046]]},"expected":true,"actual":true,"ms":0.001999999999995339}
+{"skill":"constraint_checking","input":{"value":168,"min":168,"max":169},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(94 + 20) * 3","expected":342,"actual":342,"ms":0.013099999999994338}
+{"skill":"unit_conversion","input":{"value":94,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2012,"actual":2012,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":30},{"id":2,"score":219}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":5071,"target":5077,"edges":[[5071,5072],[5073,5074],[5074,5075],[5075,5076],[5076,5077]]},"expected":false,"actual":false,"ms":0.001999999999995339}
+{"skill":"constraint_checking","input":{"value":169,"min":168,"max":169},"expected":true,"actual":true,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(95 + 21) * 4","expected":464,"actual":464,"ms":0.012000000000000455}
+{"skill":"unit_conversion","input":{"value":95,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2030,"actual":2030,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":31},{"id":2,"score":220}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":5101,"target":5108,"edges":[[5101,5102],[5102,5103],[5103,5104],[5104,5105],[5105,5106],[5106,5107],[5107,5108]]},"expected":true,"actual":true,"ms":0.004899999999992133}
+{"skill":"constraint_checking","input":{"value":170,"min":168,"max":169},"expected":false,"actual":false,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(96 + 3) * 5","expected":495,"actual":495,"ms":0.03360000000000696}
+{"skill":"unit_conversion","input":{"value":96,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2048,"actual":2048,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":25},{"id":1,"score":32},{"id":2,"score":221}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0009000000000014552}
+{"skill":"graph_traversal","input":{"start":5131,"target":5139,"edges":[[5131,5132],[5132,5133],[5133,5134],[5135,5136],[5136,5137],[5137,5138],[5138,5139]]},"expected":false,"actual":false,"ms":0.002299999999991087}
+{"skill":"constraint_checking","input":{"value":171,"min":168,"max":172},"expected":true,"actual":true,"ms":0.0005999999999914962}
+{"skill":"arithmetic","input":"(97 + 4) * 6","expected":606,"actual":606,"ms":0.01649999999999352}
+{"skill":"unit_conversion","input":{"value":97,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2066,"actual":2066,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":7},{"id":1,"score":33},{"id":2,"score":222}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0006000000000057071}
+{"skill":"graph_traversal","input":{"start":5161,"target":5170,"edges":[[5161,5162],[5162,5163],[5163,5164],[5164,5165],[5165,5166],[5166,5167],[5167,5168],[5168,5169],[5169,5170]]},"expected":true,"actual":true,"ms":0.003199999999992542}
+{"skill":"constraint_checking","input":{"value":172,"min":172,"max":172},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(98 + 5) * 7","expected":721,"actual":721,"ms":0.013499999999993406}
+{"skill":"unit_conversion","input":{"value":98,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2084,"actual":2084,"ms":0.0002999999999957481}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":18},{"id":1,"score":34},{"id":2,"score":223}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0011999999999972033}
+{"skill":"graph_traversal","input":{"start":5191,"target":5201,"edges":[[5191,5192],[5192,5193],[5193,5194],[5195,5196],[5196,5197],[5197,5198],[5198,5199],[5199,5200],[5200,5201]]},"expected":false,"actual":false,"ms":0.002300000000005298}
+{"skill":"constraint_checking","input":{"value":173,"min":172,"max":172},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(99 + 6) * 8","expected":840,"actual":840,"ms":0.014200000000002433}
+{"skill":"unit_conversion","input":{"value":99,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2102,"actual":2102,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":0},{"id":1,"score":35},{"id":2,"score":224}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.00190000000000623}
+{"skill":"graph_traversal","input":{"start":5221,"target":5232,"edges":[[5221,5222],[5222,5223],[5223,5224],[5224,5225],[5225,5226],[5226,5227],[5227,5228],[5228,5229],[5229,5230],[5230,5231],[5231,5232]]},"expected":true,"actual":true,"ms":0.007699999999999818}
+{"skill":"constraint_checking","input":{"value":174,"min":172,"max":175},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(100 + 7) * 2","expected":214,"actual":214,"ms":0.05010000000000048}
+{"skill":"unit_conversion","input":{"value":100,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2120,"actual":2120,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":11},{"id":1,"score":36},{"id":2,"score":225}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0012000000000114142}
+{"skill":"graph_traversal","input":{"start":5251,"target":5263,"edges":[[5251,5252],[5252,5253],[5253,5254],[5254,5255],[5255,5256],[5256,5257],[5257,5258],[5259,5260],[5260,5261],[5261,5262],[5262,5263]]},"expected":false,"actual":false,"ms":0.0066000000000059345}
+{"skill":"constraint_checking","input":{"value":175,"min":172,"max":175},"expected":true,"actual":true,"ms":0.0007000000000090267}
+{"skill":"arithmetic","input":"(101 + 8) * 3","expected":327,"actual":327,"ms":0.011099999999999}
+{"skill":"unit_conversion","input":{"value":101,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2138,"actual":2138,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":22},{"id":1,"score":37},{"id":2,"score":226}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0006999999999948159}
+{"skill":"graph_traversal","input":{"start":5281,"target":5294,"edges":[[5281,5282],[5282,5283],[5283,5284],[5284,5285],[5285,5286],[5286,5287],[5287,5288],[5288,5289],[5289,5290],[5290,5291],[5291,5292],[5292,5293],[5293,5294]]},"expected":true,"actual":true,"ms":0.006000000000000227}
+{"skill":"constraint_checking","input":{"value":176,"min":176,"max":175},"expected":false,"actual":false,"ms":0.0002999999999957481}
+{"skill":"arithmetic","input":"(102 + 9) * 4","expected":444,"actual":444,"ms":0.01300000000000523}
+{"skill":"unit_conversion","input":{"value":102,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2156,"actual":2156,"ms":0.00030000000000995897}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":4},{"id":1,"score":38},{"id":2,"score":227}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0010999999999938836}
+{"skill":"graph_traversal","input":{"start":5311,"target":5325,"edges":[[5311,5312],[5312,5313],[5313,5314],[5314,5315],[5315,5316],[5316,5317],[5317,5318],[5318,5319],[5319,5320],[5321,5322],[5322,5323],[5323,5324],[5324,5325]]},"expected":false,"actual":false,"ms":0.00549999999999784}
+{"skill":"constraint_checking","input":{"value":177,"min":176,"max":178},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(103 + 10) * 5","expected":565,"actual":565,"ms":0.013300000000000978}
+{"skill":"unit_conversion","input":{"value":103,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2174,"actual":2174,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":15},{"id":1,"score":39},{"id":2,"score":228}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001300000000000523}
+{"skill":"graph_traversal","input":{"start":5341,"target":5356,"edges":[[5341,5342],[5342,5343],[5343,5344],[5344,5345],[5345,5346],[5346,5347],[5347,5348],[5348,5349],[5349,5350],[5350,5351],[5351,5352],[5352,5353],[5353,5354],[5354,5355],[5355,5356]]},"expected":true,"actual":true,"ms":0.00560000000000116}
+{"skill":"constraint_checking","input":{"value":178,"min":176,"max":178},"expected":true,"actual":true,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(104 + 11) * 6","expected":690,"actual":690,"ms":0.011099999999999}
+{"skill":"unit_conversion","input":{"value":104,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2192,"actual":2192,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":26},{"id":1,"score":40},{"id":2,"score":229}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":5371,"target":5387,"edges":[[5371,5372],[5372,5373],[5373,5374],[5375,5376],[5376,5377],[5377,5378],[5378,5379],[5379,5380],[5380,5381],[5381,5382],[5382,5383],[5383,5384],[5384,5385],[5385,5386],[5386,5387]]},"expected":false,"actual":false,"ms":0.0024999999999977263}
+{"skill":"constraint_checking","input":{"value":179,"min":176,"max":178},"expected":false,"actual":false,"ms":0.00019999999999242846}
+{"skill":"arithmetic","input":"(105 + 12) * 7","expected":819,"actual":819,"ms":0.009000000000000341}
+{"skill":"unit_conversion","input":{"value":105,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2210,"actual":2210,"ms":0.00019999999999242846}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":8},{"id":1,"score":41},{"id":2,"score":230}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0007000000000090267}
+{"skill":"graph_traversal","input":{"start":5401,"target":5418,"edges":[[5401,5402],[5402,5403],[5403,5404],[5404,5405],[5405,5406],[5406,5407],[5407,5408],[5408,5409],[5409,5410],[5410,5411],[5411,5412],[5412,5413],[5413,5414],[5414,5415],[5415,5416],[5416,5417],[5417,5418]]},"expected":true,"actual":true,"ms":0.030799999999999272}
+{"skill":"constraint_checking","input":{"value":180,"min":180,"max":181},"expected":true,"actual":true,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(106 + 13) * 8","expected":952,"actual":952,"ms":0.011299999999991428}
+{"skill":"unit_conversion","input":{"value":106,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2228,"actual":2228,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":19},{"id":1,"score":42},{"id":2,"score":231}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":5431,"target":5449,"edges":[[5431,5432],[5433,5434],[5434,5435],[5435,5436],[5436,5437],[5437,5438],[5438,5439],[5439,5440],[5440,5441],[5441,5442],[5442,5443],[5443,5444],[5444,5445],[5445,5446],[5446,5447],[5447,5448],[5448,5449]]},"expected":false,"actual":false,"ms":0.013799999999989154}
+{"skill":"constraint_checking","input":{"value":181,"min":180,"max":181},"expected":true,"actual":true,"ms":0.000999999999990564}
+{"skill":"arithmetic","input":"(107 + 14) * 2","expected":242,"actual":242,"ms":0.02930000000000632}
+{"skill":"unit_conversion","input":{"value":107,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2246,"actual":2246,"ms":0.001300000000000523}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":1},{"id":1,"score":30},{"id":2,"score":232}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0020999999999986585}
+{"skill":"graph_traversal","input":{"start":5461,"target":5466,"edges":[[5461,5462],[5462,5463],[5463,5464],[5464,5465],[5465,5466]]},"expected":true,"actual":true,"ms":0.013400000000004297}
+{"skill":"constraint_checking","input":{"value":182,"min":180,"max":181},"expected":false,"actual":false,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(108 + 15) * 3","expected":369,"actual":369,"ms":0.020900000000011687}
+{"skill":"unit_conversion","input":{"value":108,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2264,"actual":2264,"ms":0.0006999999999948159}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":12},{"id":1,"score":31},{"id":2,"score":233}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.002899999999996794}
+{"skill":"graph_traversal","input":{"start":5491,"target":5497,"edges":[[5491,5492],[5492,5493],[5493,5494],[5495,5496],[5496,5497]]},"expected":false,"actual":false,"ms":0.0075999999999964984}
+{"skill":"constraint_checking","input":{"value":183,"min":180,"max":184},"expected":true,"actual":true,"ms":0.0007000000000090267}
+{"skill":"arithmetic","input":"(109 + 16) * 4","expected":500,"actual":500,"ms":0.016100000000008663}
+{"skill":"unit_conversion","input":{"value":109,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2282,"actual":2282,"ms":0.0007999999999981355}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":23},{"id":1,"score":32},{"id":2,"score":234}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0014000000000038426}
+{"skill":"graph_traversal","input":{"start":5521,"target":5528,"edges":[[5521,5522],[5522,5523],[5523,5524],[5524,5525],[5525,5526],[5526,5527],[5527,5528]]},"expected":true,"actual":true,"ms":0.010800000000003251}
+{"skill":"constraint_checking","input":{"value":184,"min":184,"max":184},"expected":true,"actual":true,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(110 + 17) * 5","expected":635,"actual":635,"ms":0.012000000000000455}
+{"skill":"unit_conversion","input":{"value":110,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2300,"actual":2300,"ms":0.000999999999990564}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":5},{"id":1,"score":33},{"id":2,"score":235}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0018000000000029104}
+{"skill":"graph_traversal","input":{"start":5551,"target":5559,"edges":[[5551,5552],[5553,5554],[5554,5555],[5555,5556],[5556,5557],[5557,5558],[5558,5559]]},"expected":false,"actual":false,"ms":0.001999999999995339}
+{"skill":"constraint_checking","input":{"value":185,"min":184,"max":184},"expected":false,"actual":false,"ms":0.00030000000000995897}
+{"skill":"arithmetic","input":"(111 + 18) * 6","expected":774,"actual":774,"ms":0.006799999999998363}
+{"skill":"unit_conversion","input":{"value":111,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2318,"actual":2318,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":16},{"id":1,"score":34},{"id":2,"score":236}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0005999999999914962}
+{"skill":"graph_traversal","input":{"start":5581,"target":5590,"edges":[[5581,5582],[5582,5583],[5583,5584],[5584,5585],[5585,5586],[5586,5587],[5587,5588],[5588,5589],[5589,5590]]},"expected":true,"actual":true,"ms":0.019600000000011164}
+{"skill":"constraint_checking","input":{"value":186,"min":184,"max":187},"expected":true,"actual":true,"ms":0.0011000000000080945}
+{"skill":"arithmetic","input":"(112 + 19) * 7","expected":917,"actual":917,"ms":0.012700000000009481}
+{"skill":"unit_conversion","input":{"value":112,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2336,"actual":2336,"ms":0.0006999999999948159}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":27},{"id":1,"score":35},{"id":2,"score":237}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0010000000000047748}
+{"skill":"graph_traversal","input":{"start":5611,"target":5621,"edges":[[5611,5612],[5612,5613],[5613,5614],[5614,5615],[5615,5616],[5616,5617],[5617,5618],[5619,5620],[5620,5621]]},"expected":false,"actual":false,"ms":0.010900000000006571}
+{"skill":"constraint_checking","input":{"value":187,"min":184,"max":187},"expected":true,"actual":true,"ms":0.0006000000000057071}
+{"skill":"arithmetic","input":"(113 + 20) * 8","expected":1064,"actual":1064,"ms":0.012000000000000455}
+{"skill":"unit_conversion","input":{"value":113,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2354,"actual":2354,"ms":0.0009000000000014552}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":9},{"id":1,"score":36},{"id":2,"score":238}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0015000000000071623}
+{"skill":"graph_traversal","input":{"start":5641,"target":5652,"edges":[[5641,5642],[5642,5643],[5643,5644],[5644,5645],[5645,5646],[5646,5647],[5647,5648],[5648,5649],[5649,5650],[5650,5651],[5651,5652]]},"expected":true,"actual":true,"ms":0.01829999999999643}
+{"skill":"constraint_checking","input":{"value":188,"min":188,"max":187},"expected":false,"actual":false,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(114 + 21) * 2","expected":270,"actual":270,"ms":0.0146000000000015}
+{"skill":"unit_conversion","input":{"value":114,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2372,"actual":2372,"ms":0.0008000000000123464}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":20},{"id":1,"score":37},{"id":2,"score":239}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.004400000000003956}
+{"skill":"graph_traversal","input":{"start":5671,"target":5683,"edges":[[5671,5672],[5672,5673],[5673,5674],[5674,5675],[5675,5676],[5676,5677],[5677,5678],[5678,5679],[5679,5680],[5681,5682],[5682,5683]]},"expected":false,"actual":false,"ms":0.029799999999994498}
+{"skill":"constraint_checking","input":{"value":189,"min":188,"max":190},"expected":true,"actual":true,"ms":0.0015000000000071623}
+{"skill":"arithmetic","input":"(115 + 3) * 3","expected":354,"actual":354,"ms":0.019800000000003593}
+{"skill":"unit_conversion","input":{"value":115,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2390,"actual":2390,"ms":0.0018000000000029104}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":2},{"id":1,"score":38},{"id":2,"score":240}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0020000000000095497}
+{"skill":"graph_traversal","input":{"start":5701,"target":5714,"edges":[[5701,5702],[5702,5703],[5703,5704],[5704,5705],[5705,5706],[5706,5707],[5707,5708],[5708,5709],[5709,5710],[5710,5711],[5711,5712],[5712,5713],[5713,5714]]},"expected":true,"actual":true,"ms":0.02200000000000557}
+{"skill":"constraint_checking","input":{"value":190,"min":188,"max":190},"expected":true,"actual":true,"ms":0.001300000000000523}
+{"skill":"arithmetic","input":"(116 + 4) * 4","expected":480,"actual":480,"ms":0.015799999999998704}
+{"skill":"unit_conversion","input":{"value":116,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2408,"actual":2408,"ms":0.0010000000000047748}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":13},{"id":1,"score":39},{"id":2,"score":241}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.00190000000000623}
+{"skill":"graph_traversal","input":{"start":5731,"target":5745,"edges":[[5731,5732],[5732,5733],[5733,5734],[5734,5735],[5735,5736],[5736,5737],[5737,5738],[5738,5739],[5739,5740],[5741,5742],[5742,5743],[5743,5744],[5744,5745]]},"expected":false,"actual":false,"ms":0.019300000000001205}
+{"skill":"constraint_checking","input":{"value":191,"min":188,"max":190},"expected":false,"actual":false,"ms":0.0006999999999948159}
+{"skill":"arithmetic","input":"(117 + 5) * 5","expected":610,"actual":610,"ms":0.010199999999997544}
+{"skill":"unit_conversion","input":{"value":117,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2426,"actual":2426,"ms":0.0011000000000080945}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":24},{"id":1,"score":40},{"id":2,"score":242}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0016999999999995907}
+{"skill":"graph_traversal","input":{"start":5761,"target":5776,"edges":[[5761,5762],[5762,5763],[5763,5764],[5764,5765],[5765,5766],[5766,5767],[5767,5768],[5768,5769],[5769,5770],[5770,5771],[5771,5772],[5772,5773],[5773,5774],[5774,5775],[5775,5776]]},"expected":true,"actual":true,"ms":0.024699999999995725}
+{"skill":"constraint_checking","input":{"value":192,"min":192,"max":193},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(118 + 6) * 6","expected":744,"actual":744,"ms":0.013400000000004297}
+{"skill":"unit_conversion","input":{"value":118,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2444,"actual":2444,"ms":0.0005999999999914962}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":6},{"id":1,"score":41},{"id":2,"score":243}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0021999999999877673}
+{"skill":"graph_traversal","input":{"start":5791,"target":5807,"edges":[[5791,5792],[5793,5794],[5794,5795],[5795,5796],[5796,5797],[5797,5798],[5798,5799],[5799,5800],[5800,5801],[5801,5802],[5802,5803],[5803,5804],[5804,5805],[5805,5806],[5806,5807]]},"expected":false,"actual":false,"ms":0.010500000000007503}
+{"skill":"constraint_checking","input":{"value":193,"min":192,"max":193},"expected":true,"actual":true,"ms":0.0009000000000014552}
+{"skill":"arithmetic","input":"(119 + 7) * 7","expected":882,"actual":882,"ms":0.012999999999991019}
+{"skill":"unit_conversion","input":{"value":119,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2462,"actual":2462,"ms":0.0007000000000090267}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":17},{"id":1,"score":42},{"id":2,"score":244}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0018999999999920192}
+{"skill":"graph_traversal","input":{"start":5821,"target":5838,"edges":[[5821,5822],[5822,5823],[5823,5824],[5824,5825],[5825,5826],[5826,5827],[5827,5828],[5828,5829],[5829,5830],[5830,5831],[5831,5832],[5832,5833],[5833,5834],[5834,5835],[5835,5836],[5836,5837],[5837,5838]]},"expected":true,"actual":true,"ms":0.02930000000000632}
+{"skill":"constraint_checking","input":{"value":194,"min":192,"max":193},"expected":false,"actual":false,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(120 + 8) * 8","expected":1024,"actual":1024,"ms":0.0146000000000015}
+{"skill":"unit_conversion","input":{"value":120,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2480,"actual":2480,"ms":0.0006000000000057071}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":28},{"id":1,"score":30},{"id":2,"score":245}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.001599999999996271}
+{"skill":"graph_traversal","input":{"start":5851,"target":5869,"edges":[[5851,5852],[5852,5853],[5853,5854],[5854,5855],[5855,5856],[5856,5857],[5857,5858],[5858,5859],[5859,5860],[5860,5861],[5861,5862],[5862,5863],[5863,5864],[5864,5865],[5865,5866],[5867,5868],[5868,5869]]},"expected":false,"actual":false,"ms":0.03719999999999857}
+{"skill":"constraint_checking","input":{"value":195,"min":192,"max":196},"expected":true,"actual":true,"ms":0.0015000000000071623}
+{"skill":"arithmetic","input":"(121 + 9) * 2","expected":260,"actual":260,"ms":0.022799999999989495}
+{"skill":"unit_conversion","input":{"value":121,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2498,"actual":2498,"ms":0.0023999999999944066}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":10},{"id":1,"score":31},{"id":2,"score":246}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.001300000000000523}
+{"skill":"graph_traversal","input":{"start":5881,"target":5886,"edges":[[5881,5882],[5882,5883],[5883,5884],[5884,5885],[5885,5886]]},"expected":true,"actual":true,"ms":0.007099999999994111}
+{"skill":"constraint_checking","input":{"value":196,"min":196,"max":196},"expected":true,"actual":true,"ms":0.0005000000000023874}
+{"skill":"arithmetic","input":"(122 + 10) * 3","expected":396,"actual":396,"ms":0.012000000000000455}
+{"skill":"unit_conversion","input":{"value":122,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2516,"actual":2516,"ms":0.0005000000000023874}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":21},{"id":1,"score":32},{"id":2,"score":247}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0010000000000047748}
+{"skill":"graph_traversal","input":{"start":5911,"target":5917,"edges":[[5911,5912],[5912,5913],[5913,5914],[5914,5915],[5915,5916]]},"expected":false,"actual":false,"ms":0.0018000000000029104}
+{"skill":"constraint_checking","input":{"value":197,"min":196,"max":196},"expected":false,"actual":false,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(123 + 11) * 4","expected":536,"actual":536,"ms":0.010199999999997544}
+{"skill":"unit_conversion","input":{"value":123,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2534,"actual":2534,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":3},{"id":1,"score":33},{"id":2,"score":248}],"order":"ASC"},"expected":[0,1,2],"actual":[0,1,2],"ms":0.0004999999999881766}
+{"skill":"graph_traversal","input":{"start":5941,"target":5948,"edges":[[5941,5942],[5942,5943],[5943,5944],[5944,5945],[5945,5946],[5946,5947],[5947,5948]]},"expected":true,"actual":true,"ms":0.0018999999999920192}
+{"skill":"constraint_checking","input":{"value":198,"min":196,"max":199},"expected":true,"actual":true,"ms":0.0002000000000066393}
+{"skill":"arithmetic","input":"(124 + 12) * 5","expected":680,"actual":680,"ms":0.00920000000000698}
+{"skill":"unit_conversion","input":{"value":124,"fromUnit":"celsius","toUnit":"fahrenheit"},"expected":2552,"actual":2552,"ms":0.00039999999999906777}
+{"skill":"ranking","input":{"candidates":[{"id":0,"score":14},{"id":1,"score":34},{"id":2,"score":249}],"order":"DESC"},"expected":[2,1,0],"actual":[2,1,0],"ms":0.0007999999999981355}
+{"skill":"graph_traversal","input":{"start":5971,"target":5979,"edges":[[5971,5972],[5972,5973],[5973,5974],[5974,5975],[5975,5976],[5976,5977],[5977,5978]]},"expected":false,"actual":false,"ms":0.00190000000000623}
+{"skill":"constraint_checking","input":{"value":199,"min":196,"max":199},"expected":true,"actual":true,"ms":0.0002000000000066393}
