@@ -1,6 +1,6 @@
 # Portfolio and engineering library
 
-**Custom neuro-symbolic AI systems by Jack Rourke.**
+**Custom neuro-symbolic AI systems by Next Gen Intelligence | QI-Works.**
 
 [Main portfolio](../README.md) · [Custom QI development](../CUSTOM_QI_SYSTEMS.md) · [Watch all demos](https://jtrxgaia.github.io/Next-Gen-Intelligence/) · [Contact through echoqi.me](https://echoqi.me)
 

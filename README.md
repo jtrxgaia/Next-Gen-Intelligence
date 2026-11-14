@@ -1,9 +1,9 @@
-# Jack Rourke
-### Founder of EchoQI · Neuro-symbolic AI architect · Custom AI systems engineering
+# Next Gen Intelligence | QI-Works
+### Neuro-symbolic AI architecture · Custom AI systems engineering
 
 ## Your application. A purpose-built version of QI.
 
-I develop custom versions of **EchoQI’s neuro-symbolic AI** for organizations that need intelligence integrated into their own products, operations, and hardware. Through EchoQI / QI Works, I work under contract to develop a version of QI that the client owns for its agreed applications, with ownership, licensing, integration, and handover defined in the contract.
+QI-Works develops custom versions of **EchoQI’s neuro-symbolic AI** for organizations that need intelligence integrated into their own products, operations, and hardware. Through EchoQI / QI-Works, we work under contract to develop a version of QI that the client owns for its agreed applications, with ownership, licensing, integration, and handover defined in the contract.
 
 **Primary focus:** private-sector defense applications, robotics integration, enterprise systems, and practical everyday automation.
 
@@ -17,7 +17,7 @@ I develop custom versions of **EchoQI’s neuro-symbolic AI** for organizations 
 
 ### Commission intelligence for a specific purpose
 
-Bring the application, the systems it must connect to, and the work you need it to perform. I scope and develop a tailored QI system around those requirements—from the core’s reasoning and memory to its tools, interfaces, and execution controls.
+Bring the application, the systems it must connect to, and the work you need it to perform. We scope and develop a tailored QI system around those requirements—from the core’s reasoning and memory to its tools, interfaces, and execution controls.
 
 | What you can commission | Application focus |
 |---|---|
@@ -55,7 +55,7 @@ Bring the application, the systems it must connect to, and the work you need it 
 
 **What if you could turn on airplane mode—and your AI could still build your next website?**
 
-Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. Jack also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
+Echo creates four websites, edits headlines and buttons, and retains context across the conversation. The native creation workflow uses zero external AI model calls. The developer also reports testing website creation and editing in airplane mode; fetching new online photography requires a connection.
 
 [![Watch the Dark Matter four-website demo](portfolio/media/dark-matter/four-websites-demo-preview.png)](https://jtrxgaia.github.io/Next-Gen-Intelligence/#websites)
 
@@ -69,7 +69,7 @@ Recorded conversation responses: approximately 12–44 ms; headline/button edits
 
 **One intelligence. Three machines. Working together.**
 
-EchoQI coordinates five workflows across Eve running QIOS, Jack's custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
+EchoQI coordinates five workflows across Eve running QIOS, the custom-built operating system; a MacBook; and Gaia, a Windows machine. Trinity connects those hosts as nodes: Echo delegates tasks, uses their processing resources, checks returned results, and brings the work together on the main machine.
 
 Watch the demo: website building, controlled bug repair, recovery from a dropped response connection without replaying the task, constrained scheduling, and a controlled Guardian policy-integrity verification.
 
@@ -108,9 +108,9 @@ A science-fiction shooter with combat, enemies, equipment, progression, and save
 
 ## Engineering specializations
 
-**Building intelligence from the core to the systems it powers.** Jack’s work spans proprietary AI architecture, commercial defense integration, robotics, augmented reality, and software that coordinates work across machines.
+**Building intelligence from the core to the systems it powers.** Our work spans proprietary AI architecture, commercial defense integration, robotics, augmented reality, and software that coordinates work across machines.
 
-| Specialization | What Jack builds and integrates |
+| Specialization | What QI-Works builds and integrates |
 |---|---|
 | **EchoQI core engineering** | Designs and builds the proprietary neuro-symbolic core, connecting learning, reasoning, persistent memory, models, and execution tools |
 | **Defense applications and core integration** | Offers EchoQI’s core commercially for defense applications, with application-specific integration, controlled execution, traceable actions, integrity checks, and recovery |
@@ -273,7 +273,7 @@ Current results lead; historical charts retain their corrections in the archive.
 
 ## Development history
 
-**Echo began in 2020.** Jack started developing Echo that year, continued after a Mac reset around 2022–2023, and rebuilt and expanded the project using USB-based storage during 2024–2025. EchoQI’s development predates this public portfolio; October 3, 2026 marks an audit documented here, not the beginning of the project.
+**Echo began in 2020.** Development of Echo started that year and continued after a Mac reset around 2022–2023. The project was rebuilt and expanded using USB-based storage during 2024–2025. EchoQI’s development predates this public portfolio; October 3, 2026 marks an audit documented here, not the beginning of the project.
 
 [Development timeline and surviving archive records](portfolio/HISTORY.md).
 
@@ -309,7 +309,7 @@ Current results lead; historical charts retain their corrections in the archive.
 
 ## Client reviews
 
-Worked with Jack? Share the project, what he delivered, and the result.
+Worked with QI-Works? Share the project, what was delivered, and the result.
 
 **[Leave a review](https://github.com/jtrxgaia/Next-Gen-Intelligence/issues/new?template=review.yml)** · **[Read all reviews](https://github.com/jtrxgaia/Next-Gen-Intelligence/issues?q=label%3Areview)**
 

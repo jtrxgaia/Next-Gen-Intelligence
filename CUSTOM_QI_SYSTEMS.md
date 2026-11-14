@@ -4,7 +4,7 @@
 
 ## A version of QI for your application
 
-EchoQI / QI Works develops purpose-built versions of QI under contract for organizations seeking neuro-symbolic AI integrated into their business, products, or hardware. Jack Rourke is the creator and architect of EchoQI.
+EchoQI / QI Works develops purpose-built versions of QI under contract for organizations seeking neuro-symbolic AI integrated into their business, products, or hardware. QI-Works offers custom development and integration of the proprietary EchoQI architecture.
 
 The main engagement is custom development of a QI version that the client owns for its contracted applications. The contract defines the delivered system, ownership rights, retained background technology, any applicable core licenses, and integration and handover scope.
 
