@@ -2,6 +2,16 @@
 
 [Inspect the 1,000 test cases](cases.jsonl) · [CPU package measurement](cpu-package.json) · [Public checker](verify.py)
 
+## EchoQI compared with Gemini, Codex and Claude
+
+![Cloud API fees per thousand problems. EchoQI zero cents locally, Gemini 7.82 cents, Codex 10.95 cents and Claude 27.66 cents at the assumed token usage.](api-fees.png)
+
+EchoQI completed the set locally with $0 in cloud fees. The three hosted amounts apply each provider’s standard API rates to the same example workload. Only EchoQI executed the cases in this benchmark. The chart compares fees per **submitted problem**. Accuracy and speed comparisons would require running and scoring each model on the same inputs. [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing) · [Codex pricing](https://developers.openai.com/api/docs/models/gpt-5.3-codex) · [Claude pricing](https://platform.claude.com/docs/en/about-claude/pricing)
+
+## EchoQI’s measured speed
+
+![Median local response time by skill, in microseconds.](skill-latency.png)
+
 EchoQI returned the expected answer for all 1,000 distinct synthetic problems. A separate local run repeated the same set 5,000 times. It recorded 5,000,000 correct answers in 12.4103638 seconds, or about 402,889 correct answers per second. Both runs called the skills directly. The throughput measures these structured tasks on the test machine, rather than the time it takes to answer a chat message.
 
 | Skill | Cases | Answer being checked |

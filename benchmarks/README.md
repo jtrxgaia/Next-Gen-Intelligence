@@ -2,6 +2,12 @@
 
 [Portfolio](../README.md) · [Run all public checks](../code/README.md) · [Detailed methods](METHODS.md)
 
+### EchoQI benchmark graphs
+
+[![Cloud API fee comparison for EchoQI, Gemini, Codex and Claude](local-core-2026-11-14/api-fees.png)](local-core-2026-11-14/)
+
+[See both graphs, pricing assumptions and test cases](local-core-2026-11-14/).
+
 | Result | What it means | Can an outside reviewer rerun it? |
 |---|---|---|
 | Local symbolic skills: 1,000/1,000 cases and 5 million correct answers in 12.41 s | Direct local execution across five task families | [Inspect the cases, check answers and review CPU energy](local-core-2026-11-14/) |
