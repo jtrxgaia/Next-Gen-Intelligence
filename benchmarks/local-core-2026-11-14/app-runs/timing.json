@@ -1,0 +1,26 @@
+[
+  {
+    "system": "EchoQI core",
+    "seconds": 0.012016099999999995,
+    "seconds_is_upper_bound": false,
+    "correct": 1000
+  },
+  {
+    "system": "Claude Sonnet 5.5",
+    "seconds": 49.225,
+    "seconds_is_upper_bound": true,
+    "correct": 1000
+  },
+  {
+    "system": "Codex (account default)",
+    "seconds": 66.5736756,
+    "seconds_is_upper_bound": false,
+    "correct": 1000
+  },
+  {
+    "system": "Gemini (Pro mode)",
+    "seconds": 86.283,
+    "seconds_is_upper_bound": true,
+    "correct": 1000
+  }
+]

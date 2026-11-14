@@ -2,11 +2,30 @@
 
 [Inspect the 1,000 test cases](cases.jsonl) · [CPU package measurement](cpu-package.json) · [Public checker](verify.py)
 
+## Timed runs on the same 1,000 cases
+
+![Measured correct answers per second for EchoQI, Claude, Codex and Gemini](app-runs/speed.png)
+
+| System and interface | Correct | Elapsed seconds | Correct answers/s |
+|---|---:|---:|---:|
+| EchoQI core | 1,000/1,000 | 0.012016 | 83,221.7 |
+| Claude Sonnet 5.5 | 1,000/1,000 | ≤ 49.225 | ≥ 20.3 |
+| Codex (account default) | 1,000/1,000 | 66.574 | 15.0 |
+| Gemini (Pro mode) | 1,000/1,000 | ≤ 86.283 | ≥ 11.6 |
+
+EchoQI ran one pass locally with the skill registry initialized and the inputs loaded. Its timer includes skill dispatch and answer checking. Each signed-in competitor received all 1,000 cases in one compact prompt. Each of the 200 rows encodes five original inputs, including a directed chain expressed by its endpoints and missing edges. Code execution was allowed. Codex used a shell and took advantage of patterns across rows. The hosted times include returning the entire answer. These figures describe the tested interfaces and this patterned workload.
+
+Claude and Gemini elapsed times end at observation of a completed response, making their speeds conservative lower bounds. Codex used a fresh subscription-authenticated CLI session timed from launch to exit. Its client did not confirm the default backend model ID. Gemini identified its mode as Pro. The timed models can differ from the API pricing examples below.
+
+**Cost per correct answer.** The three subscription clients supplied no per-run dollar charge. An actual dollar cost per correct answer is therefore unavailable from these runs. EchoQI incurred $0 in cloud fees per correct answer. Its previously measured CPU-package energy was 0.211017 Wh per five million correct answers, or 0.0000000422 Wh per correct answer. Dollar conversion depends on the electricity tariff.
+
+[Benchmark prompt](app-runs/questions.txt) · [Timing records](app-runs/timing.json) · [Claude answers](app-runs/claude-answers.txt) · [Codex answers](app-runs/codex-answers.txt) · [Gemini answers](app-runs/gemini-answers.txt)
+
 ## EchoQI compared with Gemini, Codex and Claude
 
 ![Cloud API fees per thousand problems. EchoQI zero cents locally, Gemini 7.82 cents, Codex 10.95 cents and Claude 27.66 cents at the assumed token usage.](api-fees.png)
 
-EchoQI completed the set locally with $0 in cloud fees. The three hosted amounts apply each provider’s standard API rates to the same example workload. Only EchoQI executed the cases in this benchmark. The chart compares fees per **submitted problem**. Accuracy and speed comparisons would require running and scoring each model on the same inputs. [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing) · [Codex pricing](https://developers.openai.com/api/docs/models/gpt-5.3-codex) · [Claude pricing](https://platform.claude.com/docs/en/about-claude/pricing)
+EchoQI completed the set locally with $0 in cloud fees. The three hosted amounts apply each provider’s standard API rates to the same example workload. The fee chart uses modeled API prices per **submitted problem**. The signed-in app timings above use separate runs. [Gemini pricing](https://ai.google.dev/gemini-api/docs/pricing) · [Codex pricing](https://developers.openai.com/api/docs/models/gpt-5.3-codex) · [Claude pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 
 ## EchoQI’s measured speed
 
@@ -38,4 +57,4 @@ The earlier comparison assumed 43,266 input tokens and 2,412 output tokens per 1
 | GPT-5.3-Codex | 1.75 / 14 | 0.1095 |
 | Claude Opus 4.6 | 5 / 25 | 0.2766 |
 
-No competitor was timed or scored in this run. These estimates do not establish comparative speed, cost per correct answer or a usage multiplier.
+The API cost estimates are independent of the subscription timings above.

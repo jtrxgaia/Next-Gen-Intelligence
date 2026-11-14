@@ -4,9 +4,11 @@
 
 ### EchoQI benchmark graphs
 
+[![Measured speed on 1,000 cases](local-core-2026-11-14/app-runs/speed.png)](local-core-2026-11-14/#timed-runs-on-the-same-1000-cases)
+
 [![Cloud API fee comparison for EchoQI, Gemini, Codex and Claude](local-core-2026-11-14/api-fees.png)](local-core-2026-11-14/)
 
-[See both graphs, pricing assumptions and test cases](local-core-2026-11-14/).
+[See the graphs, pricing assumptions and test cases](local-core-2026-11-14/).
 
 | Result | What it means | Can an outside reviewer rerun it? |
 |---|---|---|
